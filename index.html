@@ -1,0 +1,1209 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Anesthesia Procedure Reference</title>
+<style>
+  :root{
+    --bg:#f4f1ea; --panel:#fffefb; --ink:#1c2733; --muted:#5c6b7a;
+    --line:#d9d2c4; --accent:#7c2d12; --accent2:#0f5132; --flag:#7c2d12;
+    --flagbg:#fbeae5; --chip:#ece6d8; --shadow:0 1px 2px rgba(28,39,51,.06),0 8px 24px rgba(28,39,51,.06);
+    --serif:"Iowan Old Style","Palatino Linotype",Palatino,Georgia,serif;
+    --sans:"Avenir Next","Segoe UI",system-ui,sans-serif;
+  }
+  [data-theme="dark"]{
+    --bg:#14181d; --panel:#1c2228; --ink:#e8eaed; --muted:#9aa7b4;
+    --line:#2c343d; --accent:#f0a868; --accent2:#7fd1a4; --flag:#ff9d8a;
+    --flagbg:#2a1c18; --chip:#262e36; --shadow:0 1px 2px rgba(0,0,0,.3),0 8px 24px rgba(0,0,0,.3);
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{background:var(--bg);color:var(--ink);font-family:var(--sans);line-height:1.5;
+    -webkit-font-smoothing:antialiased}
+  a{color:inherit}
+  .wrap{display:grid;grid-template-columns:300px 1fr;min-height:100vh}
+  /* sidebar */
+  .side{border-right:1px solid var(--line);background:var(--panel);position:sticky;top:0;
+    height:100vh;overflow-y:auto;padding:20px 0}
+  .brand{padding:0 22px 14px;border-bottom:1px solid var(--line);margin-bottom:8px}
+  .brand h1{font-family:var(--serif);font-size:20px;margin:0;letter-spacing:.2px}
+  .brand .sub{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:1.5px;margin-top:4px}
+  .searchbox{padding:12px 18px}
+  .searchbox input{width:100%;padding:9px 12px;border:1px solid var(--line);border-radius:8px;
+    background:var(--bg);color:var(--ink);font-size:13px;font-family:var(--sans)}
+  .searchbox input:focus{outline:2px solid var(--accent);outline-offset:-1px}
+  .navgroup{margin:6px 0}
+  .navgroup>.gh{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px;
+    color:var(--accent2);padding:8px 22px 4px}
+  .navitem{display:block;padding:6px 22px;font-size:13px;color:var(--ink);cursor:pointer;
+    border-left:3px solid transparent;text-decoration:none}
+  .navitem:hover{background:var(--chip)}
+  .navitem.active{border-left-color:var(--accent);background:var(--chip);font-weight:600}
+  .navitem .pg{float:right;color:var(--muted);font-size:11px;font-variant-numeric:tabular-nums}
+  /* main */
+  .main{padding:34px 44px 80px;max-width:920px}
+  .topbar{display:flex;justify-content:flex-end;gap:8px;margin-bottom:8px}
+  .btn{border:1px solid var(--line);background:var(--panel);color:var(--ink);border-radius:8px;
+    padding:7px 12px;font-size:12px;cursor:pointer;font-family:var(--sans)}
+  .btn:hover{border-color:var(--accent)}
+  /* welcome */
+  .welcome h2{font-family:var(--serif);font-size:32px;margin:.2em 0}
+  .welcome p{color:var(--muted);max-width:60ch}
+  .stat{display:inline-flex;gap:6px;align-items:baseline;margin-right:26px}
+  .stat b{font-family:var(--serif);font-size:26px;color:var(--accent)}
+  .stat span{font-size:12px;color:var(--muted);text-transform:uppercase;letter-spacing:1px}
+  /* procedure */
+  .proc-head{border-bottom:2px solid var(--ink);padding-bottom:14px;margin-bottom:18px}
+  .eyebrow{font-size:11px;text-transform:uppercase;letter-spacing:2px;color:var(--accent2);font-weight:700}
+  .proc-head h2{font-family:var(--serif);font-size:30px;margin:6px 0 8px;line-height:1.15}
+  .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:8px}
+  .tag{background:var(--chip);border-radius:999px;padding:3px 11px;font-size:11px;font-weight:600;
+    letter-spacing:.3px}
+  .pageref{font-size:12px;color:var(--muted);margin-left:auto}
+  .snapshot{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);
+    border:1px solid var(--line);border-radius:10px;overflow:hidden;margin:18px 0}
+  .snap-cell{background:var(--panel);padding:11px 14px}
+  .snap-cell .k{font-size:10px;text-transform:uppercase;letter-spacing:1px;color:var(--muted)}
+  .snap-cell .v{font-size:14px;font-weight:600;margin-top:2px}
+  .flags{background:var(--flagbg);border:1px solid var(--flag);border-left-width:4px;
+    border-radius:8px;padding:14px 18px;margin:18px 0}
+  .flags .fh{font-size:11px;text-transform:uppercase;letter-spacing:2px;color:var(--flag);
+    font-weight:800;margin-bottom:8px}
+  .flags ul{margin:0;padding-left:18px}
+  .flags li{margin:5px 0;font-size:14px}
+  .pillars{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin:22px 0}
+  .pillar{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:16px 18px;
+    box-shadow:var(--shadow)}
+  .pillar h3{font-family:var(--serif);font-size:16px;margin:0 0 8px;color:var(--accent)}
+  .pillar ul{margin:0;padding-left:18px}
+  .pillar li{margin:5px 0;font-size:13.5px}
+  .pillar.tech .sum{font-size:13.5px;color:var(--muted);margin:0 0 10px;font-style:italic}
+  .phases{margin:22px 0}
+  .phases h3{font-family:var(--serif);font-size:18px;border-bottom:1px solid var(--line);
+    padding-bottom:6px}
+  .phase-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:12px}
+  .phase{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:14px 16px}
+  .phase .ph{font-size:11px;text-transform:uppercase;letter-spacing:1.5px;font-weight:800;margin-bottom:8px}
+  .phase.pre .ph{color:#b45309}.phase.intra .ph{color:var(--accent2)}.phase.post .ph{color:#5b21b6}
+  [data-theme="dark"] .phase.pre .ph{color:#f0a868}
+  [data-theme="dark"] .phase.post .ph{color:#c4a7f0}
+  .phase ul{margin:0;padding-left:16px}.phase li{margin:5px 0;font-size:13px}
+  .source{font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding-top:12px;
+    margin-top:24px;font-style:italic}
+  mark{background:rgba(240,168,104,.4);color:inherit;border-radius:2px}
+  @media(max-width:860px){
+    .wrap{grid-template-columns:1fr}
+    .side{position:static;height:auto;border-right:none;border-bottom:1px solid var(--line)}
+    .main{padding:22px 18px 60px}
+    .snapshot,.phase-grid{grid-template-columns:1fr 1fr}
+    .pillars{grid-template-columns:1fr}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <nav class="side">
+    <div class="brand">
+      <h1>Anesthesia Procedure Reference</h1>
+      <div class="sub">Jaffe 5e · Case Prep</div>
+    </div>
+    <div class="searchbox">
+      <input id="search" type="text" placeholder="Search procedures, tags, flags…" autocomplete="off">
+    </div>
+    <div id="nav"></div>
+  </nav>
+  <main class="main">
+    <div class="topbar">
+      <button class="btn" id="themeBtn">◐ Theme</button>
+    </div>
+    <div id="content"></div>
+  </main>
+</div>
+
+<script>
+/* ============================================================
+   PROCEDURES — the data array. Add objects here per the schema
+   in project_instructions.md. Do NOT edit the renderer below to
+   add data; only add objects to this array.
+   ============================================================ */
+const PROCEDURES = [
+  {
+    id: "craniotomy-aneurysm",
+    name: "Craniotomy for Intracranial Aneurysm (incl. giant aneurysm / DHCA)",
+    section: "Neurosurgery",
+    page: "4–14",
+    tags: ["GETA","A-line pre-induction","Temporary clipping","Mild hypothermia","DHCA (giant)","Neuromonitoring"],
+    snapshot: {
+      position: "Supine, Mayfield pins, head turned 30–45°",
+      time: "3–6 h (8 h if DHCA)",
+      ebl: "200–500 mL (massive if rupture)",
+      painScore: "3–5",
+      anesthesia: "GETA",
+      mortality: "Grade-dependent (H-H I ~2% → V 50–80%)"
+    },
+    flags: [
+      "**Aneurysm rupture** on induction or clipping is the catastrophe — a smooth induction is non-negotiable; blunt the laryngoscopy pressor response.",
+      "**Arterial line BEFORE induction** with beat-to-beat BP — avoid the hypertensive spike that ruptures the aneurysm.",
+      "Poor-grade (Hunt-Hess **IV–V**) patients may not tolerate ↓MAP on induction and are **not extubated** — keep sedated, ventilated.",
+      "Giant aneurysms repaired under **deep hypothermic circulatory arrest (16–20°C)** need both groins prepped for CPB cannulation; no retractor manipulation after heparinization."
+    ],
+    technique: {
+      summary: "Microsurgical clip ligation of the aneurysm neck via pterional (anterior circulation) or subtemporal/suboccipital (posterior) craniotomy. Temporary parent-vessel clipping is used during dissection; giant aneurysms may require circulatory arrest under deep hypothermia.",
+      steps: [
+        "Mayfield pin fixation — pin placement is a major pressor stimulus; deepen anesthesia / local before pinning.",
+        "Brain relaxation requested: hyperventilate to PaCO2 ≈ 35 mm Hg, mannitol 0.5–1 g/kg, ± furosemide 0.3 mg/kg, ± lumbar CSF drain.",
+        "Temporary arterial clip during dissection → maintain or modestly ↑ MAP to protect collateral perfusion of the clipped territory.",
+        "Permanent clip applied across the neck; intraop angiography (femoral access) or indocyanine-green video angiography confirms exclusion.",
+        "For giant aneurysms: systemic heparinization, CPB, cool to 16–20°C, circulatory arrest for clipping, then rewarm."
+      ]
+    },
+    physiology: [
+      "SAH raises ICP and can trigger neurogenic stunned myocardium (ECG changes, ↓EF) and cerebral salt wasting / SIADH.",
+      "CPP = MAP − (ICP or CVP, whichever higher); the plan is to keep CPP optimal but be able to drop MAP fast if needed.",
+      "Vasospasm (peak days 4–14 post-SAH) threatens delayed ischemia — triple-H / nimodipine context.",
+      "Mannitol/furosemide → ↓K+; monitor and replace. Mild hypothermia (33–34°C) delays drug metabolism — give through a CVP line."
+    ],
+    comorbid: [
+      "Aneurysms more common with polycystic kidney disease, aortic coarctation, fibromuscular dysplasia — screen for associated HTN and renal disease.",
+      "Hunt-Hess grade drives risk: serious systemic disease (HTN, DM, severe atherosclerosis, COPD, angiographic vasospasm) bumps the patient to the next less-favorable grade.",
+      "Re-bleed risk is highest in the first 24 h after SAH — urgency vs optimization tension."
+    ],
+    phases: {
+      pre: [
+        "Place arterial line awake/pre-induction; large-bore IV access; type & cross (rupture can be torrential).",
+        "Note H-H grade, last neuro exam, and any cardiac stunning from SAH.",
+        "Confirm availability of mannitol, dexamethasone 8–12 mg, and (for giants) the CPB/DHCA setup."
+      ],
+      intra: [
+        "Smooth induction (propofol 1–2 mg/kg, opioid, NMB rocuronium 0.6–1.2 mg/kg); obtund the pinning/laryngoscopy response.",
+        "Have vasoactive drugs ready to raise MAP for temporary clipping and to lower it on the surgeon's call.",
+        "Support neuromonitoring (SEP/BAER) — keep volatile <0.5 MAC or run propofol 75–100 mcg/kg/min; avoid sudden anesthetic-depth swings."
+      ],
+      post: [
+        "Good-grade patients: smooth emergence, lidocaine 0.5–1 mg/kg to blunt cough, 30° head-up — early neuro exam matters.",
+        "Poor-grade (IV–V): remain intubated and sedated to ICU.",
+        "Watch for vasospasm, hyponatremia, and rebleed; tight BP control per surgeon."
+      ]
+    },
+    source: "Jaffe 5e (2014), Neurosurgery §1.1 Intracranial, Craniotomy for Intracranial Aneurysms + Cerebral Embolectomy, p. 4–16; giant/DHCA variant inline."
+  },
+  {
+    id: "craniotomy-tumor",
+    name: "Craniotomy for Tumor (incl. awake craniotomy variant)",
+    section: "Neurosurgery",
+    page: "29–35",
+    tags: ["GETA or awake","ICP control","Neuromonitoring","Mannitol"],
+    snapshot: {
+      position: "Supine or lateral, Mayfield pins",
+      time: "3–6 h",
+      ebl: "200–500 mL (vascular tumors more)",
+      painScore: "3–5",
+      anesthesia: "GETA (or awake/asleep-awake-asleep)",
+      mortality: "Low (lesion-dependent)"
+    },
+    flags: [
+      "**Raised ICP** from tumor + edema: avoid hypercarbia, venous congestion, and big anesthetic-induced ↑CBV; ensure brain relaxation before dural opening.",
+      "**Awake craniotomy** (eloquent-cortex/language mapping): airway is shared and unsecured during the awake phase — plan for **seizure, airway loss, and patient cooperation**; avoid oversedation.",
+      "Posterior-fossa/sitting cases carry **venous air embolism** risk — see the sitting-position flags.",
+      "Position the patient so cerebral venous drainage is unobstructed — **minimize neck flexion/rotation**."
+    ],
+    technique: {
+      summary: "Resection of intracranial tumor through a craniotomy tailored to location. Awake technique is used when the lesion abuts eloquent cortex so function can be mapped and monitored intra-operatively.",
+      steps: [
+        "Pin fixation (pressor stimulus); position for venous drainage and surgical access.",
+        "Brain relaxation: hyperventilate to PaCO2 ≈ 35, mannitol 0.5–1 g/kg, dexamethasone for edema, ± CSF drain.",
+        "For awake: scalp block + light sedation (e.g. dexmedetomidine/propofol-remifentanil), wake for mapping, then re-deepen.",
+        "Resection with neuromonitoring (SEP/MEP) as indicated — coordinate anesthetic depth/NMB with the mapping plan.",
+        "Hemostasis and closure; plan smooth emergence for early neuro exam."
+      ]
+    },
+    physiology: [
+      "Mass + peritumoral edema reduce intracranial compliance — small volume changes cause large ICP swings.",
+      "Goal is a slack brain and stable CPP without coughing/straining on emergence (raises ICP and bleeding risk).",
+      "MEP monitoring constrains NMB use; SEP/MEP sensitive to volatile depth and hypotension."
+    ],
+    comorbid: [
+      "Steroid-induced hyperglycemia common; check glucose.",
+      "Seizure history → continue AEDs, anticipate altered NMB/opioid pharmacokinetics with enzyme-inducing AEDs.",
+      "Posterior-fossa lesions may impair lower cranial nerves → aspiration/airway risk."
+    ],
+    phases: {
+      pre: [
+        "Document baseline neuro exam and ICP signs; confirm steroid/AED dosing and glucose.",
+        "For awake cases, set patient expectations and confirm cooperation; plan scalp block.",
+        "Arterial line for tight CO2/BP control in raised-ICP patients."
+      ],
+      intra: [
+        "Keep PaCO2 ~35, normotension, head-up, free venous drainage; mannitol on the surgeon's call.",
+        "Match anesthetic to neuromonitoring (limit NMB for MEP; TIVA if volatile interferes).",
+        "Awake phase: maintain airway, treat seizures (cold saline irrigation by surgeon; propofol/benzo ready)."
+      ],
+      post: [
+        "Smooth emergence; lidocaine to blunt cough; 30° head-up; early neuro exam.",
+        "Watch for post-op hematoma (declining exam), edema, seizures.",
+        "Tight glucose and BP control."
+      ]
+    },
+    source: "Jaffe 5e (2014), Neurosurgery §1.1 Intracranial, Craniotomy for Tumor + Awake Craniotomy considerations, p. 29–35."
+  },
+  {
+    id: "transsphenoidal-pituitary",
+    name: "Transsphenoidal Resection of Pituitary Tumor",
+    section: "Neurosurgery",
+    page: "52–56",
+    tags: ["GETA","Oral RAE/throat pack","Endocrine","Shared airway"],
+    snapshot: {
+      position: "Supine, head slightly up, pins",
+      time: "2–3 h",
+      ebl: "Usually <300 mL (carotid injury = catastrophic)",
+      painScore: "3–4",
+      anesthesia: "GETA",
+      mortality: "Low"
+    },
+    flags: [
+      "**Endocrine status drives the plan**: acromegaly → difficult airway + cardiomyopathy; Cushing's → HTN/DM/obesity; **steroid coverage** for hypopituitarism/ACTH-secreting tumors.",
+      "**Carotid artery injury** is rare but exsanguinating — have blood available and large-bore access.",
+      "Watch for **diabetes insipidus** post-op (polyuria, hypernatremia, rising serum osm) — measure urine output and Na+.",
+      "Throat pack to catch blood — **document placement and removal** to avoid retained-pack airway obstruction."
+    ],
+    technique: {
+      summary: "Endonasal/transsphenoidal microsurgical or endoscopic approach to the sella to resect a pituitary adenoma. The airway is shared with the surgeon working through the nose/mouth.",
+      steps: [
+        "Secure oral RAE or reinforced tube, insert throat pack, position head with slight extension.",
+        "Surgeon injects vasoconstrictor into nasal mucosa — anticipate transient HTN/arrhythmia.",
+        "Microscopic/endoscopic sellar resection; surgeon may request Valsalva to check for CSF leak.",
+        "Watch for brisk bleeding (cavernous sinus/carotid) and treat decisively.",
+        "Remove throat pack before extubation; smooth emergence."
+      ]
+    },
+    physiology: [
+      "Acromegaly: macroglossia, prognathism, glottic stenosis → anticipate difficult mask/intubation; assoc. OSA, HTN, cardiomyopathy, glucose intolerance.",
+      "Cushing's: HTN, DM, central obesity, friable skin, electrolyte derangement.",
+      "Posterior pituitary disruption → DI (ADH deficiency) → dilute polyuria and hypernatremia."
+    ],
+    comorbid: [
+      "Difficult airway equipment ready for acromegalics (smaller tubes, video laryngoscopy, awake option).",
+      "Stress-dose steroids for ACTH-deficient or post-resection adrenal insufficiency.",
+      "OSA precautions; cautious opioids."
+    ],
+    phases: {
+      pre: [
+        "Endocrine review (cortisol, thyroid, glucose, IGF-1) and steroid plan.",
+        "Airway assessment focused on acromegalic changes; plan accordingly.",
+        "Baseline Na+ and osmolality for the DI watch."
+      ],
+      intra: [
+        "Throat pack in/out documented; tape eyes; secure oral RAE.",
+        "Anticipate pressor response to mucosal vasoconstrictor; treat HTN/arrhythmia.",
+        "Smooth field — modest controlled hypotension if requested; ready for sudden major bleeding."
+      ],
+      post: [
+        "Smooth extubation, head-up; verify throat pack removed.",
+        "Track urine output and serum Na+ for diabetes insipidus over the next 24 h.",
+        "Continue steroid coverage; monitor for CSF rhinorrhea."
+      ]
+    },
+    source: "Jaffe 5e (2014), Neurosurgery §1.1 Intracranial, Transsphenoidal Resection of Pituitary Tumor, p. 52–56."
+  },
+  {
+    id: "cervical-spine-surgery",
+    name: "Cervical Spine Fusion / Fixation (anterior & posterior, upper & lower)",
+    section: "Neurosurgery",
+    page: "94–113",
+    tags: ["GETA","Airway: cervical instability","Neuromonitoring","Positioning"],
+    snapshot: {
+      position: "Supine (anterior) or prone (posterior), pins/tongs",
+      time: "2–5 h",
+      ebl: "100–500 mL (more for multilevel posterior)",
+      painScore: "5–7",
+      anesthesia: "GETA",
+      mortality: "Low"
+    },
+    flags: [
+      "**Cervical instability / cord compression** → in-line stabilization for intubation; consider **awake fiberoptic** when the cord is at risk or the airway is fixed.",
+      "Anterior approach risks **recurrent laryngeal nerve, esophagus, and airway edema** — watch for post-op stridor/hematoma after multilevel anterior fusion.",
+      "Neuromonitoring (SSEP/MEP) usually **limits neuromuscular blockade** and constrains volatile depth — coordinate the plan.",
+      "Prone positioning: protect the eyes (**ischemic optic neuropathy** risk), face, and ensure free abdominal/venous drainage."
+    ],
+    technique: {
+      summary: "Decompression and instrumented fusion of the cervical spine via an anterior (transverse neck incision, retracting trachea/esophagus) or posterior (prone) approach, across upper (C1–C2) or mid/lower levels.",
+      steps: [
+        "Airway secured with attention to instability — in-line stabilization or awake fiberoptic as indicated.",
+        "Positioning (supine vs prone) with meticulous head/neck and eye protection; baseline neuromonitoring.",
+        "Decompression and placement of instrumentation/graft; monitor SSEP/MEP throughout.",
+        "Hemostasis; for anterior cases anticipate airway edema; plan emergence/extubation criteria.",
+        "Neuro exam at emergence."
+      ]
+    },
+    physiology: [
+      "Cord at risk: avoid hypotension that compromises spinal cord perfusion pressure during decompression.",
+      "Multilevel/prolonged prone surgery → facial/airway edema, fluid shifts, vision risk.",
+      "Anterior dissection near the carotid sheath and RLN."
+    ],
+    comorbid: [
+      "Rheumatoid arthritis / Down syndrome → atlantoaxial instability; trauma → assume unstable C-spine.",
+      "Myelopathy with baseline deficits — document carefully pre-op.",
+      "Chronic opioid use in degenerative spine patients affects analgesic planning."
+    ],
+    phases: {
+      pre: [
+        "Define stability and cord status; choose intubation technique (awake FOB vs in-line).",
+        "Document baseline neuro deficits; review imaging for airway/level concerns.",
+        "Plan neuromonitoring with the surgeon (NMB limits)."
+      ],
+      intra: [
+        "Maintain spinal cord perfusion pressure; avoid deliberate hypotension when the cord is compromised.",
+        "Protect eyes/face if prone; reassess tube position after turning.",
+        "TIVA or limited volatile + minimal NMB to preserve MEPs."
+      ],
+      post: [
+        "Anterior multilevel: vigilant for **expanding neck hematoma / airway compromise** — have reintubation plan.",
+        "Neuro exam; multimodal analgesia for significant post-op pain.",
+        "Consider delayed extubation after long prone or edematous anterior cases."
+      ]
+    },
+    source: "Jaffe 5e (2014), Neurosurgery §1.3 Spinal, anterior/posterior cervical fusion variants + Anesthetic Considerations for Cervical Procedures, p. 94–113."
+  },
+  {
+    id: "carotid-endarterectomy-neuro",
+    name: "Carotid Endarterectomy (neurosurgical listing)",
+    section: "Neurosurgery",
+    page: "134",
+    tags: ["GETA or regional","Tight BP control","Neuromonitoring","Shunt-dependent"],
+    snapshot: {
+      position: "Supine, head turned, neck extended",
+      time: "2–3 h",
+      ebl: "<150 mL",
+      painScore: "2–4",
+      anesthesia: "GETA or cervical plexus block",
+      mortality: "Low (stroke is the feared complication)"
+    },
+    flags: [
+      "**Cerebral perfusion during cross-clamp**: keep BP at/above baseline; surgeon may shunt — neuromonitoring or awake exam guides the need.",
+      "**Hemodynamic lability** from carotid sinus manipulation — bradycardia/asystole (treat, ask surgeon to infiltrate the sinus) and post-op HTN.",
+      "Post-op **neck hematoma → rapid airway compromise**; **cerebral hyperperfusion syndrome** (headache, seizures, ↑BP) days later.",
+      "These patients have **diffuse atherosclerosis** — assume CAD; avoid tachycardia and hypotension."
+    ],
+    technique: {
+      summary: "Open removal of atheromatous plaque from the carotid bifurcation to prevent stroke. The internal carotid is cross-clamped during the endarterectomy, making cerebral perfusion and emboli the central anesthetic concerns. (Also appears in Cardiovascular §6.0 p.406.)",
+      steps: [
+        "Smooth induction; tight BP at or slightly above baseline throughout.",
+        "Heparinize before cross-clamp; maintain higher-normal MAP during clamping.",
+        "Monitor cerebral perfusion (awake exam, EEG/SSEP, or stump pressure) → selective/routine shunt.",
+        "Plaque removal and arteriotomy closure; reverse heparin per surgeon.",
+        "Smooth emergence allowing immediate neuro assessment."
+      ]
+    },
+    physiology: [
+      "Cross-clamp drops ipsilateral cerebral perfusion → reliance on collateral flow / shunt.",
+      "Baroreceptor manipulation → swings in HR/BP.",
+      "Post-revascularization hyperperfusion can cause edema, seizures, hemorrhage."
+    ],
+    comorbid: [
+      "Systemic atherosclerosis: high CAD prevalence, HTN, DM, renal disease.",
+      "Often elderly with limited cerebral/cardiac reserve.",
+      "Antiplatelet/anticoagulant management per vascular team."
+    ],
+    phases: {
+      pre: [
+        "Optimize and document cardiac status; note baseline neuro exam and BP range.",
+        "Decide GA vs regional (awake neuro monitoring) with surgeon.",
+        "Arterial line before induction for beat-to-beat BP."
+      ],
+      intra: [
+        "Maintain BP at/above baseline, especially during cross-clamp; vasopressors ready.",
+        "Treat carotid-sinus brady/hypotension; support chosen cerebral monitor.",
+        "Heparin timing coordinated with clamp."
+      ],
+      post: [
+        "Tight BP control to prevent hematoma and hyperperfusion; immediate neuro exam.",
+        "Watch the neck for expanding hematoma — reintubation plan ready.",
+        "Monitor for new deficits and hyperperfusion syndrome over following days."
+      ]
+    },
+    source: "Jaffe 5e (2014), Neurosurgery §1.4, Carotid Endarterectomy, p. 134 (also Cardiovascular §6.0, p. 406 — single combined entry)."
+  },
+  {
+    id: "craniotomy-cranial-misc",
+    name: "Craniotomy — EC-IC Bypass, Skull Tumor, Microvascular Decompression & CSF-Leak Repair",
+    section: "Neurosurgery",
+    page: "23–51",
+    tags: ["GETA","ICP control","Positioning-dependent","Neuromonitoring","Posterior fossa (some)"],
+    snapshot: {
+      position: "Supine / lateral / prone / sitting (by lesion site)",
+      time: "2–6 h",
+      ebl: "100–500 mL (more if vascular)",
+      painScore: "3–5",
+      anesthesia: "GETA",
+      mortality: "Low"
+    },
+    flags: [
+      "Position varies by lesion — **posterior-fossa / sitting cases carry venous air embolism risk** (precordial Doppler, ready to flood field, aspirate via CVC).",
+      "**EC-IC bypass depends on graft patency** — maintain normotension/normocapnia and avoid hypotension that threatens the anastomosis; avoid hyperventilation that may steal flow.",
+      "Microvascular decompression (CN V/VII/IX) near the **brainstem** → watch for sudden brady-arrhythmia/BP swings during retraction.",
+      "Free cerebral venous drainage: **minimize neck flexion/rotation**, head-up, avoid jugular compression."
+    ],
+    technique: {
+      summary: "A group of craniotomies sharing GETA + ICP/positioning concerns: EC-IC revascularization (superficial temporal–to–MCA anastomosis), resection of skull/bony tumors, microvascular decompression of a cranial nerve, and bifrontal craniotomy to repair a CSF leak.",
+      steps: [
+        "Position per lesion (sitting/prone for occipital-suboccipital; supine for frontotemporal) with VAE precautions when head-up.",
+        "Brain relaxation as needed: PaCO2 ≈ 35, mannitol 0.5–1 g/kg, ± CSF drain — but for EC-IC keep CO2 normal to preserve flow.",
+        "Microsurgical work near vessels/nerves; anticipate reflex hemodynamic changes during brainstem manipulation (MVD).",
+        "For EC-IC: protect the graft with stable normotension; for CSF leak: watch for the repair and post-op CSF dynamics.",
+        "Smooth emergence for early neuro exam."
+      ]
+    },
+    physiology: [
+      "Sitting/head-up improves drainage but opens veins to air entrainment → VAE (sudden ↓EtCO2, hypotension, mill-wheel murmur).",
+      "Bypass perfusion is pressure- and flow-dependent; hyperventilation-induced vasoconstriction can compromise the donor territory.",
+      "Brainstem-adjacent surgery triggers trigeminocardiac/baroreflex responses."
+    ],
+    comorbid: [
+      "EC-IC patients: moyamoya or chronic occlusive cerebrovascular disease — tight perfusion management, avoid hyper/hypocapnia extremes.",
+      "Skull-tumor patients vary widely (benign bony lesions to metastatic disease).",
+      "MVD: often otherwise-healthy trigeminal-neuralgia/hemifacial-spasm patients."
+    ],
+    phases: {
+      pre: [
+        "Map the planned position and pre-empt VAE risk (Doppler, CVC) for sitting/posterior-fossa cases.",
+        "For EC-IC, define the perfusion plan: normotension, normocapnia, no deliberate hypotension.",
+        "Baseline neuro exam; arterial line for tight CO2/BP control."
+      ],
+      intra: [
+        "Hold CO2 near normal for bypass; use brain-relaxation maneuvers cautiously when flow-dependent.",
+        "Treat brainstem-manipulation arrhythmias; alert surgeon to pause retraction.",
+        "Monitor for VAE if head-up; support neuromonitoring."
+      ],
+      post: [
+        "Smooth emergence; early neuro exam; head-up positioning.",
+        "EC-IC: maintain BP to protect graft; avoid hypotension in recovery.",
+        "Watch for CSF leak/rhinorrhea after CSF-leak repair."
+      ]
+    },
+    source: "Jaffe 5e (2014), Neurosurgery §1.1 Intracranial — EC-IC Revascularization (p.23), Skull Tumor (p.36), Microvascular Decompression (p.44), Bifrontal Craniotomy for CSF Leak (p.47); combined entry."
+  },
+  {
+    id: "craniotomy-trauma",
+    name: "Craniotomy / Hemicraniectomy for Trauma",
+    section: "Neurosurgery",
+    page: "37–43",
+    tags: ["GETA","RSI / full stomach","Emergent","↑↑ ICP","Decompressive craniectomy"],
+    snapshot: {
+      position: "Supine, head turned (lateral if needed)",
+      time: "1.5–4 h (emergent)",
+      ebl: "Variable; can be large",
+      painScore: "3–5",
+      anesthesia: "GETA",
+      mortality: "High (injury-dependent)"
+    },
+    flags: [
+      "**Raised ICP with herniation risk** is the emergency — hyperventilation, mannitol/hypertonic saline, head-up, and rapid decompression; avoid anything that further raises ICP.",
+      "**Assume a full stomach and possible C-spine injury** → RSI with in-line stabilization; avoid the hypertensive/coughing response yet keep CPP.",
+      "Polytrauma: **hypovolemia and coagulopathy** coexist with the need for cerebral perfusion — resuscitate while avoiding hypotension (a single SBP <90 worsens outcome).",
+      "Acute extra-axial hematoma (epidural/subdural) can decompensate fast — **be ready for sudden blood loss and rapid surgical decompression**, possible hemicraniectomy."
+    ],
+    technique: {
+      summary: "Emergent evacuation of an epidural, subdural, or intraparenchymal hematoma (or debridement of a depressed fracture) via burr holes or craniotomy; decompressive hemicraniectomy may be needed for refractory ICP. ICP monitor/ventriculostomy often placed at the end.",
+      steps: [
+        "Rapid sequence induction with in-line C-spine stabilization; obtund pressor response without dropping CPP.",
+        "Aggressive ICP control: hyperventilation, mannitol, hypertonic saline, head-up, drainage.",
+        "Large-bore access and blood available; correct coagulopathy (trauma + possible anticoagulants).",
+        "Hematoma evacuation; decompressive craniectomy if ICP remains refractory; ICP monitor placed.",
+        "Transfer intubated/sedated to ICU — most are not extubated."
+      ]
+    },
+    physiology: [
+      "Mass lesion + edema → ↑↑ ICP → herniation; CPP = MAP − ICP, so both hypotension and uncontrolled ICP are lethal.",
+      "TBI triggers catecholamine surge, possible neurogenic pulmonary edema, and coagulopathy.",
+      "Hyperventilation lowers ICP transiently but excessive ↓PaCO2 risks ischemia — target ~30–35, not lower."
+    ],
+    comorbid: [
+      "Polytrauma: hemorrhagic shock, C-spine and thoracoabdominal injuries, hypothermia.",
+      "Unknown NPO status and possible intoxication.",
+      "Pre-injury anticoagulants/antiplatelets worsen bleeding — reverse as able."
+    ],
+    phases: {
+      pre: [
+        "Rapid assessment: GCS, pupils, ICP signs, hemodynamics, suspected C-spine, coagulation/anticoagulant status.",
+        "Secure large-bore access; activate blood/massive-transfusion availability.",
+        "Plan RSI with in-line stabilization and ICP-aware induction drugs."
+      ],
+      intra: [
+        "Keep SBP/CPP up (avoid SBP <90), control ICP, give mannitol/hypertonic saline as needed.",
+        "Resuscitate and correct coagulopathy; maintain normothermia where possible.",
+        "Prepare for sudden decompression-related hemodynamic shifts."
+      ],
+      post: [
+        "Remain intubated/sedated to ICU; continue ICP-directed therapy.",
+        "Ongoing resuscitation, coagulopathy correction, temperature management.",
+        "Frequent neuro checks; manage the ICP monitor/ventriculostomy."
+      ]
+    },
+    source: "Jaffe 5e (2014), Neurosurgery §1.1 Intracranial, Craniotomy for Trauma (incl. decompressive hemicraniectomy), p. 37–43."
+  },
+  {
+    id: "ventricular-shunt-chiari",
+    name: "Ventricular Shunt Procedures & Craniocervical (Chiari) Decompression",
+    section: "Neurosurgery",
+    page: "57–63",
+    tags: ["GETA","ICP","Pediatric often","Prone (Chiari)","Brainstem (Chiari)"],
+    snapshot: {
+      position: "Supine (shunt) / prone or sitting (Chiari)",
+      time: "1–3 h",
+      ebl: "Minimal (shunt) – modest (Chiari)",
+      painScore: "3–5",
+      anesthesia: "GETA",
+      mortality: "Low"
+    },
+    flags: [
+      "Hydrocephalus = **raised ICP**: avoid hypercapnia and big anesthetic-induced CBV increases; smooth induction.",
+      "Often **pediatric** — size-appropriate technique, temperature/fluid care, and (in shunt revisions) repeated anesthetics.",
+      "Chiari decompression near the **brainstem/cervicomedullary junction** → bradyarrhythmia and BP lability with manipulation; prone/sitting adds positioning + VAE concerns.",
+      "Shunt tunneling from cranium to abdomen/atrium spans a **wide field** — watch for pneumothorax (atrial/pleural routes) and ensure adequate depth during tunneling."
+    ],
+    technique: {
+      summary: "CSF diversion (most commonly ventriculoperitoneal) for hydrocephalus, or posterior-fossa decompression for Chiari malformation (suboccipital craniectomy ± duraplasty, lysing adhesions to restore CSF flow, often with associated syringomyelia).",
+      steps: [
+        "Smooth, ICP-aware induction; head fixation usually not needed for shunts.",
+        "Shunt: align cranial + abdominal incisions; anticipate stimulation during subcutaneous tunneling.",
+        "Chiari: prone/3⁄4-prone or seated, head flexed — protect airway/eyes, watch VAE, free venous drainage.",
+        "Brainstem-adjacent dissection (Chiari) → monitor for hemodynamic reflexes.",
+        "Smooth emergence; neuro and (for shunt) function check."
+      ]
+    },
+    physiology: [
+      "Impaired CSF absorption/flow → ventricular dilation and ↑ICP; shunt restores diversion.",
+      "Chiari: tonsillar herniation through foramen magnum, often + syringomyelia; brainstem compression risk.",
+      "Prone/seated position alters venous return and raises VAE risk."
+    ],
+    comorbid: [
+      "Frequently pediatric or developmental — consider associated anomalies and prior shunt history.",
+      "Chiari patients may have lower-cranial-nerve dysfunction → aspiration/airway risk.",
+      "Shunt malfunction presentations can be acutely raised-ICP emergencies."
+    ],
+    phases: {
+      pre: [
+        "Assess ICP status and (Chiari) bulbar/airway function; review prior anesthetics for shunt revisions.",
+        "Plan positioning (prone/seated) with eye/airway protection and VAE monitoring for Chiari.",
+        "Size-appropriate pediatric planning when relevant."
+      ],
+      intra: [
+        "Keep CO2 normal-low, avoid ICP spikes; ensure depth during shunt tunneling.",
+        "Chiari: monitor for brainstem-manipulation arrhythmias and VAE; maintain venous drainage.",
+        "Watch for pneumothorax with pleural/atrial shunt routes."
+      ],
+      post: [
+        "Smooth emergence; neuro exam; confirm shunt function clinically.",
+        "Chiari: monitor respiratory/bulbar function post-op.",
+        "Pain control appropriate to incision and age."
+      ]
+    },
+    source: "Jaffe 5e (2014), Neurosurgery §1.1 Intracranial, Ventricular Shunt Procedures (p.57) + Craniocervical (Chiari) Decompression (p.61); combined entry."
+  },
+  {
+    id: "functional-neurosurgery",
+    name: "Functional Neurosurgery — Stereotactic/DBS, Epilepsy, Spasticity, VNS & Trigeminal Procedures",
+    section: "Neurosurgery",
+    page: "64–92",
+    tags: ["Awake (DBS)","Sedation","Stereotactic frame","MAC↔GETA","Microelectrode recording"],
+    snapshot: {
+      position: "Supine/semi-sitting, often stereotactic frame",
+      time: "2–6 h (mapping-dependent)",
+      ebl: "Minimal",
+      painScore: "2–4",
+      anesthesia: "MAC/awake (DBS, mapping) or GETA",
+      mortality: "Low"
+    },
+    flags: [
+      "**Awake DBS / mapping**: airway is unsecured in a stereotactic frame — plan for the **difficult/locked airway** (frame removal tools at hand), seizure, and patient cooperation; avoid drugs that suppress microelectrode recording or tremor.",
+      "**Anesthetic choice must preserve the recording / mapping signal** — minimize sedatives that abolish tremor or cortical activity during the test phase (light dexmedetomidine/propofol that can be paused).",
+      "Sudden movement or seizure with the head fixed in a frame is dangerous — **have a plan to rapidly access the airway** and abort.",
+      "VNS implantation can cause **bradycardia/asystole** during lead testing — coordinate with surgeon, be ready to treat."
+    ],
+    technique: {
+      summary: "Stereotactic and functional procedures: deep brain stimulation / pallidotomy / thalamotomy (often awake with microelectrode recording), epilepsy surgery (resection/mapping), surgery for spasticity (e.g. rhizotomy, intrathecal pump), vagus nerve stimulation, and percutaneous procedures for trigeminal neuralgia.",
+      steps: [
+        "Frame placement under local ± light sedation; imaging for targeting.",
+        "For DBS/mapping: maintain an awake, cooperative, comfortable patient; pause sedation for recording/test stimulation.",
+        "Treat intra-op events (seizure, hemodynamic swings, VNS-related bradycardia).",
+        "Convert to GETA for closure/generator placement if planned (asleep-awake-asleep).",
+        "Smooth recovery with attention to neuro status."
+      ]
+    },
+    physiology: [
+      "Microelectrode recording and tremor/symptom testing require minimal CNS depression during the test window.",
+      "Movement disorder patients may have autonomic dysfunction and aspiration risk.",
+      "Vagal stimulation can produce profound bradycardia/asystole transiently."
+    ],
+    comorbid: [
+      "Parkinson's/movement disorders: continue or carefully time dopaminergic meds; off-state rigidity, swallowing/airway risk.",
+      "Epilepsy: continue AEDs; enzyme induction alters drug handling.",
+      "Trigeminal neuralgia/spasticity patients otherwise variable; consider chronic baclofen (pump) issues."
+    ],
+    phases: {
+      pre: [
+        "Define awake-vs-asleep plan with surgeon; rehearse airway access with the frame on.",
+        "Medication timing (anti-parkinsonian, AEDs); set patient expectations for the awake phase.",
+        "Plan sedation that can be turned off for recording (e.g. dexmedetomidine/low propofol)."
+      ],
+      intra: [
+        "Keep patient comfortable, still, and cooperative; pause sedation for mapping/recording.",
+        "Treat seizures and hemodynamic/vagal events promptly; keep airway rescue ready.",
+        "Convert to GA for generator/closure as planned."
+      ],
+      post: [
+        "Assess neuro/functional status; manage any frame-site discomfort.",
+        "Resume disease-specific meds; monitor for delayed seizures.",
+        "Standard recovery; usually low post-op pain."
+      ]
+    },
+    source: "Jaffe 5e (2014), Neurosurgery §1.2 Functional — Stereotactic/DBS, pallidotomy, thalamotomy (p.71), spinal cord stimulation / intrathecal pumps / cortical stimulation (p.77), VNS (p.80), Epilepsy Surgery (p.83), Surgery for Spasticity (p.87), Percutaneous Trigeminal Neuralgia (p.89); combined entry."
+  },
+  {
+    id: "thoracolumbar-spine-surgery",
+    name: "Thoracic & Lumbar Spine Surgery (anterior, posterior & combined instrumentation)",
+    section: "Neurosurgery",
+    page: "107–133",
+    tags: ["GETA","Prone (mostly)","Major blood loss (some)","Neuromonitoring","Positioning injury risk"],
+    snapshot: {
+      position: "Prone (posterior) / lateral or supine (anterior)",
+      time: "2–7 h (longer for combined/deformity)",
+      ebl: "25 mL → up to 5,000 mL (deformity/tumor)",
+      painScore: "6–8",
+      anesthesia: "GETA",
+      mortality: "Low (higher for major deformity)"
+    },
+    flags: [
+      "**Major blood loss** in multilevel/deformity/tumor cases (EBL up to ~5,000 mL) — large-bore access, T&C, cell-saver, and a transfusion plan.",
+      "Prone positioning: protect against **postoperative visual loss / ischemic optic neuropathy** (head neutral and level/above heart, eyes free, avoid hypotension + hemodilution + long duration combined), plus pressure-point and brachial-plexus injury.",
+      "**Neuromonitoring (SSEP/MEP)** during deformity correction usually limits NMB and constrains volatile depth — TIVA common; coordinate with the surgeon.",
+      "Anterior thoracic approach may enter the **chest (one-lung ventilation, chest tube)**; great-vessel proximity means catastrophic bleeding is possible."
+    ],
+    technique: {
+      summary: "Decompression, fusion, and instrumentation of the thoracic/lumbar spine via posterior (prone), anterior (lateral/supine, sometimes transthoracic/retroperitoneal), or combined approaches — for degenerative disease, deformity (scoliosis), trauma, or tumor.",
+      steps: [
+        "Secure airway, then careful prone positioning (or lateral for anterior) with meticulous eye/pressure protection; reconfirm tube after turning.",
+        "Establish blood-loss readiness (access, cell-saver, T&C) scaled to the planned levels.",
+        "Maintain spinal cord perfusion pressure; baseline and continuous SSEP/MEP for deformity/cord-risk cases.",
+        "Anterior thoracic: one-lung ventilation as needed, manage chest entry/chest tube.",
+        "Plan emergence/extubation criteria; consider delayed extubation after long prone or large-volume cases."
+      ]
+    },
+    physiology: [
+      "Prone position reduces FRC, alters venous return, and raises abdominal/venous pressure if the abdomen isn't free.",
+      "Long duration + blood loss + hypotension + prone is the POVL risk constellation.",
+      "Cord perfusion is pressure-dependent during deformity correction/decompression."
+    ],
+    comorbid: [
+      "Deformity patients may be young (idiopathic scoliosis) or have neuromuscular disease with restrictive lung physiology and cardiac involvement.",
+      "Degenerative-spine adults often have chronic opioid use → analgesic tolerance.",
+      "Tumor/metastatic cases bring oncologic and coagulation considerations."
+    ],
+    phases: {
+      pre: [
+        "Scale access and blood products to expected EBL; plan cell-saver for big cases.",
+        "Document baseline neuro deficits; agree neuromonitoring plan and NMB limits.",
+        "Assess pulmonary/cardiac status, especially in neuromuscular scoliosis; plan OLV if transthoracic."
+      ],
+      intra: [
+        "Protect eyes/pressure points; keep head neutral and at/above heart level; avoid prolonged deliberate hypotension when cord at risk.",
+        "TIVA or limited volatile + minimal NMB to preserve MEPs; treat blood loss proactively.",
+        "Manage OLV/chest entry for anterior thoracic; watch for great-vessel bleeding."
+      ],
+      post: [
+        "Consider delayed extubation after long prone/high-volume cases (airway/facial edema).",
+        "Aggressive multimodal analgesia for high post-op pain; neuro exam.",
+        "Watch for compartment/positioning injuries and ongoing blood loss."
+      ]
+    },
+    source: "Jaffe 5e (2014), Neurosurgery §1.3 Spinal — anterior cervicothoracic (p.107), anterior/posterior thoracic (p.114/116), anterior/posterior lumbar (p.119/122), combined thoracolumbar instrumentation (p.126); combined entry."
+  },
+  {
+    id: "cataract-extraction",
+    name: "Cataract Extraction with Intraocular Lens Insertion",
+    section: "Ophthalmic Surgery",
+    page: "144",
+    tags: ["Topical/MAC usually","Sub-Tenon block","Akinesia not required","Day surgery"],
+    snapshot: {
+      position: "Supine, head stabilized",
+      time: "30–60 min",
+      ebl: "Minimal",
+      painScore: "1–2",
+      anesthesia: "Topical + MAC (or sub-Tenon block)",
+      mortality: "Very low"
+    },
+    flags: [
+      "Most commonly **topical anesthetic + light MAC** — eye and lid movement is expected, so the patient must be able to **hold still and follow commands**; oversedation that causes sudden movement is the hazard.",
+      "Predominantly an **elderly comorbid population** (HTN, DM, CAD, COPD) lying flat under drapes — claustrophobia, inability to lie flat, and tremor matter more than the surgery itself.",
+      "Avoid heavy sedation that risks **disorientation, coughing, or sudden head movement** at the microscope.",
+      "If a block is used, brief deep sedation only for the injection — then a calm, cooperative, still patient."
+    ],
+    technique: {
+      summary: "Phacoemulsification of the lens through a small incision with intraocular lens implantation, under an operating microscope. Usually performed under topical anesthesia with minimal sedation; sub-Tenon block is an alternative.",
+      steps: [
+        "Confirm correct eye/site; position supine with head stabilized and accessible.",
+        "Topical anesthetic ± sub-Tenon block; titrate sedation to a calm, cooperative, motionless patient.",
+        "Drape with attention to claustrophobia and CO2 accumulation under drapes (provide air/O2 flow).",
+        "During phaco, ensure no sudden movement, cough, or Valsalva.",
+        "Brief recovery; typically day-surgery discharge."
+      ]
+    },
+    physiology: [
+      "Topical technique leaves eye/lid mobile — relies on patient cooperation, not akinesia.",
+      "Supine, draped, elderly patients are prone to back pain, claustrophobia, hypoxia under drapes, and tremor.",
+      "Adverse reactions to topical anesthetics are rare."
+    ],
+    comorbid: [
+      "Elderly with HTN, DM, CAD, COPD — optimize and continue cardiac/pulmonary meds.",
+      "Inability to lie flat (CHF, COPD, kyphosis) or to stay still (tremor, dementia, anxiety) may force a block ± deeper sedation or GA.",
+      "Anticoagulation usually continued for topical/sub-Tenon cataract surgery (low bleeding risk) — confirm with surgeon."
+    ],
+    phases: {
+      pre: [
+        "Assess ability to lie flat and cooperate; set expectations for an awake procedure.",
+        "Continue routine cardiac/pulmonary meds; confirm anticoagulation plan with surgeon.",
+        "Plan supplemental O2/air under drapes."
+      ],
+      intra: [
+        "Light, titratable sedation only; keep patient calm, oriented, and motionless.",
+        "Monitor for hypoxia/hypercarbia under drapes; avoid oversedation.",
+        "Be ready to support airway if sedation deepens unexpectedly."
+      ],
+      post: [
+        "Rapid recovery; eye patch/shield, topical meds.",
+        "Standard day-surgery discharge criteria.",
+        "Minimal analgesia required."
+      ]
+    },
+    source: "Jaffe 5e (2014), Ophthalmic Surgery §2.0, Cataract Extraction with IOL Insertion, p. 144 (see also MAC for Ophthalmic Procedures, p. 158)."
+  },
+  {
+    id: "corneal-transplant",
+    name: "Corneal Transplant (Penetrating Keratoplasty)",
+    section: "Ophthalmic Surgery",
+    page: "146",
+    tags: ["GETA or block","Open-globe phase","Akinesia required","No Valsalva"],
+    snapshot: {
+      position: "Supine, head stabilized",
+      time: "1–2 h",
+      ebl: "Minimal",
+      painScore: "2–4",
+      anesthesia: "GETA or retrobulbar/peribulbar block",
+      mortality: "Low"
+    },
+    flags: [
+      "There is an **open-globe phase** while the cornea is off — **absolutely no coughing, bucking, or Valsalva**; any IOP spike or movement risks expulsion of intraocular contents.",
+      "Needs a **still, akinetic eye** — GA or a good retrobulbar/peribulbar block; topical alone is usually inadequate.",
+      "Smooth, cough-free **emergence and extubation** is as critical as induction (deep extubation or lidocaine to blunt cough).",
+      "Oculocardiac reflex possible with manipulation — watch for **bradycardia**, stop traction, treat."
+    ],
+    technique: {
+      summary: "Replacement of diseased cornea with donor tissue. During trephination the globe is open, demanding a soft, motionless eye and avoidance of any rise in IOP or patient movement.",
+      steps: [
+        "Achieve akinesia/anesthesia (GA or block); ensure a soft eye before opening.",
+        "Open-globe phase: maintain deep anesthesia, no movement, no Valsalva, controlled ventilation.",
+        "Donor cornea sutured with fine (10-0 nylon) sutures.",
+        "Avoid coughing/bucking before and during closure.",
+        "Plan a smooth, cough-free emergence."
+      ]
+    },
+    physiology: [
+      "Open globe = direct communication of intraocular space with atmosphere; IOP spikes expel contents.",
+      "EOM traction triggers the oculocardiac (trigeminovagal) reflex → bradycardia/hypotension.",
+      "PONV-induced vomiting raises IOP — give antiemetic prophylaxis."
+    ],
+    comorbid: [
+      "Often older patients with corneal disease; otherwise variable.",
+      "Cooperation and ability to hold still essential if a block-based technique is chosen.",
+      "Consider PONV risk factors given the danger of postoperative vomiting."
+    ],
+    phases: {
+      pre: [
+        "Decide GA vs block based on patient cooperation and surgeon preference.",
+        "PONV prophylaxis plan; review meds.",
+        "Confirm soft eye / IOP control strategy."
+      ],
+      intra: [
+        "Deep, stable anesthesia through the open-globe phase; controlled ventilation, no movement.",
+        "Treat oculocardiac bradycardia (stop traction, atropine/glycopyrrolate).",
+        "Avoid anything that raises IOP."
+      ],
+      post: [
+        "Cough-free emergence (deep extubation or IV lidocaine 0.5–1 mg/kg).",
+        "Aggressive antiemesis to prevent IOP-raising vomiting.",
+        "Eye shield; topical meds; monitor for graft complications."
+      ]
+    },
+    source: "Jaffe 5e (2014), Ophthalmic Surgery §2.0, Corneal Transplant, p. 146."
+  },
+  {
+    id: "glaucoma-trabeculectomy",
+    name: "Trabeculectomy / Glaucoma Filtering Surgery",
+    section: "Ophthalmic Surgery",
+    page: "148",
+    tags: ["Block or GETA","IOP-lowering","Akinesia","No Valsalva at closure"],
+    snapshot: {
+      position: "Supine, head stabilized",
+      time: "45–90 min",
+      ebl: "Minimal",
+      painScore: "2–3",
+      anesthesia: "Retrobulbar/peribulbar block or GETA",
+      mortality: "Very low"
+    },
+    flags: [
+      "Surgery to **lower IOP** in glaucoma — before closure, **avoid coughing, bucking, or Valsalva** which spike IOP and can cause suprachoroidal hemorrhage.",
+      "Largely an **elderly comorbid** population, frequently on chronic IOP-lowering drugs — note systemic effects of topical β-blockers (bradycardia, bronchospasm) and carbonic-anhydrase inhibitors.",
+      "Oculocardiac reflex with manipulation → **bradycardia**.",
+      "Suprachoroidal hemorrhage risk is **higher under MAC (~4%) than block/GA (~1%)** — patient stillness matters."
+    ],
+    technique: {
+      summary: "Creation of a guarded fistula (filtering bleb) to drain aqueous and lower intraocular pressure when maximal medical therapy fails. Requires a still eye and avoidance of IOP spikes, especially near closure.",
+      steps: [
+        "Block (retrobulbar/peribulbar/sub-Tenon) or GA for an akinetic eye.",
+        "Scleral flap and trabeculectomy; antimetabolite (e.g. mitomycin) often applied.",
+        "Avoid IOP spikes — no coughing/Valsalva, particularly before closure.",
+        "Treat oculocardiac bradycardia if it occurs.",
+        "Smooth recovery."
+      ]
+    },
+    physiology: [
+      "Glaucoma treatment is aimed at lowering IOP; sudden IOP rise threatens the surgical result and risks hemorrhage.",
+      "Chronic topical glaucoma meds have systemic absorption (β-blocker → bradycardia/bronchospasm).",
+      "EOM/globe manipulation → oculocardiac reflex."
+    ],
+    comorbid: [
+      "Elderly with cardiopulmonary disease; account for systemic effects of chronic ophthalmic drops.",
+      "Cooperation needed for block-based technique.",
+      "Diabetes common in glaucoma population."
+    ],
+    phases: {
+      pre: [
+        "Review chronic glaucoma medications and their systemic effects.",
+        "Decide block vs GA based on cooperation and case length.",
+        "Optimize cardiopulmonary comorbidities."
+      ],
+      intra: [
+        "Keep eye still and IOP stable; avoid coughing/Valsalva near closure.",
+        "Treat oculocardiac bradycardia.",
+        "Limit deep-MAC movement risk (suprachoroidal hemorrhage)."
+      ],
+      post: [
+        "Smooth recovery; eye shield, topical meds.",
+        "Antiemesis to avoid IOP-raising vomiting.",
+        "Monitor for bleb-related complications."
+      ]
+    },
+    source: "Jaffe 5e (2014), Ophthalmic Surgery §2.0, Trabeculectomy, p. 148."
+  },
+  {
+    id: "oculoplastics",
+    name: "Oculoplastics — Ectropion / Entropion / Ptosis Repair, Eyelid Reconstruction & Pterygium Excision",
+    section: "Ophthalmic Surgery",
+    page: "151–161",
+    tags: ["MAC + local usually","GETA option","Low stimulation","Shared face/airway"],
+    snapshot: {
+      position: "Supine, head stabilized",
+      time: "30 min–2 h",
+      ebl: "Minimal",
+      painScore: "2–4",
+      anesthesia: "Local + MAC (or GETA)",
+      mortality: "Very low"
+    },
+    flags: [
+      "Surgeon works **on the face/eyelids beside the airway** — secure and protect the airway, watch for **fire risk** (O2 + drapes + cautery near the face: minimize FiO2, avoid open O2 pooling).",
+      "Usually **local + MAC** — keep the patient still and comfortable; ptosis repair may need brief patient cooperation to assess lid height.",
+      "Comfortable, motionless sedation without airway obstruction under drapes near the face.",
+      "If GA chosen, plan **smooth cough-free emergence** to protect delicate eyelid repairs."
+    ],
+    technique: {
+      summary: "A group of low-intensity eyelid/conjunctival procedures sharing local + MAC anesthesia: repair of ectropion/entropion (lid malposition), ptosis (levator) repair, eyelid reconstruction, and pterygium excision. Stimulation is low but the field is adjacent to the airway.",
+      steps: [
+        "Local infiltration/block by surgeon; titrate MAC to comfort and stillness.",
+        "Protect the airway and minimize fire risk near the face (low FiO2, no O2 pooling under drapes).",
+        "Ptosis repair may require the patient briefly awake/cooperative to judge lid position.",
+        "Maintain a still field; avoid coughing during delicate suturing.",
+        "Rapid recovery; usually day surgery."
+      ]
+    },
+    physiology: [
+      "Procedures are low-stimulation but near the airway/face — sedation depth must avoid obstruction and movement.",
+      "Open-O2-near-cautery fire triad is the under-recognized danger of facial MAC cases.",
+      "Eyelid repairs are cosmetically/functionally sensitive to movement and coughing."
+    ],
+    comorbid: [
+      "Often elderly (involutional lid changes); standard comorbidity optimization.",
+      "Anxiety/inability to hold still may push toward GA.",
+      "Pterygium population may be younger."
+    ],
+    phases: {
+      pre: [
+        "Decide MAC vs GA; for ptosis, confirm whether intra-op cooperation is needed.",
+        "Plan fire-safety measures for facial cautery cases (low FiO2).",
+        "Routine comorbidity review."
+      ],
+      intra: [
+        "Titrate sedation to comfort + stillness without airway obstruction.",
+        "Minimize FiO2 and prevent O2 pooling under drapes near cautery.",
+        "Keep field motionless during delicate suturing."
+      ],
+      post: [
+        "Rapid recovery; ice/elevation per surgeon; topical meds.",
+        "Day-surgery discharge.",
+        "Minimal analgesia."
+      ]
+    },
+    source: "Jaffe 5e (2014), Ophthalmic Surgery §2.0 — Ectropion (p.151), Entropion (p.152), Ptosis (p.153), Eyelid Reconstruction (p.155), Pterygium Excision (p.157); combined entry (see MAC for Ophthalmic Procedures, p.158)."
+  },
+  {
+    id: "ruptured-globe",
+    name: "Repair of Ruptured / Lacerated (Open) Globe",
+    section: "Ophthalmic Surgery",
+    page: "162–164",
+    tags: ["GETA","RSI","Full stomach","Open globe","Retrobulbar block CONTRAINDICATED"],
+    snapshot: {
+      position: "Supine, head stabilized",
+      time: "1–2 h",
+      ebl: "Minimal",
+      painScore: "3–5",
+      anesthesia: "GETA",
+      mortality: "Low (vision-threatening)"
+    },
+    flags: [
+      "**The classic competing-priorities trap: full stomach vs raised IOP.** Aspiration risk demands RSI, but the open globe demands no IOP spike. Resolve with a **modified RSI that blunts the IOP response** (deep induction, opioid/lidocaine, non-depolarizing relaxant).",
+      "**Retrobulbar/peribulbar block is CONTRAINDICATED** in open globe — the injection raises IOP and can extrude ocular contents. **GETA is required.**",
+      "Any ↑IOP loses the eye: coughing, crying, struggling, bucking, or Valsalva. Normal IOP 10–22 mm Hg; coughing/laryngoscopy/hypercarbia can push it **>40 mm Hg**.",
+      "**Succinylcholine raises IOP** (~5–10 mm Hg for ~10 min) — historically avoided in open globe; if RSI speed is critical, weigh against a high-dose non-depolarizing (rocuronium) RSI. Treat as a full stomach if injury was within **8 h of last meal**."
+    ],
+    technique: {
+      summary: "Surgical closure of a corneal or scleral laceration. The anesthetic must protect the airway from aspiration AND prevent any rise in IOP that would extrude intraocular contents — the central conflict of the case.",
+      steps: [
+        "Modified rapid-sequence induction with cricoid pressure; deepen anesthesia and blunt the IOP/laryngoscopy response (opioid, IV lidocaine).",
+        "Avoid succinylcholine where possible (raises IOP); use a high-dose non-depolarizing relaxant for intubating conditions.",
+        "Maintain controlled ventilation, normocarbia, deep anesthesia — absolutely no coughing/bucking.",
+        "After the globe is closed, continue to avoid Valsalva and IOP spikes.",
+        "Plan a smooth, cough-free emergence with antiemetic prophylaxis."
+      ]
+    },
+    physiology: [
+      "Open globe communicates intraocular contents with atmosphere; an IOP spike herniates uvea/vitreous → blindness.",
+      "IOP determinants: aqueous dynamics, choroidal blood volume, scleral rigidity, EOM tone, external pressure; hypercarbia/HTN/intubation all raise it.",
+      "Trauma patients are assumed full-stomach (gastric emptying halts at injury) → aspiration risk."
+    ],
+    comorbid: [
+      "Trauma context: possible other injuries, intoxication, uncertain NPO status.",
+      "Pediatric open-globe is common and uncooperative — GA essentially mandatory.",
+      "Weigh systemic GA risk vs the absolute need to control IOP."
+    ],
+    phases: {
+      pre: [
+        "Treat as full stomach (injury within 8 h of meal); plan modified RSI that controls IOP.",
+        "Confirm retrobulbar block is OFF the table; GETA only.",
+        "Antiemetic prophylaxis; assess for associated trauma."
+      ],
+      intra: [
+        "Modified RSI with cricoid; blunt IOP response (deep induction, opioid, lidocaine); avoid/limit succinylcholine.",
+        "Maintain normocarbia, deep anesthesia, no coughing or Valsalva throughout.",
+        "Controlled ventilation; treat oculocardiac bradycardia if it occurs."
+      ],
+      post: [
+        "Smooth, cough-free emergence; avoid bucking/Valsalva.",
+        "Strong antiemesis — postoperative vomiting can rupture the repair.",
+        "Eye shield; monitor for re-injury and infection."
+      ]
+    },
+    source: "Jaffe 5e (2014), Ophthalmic Surgery §2.0, Repair of Ruptured or Lacerated Globe, p. 162–164."
+  },
+  {
+    id: "orbital-lacrimal-surgery",
+    name: "Orbital & Lacrimal Surgery — DCR, Enucleation & Orbitotomy",
+    section: "Ophthalmic Surgery",
+    page: "165–173",
+    tags: ["GETA usually","Shared airway (DCR)","Oculocardiac reflex","Throat pack (DCR)"],
+    snapshot: {
+      position: "Supine, head stabilized/turned",
+      time: "1–2 h",
+      ebl: "Minimal–modest (orbitotomy more)",
+      painScore: "3–5",
+      anesthesia: "GETA",
+      mortality: "Low"
+    },
+    flags: [
+      "**Dacryocystorhinostomy involves the nose** — bleeding into the shared airway; consider a **throat pack (document in/out)** and plan for blood in the pharynx; smooth emergence to protect the airway.",
+      "**Oculocardiac reflex** is prominent with orbital/globe traction (enucleation, orbitotomy) → sudden **bradycardia/asystole**; stop traction, treat with atropine.",
+      "Enucleation/orbitotomy can have **more blood loss and deeper orbital stimulation** than anterior-segment cases — secure GA, anticipate PONV.",
+      "Orbital surgery near the apex risks **optic nerve / vascular** structures — maintain stable hemodynamics."
+    ],
+    technique: {
+      summary: "A group of deeper orbital/lacrimal procedures under GA: dacryocystorhinostomy (creating a tear-drainage passage into the nose), enucleation (removal of the globe), and anterior/lateral orbitotomy (orbital exploration/mass excision).",
+      steps: [
+        "GETA; for DCR, secure airway and consider throat pack for nasal bleeding (document).",
+        "Anticipate strong oculocardiac reflex with orbital/globe traction — treat promptly.",
+        "Maintain hemodynamic stability near orbital apex structures.",
+        "Remove throat pack (DCR) before extubation; smooth emergence.",
+        "PONV prophylaxis; recovery."
+      ]
+    },
+    physiology: [
+      "Orbital/globe traction strongly triggers the trigeminovagal (oculocardiac) reflex.",
+      "DCR opens into the nasal cavity → blood in the shared airway.",
+      "Deep orbital dissection is near optic nerve and orbital vessels."
+    ],
+    comorbid: [
+      "Enucleation often for tumor (e.g. melanoma/retinoblastoma) or trauma/blind painful eye — variable systemic status.",
+      "DCR population includes adults and children with nasolacrimal obstruction.",
+      "PONV-prone procedures."
+    ],
+    phases: {
+      pre: [
+        "Plan GA; for DCR plan airway protection and throat pack.",
+        "PONV prophylaxis; review reason for enucleation (oncologic vs trauma).",
+        "Baseline assessment as appropriate."
+      ],
+      intra: [
+        "Vigilance for oculocardiac bradycardia/asystole — stop traction, atropine.",
+        "Manage nasal bleeding (DCR); maintain stable hemodynamics near orbital apex.",
+        "Controlled ventilation under GA."
+      ],
+      post: [
+        "Remove throat pack (DCR) before extubation; cough-free emergence.",
+        "Strong antiemesis; eye/orbit dressing.",
+        "Monitor for orbital hemorrhage (vision-threatening) after orbitotomy."
+      ]
+    },
+    source: "Jaffe 5e (2014), Ophthalmic Surgery §2.0 — Dacryocystorhinostomy (p.165), Enucleation (p.168), Orbitotomy—Anterior and Lateral (p.170); combined entry."
+  }
+];
+
+/* ============================================================
+   RENDERER — stable. Do not edit to add data (see project_instructions.md).
+   ============================================================ */
+function mdBold(s){ return String(s).replace(/\*\*(.+?)\*\*/g,"<b>$1</b>"); }
+
+const PILLARS = [
+  {key:"physiology", title:"Physiology & Pathophysiology"},
+  {key:"comorbid",   title:"Patient & Comorbidities"}
+];
+
+function groupBySection(list){
+  const g = {};
+  for(const p of list){ (g[p.section] = g[p.section] || []).push(p); }
+  return g;
+}
+
+let activeId = null;
+let query = "";
+
+function matches(p, q){
+  if(!q) return true;
+  const hay = [p.name,p.section,p.page,(p.tags||[]).join(" "),
+    (p.flags||[]).join(" "),JSON.stringify(p.snapshot),
+    (p.physiology||[]).join(" "),(p.comorbid||[]).join(" "),
+    p.technique && p.technique.summary,
+    p.phases && [p.phases.pre,p.phases.intra,p.phases.post].flat().join(" ")
+  ].join(" ").toLowerCase();
+  return q.toLowerCase().split(/\s+/).every(t=>hay.includes(t));
+}
+
+function renderNav(){
+  const nav = document.getElementById("nav");
+  const list = PROCEDURES.filter(p=>matches(p,query));
+  const groups = groupBySection(list);
+  let html = "";
+  for(const section of Object.keys(groups)){
+    html += `<div class="navgroup"><div class="gh">${section}</div>`;
+    for(const p of groups[section]){
+      html += `<a class="navitem ${p.id===activeId?"active":""}" data-id="${p.id}">`+
+              `${p.name}<span class="pg">p.${p.page}</span></a>`;
+    }
+    html += `</div>`;
+  }
+  if(!list.length) html = `<div style="padding:18px 22px;color:var(--muted);font-size:13px">No matches.</div>`;
+  nav.innerHTML = html;
+  nav.querySelectorAll(".navitem").forEach(el=>{
+    el.addEventListener("click",()=>{ select(el.dataset.id); });
+  });
+}
+
+function renderWelcome(){
+  const sections = [...new Set(PROCEDURES.map(p=>p.section))];
+  document.getElementById("content").innerHTML = `
+    <div class="welcome">
+      <div class="eyebrow">Case Preparation Reference</div>
+      <h2>What does this surgery mean for my anesthetic?</h2>
+      <p>Distilled from <i>Jaffe's Anesthesiologist's Manual of Surgical Procedures</i>,
+         5th edition. Each entry leads with the can't-miss flags, then the snapshot,
+         physiology, comorbidities, and a pre / intra / post plan.</p>
+      <div style="margin:26px 0">
+        <span class="stat"><b>${PROCEDURES.length}</b><span>procedures</span></span>
+        <span class="stat"><b>${sections.length}</b><span>sections</span></span>
+      </div>
+      <p style="font-size:13px">Pick a procedure from the left, or search by name, tag, or flag
+         (e.g. <i>hypothermia</i>, <i>airway</i>, <i>VAE</i>).</p>
+    </div>`;
+}
+
+function renderProcedure(p){
+  const snap = p.snapshot;
+  const snapCells = [
+    ["Position",snap.position],["Time",snap.time],["EBL",snap.ebl],
+    ["Pain",snap.painScore],["Anesthesia",snap.anesthesia],["Mortality",snap.mortality]
+  ].map(([k,v])=>`<div class="snap-cell"><div class="k">${k}</div><div class="v">${mdBold(v||"—")}</div></div>`).join("");
+
+  const flags = (p.flags||[]).map(f=>`<li>${mdBold(f)}</li>`).join("");
+  const techSteps = (p.technique.steps||[]).map(s=>`<li>${mdBold(s)}</li>`).join("");
+  const pillarHtml = PILLARS.map(pl=>{
+    const items=(p[pl.key]||[]).map(x=>`<li>${mdBold(x)}</li>`).join("");
+    return `<div class="pillar"><h3>${pl.title}</h3><ul>${items}</ul></div>`;
+  }).join("");
+  const ph = p.phases;
+  const phaseHtml = [["pre","Pre-op"],["intra","Intra-op"],["post","Post-op"]].map(([k,lbl])=>{
+    const items=(ph[k]||[]).map(x=>`<li>${mdBold(x)}</li>`).join("");
+    return `<div class="phase ${k}"><div class="ph">${lbl}</div><ul>${items}</ul></div>`;
+  }).join("");
+
+  document.getElementById("content").innerHTML = `
+    <div class="proc-head">
+      <div class="eyebrow">${p.section}</div>
+      <h2>${p.name}</h2>
+      <div class="tags">${(p.tags||[]).map(t=>`<span class="tag">${t}</span>`).join("")}
+        <span class="pageref">Jaffe 5e · p. ${p.page}</span></div>
+    </div>
+    <div class="snapshot">${snapCells}</div>
+    <div class="flags"><div class="fh">⚑ Can't-Miss Flags</div><ul>${flags}</ul></div>
+    <div class="pillars">
+      <div class="pillar tech"><h3>Procedure (for us)</h3>
+        <p class="sum">${mdBold(p.technique.summary)}</p><ul>${techSteps}</ul></div>
+      ${pillarHtml}
+    </div>
+    <div class="phases"><h3>Anesthetic Plan by Phase</h3>
+      <div class="phase-grid">${phaseHtml}</div></div>
+    <div class="source">${p.source}</div>`;
+  document.querySelector(".main").scrollTop = 0;
+}
+
+function select(id){
+  activeId = id;
+  const p = PROCEDURES.find(x=>x.id===id);
+  if(p){ renderProcedure(p); location.hash = id; }
+  renderNav();
+}
+
+document.getElementById("search").addEventListener("input",e=>{
+  query = e.target.value; renderNav();
+});
+document.getElementById("themeBtn").addEventListener("click",()=>{
+  const cur = document.documentElement.getAttribute("data-theme");
+  document.documentElement.setAttribute("data-theme", cur==="dark"?"light":"dark");
+});
+
+// initial render — honor hash deep-link
+(function init(){
+  renderNav();
+  const h = location.hash.replace("#","");
+  if(h && PROCEDURES.find(p=>p.id===h)) select(h);
+  else renderWelcome();
+})();
+</script>
+</body>
+</html>
