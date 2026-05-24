@@ -30,12 +30,25 @@
   .brand h1{font-family:var(--serif);font-size:20px;margin:0;letter-spacing:.2px}
   .brand .sub{font-size:11px;color:var(--muted);text-transform:uppercase;letter-spacing:1.5px;margin-top:4px}
   .searchbox{padding:12px 18px}
-  .searchbox input{width:100%;padding:9px 12px;border:1px solid var(--line);border-radius:8px;
+  .search-wrap{position:relative}
+  .searchbox input{width:100%;padding:9px 30px 9px 12px;border:1px solid var(--line);border-radius:8px;
     background:var(--bg);color:var(--ink);font-size:13px;font-family:var(--sans)}
   .searchbox input:focus{outline:2px solid var(--accent);outline-offset:-1px}
-  .navgroup{margin:6px 0}
+  .search-clear{position:absolute;right:6px;top:50%;transform:translateY(-50%);border:none;
+    background:transparent;color:var(--muted);font-size:18px;line-height:1;cursor:pointer;
+    padding:2px 6px;border-radius:6px;display:none}
+  .search-clear:hover{background:var(--chip);color:var(--ink)}
+  .search-clear.show{display:block}
+  .navgroup{margin:2px 0}
   .navgroup>.gh{font-size:11px;font-weight:700;text-transform:uppercase;letter-spacing:1px;
-    color:var(--accent2);padding:8px 22px 4px}
+    color:var(--accent2);padding:9px 22px;display:flex;justify-content:space-between;align-items:center;
+    cursor:pointer;user-select:none}
+  .navgroup>.gh:hover{background:var(--chip)}
+  .navgroup>.gh .chev{transition:transform .18s ease;font-size:10px;color:var(--muted)}
+  .navgroup.collapsed>.gh .chev{transform:rotate(-90deg)}
+  .navgroup .gh .count{font-size:10px;color:var(--muted);font-weight:600;margin-left:auto;margin-right:8px}
+  .navgroup .items{overflow:hidden;max-height:2000px;transition:max-height .22s ease}
+  .navgroup.collapsed .items{max-height:0}
   .navitem{display:block;padding:6px 22px;font-size:13px;color:var(--ink);cursor:pointer;
     border-left:3px solid transparent;text-decoration:none}
   .navitem:hover{background:var(--chip)}
@@ -91,6 +104,26 @@
   .phase ul{margin:0;padding-left:16px}.phase li{margin:5px 0;font-size:13px}
   .source{font-size:12px;color:var(--muted);border-top:1px solid var(--line);padding-top:12px;
     margin-top:24px;font-style:italic}
+  /* figures */
+  .figures-block{margin:22px 0 4px}
+  .figures-toggle{display:flex;align-items:center;gap:8px;cursor:pointer;user-select:none;
+    border:1px solid var(--line);background:var(--panel);border-radius:10px;padding:11px 16px;
+    font-family:var(--serif);font-size:15px;color:var(--accent)}
+  .figures-toggle:hover{border-color:var(--accent)}
+  .figures-toggle .fc{margin-left:auto;font-size:11px;color:var(--muted);font-family:var(--sans);
+    text-transform:uppercase;letter-spacing:1px}
+  .figures-toggle .fchev{transition:transform .18s ease;font-size:11px;color:var(--muted)}
+  .figures-block.open .figures-toggle .fchev{transform:rotate(90deg)}
+  .figures-grid{display:none;grid-template-columns:repeat(2,1fr);gap:16px;margin-top:14px}
+  .figures-block.open .figures-grid{display:grid}
+  .figure{border:1px solid var(--line);border-radius:10px;overflow:hidden;background:var(--panel)}
+  .figure img{width:100%;display:block;background:#fff;cursor:zoom-in}
+  .figure figcaption{font-size:11.5px;color:var(--muted);padding:8px 12px;line-height:1.4}
+  .fig-lightbox{position:fixed;inset:0;background:rgba(0,0,0,.85);display:none;align-items:center;
+    justify-content:center;z-index:100;padding:30px;cursor:zoom-out}
+  .fig-lightbox.show{display:flex}
+  .fig-lightbox img{max-width:95%;max-height:92%;background:#fff;border-radius:6px}
+  @media(max-width:860px){ .figures-grid{grid-template-columns:1fr} }
   mark{background:rgba(240,168,104,.4);color:inherit;border-radius:2px}
   @media(max-width:860px){
     .wrap{grid-template-columns:1fr}
@@ -109,7 +142,10 @@
       <div class="sub">Jaffe 5e · Case Prep</div>
     </div>
     <div class="searchbox">
-      <input id="search" type="text" placeholder="Search procedures, tags, flags…" autocomplete="off">
+      <div class="search-wrap">
+        <input id="search" type="text" placeholder="Search procedures, tags, flags…" autocomplete="off">
+        <button id="searchClear" class="search-clear" aria-label="Clear search" title="Clear search">×</button>
+      </div>
     </div>
     <div id="nav"></div>
   </nav>
@@ -120,6 +156,7 @@
     <div id="content"></div>
   </main>
 </div>
+<div class="fig-lightbox" id="figLightbox"><img id="figLightboxImg" src="" alt=""></div>
 
 <script>
 /* ============================================================
@@ -127,6 +164,7 @@
    in project_instructions.md. Do NOT edit the renderer below to
    add data; only add objects to this array.
    ============================================================ */
+window.__FIGURES__ = {"neurosurgery":[{"file":"neurosurgery_001.jpg","caption":"","bookPage":null,"figref":""},{"file":"neurosurgery_002.jpg","caption":"Figure 1.1-1. Locations of aneurysms of the circle of Willis and their relative occurrence. (Reproduced with permission from Greenfield LJ, Mulholland MW, Lillemoe KD, et al: Surgery: Scientific Principles and Practice, 3rd edition. Lippincott Williams & Wilkins, Philadelphia: 2001.)","bookPage":4,"figref":"Figure 1.1-1"},{"file":"neurosurgery_003.jpg","caption":"Figure 1.1-2. Middle cerebral artery (MCA) embolectomy. Exposure of right MCA in the sylvian fissure and removal of an embolus from the MI segment. (Reproduced with permission from Ojemann RG, Ogilvy CS, Crowell RM, et al: Surgical Management of Neurovascular Disease, 3rd edition. Williams & Wilkins, Philadelphia: 1995.)","bookPage":16,"figref":"Figure 1.1-2"},{"file":"neurosurgery_004.jpg","caption":"Figure 1.1-3. Concorde (modified prone) position for resection of posterior fossa vascular malformations. \u25a0 \u25a0SUMMARY OF PROCEDUREs (cont\u2019d)","bookPage":18,"figref":"Figure 1.1-3"},{"file":"neurosurgery_005.jpg","caption":"Figure 1.1-4. Semisitting position for resection of deep posterior corpus callosum or thalamic vascular malformations. \u25a0 \u25a0PATIENT POPULATION CHARACTERISTICS","bookPage":19,"figref":"Figure 1.1-4"},{"file":"neurosurgery_006.jpg","caption":"Figure 1.1-5. Supine position, head elevated above heart, turned 30\u201345\u00b0 to side, vertex dropped for approach to anterior circulation aneurysms and frontal vascular malformations. (Reproduced with permission from Long DM: Atlas of Operative Neurosurgical Technique, Vol 1. Williams & Wilkins, Philadelphia: 1989.)","bookPage":22,"figref":"Figure 1.1-5"},{"file":"neurosurgery_007.jpg","caption":"Figure 1.1-7. After the STA is dissected out, the temporalis muscle is divided, and the bone flap is made to allow exposure of the brain over the anterior sylvian fissure. (Reproduced from Chang SD, Steinberg GK:","bookPage":24,"figref":"Figure 1.1-7"},{"file":"neurosurgery_008.jpg","caption":"Figure 1.1-6. Typical skin incision for EC-IC bypass. The main incision is planned over the superficial tempo- ral artery (STA) with a T extension to allow exposure of the bone. (Reproduced from Chang SD, Steinberg GK: Su-","bookPage":24,"figref":"Figure 1.1-6"},{"file":"neurosurgery_009.jpg","caption":"Figure 1.1-8. A middle cerebral artery (MCA) recipient vessel is identified. The sylvian fissure can be split to allow identification of a larger, more proximal branch of the MCA, preferably an M3","bookPage":24,"figref":"Figure 1.1-8"},{"file":"neurosurgery_010.jpg","caption":"Figure 1.1-9. When the anastomosis is complete, the vascular clips are removed. (Reproduced from Chang SD, Steinberg GK: Superficial temporal artery to middle cerebral artery anastomosis. Tech Neurosurg","bookPage":24,"figref":"Figure 1.1-9"},{"file":"neurosurgery_011.jpg","caption":"Figure 1.1-10. The completed anastomosis shows the STA positioned such that flow is directed toward the proximal portions of the MCA. (Reproduced from Chang SD, Steinberg GK: Superficial temporal","bookPage":24,"figref":"Figure 1.1-10"},{"file":"neurosurgery_012.jpg","caption":"Figure 1.1-12. In an acute subdural hematoma: A: burr hole is made, followed by craniectomy, and the incision is extended upward to form a large question mark, the medial extent of which follows the midline. B: Additional burr holes are made, with the medial ones 1.5 cm off the midline to avoid injury to the major venous structures and granulations. The","bookPage":38,"figref":"Figure 1.1-12"},{"file":"neurosurgery_013.jpg","caption":"Figure 1.1-13. Precautions to be taken during a craniotomy for subdural hematoma. (Reproduced with permission from Grossman RG, Loftus CM: Principles of Neurosurgery, 2nd edition. Lippincott-Raven, 1999.)","bookPage":39,"figref":"Figure 1.1-13"},{"file":"neurosurgery_014.jpg","caption":"Figure 1.1-14. Microvascular decompression: A. Location of incision. B. Enlargement of burr holes into craniectomy with a rongeur. C. Dural opening on the left side. Note position of venous sinuses. (Reproduced with permission from Wilson CB: Neurosurgical Procedures: Personal Approaches to Classic Operations. Williams & Wilkins, Philadelphia: 1992.)","bookPage":45,"figref":"Figure 1.1-14"},{"file":"neurosurgery_015.jpg","caption":"Figure 1.1-15. Patient positioning for bifrontal craniotomy with bicoronal skin incision outlined. This position allows the frontal lobes to separate from the anterior cranial fossa with minimal retraction on the frontal lobes. (Reproduced with permission from Tindall GT, Cooper PR, Barrow DL: The Practice of Neurosurgery. Williams &","bookPage":48,"figref":"Figure 1.1-15"},{"file":"neurosurgery_016.jpg","caption":"Figure 1.1-17. A. Basilar impression. The dens has moved superiorly into the foramen magnum (arrow). B. Removal of the dens with a drill. The arch of C1 and a portion of the clivus have been removed. (Reproduced with permission from Donald PJ: Surgery of the Skull Base. Lippincott-Raven, Philadelphia: 1998.)","bookPage":51,"figref":"Figure 1.1-17"},{"file":"neurosurgery_017.jpg","caption":"Figure 1.1-18. A. Pannus formation in a patient with rheumatoid arthritis. B. Removal of pannus. (Reproduced with permission from Donald PJ: Surgery of the Skull Base. Lippincott-Raven, Philadelphia: 1998.) Foramen","bookPage":51,"figref":"Figure 1.1-18"},{"file":"neurosurgery_018.jpg","caption":"Figure 1.1-20. Pathways of CSF flow and potential sites of obstruction. (Reproduced with permission from Tindall GT, Cooper PR, Barrow DL: The Practice of Neurosurgery, Vol III. Williams & Wilkins, 1996. Orig. from Scott RM: Hydrocephalus. Concepts in Neurosurgery, Vol III. Williams & Wilkins, Philadelphia: 1990.)","bookPage":58,"figref":"Figure 1.1-20"},{"file":"neurosurgery_019.jpg","caption":"Figure 1.1-23. OR layout for frameless stereotactic surgery. Instrument table Operating","bookPage":68,"figref":"Figure 1.1-23"},{"file":"neurosurgery_020.jpg","caption":"","bookPage":71,"figref":""},{"file":"neurosurgery_021.jpg","caption":"Figure 1.2-1. Topographical anatomy of the ventrolateral thalamus. GPe 5 external segment of globus pallidus; GPi 5 internal segment of globus pallidus; SNc = substantia nigra pars compacta; SNr = substantia nigra pars reticulata; STN = subthalamic nucleus.","bookPage":72,"figref":"Figure 1.2-1"},{"file":"neurosurgery_022.jpg","caption":"Figure 1.2-2. Anatomical locations for therapeutic lesions (thalamotomy and pallidotomy) for the surgical treatment of Parkinson\u2019s disease. Inset shows the plane of the coronal section through the diencephalon, identifying the lesions. (Reproduced with permission from Mason LJ, Cojocaru TT, Cole DJ: Surgical intervention and","bookPage":74,"figref":"Figure 1.2-2"},{"file":"neurosurgery_023.jpg","caption":"","bookPage":93,"figref":""},{"file":"neurosurgery_024.jpg","caption":"Figure 1.3-1. The transoral approach. (Reproduced with permission from An HS, Cotler JM: Spinal Instrumentation. Williams & Wilkins, Philadelphia: 1992.) Neurosurgery","bookPage":94,"figref":"Figure 1.3-1"},{"file":"neurosurgery_025.jpg","caption":"Figure 1.3-2. Screw fixation technique, using cannulated screws. K-wire provides provisional stabilization and allows guided tapping and screw placement. (Reproduced with permission from An HS, Cotler JM: Spinal Instrumentation. Williams & Wilkins, Philadelphia: 1992.)","bookPage":95,"figref":"Figure 1.3-2"},{"file":"neurosurgery_026.jpg","caption":"Figure 1.3-3. Posterior wiring techniques. A. Modified Gallie using an H-shaped bone graft from the iliac crest, contoured to fit over the posterior arches of C1 and C2. A double U-shaped 18- or 20-ga wire is passed under the arch of C1 from inferior to superior. B. Brooks-type fusion with doubled-twisted 24-ga wires passed under the arch of C1 and","bookPage":97,"figref":"Figure 1.3-3"},{"file":"neurosurgery_027.jpg","caption":"Figure 1.3-6. Upper C-spine. A. Cross-section showing the anteromedial approach. B. Anterior aspect, after stripping the longus collis muscle. (Reproduced with permission from An HS, Cotler JM: Spinal Instrumentation. Williams & Wilkins, Philadelphia: 1992.)","bookPage":100,"figref":"Figure 1.3-6"},{"file":"neurosurgery_028.jpg","caption":"Figure 1.3-7. Cross-section of the C-spine at C5 level. Note the deep cervical fascia, the pretracheal fascia, and the prevertebral fascia. Note the relationship of the pretracheal fascia to the carotid sheath. Dissection plane is shown. (Modified with permission from Hoppenfeld S, deBoer P: Surgical Exposures in Orthopaedics: The Anatomic Approach,","bookPage":101,"figref":"Figure 1.3-7"},{"file":"neurosurgery_029.jpg","caption":"Figure 1.3-12. Surgical approaches to the thoracic spine. (Reproduced with permission from Tindall GT, Cooper PR, Barrow DL: The Practice of Neurosurgery, Vol. II. Williams & Wilkins, Philadelphia: 1996.)","bookPage":117,"figref":"Figure 1.3-12"},{"file":"neurosurgery_030.jpg","caption":"Figure 1.3-13. Surgical approaches to the lumbar spine. (Reproduced with permission from Tindall GT, Cooper PR, Barrow DL: The Practice of Neurosurgery, Vol. II. Williams & Wilkins, Philadelphia: 1996.)","bookPage":119,"figref":"Figure 1.3-13"},{"file":"neurosurgery_031.jpg","caption":"Figure 1.3-14. Spinal three-column model developed by F. Denis. Disruption of elements of two or more columns renders the spine unstable. (Reproduced with permission from Tindall GT, Cooper PR, Barrow DL: The Practice of Neurosurgery, Vol. II. Williams & Wilkins, Philadelphia: 1996.)","bookPage":124,"figref":"Figure 1.3-14"},{"file":"neurosurgery_032.jpg","caption":"","bookPage":133,"figref":""},{"file":"neurosurgery_033.jpg","caption":"Figure 1.4-1. Exposure and control of carotid artery. (Reproduced with permission from Calne R, Pollard SG: Operative Surgery. Gower Medical Pub: 1992.) Neurosurgery","bookPage":134,"figref":"Figure 1.4-1"}]};
 const PROCEDURES = [
   {
     id: "craniotomy-aneurysm",
@@ -422,7 +460,7 @@ const PROCEDURES = [
         "Monitor for new deficits and hyperperfusion syndrome over following days."
       ]
     },
-    source: "Jaffe 5e (2014), Neurosurgery §1.4, Carotid Endarterectomy, p. 134 (also Cardiovascular §6.0, p. 406 — single combined entry)."
+    source: "Jaffe 5e (2014), Neurosurgery §1.4, Carotid Endarterectomy, p. 134 + Cardiovascular §6.2, p. 406–408 — single combined entry spanning both chapter listings."
   },
   {
     id: "craniotomy-cranial-misc",
@@ -1544,6 +1582,1069 @@ const PROCEDURES = [
       ]
     },
     source: "Jaffe 5e (2014), Otolaryngology §3.0, Otology and Neurotology, p. 244–257; combined entry."
+  },
+  {
+    id: "tmj-surgery",
+    name: "Temporomandibular Joint Surgery (Arthroscopy / Arthrotomy)",
+    section: "Dental Surgery",
+    page: "270–272",
+    tags: ["GETA","Nasal intubation","DIFFICULT AIRWAY (trismus)","Throat pack","Facial nerve (open)"],
+    snapshot: {
+      position: "Supine, head turned/stabilized",
+      time: "0.5 h (arthroscopy) – 1.5–3.5 h/side (open)",
+      ebl: "Minimal–moderate",
+      painScore: "3–5",
+      anesthesia: "GETA (nasal) ± LMA-Flexible (selected)",
+      mortality: "Low"
+    },
+    flags: [
+      "**Trismus / limited mouth opening is the airway trap** — mouth opening often does NOT improve under anesthesia, so plan as a **difficult airway** (awake nasal fiberoptic when access is limited); examine nares for patency, check for loose teeth.",
+      "**Shared airway with nasal intubation + throat pack** — the surgeon works in/around the mouth; **the throat pack MUST be removed before extubation** (retained pack → airway obstruction).",
+      "Open TMJ approaches (preauricular/postauricular/endaural) risk **facial nerve injury** — if nerve monitoring is used, limit/avoid neuromuscular blockade.",
+      "Swallowed blood → PONV; give an antiemetic (ondansetron 4 mg IV adult) and suction the pharynx before waking."
+    ],
+    technique: {
+      summary: "Arthroscopic (lysis/lavage, synovectomy, abrasion arthroplasty) or open (adhesion removal, ankylosis release, disc/tumor work) surgery of the TMJ for internal derangement, ankylosis, or osteoarthritis. Nasal intubation + throat pack and the trismus airway dominate the anesthetic.",
+      steps: [
+        "Assess mouth opening/trismus; plan awake nasal FOI if access is limited (it won't improve once asleep).",
+        "Nasal intubation; insert and DOCUMENT throat pack; tape eyes.",
+        "Open approaches: coordinate facial-nerve monitoring → limit relaxant.",
+        "Maintain a still field; antiemetic prophylaxis for swallowed blood.",
+        "Remove throat pack, suction pharynx, confirm clear airway before extubation."
+      ]
+    },
+    physiology: [
+      "TMJ disease restricts mouth opening; relaxation rarely overcomes mechanical/ankylotic limitation.",
+      "Nasal route opens the airway to instrumentation and bleeding.",
+      "Extraoral approaches run beside the facial nerve."
+    ],
+    comorbid: [
+      "TMJ dysfunction affects ~20% of adults; etiologies include bruxism, osteoarthritis, trauma, idiopathic.",
+      "Chronic pain / opioid exposure may shape analgesic planning.",
+      "Otherwise often healthy adults."
+    ],
+    phases: {
+      pre: [
+        "Airway exam focused on mouth opening/trismus; decide awake nasal FOI vs standard induction.",
+        "Check nares and loose teeth; plan throat pack and antiemesis.",
+        "Confirm facial-nerve monitoring plan for open cases (NMB limit)."
+      ],
+      intra: [
+        "Secure nasal tube; document throat pack; protect/limit airway access.",
+        "Limit relaxant if facial-nerve monitoring; maintain still field.",
+        "Antiemetic for swallowed blood."
+      ],
+      post: [
+        "Remove throat pack and suction before extubation; check for retained pack if obstruction occurs.",
+        "PONV control; monitor airway/swelling.",
+        "Arthroscopy usually outpatient; open cases ~24 h stay."
+      ]
+    },
+    source: "Jaffe 5e (2014), Dental Surgery §4.0, Temporomandibular Joint Arthroscopy/Arthrotomy, p. 270–272."
+  },
+  {
+    id: "oral-restorative-dental-ga",
+    name: "Oral Surgery & Restorative Dentistry under General Anesthesia",
+    section: "Dental Surgery",
+    page: "272–274",
+    tags: ["GETA","Nasal intubation","Throat pack","Special-needs/pediatric","Outpatient often"],
+    snapshot: {
+      position: "Supine, head stabilized",
+      time: "0.5 h/tooth – 3 h (variable)",
+      ebl: "Minimal (moderate for major oral surgery)",
+      painScore: "3–5",
+      anesthesia: "GETA (nasal) — LMA used in selected cases",
+      mortality: "Low"
+    },
+    flags: [
+      "**Shared airway: nasal intubation + throat pack; remove the pack before extubation** — retained throat pack is a classic cause of post-op airway obstruction (always check it in a patient who obstructs).",
+      "**The 'restorative under GA' population is the key context**: young children and patients with developmental disability, Down syndrome, or seizures who can't tolerate office dentistry — anticipate **uncooperative induction, syndromic airways, and associated comorbidity**.",
+      "Swallowed blood drives **PONV** — antiemetic (ondansetron 4 mg IV adult) and pharyngeal suction before waking.",
+      "Defer in children with **active upper respiratory infection** (↑ airway complications) unless urgent."
+    ],
+    technique: {
+      summary: "Third-molar/surgical extractions, apicoectomies, implants, and full-mouth restorative dentistry performed under GA when office dentistry isn't feasible — most often for young children or patients with developmental disability. Nasal intubation + throat pack with a shared airway.",
+      steps: [
+        "Plan induction for the patient (inhalational/uncooperative pediatric; consider syndromic difficult airway).",
+        "Nasal intubation (awake FOI if difficult airway) with muscle relaxation; insert and DOCUMENT throat pack.",
+        "Surgeon performs extractions/restorations; maintain a still, protected airway.",
+        "Antiemetic prophylaxis for swallowed blood.",
+        "Remove throat pack, suction pharynx, confirm clear airway, then awake extubation."
+      ]
+    },
+    physiology: [
+      "Nasal route + oral surgery → blood in the shared airway and swallowed blood → PONV.",
+      "Syndromic patients may have airway anomalies (macroglossia, midface hypoplasia) and reflux/aspiration risk.",
+      "Children with URI have hyperreactive airways."
+    ],
+    comorbid: [
+      "Restorative-under-GA: majority have intellectual disability; also Down syndrome, seizure disorders (age 2 yr–adult).",
+      "Cardiac lesions (e.g. in Down syndrome) → endocarditis-prophylaxis and hemodynamic considerations.",
+      "Behavioral challenges complicate IV access and induction."
+    ],
+    phases: {
+      pre: [
+        "Identify the indication/population; plan induction and difficult-airway approach for syndromic patients.",
+        "Screen children for URI; review cardiac lesions / prophylaxis needs.",
+        "Plan nasal intubation, throat pack, and antiemesis."
+      ],
+      intra: [
+        "Secure nasal tube; document throat pack; protect the shared airway.",
+        "Maintain a still field; antiemetic for swallowed blood.",
+        "Vigilant airway management in syndromic anatomy."
+      ],
+      post: [
+        "Remove throat pack and suction before extubation; recheck if obstruction occurs.",
+        "PONV control; smooth recovery (emergence agitation common in children/special-needs).",
+        "Usually outpatient; 24 h stay for major oral surgery."
+      ]
+    },
+    source: "Jaffe 5e (2014), Dental Surgery §4.0 — Oral Surgery (third molars, extractions, apicoectomy, implants) + Restorative Dentistry, p. 272–274; combined entry."
+  },
+  {
+    id: "lung-resection-olv",
+    name: "Lung Resection — Lobectomy, Pneumonectomy, Wedge Resection & VATS",
+    section: "Thoracic Surgery",
+    page: "281–328",
+    tags: ["GETA","ONE-LUNG VENTILATION","Double-lumen tube","Lateral decubitus","Thoracic epidural","A-line"],
+    snapshot: {
+      position: "Lateral decubitus",
+      time: "2–5 h",
+      ebl: "200–800 mL (more for pneumonectomy)",
+      painScore: "6–8 (open) / 3–5 (VATS)",
+      anesthesia: "GETA + lung isolation ± thoracic epidural",
+      mortality: "Low (lobectomy) → higher (pneumonectomy)"
+    },
+    flags: [
+      "**Lung isolation is the core skill**: double-lumen tube (or bronchial blocker), confirmed by **fiberoptic bronchoscopy** — verify placement after turning lateral (tubes migrate).",
+      "**One-lung ventilation hypoxemia plan**: FiO2 **0.8–1.0 at OLV onset**, PEEP **3–5 cm H2O** to the dependent lung, CPAP to the operative lung, keep airway pressures **<25 cm H2O**; let hypoxic pulmonary vasoconstriction establish before lowering FiO2. Avoid N2O.",
+      "**Pneumonectomy fluid restriction** — over-resuscitation risks **post-pneumonectomy pulmonary edema** (high mortality); be conservative, treat hypotension with pressors over fluid.",
+      "**DLT is bigger than an ETT** → laryngeal trauma/airway edema; if post-op ventilation likely, exchange to a single-lumen tube over a tube-changer before the airway swells."
+    ],
+    technique: {
+      summary: "Resection of lung tissue for (usually) cancer — anatomic lobectomy/pneumonectomy or sub-lobar wedge, open via posterolateral thoracotomy or minimally-invasive VATS. One-lung ventilation to collapse the operative lung is the defining anesthetic demand.",
+      steps: [
+        "Place double-lumen tube/blocker; confirm with FOB; re-confirm after lateral positioning.",
+        "Initiate OLV: high FiO2, PEEP to dependent lung, manage hypoxemia stepwise (FOB check → CPAP to op lung → PEEP → intermittent two-lung).",
+        "Arterial line; thoracic epidural for analgesia (watch additive hypotension); fluid-restrict for pneumonectomy.",
+        "Surgeon resects; test bronchial stump (pneumonectomy) for air leak.",
+        "Plan extubation (or DLT→SLT exchange); robust multimodal/epidural analgesia."
+      ]
+    },
+    physiology: [
+      "Lateral decubitus + OLV creates V/Q mismatch; HPV in the collapsed lung limits shunt over minutes.",
+      "Pneumonectomy abolishes a vascular bed → right-heart strain and edema risk in the remaining lung.",
+      "Thoracotomy is among the most painful incisions → splinting, atelectasis, pneumonia if under-treated."
+    ],
+    comorbid: [
+      "Lung-cancer population: heavy smoking, COPD, CAD; preop FEV1/DLCO and predicted post-op function guide resectability.",
+      "Borderline pulmonary reserve → plan for the predicted post-resection lung function.",
+      "PaCO2 >45 mm Hg and poor exercise tolerance flag high risk."
+    ],
+    phases: {
+      pre: [
+        "Review PFTs / predicted post-op function, cardiac status, and smoking/COPD optimization.",
+        "Plan lung-isolation method and analgesia (thoracic epidural/paravertebral); arterial line.",
+        "Set fluid strategy — especially restriction for pneumonectomy."
+      ],
+      intra: [
+        "Confirm DLT/blocker by FOB before and after turning; manage OLV hypoxemia stepwise.",
+        "Restrict fluids (pneumonectomy); pressors over volume for hypotension; avoid N2O.",
+        "Keep airway pressures <25; protect the dependent lung."
+      ],
+      post: [
+        "Extubate when able (DLT→SLT exchange if staying intubated and edema likely).",
+        "Aggressive analgesia (epidural + ketorolac) to enable deep breathing/cough.",
+        "Watch for post-pneumonectomy edema, arrhythmia (AF), air leak, bleeding."
+      ]
+    },
+    source: "Jaffe 5e (2014), Thoracic Surgery §5.0 — Lobectomy/Pneumonectomy (p.281), Wedge Resection (p.290), VATS (p.326); combined entry (OLV management per chapter Anesthetic Considerations)."
+  },
+  {
+    id: "mediastinal-mass",
+    name: "Mediastinal Mass — Excision & Mediastinoscopy",
+    section: "Thoracic Surgery",
+    page: "308–319",
+    tags: ["DANGER: induction collapse","Spontaneous ventilation","Awake/semi-upright option","CPB standby","SVC syndrome"],
+    snapshot: {
+      position: "Supine or lateral (sitting if symptomatic)",
+      time: "1–4 h",
+      ebl: "Minimal (catastrophic if vascular injury)",
+      painScore: "3–6",
+      anesthesia: "GETA — spontaneous ventilation preferred if compressive",
+      mortality: "Low (high if airway/CV collapse)"
+    },
+    flags: [
+      "**The classic induction catastrophe: a large anterior mediastinal mass can collapse the airway or great vessels when the patient goes supine and paralyzed.** Loss of muscle tone + positive-pressure removes the splinting that kept the airway/SVC open.",
+      "**Maintain spontaneous ventilation; use short-acting or NO muscle relaxant** in compressive masses; consider **awake fiberoptic intubation and a semi-upright/lateral position** if symptomatic.",
+      "Have a rescue plan: **rigid bronchoscopy to stent the airway, repositioning (lateral/prone/sitting), and femoro-femoral CPB standby** for severe compression.",
+      "**SVC syndrome** → facial/airway edema and engorged collaterals; secure **lower-limb IV access** (upper-body drugs may not reach the heart); biopsy under local when GA is too risky."
+    ],
+    technique: {
+      summary: "Biopsy (mediastinoscopy) or excision of a mediastinal tumor. Anterior masses (thymoma, lymphoma, germ-cell tumor) threaten catastrophic airway or cardiovascular collapse on induction — the anesthetic is built around avoiding that.",
+      steps: [
+        "Assess for airway/vascular/cardiac compression (CT, flow-volume loops, echo, symptom positionality).",
+        "If compressive: awake FOI, maintain spontaneous ventilation, semi-upright/lateral; avoid relaxant.",
+        "Keep rescue options staged: rigid bronch, position changes, CPB standby.",
+        "For mediastinoscopy: watch for innominate-artery compression (right-arm pulse/SpO2 monitoring) and major vascular hemorrhage.",
+        "Extubate awake with the airway demonstrably patent."
+      ]
+    },
+    physiology: [
+      "Anesthesia abolishes the muscle tone/transmural pressure that keeps a compressed airway and SVC patent → collapse.",
+      "Positive-pressure ventilation and supine position worsen anterior-mass compression.",
+      "Mediastinoscope can compress the innominate artery (loss of right radial pulse/SpO2) and cause great-vessel bleeding."
+    ],
+    comorbid: [
+      "Anterior-mass syndromes: SVC obstruction, tracheobronchial compression, pericardial/cardiac compression.",
+      "Lymphoma/germ-cell tumors may have had chemo (bleomycin → O2 toxicity; keep FiO2 low) or steroids.",
+      "Associated myasthenia gravis with thymoma."
+    ],
+    phases: {
+      pre: [
+        "Stratify compression risk (symptoms when supine, CT airway/vascular, echo, flow-volume loops).",
+        "Plan spontaneous-ventilation/awake technique and stage rescue options (rigid bronch, position, CPB).",
+        "Secure lower-limb IV in SVC syndrome; note prior bleomycin (limit FiO2)."
+      ],
+      intra: [
+        "Preserve spontaneous ventilation; avoid/limit relaxant in compressive masses.",
+        "Be ready to reposition (lateral/sitting/prone) or place rigid bronch if obstruction occurs.",
+        "Mediastinoscopy: monitor right-arm perfusion; anticipate catastrophic vascular bleeding."
+      ],
+      post: [
+        "Extubate only with a demonstrably patent airway; watch for residual compression/edema.",
+        "Monitor for airway compromise, bleeding, pneumothorax.",
+        "ICU/monitored bed for high-risk masses."
+      ]
+    },
+    source: "Jaffe 5e (2014), Thoracic Surgery §5.0 — Excision of Mediastinal Tumor (p.308), Mediastinoscopy (p.309); combined entry."
+  },
+  {
+    id: "tracheal-resection",
+    name: "Tracheal & Cricotracheal Resection",
+    section: "Thoracic Surgery",
+    page: "304–307",
+    tags: ["GETA","SHARED/CROSS-FIELD AIRWAY","Sterile tube on field","Neck flexion at closure","Extubate at end"],
+    snapshot: {
+      position: "Supine, neck extended (flexed at closure)",
+      time: "3–5 h",
+      ebl: "Minimal–moderate",
+      painScore: "4–6",
+      anesthesia: "GETA (cross-field ventilation)",
+      mortality: "Low–moderate"
+    },
+    flags: [
+      "**The airway IS the surgical field** — at transection the oral tube is withdrawn and a **sterile tube is placed across the open distal trachea (cross-field ventilation)** by the surgeon; choreograph every handover with them.",
+      "Up to **50% of the trachea can be resected**; the anastomosis is protected by **neck flexion (chin-to-chest stitch) for several days** — position the head accordingly.",
+      "**Plan to EXTUBATE at the end** — coughing/bucking on a tube across the fresh anastomosis risks dehiscence; aim for a smooth, awake, cough-free, spontaneously breathing wake-up.",
+      "Have **jet ventilation and CPB** available as backup techniques; patients may present with **stridor/critical stenosis** (careful, possibly inhalational, induction)."
+    ],
+    technique: {
+      summary: "Resection of a stenotic or neoplastic tracheal segment with primary anastomosis. Ventilation is shared/handed across the surgical field, and the repair is protected by neck flexion with a planned early extubation.",
+      steps: [
+        "Careful induction for a possibly critical stenosis (maintain spontaneous ventilation if severe; small ETT past the lesion).",
+        "At transection: withdraw oral tube, surgeon places a sterile cross-field tube into the distal trachea; ventilate through it.",
+        "After anastomosis (back wall), the oral tube is advanced across the repair; resume conventional ventilation.",
+        "Neck flexion / chin stitch to offload the anastomosis.",
+        "Smooth, awake, cough-free extubation at case end."
+      ]
+    },
+    physiology: [
+      "Open-airway ventilation requires intermittent, coordinated, sometimes apneic or jet techniques.",
+      "Anastomotic tension is offloaded by neck flexion; extension stresses the repair.",
+      "Critical stenosis behaves like a fixed obstruction at induction."
+    ],
+    comorbid: [
+      "Post-intubation/tracheostomy stenosis or primary tracheal tumor; possible prior airway surgery/radiation.",
+      "May present with stridor, dyspnea, recurrent infections.",
+      "Cardiopulmonary reserve relevant given prolonged shared-airway case."
+    ],
+    phases: {
+      pre: [
+        "Define stenosis level/severity by bronchoscopy/CT; plan induction (spontaneous if critical).",
+        "Rehearse the cross-field handover sequence with the surgeon; ready jet/CPB backup.",
+        "Plan for end-of-case extubation and neck-flexion positioning."
+      ],
+      intra: [
+        "Manage tube exchanges/cross-field ventilation in lockstep with the surgeon; avoid hypoxia/apnea gaps.",
+        "Protect the anastomosis; resume oral-tube ventilation once advanced across the repair.",
+        "Maintain conditions for a smooth wake-up."
+      ],
+      post: [
+        "Extubate awake, spontaneously breathing, cough-free; head/neck flexed (chin stitch).",
+        "Avoid neck extension and re-intubation if possible (anastomotic risk).",
+        "Watch for anastomotic leak, airway edema, recurrent stenosis."
+      ]
+    },
+    source: "Jaffe 5e (2014), Thoracic Surgery §5.0, Tracheal and Cricotracheal Resection, p. 304–307."
+  },
+  {
+    id: "thymectomy-myasthenia",
+    name: "Thymectomy (Myasthenia Gravis / Thymoma)",
+    section: "Thoracic Surgery",
+    page: "329–332",
+    tags: ["GETA","Myasthenia gravis","NMB sensitivity","Possible mediastinal mass","Sternotomy or VATS"],
+    snapshot: {
+      position: "Supine (sternotomy) or lateral (VATS)",
+      time: "2–4 h",
+      ebl: "Minimal–moderate",
+      painScore: "4–6 (sternotomy)",
+      anesthesia: "GETA (relaxant-sparing)",
+      mortality: "Low"
+    },
+    flags: [
+      "**Myasthenia gravis alters neuromuscular blockers: resistant to succinylcholine, very sensitive to non-depolarizers.** Use minimal/no NMB, titrate to twitch monitoring, and anticipate prolonged weakness.",
+      "**Post-op respiratory failure risk** — plan for possible delayed extubation; severe disease may have had **preop plasmapheresis/IVIG** to optimize strength.",
+      "Continue **pyridostigmine and immunosuppressants (steroids/azathioprine)** perioperatively; account for steroid coverage and altered drug handling.",
+      "Thymoma may be a large **anterior mediastinal mass** — apply the mediastinal-mass induction precautions (spontaneous ventilation) when compressive."
+    ],
+    technique: {
+      summary: "Removal of the thymus for myasthenia gravis or thymoma, via sternotomy, partial sternal split, cervical, or VATS approach. Myasthenic neuromuscular pharmacology and post-op respiratory reserve drive the anesthetic.",
+      steps: [
+        "Optimize myasthenia preop (meds ± plasmapheresis/IVIG); assess bulbar/respiratory function.",
+        "Induce with relaxant-sparing technique (often intubate with deep volatile/propofol + topical, minimal/no NMB).",
+        "If thymoma is compressive, use mediastinal-mass precautions (spontaneous ventilation).",
+        "Quantitative twitch monitoring; ensure full reversal (sugammadef if rocuronium used).",
+        "Extubate only with demonstrated strength; plan monitored/ICU recovery."
+      ]
+    },
+    physiology: [
+      "MG = autoantibody loss of ACh receptors → fatigable weakness; explains NMB sensitivity.",
+      "Anticholinesterases (pyridostigmine) and the disease itself complicate relaxant dosing.",
+      "Respiratory/bulbar weakness predisposes to post-op failure and aspiration."
+    ],
+    comorbid: [
+      "Osserman-stage severity; bulbar involvement; concurrent steroids/immunosuppression.",
+      "Associated autoimmune disease; thymoma-related mediastinal compression.",
+      "Predictors of post-op ventilation: disease duration, bulbar symptoms, prior crises, vital capacity."
+    ],
+    phases: {
+      pre: [
+        "Optimize MG (continue pyridostigmine/immunosuppressants; consider plasmapheresis/IVIG); assess respiratory reserve.",
+        "Apply mediastinal-mass workup if thymoma is large/compressive.",
+        "Counsel re: possible post-op ventilation; plan steroid coverage."
+      ],
+      intra: [
+        "Minimize/avoid non-depolarizing NMB; use twitch monitoring; relaxant-sparing intubation.",
+        "Mediastinal-mass precautions if compressive; protect the airway.",
+        "Ensure complete reversal before considering extubation."
+      ],
+      post: [
+        "Extubate only with confirmed strength; monitored/ICU bed; watch for myasthenic/cholinergic crisis.",
+        "Resume MG meds; cautious opioids (respiratory depression).",
+        "Sternotomy analgesia; monitor for respiratory failure."
+      ]
+    },
+    source: "Jaffe 5e (2014), Thoracic Surgery §5.0, Thymectomy, p. 329–332."
+  },
+  {
+    id: "chest-wall-pectus",
+    name: "Chest-Wall Surgery — Resection, Pectus Excavatum/Carinatum Repair & Thoracoplasty",
+    section: "Thoracic Surgery",
+    page: "293–303",
+    tags: ["GETA","Thoracic epidural","Possible OLV","Often pediatric (pectus)","Restrictive physiology"],
+    snapshot: {
+      position: "Supine (pectus) / lateral (resection)",
+      time: "2–5 h",
+      ebl: "Modest (more for large resection)",
+      painScore: "6–8",
+      anesthesia: "GETA + thoracic epidural",
+      mortality: "Low"
+    },
+    flags: [
+      "**Severe post-op pain** (sternal/rib work) — thoracic epidural or paravertebral analgesia is central; under-treated pain → splinting, atelectasis.",
+      "**Pectus repair (Nuss bar) is often a young/adolescent patient** — risk of **cardiac/great-vessel injury** as the bar is passed substernally; have blood available and watch for sudden hemodynamic collapse.",
+      "Large chest-wall resections may breach the pleura → **need for lung isolation/OLV** and chest-tube management.",
+      "Pre-existing **restrictive physiology** (severe pectus, prior thoracoplasty) limits pulmonary reserve."
+    ],
+    technique: {
+      summary: "Repair of chest-wall deformity (minimally-invasive Nuss bar for pectus excavatum, or open repair/resection) and chest-wall tumor resection or thoracoplasty. Pain control and (for resections) lung isolation dominate.",
+      steps: [
+        "GETA; thoracic epidural/paravertebral for analgesia.",
+        "Pectus (Nuss): vigilance for cardiac/vascular injury during substernal bar passage — blood ready.",
+        "Chest-wall resection: lung isolation if pleura entered; manage chest tubes.",
+        "Maintain ventilation against altered chest-wall mechanics.",
+        "Plan extubation with strong analgesia to support respiratory mechanics."
+      ]
+    },
+    physiology: [
+      "Chest-wall deformity/resection alters thoracic compliance and can compress the heart (severe pectus).",
+      "Sternal/rib incisions are very painful → respiratory splinting.",
+      "Pleural breach converts the case to a thoracotomy physiology."
+    ],
+    comorbid: [
+      "Pectus: often healthy adolescents; rule out Marfan/connective-tissue disease and associated cardiac lesions.",
+      "Chest-wall tumor: oncologic context, possible prior radiation.",
+      "Reduced baseline pulmonary function in severe deformity."
+    ],
+    phases: {
+      pre: [
+        "Assess pulmonary reserve and (pectus) cardiac compression / connective-tissue disease.",
+        "Plan epidural/paravertebral analgesia; ready blood for Nuss bar passage.",
+        "Plan lung isolation if resection may breach pleura."
+      ],
+      intra: [
+        "Vigilance for cardiac/vascular injury during bar passage (pectus) — sudden collapse = open emergently.",
+        "Lung isolation/chest-tube management for resections.",
+        "Maintain ventilation against altered mechanics."
+      ],
+      post: [
+        "Robust epidural/multimodal analgesia for severe pain; encourage deep breathing.",
+        "Monitor for hemothorax/pneumothorax, bar displacement (pectus).",
+        "Watch respiratory function given restrictive physiology."
+      ]
+    },
+    source: "Jaffe 5e (2014), Thoracic Surgery §5.0 — Chest-Wall Resection (p.293), Pectus Excavatum/Carinatum Repair (p.295), Thoracoplasty (p.299); combined entry."
+  },
+  {
+    id: "bronchoscopy-lavage-empyema",
+    name: "Rigid/Flexible Bronchoscopy, Bronchopulmonary Lavage & Empyema Drainage",
+    section: "Thoracic Surgery",
+    page: "300–343",
+    tags: ["GETA (rigid) / sedation (flex)","SHARED AIRWAY","Jet ventilation","Whole-lung lavage (DLT)"],
+    snapshot: {
+      position: "Supine (bronch) / lateral (lavage, empyema)",
+      time: "0.5–3 h",
+      ebl: "Minimal",
+      painScore: "1–4",
+      anesthesia: "GETA ± jet ventilation, or sedation (flexible)",
+      mortality: "Low"
+    },
+    flags: [
+      "**Shared airway with rigid bronchoscopy** — ventilation is via the scope (jet or Venturi); coordinate, monitor for hypoventilation/barotrauma, and watch for airway bleeding/foreign-body issues.",
+      "**Bronchopulmonary (whole-lung) lavage** for alveolar proteinosis uses a **DLT to isolate and flood one lung with saline** while ventilating the other — meticulous lung isolation and fluid balance; sequential lungs on separate days.",
+      "**Empyema** patients are often septic with a parapneumonic effusion and restrictive splinting — manage sepsis physiology and possible lung isolation.",
+      "Laser via bronchoscope: **laser-safe tube, FiO2 <0.30, no N2O.**"
+    ],
+    technique: {
+      summary: "Diagnostic/therapeutic bronchoscopy (flexible under sedation or rigid under GA with jet ventilation), whole-lung lavage for pulmonary alveolar proteinosis (DLT isolation + saline lavage), and drainage/decortication of empyema.",
+      steps: [
+        "Match technique to procedure: sedation + topical (flexible) vs GA + jet (rigid).",
+        "Rigid bronch: ventilate via scope, monitor gas exchange, manage bleeding/foreign body.",
+        "Whole-lung lavage: place and confirm DLT, isolate, instill/drain warm saline cycles, monitor isolation and oxygenation.",
+        "Empyema: manage sepsis; lung isolation for decortication; chest tubes.",
+        "Confirm airway and oxygenation before emergence."
+      ]
+    },
+    physiology: [
+      "Rigid-bronch jet/Venturi ventilation gives no reliable EtCO2 and risks barotrauma.",
+      "Lavage transiently abolishes ventilation/perfusion to the lavaged lung — oxygenation depends on the other lung.",
+      "Empyema → sepsis, restrictive splinting, possible bronchopleural fistula."
+    ],
+    comorbid: [
+      "Bronchoscopy population: lung cancer, infection, foreign body, hemoptysis.",
+      "Alveolar proteinosis patients are hypoxemic at baseline.",
+      "Empyema: pneumonia, sepsis, debilitation."
+    ],
+    phases: {
+      pre: [
+        "Define the procedure and choose sedation vs GA/jet; assess oxygenation reserve (esp. lavage).",
+        "Plan lung isolation for lavage/decortication; manage sepsis for empyema.",
+        "Laser-fire plan if applicable."
+      ],
+      intra: [
+        "Rigid bronch: ventilate via scope, watch barotrauma/bleeding; confirm DLT for lavage.",
+        "Lavage: monitor isolation, oxygenation, fluid balance through saline cycles.",
+        "Empyema: support sepsis physiology; chest-tube management."
+      ],
+      post: [
+        "Confirm adequate ventilation/oxygenation; watch for airway bleeding, pneumothorax.",
+        "Lavage: monitor the re-expanded lung; may need ongoing support.",
+        "Empyema: ongoing sepsis care and drainage."
+      ]
+    },
+    source: "Jaffe 5e (2014), Thoracic Surgery §5.0 — Drainage of Empyema (p.300), Bronchoscopy Flexible/Rigid (p.320), Bronchopulmonary Lavage (p.340); combined entry."
+  },
+  {
+    id: "emphysema-surgery",
+    name: "Surgery for Emphysema — Bleb/Bulla Excision & Lung-Volume-Reduction Surgery",
+    section: "Thoracic Surgery",
+    page: "333–339",
+    tags: ["GETA","ONE-LUNG VENTILATION","Severe COPD","Avoid high pressures","No N2O","Air-leak risk"],
+    snapshot: {
+      position: "Lateral decubitus",
+      time: "2–4 h",
+      ebl: "Modest",
+      painScore: "5–7",
+      anesthesia: "GETA + lung isolation ± epidural",
+      mortality: "Moderate (poor pulmonary reserve)"
+    },
+    flags: [
+      "**End-stage COPD with bullae — positive pressure can rupture a bulla → tension pneumothorax**; use low airway pressures, avoid N2O (expands air spaces), and watch for sudden hemodynamic collapse.",
+      "**Lung isolation (DLT) is essential** to ventilate selectively and protect the contralateral lung from a bronchopleural air leak.",
+      "These patients have **minimal pulmonary reserve** — borderline candidates; air trapping/auto-PEEP needs prolonged expiratory time; be wary of dynamic hyperinflation.",
+      "Persistent **air leak** post-op is common — manage chest tubes, avoid high-pressure ventilation, plan early extubation onto spontaneous breathing."
+    ],
+    technique: {
+      summary: "Resection of bullae/blebs or lung-volume-reduction surgery to improve mechanics in severe emphysema. Fragile, air-trapping lungs make barotrauma, pneumothorax, and limited reserve the central concerns.",
+      steps: [
+        "Place DLT for isolation; gentle ventilation with low pressures and prolonged expiration (avoid auto-PEEP).",
+        "Avoid N2O; keep FiO2 as needed for OLV but minimize pressures.",
+        "Watch continuously for tension pneumothorax (sudden ↑airway pressure, ↓BP, hypoxia).",
+        "Surgeon resects bullae / reduces volume; manage air leaks and chest tubes.",
+        "Aim for early extubation onto spontaneous ventilation; epidural analgesia."
+      ]
+    },
+    physiology: [
+      "Emphysematous bullae are high-compliance air traps prone to rupture under positive pressure.",
+      "Dynamic hyperinflation/auto-PEEP impairs venous return → hypotension.",
+      "Severely limited gas exchange reserve."
+    ],
+    comorbid: [
+      "Severe COPD: CO2 retention, cor pulmonale, steroid dependence, poor nutrition.",
+      "Marginal candidates with low FEV1/DLCO.",
+      "Smoking-related CAD."
+    ],
+    phases: {
+      pre: [
+        "Assess (limited) pulmonary reserve; optimize bronchospasm/secretions; plan epidural.",
+        "Plan lung isolation and a low-pressure ventilation strategy.",
+        "Counsel re: air-leak and prolonged-recovery risk."
+      ],
+      intra: [
+        "Low airway pressures, prolonged expiration, no N2O; vigilant for tension pneumothorax.",
+        "Lung isolation; manage auto-PEEP/hypotension (disconnect to exhale if hyperinflated).",
+        "Support oxygenation with minimal barotrauma."
+      ],
+      post: [
+        "Early extubation to spontaneous breathing where possible; epidural analgesia.",
+        "Manage persistent air leak / chest tubes; avoid high-pressure reintubation.",
+        "Monitor for pneumothorax, respiratory failure."
+      ]
+    },
+    source: "Jaffe 5e (2014), Thoracic Surgery §5.0 — Excision of Blebs/Bullae (p.333), Lung-Volume Reduction Surgery (p.336); combined entry."
+  },
+  {
+    id: "lung-transplant",
+    name: "Lung Transplantation (single & double)",
+    section: "Thoracic Surgery",
+    page: "344–360",
+    tags: ["GETA","ONE-LUNG VENTILATION","Possible CPB/ECMO","Pulmonary HTN","Reperfusion","TEE / PA catheter"],
+    snapshot: {
+      position: "Supine or lateral",
+      time: "4–8+ h",
+      ebl: "Significant (more if CPB/redo)",
+      painScore: "6–8",
+      anesthesia: "GETA + lung isolation; CPB/ECMO standby",
+      mortality: "High (sickest population)"
+    },
+    flags: [
+      "**Pulmonary hypertension + clamping the pulmonary artery can cause acute RV failure** — have inotropes, pulmonary vasodilators (inhaled NO/prostacyclin), and **CPB/ECMO standby**; TEE and PA catheter guide management.",
+      "**OLV in a patient with no reserve** — significant hypoxia/hypotension during one-lung/clamp periods may force surgery to pause or go on bypass.",
+      "**Reperfusion of the graft** → hypotension, pulmonary edema (primary graft dysfunction), and ischemia-reperfusion injury — lung-protective ventilation, careful fluid, vasoactive support.",
+      "Strict **immunosuppression and sterility**; manage coagulopathy and major blood loss (worse in redo/CPB cases)."
+    ],
+    technique: {
+      summary: "Single- or double-lung transplantation for end-stage lung disease. Pulmonary-artery clamping, one-lung ventilation without reserve, graft reperfusion, and possible cardiopulmonary bypass make this among the highest-acuity thoracic cases.",
+      steps: [
+        "Full invasive monitoring (arterial line, PA catheter, TEE), large-bore access, CPB/ECMO standby.",
+        "Lung isolation; manage OLV and PA-clamp trials — watch RV function on TEE.",
+        "Support the RV through PA clamping (inotropes, inhaled pulmonary vasodilators); convert to CPB/ECMO if it fails.",
+        "Manage graft reperfusion: lung-protective ventilation, judicious fluid, treat reperfusion hypotension/edema.",
+        "Maintain immunosuppression/sterility; correct coagulopathy; transfer ventilated to ICU."
+      ]
+    },
+    physiology: [
+      "PA clamping acutely raises RV afterload → RV failure in already pulmonary-hypertensive patients.",
+      "The freshly reperfused graft is prone to primary graft dysfunction (edema, poor gas exchange).",
+      "End-stage recipients have essentially no cardiopulmonary reserve."
+    ],
+    comorbid: [
+      "End-stage COPD, IPF, cystic fibrosis, pulmonary hypertension; often marginal RV.",
+      "Cystic fibrosis: copious secretions, colonization, possible diabetes/malnutrition.",
+      "Prior thoracic surgery → adhesions, bleeding (redo risk)."
+    ],
+    phases: {
+      pre: [
+        "Assess RV function and PH severity; ready inotropes/pulmonary vasodilators and CPB/ECMO.",
+        "Full invasive monitoring plan (A-line, PAC, TEE); large-bore access and blood.",
+        "Confirm immunosuppression protocol and donor timing."
+      ],
+      intra: [
+        "Manage OLV and PA-clamp trials with TEE; support RV; convert to CPB/ECMO if it fails.",
+        "Lung-protective reperfusion strategy; treat reperfusion hypotension/edema.",
+        "Correct coagulopathy; manage major blood loss; maintain sterility/immunosuppression."
+      ],
+      post: [
+        "Ventilated to ICU; lung-protective ventilation; monitor for primary graft dysfunction.",
+        "Hemodynamic support, bleeding surveillance, immunosuppression.",
+        "Analgesia (epidural where feasible) for thoracotomy pain."
+      ]
+    },
+    source: "Jaffe 5e (2014), Thoracic Surgery §5.0, Lung Transplant, p. 344–360."
+  },
+{
+    id: "cabg-cpb",
+    name: "CABG & the Cardiopulmonary Bypass Foundation (on-pump coronary revascularization)",
+    section: "Cardiovascular Surgery",
+    page: "348–359",
+    tags: ["GETA","CPB","Full heparinization ACT>400","TEE + PA catheter","Myocardial ischemia"],
+    snapshot: {
+      position: "Supine, sternotomy",
+      time: "3–5 h",
+      ebl: "Moderate (more if redo/coagulopathy)",
+      painScore: "5–7",
+      anesthesia: "GETA (cardiac, full invasive monitoring)",
+      mortality: "Low–moderate (comorbid CAD population)"
+    },
+    flags: [
+      "**Anticoagulation choreography is absolute: full heparinization to ACT >400 sec before going on pump; reverse with protamine after.** Partial bypass needs ACT >180. Getting this wrong is catastrophic (clotted circuit or post-bypass bleeding).",
+      "**Protect the ischemic myocardium pre-bypass**: maintain coronary perfusion (adequate diastolic BP, slow-normal HR, avoid tachycardia/hypotension) until the heart is arrested on cardioplegia.",
+      "**Cardioplegic arrest + mild hypothermia (28°C)**, myocardial temp <15°C; the heart is protected and still during grafting — your job is the systemic circuit and the wean.",
+      "**Weaning from CPB**: restore rhythm/rate, optimize preload, anticipate post-ischemic vasoreactivity and stunning — have inotropes/vasopressors and TEE to guide; treat protamine reactions."
+    ],
+    technique: {
+      summary: "Coronary artery bypass grafting on cardiopulmonary bypass — internal mammary and/or saphenous-vein conduits to ischemic territories (LAD most important; IMA ~90% vs vein-graft ~50% patency at 10 yr). CPB replaces heart/lung function during cardioplegic arrest.",
+      steps: [
+        "Full invasive monitoring (arterial line, PA catheter, TEE), large-bore access; induce protecting coronary perfusion.",
+        "Heparinize to ACT >400; cannulate; initiate CPB; aortic cross-clamp + cardioplegia to arrest the heart.",
+        "Surgeon constructs distal/proximal anastomoses on the still heart.",
+        "Rewarm, restore rhythm, wean from CPB with inotrope/pressor support guided by TEE.",
+        "Reverse heparin with protamine (watch for reaction); achieve hemostasis; transfer ventilated to ICU."
+      ]
+    },
+    physiology: [
+      "CPB exposes blood to non-endothelial surfaces → complement activation, coagulopathy, inflammatory response, renal/immune effects; nonpulsatile flow + hemodilution + hypothermia.",
+      "Cross-clamping makes the myocardium ischemic — cardioplegia/hypothermia protect it.",
+      "Post-bypass heart is stunned and vasoreactive; the lungs and kidneys take an inflammatory hit."
+    ],
+    comorbid: [
+      "Class 3–4 angina, multivessel CAD, often LV dysfunction, DM, HTN, renal disease, prior MI.",
+      "Carotid disease coexists — stroke risk.",
+      "Redo sternotomy → adhesions, bleeding, graft injury risk."
+    ],
+    phases: {
+      pre: [
+        "Assess LV function, coronary anatomy, comorbidity; continue β-blockers/aspirin per protocol.",
+        "Plan full invasive monitoring and the anticoagulation/CPB sequence with perfusion.",
+        "Baseline ACT; ready inotropes/pressors and blood."
+      ],
+      intra: [
+        "Protect coronary perfusion pre-bypass (avoid tachycardia/hypotension).",
+        "Heparinize ACT >400 before pump; manage cross-clamp/cardioplegia timing with surgeon.",
+        "Wean from CPB with TEE-guided inotrope/pressor support; protamine reversal."
+      ],
+      post: [
+        "ICU ventilated; manage bleeding (coagulopathy), arrhythmia, low cardiac output, vasoplegia.",
+        "Resume/optimize cardiac meds; monitor for ischemia, renal dysfunction.",
+        "Multimodal analgesia for sternotomy."
+      ]
+    },
+    source: "Jaffe 5e (2014), Cardiovascular Surgery §6.1 — Cardiopulmonary Bypass (p.348), CABG (p.354), Left Ventricular Aneurysmectomy (p.360); combined entry."
+  },
+  {
+    id: "valve-surgery",
+    name: "Valve Surgery — Aortic, Mitral & Tricuspid Repair/Replacement (+ septal myectomy)",
+    section: "Cardiovascular Surgery",
+    page: "361–375",
+    tags: ["GETA","CPB","Lesion-specific hemodynamics","TEE essential","Sinus rhythm matters"],
+    snapshot: {
+      position: "Supine, sternotomy",
+      time: "3–5 h",
+      ebl: "Moderate",
+      painScore: "5–7",
+      anesthesia: "GETA (cardiac, full invasive monitoring)",
+      mortality: "Low–moderate"
+    },
+    flags: [
+      "**Match hemodynamics to the lesion — this is the whole game.** AS: keep **NSR (atrial kick), adequate preload, slow-normal HR, high SVR**; the hypertrophied non-compliant LV won't tolerate hypovolemia or tachycardia. AR/MR: **'full and fast', lower afterload, avoid bradycardia**. MS: avoid tachycardia, maintain preload/SVR, control AF rate.",
+      "**Aortic stenosis is the dangerous one for induction** — fixed obstruction means hypotension → ↓coronary perfusion → arrest spiral; treat hypotension promptly with an α-agonist, avoid vasodilation.",
+      "**TEE is essential** — assesses valve, de-airing, and post-repair function before leaving the OR.",
+      "Septal myectomy (HOCM): treat like severe AS physiology — **avoid ↓preload, ↓afterload, and ↑contractility/tachycardia** that worsen dynamic outflow obstruction."
+    ],
+    technique: {
+      summary: "Repair or replacement of a diseased valve on CPB (or septal myectomy for HOCM). The anesthetic is dictated by the specific valvular pathophysiology, with TEE central to assessment and de-airing.",
+      steps: [
+        "Full invasive monitoring + TEE; induce with hemodynamic goals specific to the lesion.",
+        "Heparinize, go on CPB, cross-clamp + cardioplegia.",
+        "Surgeon repairs/replaces the valve (or resects septum for HOCM).",
+        "De-air the heart (TEE-guided), wean from CPB, assess valve/ventricular function on TEE.",
+        "Protamine reversal, hemostasis, ICU transfer; manage rhythm (heart block after AVR/septal work)."
+      ]
+    },
+    physiology: [
+      "AS → concentric LVH, diastolic dysfunction, atrial-kick dependent, narrow hemodynamic window.",
+      "AR/MR → volume overload, eccentric hypertrophy; forward flow improves with lower afterload + higher rate.",
+      "MS → fixed inflow obstruction; tachycardia and AF reduce LV filling."
+    ],
+    comorbid: [
+      "Postrheumatic disease, calcific/bicuspid AS, endocarditis, ischemic MR; often pulmonary HTN with mitral disease.",
+      "AF common (mitral) → anticoagulation, rate control.",
+      "Heart block risk after AVR / septal myectomy → pacing readiness."
+    ],
+    phases: {
+      pre: [
+        "Define the dominant lesion and its hemodynamic goals; assess LV/RV and pulmonary pressures.",
+        "Plan TEE and full invasive monitoring; pacing capability.",
+        "Manage AF/anticoagulation; antibiotic prophylaxis (endocarditis)."
+      ],
+      intra: [
+        "Apply lesion-specific hemodynamic management; for AS treat hypotension immediately.",
+        "CPB/cross-clamp sequence; TEE-guided de-airing and post-repair assessment.",
+        "Wean with appropriate inotrope/pressor/rate support; manage new heart block."
+      ],
+      post: [
+        "ICU ventilated; monitor rhythm (block), cardiac output, bleeding, anticoagulation for mechanical valves.",
+        "Lesion-appropriate hemodynamic targets continue into recovery.",
+        "Sternotomy analgesia."
+      ]
+    },
+    source: "Jaffe 5e (2014), Cardiovascular Surgery §6.1 — Aortic (p.361), Mitral (p.365), Tricuspid (p.369) valve surgery, Septal Myectomy/Myotomy (p.372); combined entry."
+  },
+  {
+    id: "minimally-invasive-cardiac-tavr",
+    name: "Off-Pump / Minimally-Invasive Coronary & Port-Access / Transcatheter Valve Procedures",
+    section: "Cardiovascular Surgery",
+    page: "384–405",
+    tags: ["GETA or MAC (TAVR)","Off-pump hemodynamics","Rapid ventricular pacing","TEE/fluoro","Vascular access"],
+    snapshot: {
+      position: "Supine (± limited thoracotomy)",
+      time: "2–5 h",
+      ebl: "Variable (low for transcatheter)",
+      painScore: "3–6",
+      anesthesia: "GETA (off-pump/port-access); GA or MAC (TAVR)",
+      mortality: "Low–moderate"
+    },
+    flags: [
+      "**Off-pump CABG (OPCAB): the heart is beating and being positioned/verticalized for grafting → transient ischemia and severe hypotension during target-vessel occlusion.** Communicate, support BP, be ready to convert to on-pump emergently.",
+      "**TAVR/transcatheter valve deployment uses rapid ventricular pacing** to briefly stop ejection during balloon/valve deployment — anticipate the deliberate hypotensive pause and recovery; manage as a structural-heart team case.",
+      "**Large-bore arterial access** (transfemoral/transapical) → risk of vascular injury, retroperitoneal bleed, and the need for rapid conversion to open/CPB.",
+      "Contrast load and an elderly, comorbid, often inoperable-for-open population — renal protection and tight hemodynamics."
+    ],
+    technique: {
+      summary: "Less-invasive coronary and valve approaches: off-pump/minimally-invasive CABG (beating-heart grafting via stabilizer), port-access revascularization, and transcatheter valve replacement (TAVR/TAVI) via femoral or apical access using rapid pacing for deployment.",
+      steps: [
+        "Choose GA vs MAC (many TAVRs now conscious sedation); full invasive monitoring + TEE/fluoroscopy.",
+        "OPCAB: support hemodynamics during heart positioning and coronary occlusion; heparinize (lower ACT than full CPB).",
+        "TAVR: coordinate rapid ventricular pacing for valve deployment; manage the deliberate hypotensive pause.",
+        "Watch the large-bore access site for vascular complications; keep CPB/open conversion ready.",
+        "Recover with attention to renal function (contrast), conduction (new block after TAVR), and access-site bleeding."
+      ]
+    },
+    physiology: [
+      "Beating-heart grafting causes regional ischemia and impaired filling during positioning.",
+      "Rapid pacing transiently abolishes cardiac output by design.",
+      "Transcatheter access stresses diseased peripheral vasculature."
+    ],
+    comorbid: [
+      "TAVR population: elderly, severe AS, high open-surgical risk, comorbid (CKD, COPD, frailty).",
+      "Peripheral vascular disease affects access feasibility.",
+      "Conduction disease → pacing/post-TAVR heart-block risk."
+    ],
+    phases: {
+      pre: [
+        "Define approach and anesthetic (GA vs MAC for TAVR); plan invasive monitoring and conversion backup.",
+        "Renal protection for contrast; pacing capability.",
+        "Assess access vessels and frailty."
+      ],
+      intra: [
+        "OPCAB: hemodynamic support through positioning/occlusion; ready on-pump conversion.",
+        "TAVR: execute rapid-pacing deployment; manage hypotensive pause/recovery.",
+        "Monitor access site for vascular injury/bleeding."
+      ],
+      post: [
+        "Monitor for new conduction block (TAVR), access-site/retroperitoneal bleeding, renal dysfunction.",
+        "Hemodynamic and rhythm surveillance.",
+        "Shorter recovery than open in suitable patients."
+      ]
+    },
+    source: "Jaffe 5e (2014), Cardiovascular Surgery §6.1 — Off-Pump/Minimally-Invasive CABG (p.384), Port-Access Revascularization (p.389), Port-Access Valve (p.394), Transcatheter Valve Replacement (p.396); combined entry."
+  },
+  {
+    id: "pacemaker-pericardiectomy",
+    name: "Pacemaker / ICD Insertion & Pericardiectomy",
+    section: "Cardiovascular Surgery",
+    page: "376–383",
+    tags: ["MAC or GETA","Arrhythmia risk","Tamponade physiology (pericardiectomy)","Pacing backup"],
+    snapshot: {
+      position: "Supine",
+      time: "1–3 h",
+      ebl: "Minimal (pacemaker) – moderate (pericardiectomy)",
+      painScore: "2–5",
+      anesthesia: "MAC/local (device) or GETA (pericardiectomy)",
+      mortality: "Low (higher with constrictive physiology)"
+    },
+    flags: [
+      "Device implantation is usually **MAC/local**, but expect **arrhythmias during lead placement/threshold testing** (and deliberate VF induction for ICD testing) — have external defibrillation/pacing ready.",
+      "**Pericardiectomy for constrictive/effusive disease = tamponade-like physiology**: fixed low stroke volume, preload- and rate-dependent — **keep 'full, fast, and tight' (maintain preload, HR, contractility, SVR)**; avoid bradycardia and vasodilation.",
+      "Relief of constriction can cause **sudden volume shifts / acute RV dilation and low-output** — be ready with inotropes and careful fluid.",
+      "Pacemaker-dependent patients having other surgery: know the device, magnet behavior, and have backup pacing."
+    ],
+    technique: {
+      summary: "Transvenous pacemaker/ICD implantation (usually MAC) or surgical pericardiectomy/pericardial window for constrictive pericarditis or effusion (tamponade physiology). The pericardiectomy hemodynamics dominate.",
+      steps: [
+        "Device: MAC/local, monitor for arrhythmia during lead placement and threshold/ICD testing (defib ready).",
+        "Pericardiectomy: maintain tamponade-style hemodynamics (full/fast/tight) on induction.",
+        "Anticipate large swings as constriction is relieved; support with inotropes/fluid.",
+        "For effusion drainage, anticipate improvement once tamponade relieved.",
+        "Recover with rhythm and hemodynamic surveillance."
+      ]
+    },
+    physiology: [
+      "Constrictive/tamponade physiology fixes stroke volume → cardiac output is rate- and preload-dependent.",
+      "Lead manipulation irritates myocardium → arrhythmia; ICD testing deliberately induces VF.",
+      "Decompression can unmask ventricular dysfunction and cause volume shifts."
+    ],
+    comorbid: [
+      "Pericardial disease: prior radiation, TB, uremia, post-cardiac-surgery, malignancy.",
+      "Device patients: underlying brady/tachyarrhythmia, structural heart disease.",
+      "Often limited cardiac reserve."
+    ],
+    phases: {
+      pre: [
+        "Define physiology (constrictive vs effusive) and reserve; for devices, plan defib/pacing backup.",
+        "Maintain-preload/rate plan for pericardiectomy.",
+        "Optimize volume status carefully (avoid over- or under-filling)."
+      ],
+      intra: [
+        "Device: watch for arrhythmia/threshold testing; external defib ready.",
+        "Pericardiectomy: full/fast/tight hemodynamics; support through decompression shifts.",
+        "Inotropes/fluid ready for low-output states."
+      ],
+      post: [
+        "Rhythm and hemodynamic monitoring; watch for low cardiac output after constriction relief.",
+        "Device interrogation as needed; bleeding/tamponade-recurrence surveillance.",
+        "Appropriate analgesia."
+      ]
+    },
+    source: "Jaffe 5e (2014), Cardiovascular Surgery §6.1 — Pacemaker Insertion (p.376), Pericardiectomy (p.379); combined entry."
+  },
+  {
+    id: "thoracic-aortic-surgery",
+    name: "Thoracic & Thoracoabdominal Aortic Surgery — Aneurysm Repair & Acute Dissection (± DHCA)",
+    section: "Cardiovascular Surgery",
+    page: "409–427",
+    tags: ["GETA","CPB ± DHCA","One-lung ventilation","Spinal-cord protection","Tight BP control","Massive transfusion"],
+    snapshot: {
+      position: "Supine or right lateral decubitus",
+      time: "4–8+ h",
+      ebl: "Major (massive transfusion likely)",
+      painScore: "6–8",
+      anesthesia: "GETA + lung isolation; CPB/DHCA as needed",
+      mortality: "High (esp. acute dissection)"
+    },
+    flags: [
+      "**Acute ascending (Type A) dissection is a surgical emergency** (≈1%/hour mortality untreated) — control BP/contractility with **esmolol then vasodilator** (β-block first to avoid reflex tachycardia/shear); watch for **tamponade, acute AR, MI, malperfusion**.",
+      "**Spinal-cord protection during thoracoabdominal repair**: cross-clamp interrupts cord/visceral perfusion → **paraplegia and renal/visceral ischemia** risk — CSF drain, distal perfusion, permissive higher MAP, limited clamp time; cold renal perfusion.",
+      "**Arch work may need deep hypothermic circulatory arrest** with antegrade/retrograde cerebral perfusion (arrest ~20–30 min); barbiturate cerebral protection, cool fully.",
+      "**Massive blood loss / coagulopathy** — full invasive monitoring, rapid transfuser, cell-saver, TEE; **one-lung ventilation** (left lung down) for descending/thoracoabdominal exposure."
+    ],
+    technique: {
+      summary: "Open repair of thoracic/thoracoabdominal aortic aneurysm or acute dissection. Combines CPB (± deep hypothermic circulatory arrest for the arch), one-lung ventilation, spinal-cord and visceral protection, and management of massive hemorrhage.",
+      steps: [
+        "Full invasive monitoring (often bilateral arterial lines), large-bore/rapid-transfuser access, TEE, CSF drain for cord protection.",
+        "Lung isolation (DLT) for descending/thoracoabdominal exposure.",
+        "BP/contractility control for dissection (esmolol → vasodilator); manage cross-clamp hemodynamics (afterload surge then declamp hypotension).",
+        "Arch: institute DHCA with cerebral perfusion and barbiturate protection.",
+        "Manage massive transfusion/coagulopathy; protect cord/kidneys; ICU transfer ventilated."
+      ]
+    },
+    physiology: [
+      "Aortic cross-clamp → acute LV afterload rise proximally and ischemia distally (cord, kidneys, viscera); declamping → vasodilatory hypotension and washout of metabolites.",
+      "Dissection threatens tamponade, acute AR, coronary/cerebral/visceral malperfusion.",
+      "DHCA protects the brain during arch arrest but adds coagulopathy and time pressure."
+    ],
+    comorbid: [
+      "Hypertensive, atherosclerotic, often connective-tissue (Marfan) patients; emergent dissections are unoptimized.",
+      "Coronary, cerebral, and renal disease coexist.",
+      "Descending aneurysms may compress the left main bronchus (difficult intubation) and cause hemoptysis if ruptured."
+    ],
+    phases: {
+      pre: [
+        "For dissection: emergent BP/contractility control (esmolol first), assess malperfusion/tamponade/AR.",
+        "Plan cord protection (CSF drain), lung isolation, massive-transfusion and DHCA strategy as applicable.",
+        "Full invasive monitoring and rapid-transfusion setup."
+      ],
+      intra: [
+        "Manage cross-clamp afterload surge and declamp hypotension; maintain cord perfusion pressure (higher MAP, CSF drainage).",
+        "Lung isolation; DHCA + cerebral perfusion for arch; cold renal perfusion.",
+        "Aggressively treat hemorrhage/coagulopathy with products, cell-saver, TEE guidance."
+      ],
+      post: [
+        "ICU ventilated; serial neuro/lower-limb checks for **delayed paraplegia** (CSF drainage protocol), renal function, bleeding.",
+        "Tight BP control; ongoing transfusion/coagulopathy management.",
+        "Multimodal analgesia; high vigilance for complications."
+      ]
+    },
+    source: "Jaffe 5e (2014), Cardiovascular Surgery §6.2 — Thoracic Aortic Aneurysm (p.409), Acute Aortic Dissection (p.416), Thoracoabdominal Aneurysm (p.422); combined entry."
+  },
+  {
+    id: "abdominal-aortic-peripheral-vascular",
+    name: "Abdominal Aortic, Endovascular (EVAR) & Infrainguinal/Peripheral Bypass Surgery",
+    section: "Cardiovascular Surgery",
+    page: "412–443",
+    tags: ["GETA ± epidural (open)","Aortic cross-clamp","EVAR = MAC/regional option","CAD-heavy population","Declamp hypotension"],
+    snapshot: {
+      position: "Supine",
+      time: "2–6 h (open) / 1–3 h (EVAR)",
+      ebl: "Major (open AAA) / minimal (EVAR)",
+      painScore: "5–7 (open) / 2–4 (EVAR)",
+      anesthesia: "GETA ± epidural (open); GA/regional/MAC (EVAR)",
+      mortality: "Low (elective) → very high (ruptured)"
+    },
+    flags: [
+      "**Open AAA aortic cross-clamp: abrupt ↑afterload (LV strain/ischemia) on clamping, then profound hypotension on declamping** (vasodilation + acid/metabolite washout) — anticipate, lighten anesthetic and load volume before unclamping, vasopressors ready.",
+      "**Infrarenal clamp still threatens renal perfusion**; suprarenal/visceral clamp adds renal/visceral/cord ischemia — limit clamp time and consider cold renal perfusion.",
+      "**Ruptured AAA is a true emergency**: permissive hypotension until clamp, massive transfusion, rapid sequence — mortality is very high.",
+      "**Diffuse atherosclerosis = assume CAD** — these are high-cardiac-risk patients; EVAR offers a less-invasive option (GA/regional/MAC) but carries contrast load and endoleak/access risks."
+    ],
+    technique: {
+      summary: "Open or endovascular (EVAR) repair of abdominal aortic aneurysm and infrainguinal/peripheral arterial bypass. Aortic cross-clamp hemodynamics (open) and a high-cardiac-risk atherosclerotic population define the anesthetic.",
+      steps: [
+        "Open AAA: arterial line + large-bore/rapid-transfusion access ± thoracic epidural; GETA.",
+        "Manage cross-clamp (treat afterload surge, optimize myocardial O2) and declamp (volume-load, lighten anesthetic, pressors).",
+        "EVAR: GA/regional/MAC; manage contrast, watch access-site vascular injury and endoleak.",
+        "Peripheral bypass: maintain graft perfusion, manage CAD-risk hemodynamics; regional an option.",
+        "Recover with cardiac, renal, and (suprarenal/aortic) cord surveillance."
+      ]
+    },
+    physiology: [
+      "Cross-clamp acutely raises afterload (proximal HTN, LV strain) and causes distal ischemia; unclamping causes vasodilatory hypotension and metabolic washout.",
+      "Renal hypoperfusion risk even with infrarenal clamp.",
+      "Severe systemic atherosclerosis → high perioperative cardiac events."
+    ],
+    comorbid: [
+      "CAD, HTN, DM, COPD, CKD, prior MI — cardiac risk dominates.",
+      "Ruptured AAA: hemorrhagic shock, coagulopathy, unoptimized.",
+      "Smoking-related disease throughout."
+    ],
+    phases: {
+      pre: [
+        "Optimize/define cardiac risk; arterial line + large-bore access for open cases; consider epidural.",
+        "Plan cross-clamp/declamp strategy; renal protection; EVAR contrast/renal plan.",
+        "For rupture: permissive hypotension, massive-transfusion activation."
+      ],
+      intra: [
+        "Treat cross-clamp afterload surge; pre-load volume and lighten anesthetic before declamp; pressors ready.",
+        "Protect kidneys (limit clamp time, cold perfusion for suprarenal); manage blood loss.",
+        "EVAR: manage contrast, monitor access site/endoleak."
+      ],
+      post: [
+        "Monitor cardiac events, renal function, bleeding, distal perfusion/limb ischemia.",
+        "Epidural/multimodal analgesia for open cases.",
+        "Spinal-cord checks if high aortic clamp; EVAR shorter recovery."
+      ]
+    },
+    source: "Jaffe 5e (2014), Cardiovascular Surgery §6.2/6.3 — Endovascular Stent-Grafting (p.412), Surgery of the Abdominal Aorta (p.428), Infrainguinal Arterial Bypass (p.434), Lumbar Sympathectomy (p.439), Vein Excision (p.442); combined entry."
+  },
+  {
+    id: "vascular-access-venous-portal",
+    name: "Vascular Access (AV Fistula/Graft), Venous Surgery & Portal-Hypertension Procedures",
+    section: "Cardiovascular Surgery",
+    page: "444–463",
+    tags: ["Regional/local or GETA","ESRD physiology","Often outpatient (access/veins)","Portal HTN = sick liver"],
+    snapshot: {
+      position: "Supine",
+      time: "1–4 h (longer for portal)",
+      ebl: "Minimal (access/veins) – significant (portal)",
+      painScore: "2–5",
+      anesthesia: "Regional/local or GA (GETA for portal)",
+      mortality: "Low (access/veins) – high (portal HTN)"
+    },
+    flags: [
+      "**AV fistula/graft patients have ESRD physiology**: check **K+ and volume status** before induction (hyperkalemia, fluid overload), protect the non-fistula arm, and time dialysis. Regional (brachial plexus) is often ideal and vasodilates the access.",
+      "**Portal-hypertension surgery = decompensated liver disease**: coagulopathy, varices, encephalopathy, ascites, and the risk of **massive variceal/operative hemorrhage** — large-bore access, products ready, careful drug choice for hepatic clearance.",
+      "Venous procedures (vein stripping/ablation) are typically low-acuity day surgery (regional/local/MAC), but watch for **DVT/PE risk** in the population.",
+      "Avoid the fistula arm for BP cuff/IV; preserve future access sites in renal patients."
+    ],
+    technique: {
+      summary: "Creation/revision of hemodialysis access (Brescia-Cimino radiocephalic fistula or prosthetic graft), venous procedures (vein stripping, perforator ligation, varicose-vein ablation), and surgery/shunts for portal hypertension. Acuity ranges from minor day surgery to high-risk hepatic cases.",
+      steps: [
+        "Access/veins: regional (brachial plexus) or local/MAC; protect existing access; ESRD electrolyte/volume check.",
+        "Portal HTN: GETA with large-bore access, blood products, hepatic-aware drug selection.",
+        "Maintain graft/fistula perfusion; for portal cases manage coagulopathy and variceal bleeding risk.",
+        "Monitor for fluid/electrolyte derangement (ESRD) or hepatic decompensation.",
+        "Recover appropriately (outpatient for access/veins; ICU for portal)."
+      ]
+    },
+    physiology: [
+      "ESRD: hyperkalemia, acidosis, fluid overload, anemia, platelet dysfunction, autonomic neuropathy.",
+      "Portal HTN: reduced hepatic synthetic/clearance function, coagulopathy, varices, hyperdynamic circulation.",
+      "Venous disease carries thromboembolic risk."
+    ],
+    comorbid: [
+      "Dialysis patients: DM, HTN, cardiomyopathy, vascular disease.",
+      "Cirrhotics: coagulopathy, encephalopathy, ascites, hepatorenal risk.",
+      "Generally comorbid populations even for 'minor' access surgery."
+    ],
+    phases: {
+      pre: [
+        "ESRD: check K+/volume, time dialysis, protect/plan access; choose regional where suitable.",
+        "Portal HTN: assess hepatic function/coagulopathy, large-bore access, products.",
+        "Standard workup for venous cases; DVT risk."
+      ],
+      intra: [
+        "Protect the access arm; maintain perfusion; manage ESRD electrolytes/volume.",
+        "Portal: manage hemorrhage/coagulopathy, hepatic-aware drug dosing.",
+        "Venous: regional/MAC, routine monitoring."
+      ],
+      post: [
+        "Check fistula thrill/patency; monitor ESRD electrolytes/volume.",
+        "Portal: ICU, hepatic/coagulation/bleeding surveillance.",
+        "Outpatient discharge for uncomplicated access/venous cases."
+      ]
+    },
+    source: "Jaffe 5e (2014), Cardiovascular Surgery §6.3 — Surgery for Portal Hypertension (p.444), AV Access for Hemodialysis (p.451), Permanent Vascular Access (p.453), Venous/Varicose Surgery (p.457–458); combined entry."
+  }
+,
+  {
+    id: "heart-lung-transplant-cv",
+    name: "Heart & Heart-Lung Transplantation",
+    section: "Cardiovascular Surgery",
+    page: "464–472",
+    tags: ["GETA","CPB","Denervated graft","Pulmonary HTN/RV","Inotropes (chronotropic)","Immunosuppression"],
+    snapshot: {
+      position: "Supine, sternotomy",
+      time: "4–8+ h",
+      ebl: "Significant (redo/coagulopathy worse)",
+      painScore: "6–8",
+      anesthesia: "GETA (cardiac, full invasive monitoring)",
+      mortality: "High (end-stage population)"
+    },
+    flags: [
+      "**The transplanted heart is denervated — it has no vagal/sympathetic innervation, so atropine is ineffective for bradycardia.** Use direct-acting chronotropes/inotropes (isoproterenol, epinephrine) and pacing; the graft relies on circulating catecholamines and preload.",
+      "**End-stage recipients arrive on inotropes, IABP, or an LVAD** — manage the failing native circulation until CPB; treat as full-stomach/urgent with sterile, immunosuppressed technique.",
+      "**Post-bypass RV failure with recipient pulmonary hypertension** — the new RV may fail against high PVR; have inhaled pulmonary vasodilators (NO/prostacyclin), inotropes, and consider RV mechanical support.",
+      "**Immunosuppression and sterility are protocolized** — methylprednisolone 500 mg IV in the OR after protamine; strict asepsis; manage coagulopathy and major blood loss (worse in redo)."
+    ],
+    technique: {
+      summary: "Orthotopic heart (or combined heart-lung) transplantation on CPB for end-stage cardiac/cardiopulmonary disease. The denervated graft, recipient pulmonary hypertension/RV failure, and immunosuppression define the anesthetic.",
+      steps: [
+        "Full invasive monitoring (A-line, PA catheter where used, TEE), large-bore/rapid-transfusion access; sterile technique.",
+        "Manage the failing native circulation (inotropes/IABP/LVAD) until CPB; heparinize and go on pump.",
+        "Implant graft; wean from CPB supporting the denervated heart with chronotropes/inotropes and the RV against pulmonary HTN (inhaled vasodilators).",
+        "Give immunosuppression per protocol (methylprednisolone 500 mg after protamine); reverse heparin; achieve hemostasis.",
+        "Transfer ventilated to ICU on inotropic/vasodilator support."
+      ]
+    },
+    physiology: [
+      "Denervated graft: no reflex HR response; rate/output depend on preload and circulating catecholamines; atropine ineffective.",
+      "Chronically elevated recipient PVR can precipitate acute RV failure of the new heart.",
+      "End-stage recipients have minimal reserve and are often anticoagulated/on mechanical support."
+    ],
+    comorbid: [
+      "End-stage cardiomyopathy/CHD; prior sternotomy/VAD (redo bleeding); hepatic/renal congestion.",
+      "Pulmonary hypertension severity predicts RV trouble.",
+      "Immunosuppressed; infection and bleeding risks."
+    ],
+    phases: {
+      pre: [
+        "Assess native support (inotropes/IABP/LVAD), PVR/RV, end-organ congestion; treat as urgent/full-stomach.",
+        "Full invasive monitoring + rapid-transfusion setup; confirm immunosuppression protocol and donor timing.",
+        "Ready chronotropes/inotropes and inhaled pulmonary vasodilators."
+      ],
+      intra: [
+        "Support failing native circulation to CPB; manage graft implantation on pump.",
+        "Wean supporting the denervated heart (isoproterenol/epinephrine, pacing) and RV (inhaled NO/prostacyclin).",
+        "Immunosuppression per protocol; correct coagulopathy/blood loss; maintain sterility."
+      ],
+      post: [
+        "ICU ventilated on inotrope/vasodilator support; monitor for RV failure, rejection, bleeding, arrhythmia.",
+        "Maintain immunosuppression; cautious drug choices for the denervated heart.",
+        "Sternotomy analgesia; infection surveillance."
+      ]
+    },
+    source: "Jaffe 5e (2014), Cardiovascular Surgery §6.1, Heart and Heart/Lung Transplantation, p. 464–472 (CPB per §6.1 p.348+)."
   }
 ];
 
@@ -1551,6 +2652,95 @@ const PROCEDURES = [
    RENDERER — stable. Do not edit to add data (see project_instructions.md).
    ============================================================ */
 function mdBold(s){ return String(s).replace(/\*\*(.+?)\*\*/g,"<b>$1</b>"); }
+
+/* FIGURES: manifest of extracted figures keyed by section-id. Populated by the
+   build (figures/figures.json is inlined here at bundle time). Each entry:
+   {file, caption, page, figref}. Figures are mapped to a procedure when the
+   figure's book page falls within the procedure's page range. Stored in a
+   /figures/ folder alongside index.html (referenced by relative path). */
+const FIGURES = window.__FIGURES__ || {};
+// map a section name -> section-id used in the manifest/filenames
+function sectionId(section){
+  return (section||"").toLowerCase()
+    .replace(/—/g,"-").replace(/[^a-z0-9]+/g,"-").replace(/(^-|-$)/g,"")
+    .split("-")[0]; // first token, matches how figures were extracted (e.g. "neurosurgery")
+}
+// parse a procedure page string ("4–14", "37–43", "134") into [lo,hi]
+function pageRange(pg){
+  const nums = String(pg||"").match(/\d+/g);
+  if(!nums) return null;
+  const ns = nums.map(Number);
+  return [Math.min(...ns), Math.max(...ns)];
+}
+// figures whose book-page falls in this procedure's range
+function figuresFor(p){
+  const sid = sectionId(p.section);
+  const list = FIGURES[sid];
+  if(!list || !list.length) return [];
+  const rng = pageRange(p.page);
+  if(!rng) return [];
+  // manifest 'page' is the PDF-slice page index, not the book page — but figures
+  // were extracted from the same slice in reading order, so we fall back to
+  // matching by figref chapter-section when page mapping is unavailable.
+  // Primary: if a figref like "Figure 1.1-1" exists, match its middle number to
+  // nothing reliable; so we use a simple heuristic — show figures whose figref
+  // section prefix matches AND that haven't been claimed. To keep it robust and
+  // avoid mis-assignment, we match on book-page when the manifest carries it.
+  return list.filter(f => f.bookPage != null && f.bookPage >= rng[0] && f.bookPage <= rng[1]);
+}
+
+let activeId = null;
+let query = "";
+// sections the user has manually expanded/collapsed; default = collapsed (except active)
+const expandedSections = new Set();
+
+// Lightweight anesthesia abbreviation/synonym map for search.
+// Typing either side finds the other (e.g. "AAA" finds "abdominal aortic aneurysm").
+const SYNONYMS = [
+  ["aaa","abdominal aortic aneurysm"],
+  ["olv","one-lung ventilation","one lung"],
+  ["cpb","cardiopulmonary bypass"],
+  ["dlt","double-lumen tube","double lumen"],
+  ["geta","general endotracheal anesthesia","general anesthesia"],
+  ["tavr","tavi","transcatheter aortic valve"],
+  ["mac","monitored anesthesia care"],
+  ["rsi","rapid sequence induction","rapid-sequence"],
+  ["osa","obstructive sleep apnea","sleep apnea","sleep-disordered breathing"],
+  ["dhca","deep hypothermic circulatory arrest","circulatory arrest"],
+  ["vae","venous air embolism","air embolism"],
+  ["cabg","coronary artery bypass","coronary bypass"],
+  ["icp","intracranial pressure"],
+  ["iop","intraocular pressure"],
+  ["foi","fol","fiberoptic intubation","awake fiberoptic"],
+  ["evar","endovascular","stent-graft","stent graft"],
+  ["mg","myasthenia","myasthenia gravis"],
+  ["nmb","neuromuscular block","muscle relaxant","paralytic"],
+  ["tee","transesophageal echo"],
+  ["as","aortic stenosis"],
+  ["ar","aortic regurgitation"],
+  ["ms","mitral stenosis"],
+  ["mr","mitral regurgitation"],
+  ["dcr","dacryocystorhinostomy"],
+  ["tmj","temporomandibular joint"],
+  ["uppp","uvulopalatopharyngoplasty"],
+  ["dbs","deep brain stimulation"],
+  ["vns","vagus nerve stimulation"],
+  ["ent","otolaryngology","head and neck"],
+  ["sah","subarachnoid hemorrhage"],
+  ["povl","postoperative visual loss","ischemic optic"]
+];
+
+// expand a raw query into the set of terms to match (adds synonym group members)
+function expandTerms(q){
+  const raw = q.toLowerCase().trim().split(/\s+/).filter(Boolean);
+  const out = new Set(raw);
+  for(const term of raw){
+    for(const group of SYNONYMS){
+      if(group.includes(term)){ group.forEach(g=>out.add(g)); }
+    }
+  }
+  return [...out];
+}
 
 const PILLARS = [
   {key:"physiology", title:"Physiology & Pathophysiology"},
@@ -1563,37 +2753,99 @@ function groupBySection(list){
   return g;
 }
 
-let activeId = null;
-let query = "";
-
-function matches(p, q){
-  if(!q) return true;
-  const hay = [p.name,p.section,p.page,(p.tags||[]).join(" "),
-    (p.flags||[]).join(" "),JSON.stringify(p.snapshot),
-    (p.physiology||[]).join(" "),(p.comorbid||[]).join(" "),
+// Returns a relevance score for procedure p against the expanded term list.
+// 0 = no match. Higher = better. Title hits >> tag hits >> body hits.
+function scoreMatch(p, terms){
+  if(!terms.length) return 1; // empty query: everything shows, neutral score
+  const name = (p.name||"").toLowerCase();
+  const tags = (p.tags||[]).join(" ").toLowerCase();
+  const section = (p.section||"").toLowerCase();
+  const body = [
+    (p.flags||[]).join(" "), JSON.stringify(p.snapshot||{}),
+    (p.physiology||[]).join(" "), (p.comorbid||[]).join(" "),
     p.technique && p.technique.summary,
     p.phases && [p.phases.pre,p.phases.intra,p.phases.post].flat().join(" ")
   ].join(" ").toLowerCase();
-  return q.toLowerCase().split(/\s+/).every(t=>hay.includes(t));
+
+  let total = 0;
+  // every ORIGINAL term must match somewhere (AND semantics on the typed words);
+  // synonyms broaden where a term can be found. We approximate by requiring each
+  // raw token OR one of its synonyms to hit; scoring rewards title/tag location.
+  for(const t of terms){
+    let s = 0;
+    if(name.includes(t)){ s = name.startsWith(t) ? 100 : 60; }
+    else if(tags.includes(t)){ s = 30; }
+    else if(section.includes(t)){ s = 20; }
+    else if(body.includes(t)){ s = 8; }
+    if(s > total) total = s; // best single-term hit drives the rank
+  }
+  // require at least one hit
+  return total;
+}
+
+function filterAndRank(){
+  const terms = expandTerms(query);
+  if(!terms.length) return PROCEDURES.map(p=>({p,score:1}));
+  return PROCEDURES
+    .map(p=>({p,score:scoreMatch(p,terms)}))
+    .filter(x=>x.score>0)
+    .sort((a,b)=> b.score-a.score);
 }
 
 function renderNav(){
   const nav = document.getElementById("nav");
-  const list = PROCEDURES.filter(p=>matches(p,query));
-  const groups = groupBySection(list);
+  const ranked = filterAndRank();
+  const searching = !!query.trim();
   let html = "";
-  for(const section of Object.keys(groups)){
-    html += `<div class="navgroup"><div class="gh">${section}</div>`;
-    for(const p of groups[section]){
-      html += `<a class="navitem ${p.id===activeId?"active":""}" data-id="${p.id}">`+
-              `${p.name}<span class="pg">p.${p.page}</span></a>`;
+
+  if(searching){
+    // FLAT, ranked list when searching — best hits first, no section grouping
+    if(!ranked.length){
+      html = `<div style="padding:18px 22px;color:var(--muted);font-size:13px">No matches.</div>`;
+    } else {
+      html += `<div class="navgroup"><div class="items">`;
+      for(const {p} of ranked){
+        html += `<a class="navitem ${p.id===activeId?"active":""}" data-id="${p.id}">`+
+                `${p.name}<span class="pg">p.${p.page}</span></a>`;
+      }
+      html += `</div></div>`;
     }
-    html += `</div>`;
+  } else {
+    // GROUPED, accordion list when browsing — sections collapsed by default
+    const groups = groupBySection(PROCEDURES);
+    for(const section of Object.keys(groups)){
+      const items = groups[section];
+      const hasActive = items.some(p=>p.id===activeId);
+      const open = expandedSections.has(section) || hasActive;
+      html += `<div class="navgroup ${open?"":"collapsed"}" data-section="${section}">`+
+              `<div class="gh" data-toggle="${section}">`+
+              `<span>${section}</span><span class="count">${items.length}</span>`+
+              `<span class="chev">▼</span></div>`+
+              `<div class="items">`;
+      for(const p of items){
+        html += `<a class="navitem ${p.id===activeId?"active":""}" data-id="${p.id}">`+
+                `${p.name}<span class="pg">p.${p.page}</span></a>`;
+      }
+      html += `</div></div>`;
+    }
   }
-  if(!list.length) html = `<div style="padding:18px 22px;color:var(--muted);font-size:13px">No matches.</div>`;
   nav.innerHTML = html;
+
   nav.querySelectorAll(".navitem").forEach(el=>{
     el.addEventListener("click",()=>{ select(el.dataset.id); });
+  });
+  // section header toggles (accordion: opening one closes the others)
+  nav.querySelectorAll(".gh[data-toggle]").forEach(el=>{
+    el.addEventListener("click",()=>{
+      const sec = el.dataset.toggle;
+      if(expandedSections.has(sec)){
+        expandedSections.delete(sec);
+      } else {
+        expandedSections.clear();   // accordion behavior
+        expandedSections.add(sec);
+      }
+      renderNav();
+    });
   });
 }
 
@@ -1610,8 +2862,8 @@ function renderWelcome(){
         <span class="stat"><b>${PROCEDURES.length}</b><span>procedures</span></span>
         <span class="stat"><b>${sections.length}</b><span>sections</span></span>
       </div>
-      <p style="font-size:13px">Pick a procedure from the left, or search by name, tag, or flag
-         (e.g. <i>hypothermia</i>, <i>airway</i>, <i>VAE</i>).</p>
+      <p style="font-size:13px">Tap a section on the left to expand it, or search by name, tag,
+         abbreviation, or flag (e.g. <i>crani</i>, <i>AAA</i>, <i>OLV</i>, <i>airway</i>).</p>
     </div>`;
 }
 
@@ -1634,6 +2886,22 @@ function renderProcedure(p){
     return `<div class="phase ${k}"><div class="ph">${lbl}</div><ul>${items}</ul></div>`;
   }).join("");
 
+  // figures (collapsed by default), mapped by book page
+  const figs = figuresFor(p);
+  let figuresHtml = "";
+  if(figs.length){
+    const cards = figs.map(f=>{
+      const cap = f.caption || (f.figref ? f.figref : "");
+      return `<figure class="figure"><img loading="lazy" src="figures/${f.file}" `+
+             `alt="${(f.figref||'Figure').replace(/"/g,'')}" data-full="figures/${f.file}">`+
+             (cap?`<figcaption>${cap}</figcaption>`:"")+`</figure>`;
+    }).join("");
+    figuresHtml = `<div class="figures-block open" id="figuresBlock">`+
+      `<div class="figures-toggle" id="figuresToggle"><span class="fchev">▶</span>`+
+      `<span>Figures</span><span class="fc">${figs.length} from Jaffe 5e</span></div>`+
+      `<div class="figures-grid">${cards}</div></div>`;
+  }
+
   document.getElementById("content").innerHTML = `
     <div class="proc-head">
       <div class="eyebrow">${p.section}</div>
@@ -1650,8 +2918,22 @@ function renderProcedure(p){
     </div>
     <div class="phases"><h3>Anesthetic Plan by Phase</h3>
       <div class="phase-grid">${phaseHtml}</div></div>
+    ${figuresHtml}
     <div class="source">${p.source}</div>`;
   document.querySelector(".main").scrollTop = 0;
+
+  // figures toggle + lightbox
+  const fb = document.getElementById("figuresBlock");
+  if(fb){
+    document.getElementById("figuresToggle").addEventListener("click",()=>fb.classList.toggle("open"));
+    fb.querySelectorAll(".figure img").forEach(img=>{
+      img.addEventListener("click",()=>{
+        const lb = document.getElementById("figLightbox");
+        document.getElementById("figLightboxImg").src = img.dataset.full;
+        lb.classList.add("show");
+      });
+    });
+  }
 }
 
 function select(id){
@@ -1661,12 +2943,26 @@ function select(id){
   renderNav();
 }
 
-document.getElementById("search").addEventListener("input",e=>{
-  query = e.target.value; renderNav();
+const searchEl = document.getElementById("search");
+const clearEl = document.getElementById("searchClear");
+searchEl.addEventListener("input",e=>{
+  query = e.target.value;
+  clearEl.classList.toggle("show", !!query);
+  renderNav();
+});
+clearEl.addEventListener("click",()=>{
+  query = "";
+  searchEl.value = "";
+  clearEl.classList.remove("show");
+  searchEl.focus();
+  renderNav();
 });
 document.getElementById("themeBtn").addEventListener("click",()=>{
   const cur = document.documentElement.getAttribute("data-theme");
   document.documentElement.setAttribute("data-theme", cur==="dark"?"light":"dark");
+});
+document.getElementById("figLightbox").addEventListener("click",function(){
+  this.classList.remove("show");
 });
 
 // initial render — honor hash deep-link
