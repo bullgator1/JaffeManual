@@ -1072,6 +1072,478 @@ const PROCEDURES = [
       ]
     },
     source: "Jaffe 5e (2014), Ophthalmic Surgery §2.0 — Dacryocystorhinostomy (p.165), Enucleation (p.168), Orbitotomy—Anterior and Lateral (p.170); combined entry."
+  },
+  {
+    id: "ent-endoscopy-microlaryngoscopy",
+    name: "Laryngoscopy / Microlaryngoscopy / Bronchoscopy / Esophagoscopy (incl. laser airway surgery)",
+    section: "Otolaryngology—Head and Neck Surgery",
+    page: "181–189",
+    tags: ["GETA","SHARED AIRWAY","Laser fire risk","Jet ventilation","Small-bore/laser ETT"],
+    snapshot: {
+      position: "Supine, head extended (sniffing/suspension)",
+      time: "15 min–several h",
+      ebl: "Minimal",
+      painScore: "1–3 (highly stimulating, low post-op pain)",
+      anesthesia: "GETA ± jet/apneic ventilation",
+      mortality: "Low"
+    },
+    flags: [
+      "**Shared airway** — you and the surgeon both need the larynx/trachea; agree the ventilation plan (small-bore microlaryngeal/laser ETT 5–6 mm, jet ventilation, or intermittent apnea) before induction.",
+      "**Airway-fire risk with laser:** use a **laser-safe ETT, keep FiO2 <0.30, and AVOID N2O**. Fire = O2/N2O + tube + laser; the anesthetist controls two of the three legs.",
+      "**Highly stimulating but minimal post-op pain** — needs deep anesthesia/relaxation intra-op, then a quick clear-headed wake-up; titrate short-acting agents (remifentanil, propofol).",
+      "The surgeon may want to **see the airway before relaxation/intubation** in suspected pathology — coordinate; have rigid bronch / difficult-airway gear ready."
+    ],
+    technique: {
+      summary: "Endoscopic inspection/treatment of the pharynx, larynx, tracheobronchial tree, or esophagus — diagnostic or therapeutic (biopsy, laser ablation of papilloma/polyps). Demands a shared-airway plan and, when laser is used, strict fire precautions.",
+      steps: [
+        "Agree airway/ventilation strategy with surgeon (microlaryngeal tube vs jet vs apneic technique).",
+        "Deep GA + muscle relaxation for immobility during precise/stimulating work.",
+        "Laser cases: laser-safe ETT, FiO2 <0.30, no N2O, saline-filled cuff, eye/field fire precautions.",
+        "Maintain with short-acting agents for rapid, clear emergence.",
+        "Confirm airway patency and protective reflexes before extubation."
+      ]
+    },
+    physiology: [
+      "Instrumentation of the glottis/trachea is intensely stimulating but the residual pain is minimal.",
+      "Jet ventilation risks barotrauma/gastric insufflation and gives no end-tidal CO2 — monitor accordingly.",
+      "Laser + oxidizer + tube is the airway-fire triad."
+    ],
+    comorbid: [
+      "ENT pathology population: smoking, COPD, prior airway tumor/radiation → anticipated difficult airway.",
+      "Recurrent papillomatosis patients return repeatedly — cumulative airway scarring.",
+      "Reflux/esophageal disease for esophagoscopy."
+    ],
+    phases: {
+      pre: [
+        "Review imaging/scope findings for the airway; predict difficulty; ready rigid bronch/cric kit.",
+        "Agree shared-airway/ventilation and laser-fire plan with the surgeon.",
+        "Plan short-acting anesthetic for fast emergence."
+      ],
+      intra: [
+        "Deep anesthesia + relaxation for immobility; protect the shared airway.",
+        "Laser: FiO2 <0.30, no N2O, laser-safe tube, fire plan rehearsed.",
+        "Monitor for hypoxia/hypercarbia with jet/apneic techniques."
+      ],
+      post: [
+        "Extubate awake with intact reflexes; watch for laryngospasm/edema/stridor.",
+        "Low analgesic requirement; treat as airway-at-risk in recovery.",
+        "Observe for airway bleeding after biopsy/laser."
+      ]
+    },
+    source: "Jaffe 5e (2014), Otolaryngology §3.0 — Laryngoscopy/Bronchoscopy/Esophagoscopy + operative microlaryngoscopy, p. 181–189; combined entry."
+  },
+  {
+    id: "tracheostomy-airway-rescue",
+    name: "Tracheotomy / Tracheostomy & Cricothyroidotomy",
+    section: "Otolaryngology—Head and Neck Surgery",
+    page: "190–194",
+    tags: ["Local or GETA","DIFFICULT AIRWAY","Awake option","Airway rescue","Emergent (some)"],
+    snapshot: {
+      position: "Supine, neck extended (roll under shoulders)",
+      time: "30–60 min (faster if emergent)",
+      ebl: "Minimal",
+      painScore: "2–4",
+      anesthesia: "Local ± sedation, or GETA if already intubated",
+      mortality: "Low (high if true airway emergency)"
+    },
+    flags: [
+      "Often the **definitive answer to a difficult/failed airway** — for severe compromise, do it **awake under local** rather than risk losing the airway on induction.",
+      "**Loss of the airway during the procedure** is the catastrophe: the existing ETT is withdrawn as the trachea is entered — coordinate the exact moment, keep the patient oxygenated, be ready to reconnect.",
+      "Cricothyroidotomy is the **emergency 'can't intubate, can't oxygenate'** rescue — fast, midline, below the cricoid.",
+      "After the trachea is opened, watch for **fire risk if cautery + high FiO2**, and for tube malposition/false passage."
+    ],
+    technique: {
+      summary: "Surgical creation of a tracheal airway (elective in intubated patients, or to relieve/anticipate obstruction) or emergency cricothyroidotomy. May be done under local in the compromised airway, or GA in an already-intubated patient.",
+      steps: [
+        "Decide awake-local vs GA based on airway compromise; for severe compromise, awake tracheostomy under local.",
+        "Neck extended, roll under shoulders; surgeon dissects to the trachea.",
+        "Coordinate ETT withdrawal as the trachea is entered — maintain oxygenation throughout the handover.",
+        "Confirm tracheostomy tube placement (EtCO2, ventilation, chest rise) before securing.",
+        "Lower FiO2 / pause cautery during tracheal entry to reduce fire risk."
+      ]
+    },
+    physiology: [
+      "Critical window is the airway handover from oral ETT to tracheostomy tube — apnea/loss risk.",
+      "Open trachea + cautery + oxidizer = fire risk.",
+      "Emergency cric is the surgical airway of last resort in CICO."
+    ],
+    comorbid: [
+      "Head/neck cancer, trauma, prolonged-ventilation, or upper-airway-obstruction patients.",
+      "Anticipated very difficult airway from tumor, radiation, or anatomy.",
+      "Critically ill ICU patients for elective tracheostomy."
+    ],
+    phases: {
+      pre: [
+        "Grade airway compromise; choose awake-local vs GA; have difficult-airway and rigid bronch backup.",
+        "Communicate the ETT-withdrawal timing plan with the surgeon.",
+        "Optimize oxygenation before any handover."
+      ],
+      intra: [
+        "Maintain oxygenation across the ETT→trach handover; lower FiO2 + pause cautery at tracheal entry.",
+        "Confirm trach tube position (EtCO2) before fully committing.",
+        "Be ready to re-secure the oral airway if the trach attempt fails."
+      ],
+      post: [
+        "Secure tube, confirm ventilation; watch for early dislodgement (false passage is lethal).",
+        "Monitor for bleeding, subcutaneous emphysema, pneumothorax.",
+        "Document a plan for accidental decannulation."
+      ]
+    },
+    source: "Jaffe 5e (2014), Otolaryngology §3.0, Tracheotomy/Tracheostomy and Cricothyroidotomy, p. 190–194."
+  },
+  {
+    id: "head-neck-cancer-resection",
+    name: "Head & Neck Cancer Resection — Laryngectomy, Glossectomy, Maxillectomy, Neck Dissection (± free flap)",
+    section: "Otolaryngology—Head and Neck Surgery",
+    page: "200–243",
+    tags: ["GETA","DIFFICULT AIRWAY","Long case","Free flap","Often tracheostomy","Major blood loss (some)"],
+    snapshot: {
+      position: "Supine, head extended/turned (arm prep if radial flap)",
+      time: "4–12+ h (free flap)",
+      ebl: "Moderate–major (variable by resection)",
+      painScore: "5–7",
+      anesthesia: "GETA (often + planned tracheostomy)",
+      mortality: "Low–moderate (comorbid population)"
+    },
+    flags: [
+      "**Anticipated difficult airway** is the rule — tumor, trismus, prior surgery/radiation distort anatomy; plan awake fiberoptic intubation or surgical airway, and **anticipate what the surgeon faces**.",
+      "**Long cases with fluid shifts and possible major blood loss** near the carotid — large-bore access, T&C, temperature and positioning care (brachial-plexus stretch, arm prep for radial free flap).",
+      "**Free-flap reconstruction** needs flap perfusion: maintain normovolemia, normothermia, adequate cardiac output, and avoid excessive vasopressors that can compromise the flap.",
+      "Surgical manipulation near the **carotid sinus/bifurcation** can cause sudden brady/BP changes — communicate; many cases end with a **planned tracheostomy**."
+    ],
+    technique: {
+      summary: "Ablative resection of head/neck malignancy (partial/total laryngectomy, glossectomy, maxillectomy with orbit exenteration, neck dissection), frequently with microvascular free-flap reconstruction and a planned tracheostomy. Airway and long-case physiology dominate.",
+      steps: [
+        "Secure airway safely (often awake FOI or planned surgical airway); confirm plan with surgeon.",
+        "Establish large-bore access, arterial line, T&C/cell-saver scaled to the resection; position with nerve/pressure protection.",
+        "Maintain flap perfusion: normovolemia, normothermia, adequate CO; judicious pressors.",
+        "Anticipate carotid-manipulation hemodynamics; coordinate planned tracheostomy.",
+        "Plan ICU/airway disposition — most are not extubated to a natural airway."
+      ]
+    },
+    physiology: [
+      "Distorted upper-airway anatomy → difficult mask/intubation; radiation worsens tissue planes.",
+      "Long duration → heat loss, fluid shifts, pressure/nerve injury risk.",
+      "Free flaps are perfusion-dependent; hypovolemia, hypothermia, and vasoconstriction threaten them."
+    ],
+    comorbid: [
+      "Heavy smoking/alcohol → COPD, CAD, cirrhosis, malnutrition; enzyme induction raises opioid/NMB requirements.",
+      "Prior chemoradiation; fragile, fibrosed tissues.",
+      "Often elderly, deconditioned, with cardiopulmonary disease."
+    ],
+    phases: {
+      pre: [
+        "Detailed airway assessment + imaging; pre-formed awake-FOI / surgical-airway plan.",
+        "Scale access, monitoring, and blood products to the resection; plan flap-perfusion strategy.",
+        "Optimize and document cardiopulmonary/nutritional status."
+      ],
+      intra: [
+        "Protect the airway; large-bore access; arterial line; cell-saver as planned.",
+        "Maintain flap perfusion (normovolemia/normothermia/CO; limit vasopressors); manage blood loss.",
+        "Treat carotid-manipulation hemodynamics; support planned tracheostomy."
+      ],
+      post: [
+        "ICU with secured airway/tracheostomy; monitor flap (perfusion checks), bleeding, airway edema.",
+        "Multimodal analgesia mindful of comorbidity; maintain normothermia/normovolemia for the flap.",
+        "Watch for delirium/withdrawal in alcohol-dependent patients."
+      ]
+    },
+    source: "Jaffe 5e (2014), Otolaryngology §3.0 — Laryngectomy (p.203), Glossectomy (p.212), Maxillectomy & Orbit Exenteration (p.214), Head & Neck/free-flap surgery (p.238); combined entry."
+  },
+  {
+    id: "salivary-gland-surgery",
+    name: "Salivary Gland Surgery — Parotidectomy & Submandibular Gland Excision",
+    section: "Otolaryngology—Head and Neck Surgery",
+    page: "224–228",
+    tags: ["GETA","Facial nerve monitoring","AVOID muscle relaxant","Reinforced tube"],
+    snapshot: {
+      position: "Supine, head turned, neck extended",
+      time: "2–4 h (parotid)",
+      ebl: "Minimal–modest",
+      painScore: "3–5",
+      anesthesia: "GETA",
+      mortality: "Low"
+    },
+    flags: [
+      "**Facial-nerve monitoring during parotidectomy → AVOID (or carefully time) neuromuscular blockade** so the surgeon can stimulate and preserve the nerve; coordinate the relaxation plan explicitly.",
+      "Secure the tube well (head turned/draped, surgeon working at the face) — **tube access is limited intra-op**; reinforced tube prevents kinking.",
+      "Smooth emergence — coughing/bucking strains the closure near the facial nerve.",
+      "Anticipate the tradeoff: immobility is wanted for the dissection, but **paralysis blinds nerve monitoring** — resolve before incision."
+    ],
+    technique: {
+      summary: "Excision of the parotid (superficial/total/radical, with facial-nerve preservation) or submandibular gland. The facial nerve runs through the parotid, so intra-operative nerve monitoring shapes the anesthetic (limited NMB).",
+      steps: [
+        "Intubate; agree NMB plan with surgeon (avoid/limit relaxant if facial-nerve monitoring).",
+        "Secure and protect the tube (head turned, reinforced tube); tape eyes.",
+        "Maintain anesthesia allowing nerve stimulation; immobility from depth rather than paralysis where monitoring is used.",
+        "Smooth, cough-free emergence to protect the repair.",
+        "Recovery with attention to facial-nerve function."
+      ]
+    },
+    physiology: [
+      "Facial nerve traverses the parotid — EMG monitoring requires preserved neuromuscular transmission.",
+      "Field is at the face with limited airway access once draped.",
+      "Submandibular surgery is near the lingual/hypoglossal nerves and the airway floor."
+    ],
+    comorbid: [
+      "Often otherwise-healthy adults; tumor types vary (benign pleomorphic adenoma to malignancy).",
+      "Smoking/alcohol history raises opioid/NMB requirements (enzyme induction).",
+      "Standard comorbidity optimization."
+    ],
+    phases: {
+      pre: [
+        "Confirm facial-nerve monitoring plan and the resulting NMB limitation.",
+        "Plan tube type/securing for a turned, draped head.",
+        "Routine assessment."
+      ],
+      intra: [
+        "Provide immobility via anesthetic depth (limit relaxant) to preserve nerve monitoring.",
+        "Protect/secure the airway with limited access; tape eyes.",
+        "Maintain stable conditions for fine dissection."
+      ],
+      post: [
+        "Cough-free emergence; assess facial-nerve function.",
+        "Standard analgesia; monitor for hematoma near the airway (submandibular).",
+        "Routine recovery."
+      ]
+    },
+    source: "Jaffe 5e (2014), Otolaryngology §3.0 — Parotidectomy (p.224), Submandibular Gland Excision (p.226); combined entry."
+  },
+  {
+    id: "nasal-sinus-surgery",
+    name: "Nasal & Sinus Surgery — Endoscopic/External Sinus Surgery & Septorhinoplasty",
+    section: "Otolaryngology—Head and Neck Surgery",
+    page: "229–237",
+    tags: ["GETA (oral RAE)","Throat pack","Shared airway/blood","Topical vasoconstrictor"],
+    snapshot: {
+      position: "Supine, slight head-up",
+      time: "1–3 h",
+      ebl: "Usually modest (skull-base risk in FESS)",
+      painScore: "3–5",
+      anesthesia: "GETA",
+      mortality: "Low"
+    },
+    flags: [
+      "**Blood drains into the shared airway** — oral RAE tube + **throat pack (document placement AND removal)**; suction the pharynx and ensure a clear airway before extubation.",
+      "Surgeon-applied **topical vasoconstrictor (oxymetazoline/epinephrine, historically cocaine)** can cause **HTN/tachycardia/arrhythmia** — anticipate and treat.",
+      "Endoscopic sinus surgery abuts the **orbit and skull base** — a sudden complication (orbital/CSF/vascular) needs stable conditions and prompt recognition; modest controlled hypotension improves the field if requested.",
+      "Smooth emergence to avoid coughing/bleeding into the freshly operated nose."
+    ],
+    technique: {
+      summary: "Endoscopic or external sinus surgery and septorhinoplasty to relieve obstruction/disease or reconstruct the nasal framework. The nose bleeds into the shared airway and the surgeon uses vasoconstrictors near the orbit/skull base.",
+      steps: [
+        "Oral RAE tube; insert and document throat pack.",
+        "Anticipate pressor response to topical/injected vasoconstrictor; treat HTN/arrhythmia.",
+        "Provide a still, slightly head-up field; modest controlled hypotension if requested for visibility.",
+        "Remove throat pack and suction pharynx before extubation.",
+        "Smooth, cough-free emergence."
+      ]
+    },
+    physiology: [
+      "Nasal/sinus bleeding pools posteriorly into the shared airway.",
+      "Topical sympathomimetics are systemically absorbed → hemodynamic swings.",
+      "FESS instruments work millimeters from orbit, optic nerve, and anterior skull base."
+    ],
+    comorbid: [
+      "Often younger/healthier (rhinoplasty) or chronic-sinusitis adults.",
+      "Aspirin/NSAID and bleeding-tendency review for epistaxis-prone surgery.",
+      "OSA overlap in nasal-obstruction patients — opioid caution."
+    ],
+    phases: {
+      pre: [
+        "Plan oral RAE + throat pack; review bleeding risk/medications.",
+        "Anticipate vasoconstrictor hemodynamic effects.",
+        "Screen for OSA."
+      ],
+      intra: [
+        "Treat vasoconstrictor-induced HTN/arrhythmia; provide a dry field (head-up ± modest hypotension).",
+        "Protect the shared airway from blood; document throat pack.",
+        "Maintain stable conditions near orbit/skull base."
+      ],
+      post: [
+        "Remove throat pack, suction pharynx, confirm clear airway before extubation.",
+        "Cough-free emergence; head-up; manage epistaxis risk.",
+        "Standard analgesia."
+      ]
+    },
+    source: "Jaffe 5e (2014), Otolaryngology §3.0 — Endoscopic Sinus Surgery (p.229), External Sinus Surgery (p.235), Septorhinoplasty (p.237); combined entry."
+  },
+  {
+    id: "tonsillectomy-adenoidectomy",
+    name: "Tonsillectomy &/or Adenoidectomy (incl. post-tonsillectomy bleed)",
+    section: "Otolaryngology—Head and Neck Surgery",
+    page: "207–211",
+    tags: ["GETA","Shared airway","Often pediatric","OSA","Post-op bleed = emergency"],
+    snapshot: {
+      position: "Supine, shoulder roll, head extended",
+      time: "20–45 min",
+      ebl: "25–200 mL (monitor suction/irrigation)",
+      painScore: "5–7",
+      anesthesia: "GETA (oral RAE)",
+      mortality: "Low"
+    },
+    flags: [
+      "**Post-tonsillectomy hemorrhage is a true emergency**: hypovolemia + a **full stomach of swallowed blood** + a difficult, bloody airway → treat as RSI with suction ready, resuscitate first.",
+      "**OSA patients have heightened opioid/sedative sensitivity** — titrate carefully and avoid hypercapnia on emergence (vasodilation → bleeding).",
+      "**Shared airway** with an oral RAE; secure the tube against the mouth gag, watch for kinking/dislodgement when the surgeon opens the gag.",
+      "Largely **pediatric** — size-appropriate technique, careful emergence (laryngospasm risk), and PONV prophylaxis."
+    ],
+    technique: {
+      summary: "Removal of tonsils/adenoids (for chronic infection or OSA) via the intraoral route with a mouth gag and oral RAE tube. The shared airway, post-op bleeding, and OSA-related sensitivity are the anesthetic concerns; post-tonsillectomy bleed is a recurring emergency.",
+      steps: [
+        "GETA with oral RAE; secure tube within the mouth gag (watch for compression/dislodgement).",
+        "Maintain depth for the stimulating dissection; minimize opioids in OSA patients.",
+        "Hemostasis; estimate blood loss from suction/irrigation (easily underestimated).",
+        "Awake extubation with intact reflexes; suction the pharynx; avoid hypercapnia.",
+        "For a returning bleed: resuscitate, RSI with two suctions, anticipate a difficult bloody airway."
+      ]
+    },
+    physiology: [
+      "Swallowed blood after a bleed = full stomach + hidden hypovolemia.",
+      "OSA reflects upper-airway collapsibility and opioid sensitivity.",
+      "Mouth-gag opening can kink or dislodge the oral tube."
+    ],
+    comorbid: [
+      "Pediatric (most common) — weight-based dosing, parental separation, emergence agitation.",
+      "OSA / craniofacial syndromes increase airway and respiratory risk.",
+      "Bleeding disorders / recent NSAID use raise hemorrhage risk."
+    ],
+    phases: {
+      pre: [
+        "Identify OSA and bleeding risk; plan opioid-sparing analgesia and PONV prophylaxis.",
+        "Confirm tube/gag plan; size-appropriate equipment for children.",
+        "For a bleed: resuscitate, type & cross, two suctions, RSI plan."
+      ],
+      intra: [
+        "Secure shared airway; monitor for tube kinking at gag opening; gauge true blood loss.",
+        "Minimize opioids in OSA; maintain depth for stimulation.",
+        "Avoid hypercapnia toward emergence."
+      ],
+      post: [
+        "Awake extubation, reflexes intact; pharyngeal suction; watch for laryngospasm.",
+        "Vigilant for primary/secondary post-tonsillectomy hemorrhage.",
+        "OSA: monitored recovery, cautious opioids, PONV control."
+      ]
+    },
+    source: "Jaffe 5e (2014), Otolaryngology §3.0, Tonsillectomy and/or Adenoidectomy, p. 207–211 (OSA cross-ref p.258)."
+  },
+  {
+    id: "osa-surgery",
+    name: "Surgery for Sleep-Disordered Breathing (UPPP & airway-skeletal procedures)",
+    section: "Otolaryngology—Head and Neck Surgery",
+    page: "258–266",
+    tags: ["GETA","DIFFICULT AIRWAY","OSA physiology","Opioid-sparing","Monitored recovery"],
+    snapshot: {
+      position: "Supine, head extended",
+      time: "1–3 h",
+      ebl: "Modest",
+      painScore: "5–7 (UPPP)",
+      anesthesia: "GETA",
+      mortality: "Low"
+    },
+    flags: [
+      "By definition **OSA / difficult-airway physiology** — anticipate difficult mask and intubation; have an airway plan and rescue devices ready.",
+      "**Marked opioid/sedative sensitivity** — opioid-sparing, multimodal analgesia; over-sedation post-op risks fatal obstruction.",
+      "**Post-operative airway edema** at the very site of obstruction — extubate fully awake, plan monitored recovery, CPAP availability.",
+      "Avoid premedication that obtunds the airway; avoid hypercapnia-driven bleeding/edema."
+    ],
+    technique: {
+      summary: "Procedures to relieve upper-airway obstruction in obstructive sleep apnea — uvulopalatopharyngoplasty (UPPP), tongue-base and palatal procedures, and skeletal advancement. The patient's baseline difficult airway and opioid sensitivity dominate the plan.",
+      steps: [
+        "Plan for the difficult airway; awake or carefully managed induction with rescue devices.",
+        "GETA with shared-airway awareness; secure the tube against surgical instrumentation.",
+        "Opioid-sparing multimodal analgesia throughout.",
+        "Ensure full reversal and awake extubation with intact airway reflexes.",
+        "Monitored recovery with CPAP available; watch for obstruction/edema."
+      ]
+    },
+    physiology: [
+      "OSA = collapsible upper airway, blunted arousal, sensitivity to respiratory depressants.",
+      "Surgery edema occurs exactly where the airway already obstructs.",
+      "Chronic OSA may carry pulmonary HTN / right-heart strain."
+    ],
+    comorbid: [
+      "Obesity, HTN, DM, possible pulmonary HTN/cor pulmonale.",
+      "Difficult airway anatomy is the indication itself.",
+      "May be pediatric (syndromic) or adult."
+    ],
+    phases: {
+      pre: [
+        "Difficult-airway assessment and plan; review OSA severity / home CPAP.",
+        "Set opioid-sparing analgesic strategy; avoid sedative premed.",
+        "Plan monitored post-op disposition with CPAP."
+      ],
+      intra: [
+        "Manage the anticipated difficult airway; secure tube against instrumentation.",
+        "Opioid-sparing maintenance; avoid hypercapnia.",
+        "Ensure full neuromuscular reversal."
+      ],
+      post: [
+        "Awake extubation with intact reflexes; monitored bed, CPAP available.",
+        "Vigilant for airway edema/obstruction; minimal opioids.",
+        "Continue OSA precautions through recovery."
+      ]
+    },
+    source: "Jaffe 5e (2014), Otolaryngology §3.0, Sleep-Disordered Breathing surgery, p. 258–266."
+  },
+  {
+    id: "otology-surgery",
+    name: "Otologic & Neurotologic Surgery (tympanomastoid, ossicular, acoustic neuroma approaches)",
+    section: "Otolaryngology—Head and Neck Surgery",
+    page: "244–257",
+    tags: ["GETA","Facial nerve monitoring","Avoid/limit NMB","N2O caution (middle ear)","Bloodless field"],
+    snapshot: {
+      position: "Supine, head turned, slight head-up",
+      time: "1–5 h",
+      ebl: "Minimal",
+      painScore: "2–4",
+      anesthesia: "GETA",
+      mortality: "Low"
+    },
+    flags: [
+      "**Facial-nerve monitoring → avoid or carefully limit neuromuscular blockade** so the nerve can be stimulated and preserved.",
+      "**N2O diffuses into the middle ear** and raises pressure — avoid (or discontinue early) during tympanic-graft/middle-ear work to protect the graft.",
+      "Microsurgery wants a **bloodless, immobile field** — modest controlled hypotension and head-up positioning if requested; absolute patient stillness.",
+      "Acoustic-neuroma / posterior-fossa approaches add **VAE risk** (head-up) and brainstem-manipulation hemodynamics."
+    ],
+    technique: {
+      summary: "Middle-ear/mastoid and neurotologic surgery (tympanoplasty, ossiculoplasty, mastoidectomy, cochlear implant, acoustic neuroma approaches). Facial-nerve preservation, middle-ear pressure (N2O), and a still bloodless field are the anesthetic themes.",
+      steps: [
+        "Agree facial-nerve monitoring → limit NMB; provide immobility through depth.",
+        "Avoid or discontinue N2O before tympanic graft placement.",
+        "Provide a still, bloodless field (head-up, modest controlled hypotension if requested).",
+        "For posterior-fossa/acoustic-neuroma: VAE precautions and brainstem-reflex vigilance.",
+        "Smooth emergence; PONV prophylaxis (vestibular stimulation)."
+      ]
+    },
+    physiology: [
+      "Facial nerve runs through the operative field — monitoring needs intact transmission.",
+      "Closed middle-ear space: N2O raises pressure and can dislodge grafts.",
+      "Vestibular manipulation → high PONV; head-up posterior-fossa work → VAE."
+    ],
+    comorbid: [
+      "Often healthy adults/children; cochlear implant population includes young children.",
+      "Acoustic neuroma patients may have raised ICP / posterior-fossa signs.",
+      "Standard optimization."
+    ],
+    phases: {
+      pre: [
+        "Confirm facial-nerve monitoring and NMB limitation; plan N2O avoidance.",
+        "Plan bloodless-field strategy; PONV prophylaxis.",
+        "For neurotology, assess posterior-fossa/ICP status and VAE risk."
+      ],
+      intra: [
+        "Immobility via depth (limit relaxant); avoid/stop N2O before grafting.",
+        "Provide still bloodless field; head-up ± modest controlled hypotension.",
+        "VAE monitoring and brainstem-reflex vigilance for posterior-fossa cases."
+      ],
+      post: [
+        "Smooth emergence; strong antiemesis for vestibular PONV.",
+        "Neuro/facial-nerve check after neurotologic cases.",
+        "Standard low analgesic requirement."
+      ]
+    },
+    source: "Jaffe 5e (2014), Otolaryngology §3.0, Otology and Neurotology, p. 244–257; combined entry."
   }
 ];
 
