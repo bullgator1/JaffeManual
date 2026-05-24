@@ -1,0 +1,561 @@
+# 14_OFFICE
+# Source: 14 OFFICE.pdf (Jaffe's Anesthesiologist's Manual of Surgical Procedures, 5th ed., Wolters Kluwer, 2014)
+# Section: 14.0 Office-Based Anesthesia
+# Pages: ?-?
+# Note: Text-extract for project knowledge. Figures live in the source PDF only.
+
+===== PROCEDURE INDEX =====
+- Facial Rejuvenation: Lasers And Rf Tissue Tightening (p. ?)
+- Office Dental Rehabilitation Under Deep Iv Sedation (p. ?)
+- Dental Implants And Bone Grafting (p. ?)
+
+===== PAGE ? =====
+s e c t i o n
+
+           14.0 Office-Based
+                                       Anesthesia
+
+                                       surgeons
+                                       David A. Berman, MD (Facial Rejuvenation)
+                                       Vernon J. Adams, Jr., DMD (Dental rehabilitation)
+                                       Azeem K. Lakha, DMD (Dental implants)
+
+                                       anesthesiologist
+                                       Terri D. Homer, MD
+
+===== PAGE ? =====
+INTRODUCTION—ANESTHESIOLOGIST’S PERSPECTIVE
+                             Terri D. Homer
+
+                             DEFINITION OF OFFICE-BASED ANESTHESIA
+                             The assumption in this chapter is that office-based anesthesia (OBA) is distinct from outpatient anesthesia in a free-
+                             standing surgery facility. OBA is used in many medical specialties, including most dental subspecialties, dermatolo-
+                             gy, plastic surgery, ophthalmology, otolaryngology, and gynecology. The procedures described in this chapter are but
+                             a small sampling of the ways in which anesthesia is used in medical/dental offices. Anesthesiologists who carry out
+                             anesthetic procedures in the office setting may be sole practitioners or part of a group of anesthesiologists who have
+                             a “division” or rotation devoted to OBA. Although anesthesia practiced in an office carries the same risks, burdens of
+                             responsibility, and skill requirements as in a fully equipped surgical center, in the office setting, the anesthesiologist
+                             may be expected to arrange for the oxygen supply, suction, monitoring, and emergency equipment. They may even
+                             bring a portable anesthesia machine with them from site to site. This unique challenge for the anesthesia provider
+                             includes working with personnel unfamiliar with anesthesia concerns, converting the office into a facility appropriate
+                             for anesthesia, selecting appropriate patients, providing safe and effective anesthesia/analgesia, and properly prepar-
+                             ing and recovering the patients.
+
+                             STATE REGULATIONS REGARDING OFFICE-BASED ANESTHESIA
+                             Many states have laws listing strict requirements for medical facilities where anesthesia is provided for surgical
+                             procedures. Some states have regulations based on the type of surgical procedure performed. Others regulate and
+                             credential the facility based on the type of anesthesia used (i.e., GA, iv, local). Still others base regulations on the
+                             type of facility itself. In California, for example, dental offices are regulated differently than medical offices. For many
+                             years, the California Dental Board has regulated anesthesia in the dental or oral surgery office by credentialing the
+                             anesthesia provider and/or the office facility itself. An oral surgeon, dentist, or physician issued a GA permit by
+                             the Dental Board goes through a credentialing process by one or two examiners that includes direct observation of
+                             an anesthesia case, demonstration of emergency drills, and examination of required monitoring and resuscitation
+                             equipment on site. The permit allows the holder to provide GA in any dental office. The Dental Board also issues
+                             “Conscious Sedation” permits to those dental practitioners who qualify and want to use this technique. Physicians
+                             in California wishing to have iv sedation or general anesthesia available in their office must first be accredited as a
+                             surgery center by one of several agencies providing this service such as AAAHC.org.
+
+                             EQUIPMENT NEEDED FOR OFFICE-BASED ANESTHESIA
+                             In the office setting, the anesthesia provider may or may not have the use of an anesthesia machine or other sophis-
+                             ticated equipment that is readily available in a surgical center. In some respects, however, this setting is analogous to
+                             other out-of-OR locations. The ASA Guidelines for Nonoperating Room Anesthetizing Locations1 covers all types of
+                             out-of-OR facilities, and these recommendations should be followed. Appropriate monitoring—including pulse oxim-
+                             etry, ECG, and BP—is required. Many portable monitors have ETCO2 monitoring capability, which may be useful for
+                             the spontaneously ventilating, sedated patient. A precordial stethoscope is quite useful for monitoring respirations,
+                             especially in the dental patient, in whom airway obstruction is a frequent occurrence during the procedure. Also in
+                             accordance with the ASA guidelines, full resuscitation equipment, an adequate source of O2 (and backup O2), a func-
+     Office-Based
+      Anesthesia
+
+                             tioning suction, adequate lighting and electrical outlets (with backup battery source), and a telephone with immediate
+                             access to a hospital ER also must be available. In the credentialed medical (nondental) facility, these items are required
+                             to be on site. In the dental facility, they may or may not be present. It is the responsibility of the anesthesia provider to
+                             make sure these items are available in the medical or dental facility before administering an anesthetic.
+
+                             ANESTHETIC TECHNIQUES IN THE OFFICE SETTING
+                             Typically, the anesthetic techniques in the office setting can range from conscious sedation, deep iv sedation to
+                             general anesthesia with intubation. The type of procedure, the patient’s clinical status, and the surgeon or dentist’s
+
+                    1564
+
+===== PAGE ? =====
+Introduction—Anesthesiologist’s Perspective           1565
+
+                   preference all contribute to the decision of which technique is best for that particular situation. In the pediatric
+                   patient having dental restoration work, ‘‘conscious sedation’’ is not adequate because most often the dental restora-
+                   tion required is very extensive and will likely take several hours to accomplish. In this situation, general anesthesia
+                   with nasal intubation (or oral intubation if nasal intubation is not possible) is usually the best choice of anesthetic
+                   technique. In the patient having dental implant placement, minimal or moderate sedation may be all that is required.
+                   The oral surgeon may require the patient’s cooperation at times during the procedure. The patient undergoing full
+                   face laser resurfacing will most likely require deep sedation or general anesthesia because this procedure can be quite
+                   painful. However, because sedation is a continuum, the anesthesia provider must be prepared to rescue any patient
+                   receiving any sedation in the office (see Continuum of Depth of Sedation, ASA Guidelines).
+
+                   PATIENT SELECTION
+                   As in all medical facilities, the patient’s safety is of paramount importance. In the office setting, the ability to achieve
+                   a successful outcome is dependent first of all on appropriate patient selection. The patients presenting for OBA will
+                   fall into several categories, depending on the procedure and the patient’s age and medical condition. An “appropriate
+                   patient” can be an ASA 1 or 2 patient. They may even be an ASA 3, if: (a) their medical problems are stable and well
+                   controlled with medication, and (b) the office procedure itself will not pose an undue risk to them.
+
+                   PREOPERATIVE PREPARATION
+                   An important role of the anesthesiologist is to educate the patient (or patient’s parents, as appropriate) about the
+                   office anesthesia experience. A preop phone call discussing the patient’s medical history, past anesthesia experience
+                   (in a hospital, surgery center, or dental office), the npo requirements, the anesthesia technique(s) to be used, postan-
+                   esthesia expectations, and the anesthesia fees is essential. A written packet describing some of this information can
+                   be given to the patient in advance.
+                   Safe and accepted npo requirements on the day of the procedure are as follows:
+                        • A light breakfast (e.g., toast and a clear liquid), up to 6 h before the appointment.
+                        • Clear liquids (including Gatorade, Jell-O, fruit popsicles) up to 3 h before the appointment.
+                        • The patient’s usual medications should be continued on the day of the procedure.
+
+                   RECOVERY AND DISCHARGE
+                   In a medical or dental office, often there is no separate recovery area designated as such. It is common practice for the
+                   patient to be recovered by the anesthesiologist in the treatment room until they can open their eyes and maintain an
+                   adequate airway without assistance. At that point, any iv or monitors that may have been used can be removed. If it
+                   is a pediatric patient, the parents may be brought into the room, although recovery remains under the supervision of
+                   the anesthesiologist. Office anesthesia patients can be discharged when they are well oriented, their pain and nausea
+                   are controlled, and they have a responsible adult to accompany them. They may still feel drowsy, but this should not
+                   prevent them from being able to walk with assistance.
+                   Discharge instructions regarding appropriate postop activities should be given to the responsible adult with the
+                   patient. Generally, patients are asked to adhere to the following instructions upon discharge:
+                        • NPO except clear liquids in the first 2 h after arriving at home. (Unless the ride is > 1 h, we ask the patient not
+                           to drink anything in the car on the way home from the procedure facility.)
+                        • A light meal after the first 2 h, if the patient wishes.
+                        • Adults should take it easy the rest of the day and have a responsible adult companion for at least 4 h after the
+                           procedure.
+                                                                                                                                                          Office-Based
+                                                                                                                                                           Anesthesia
+
+                        • No driving for 24 h.
+                        • Children should stay home for the rest of the day postprocedure, under the direct supervision of a responsible
+                           adult.
+                   The anesthesiologist also should give the responsible party (parent, friend, other relative) his/her pager or cell phone
+                   number in the event they need to contact the anesthesiologist after patient discharge.
+
+                   Suggested Readings
+                     1. American Society of Anesthesiologists: ASA Statement on Nonoperating Room Anesthetizing Locations. American Society of
+                        Anesthesiologists, 2008. http://www.asahq.org/For-Members/Standards-Guidelines-and-Statements.aspx
+
+===== PAGE ? =====
+1566     s e c t i o n 14.0      Office-Based Anesthesia
+
+                                2. American Society of Anesthesiologists: ASA Guidelines for Office-Based Anesthesia, 2009. Available at: http://www.asahq.
+                                   org/For-Members/Standards-Guidelines-and-Statements.aspx
+                                3. American Society of Anesthesiologists: Continuum of Depth of Sedation, Definition of General Anesthesia and Levels of
+                                   Sedation and Analgesia. American Society of Anesthesiologists, 2009. http://www.asahq.org/For-Members/Standards-
+                                   Guidelines-and-Statements.aspx
+
+                             FACIAL REJUVENATION: LASERS AND RF TISSUE
+                             TIGHTENING
+                                       SURGICAL CONSIDERATIONS
+                             David A. Berman
+                             Description: A variety of medical devices have been approved for use to improve skin concerns, such as wrinkles,
+                             precancerous skin lesions (actinic keratoses), discoloration, acne scars, traumatic scars, and sagging skin. In the mid-
+                             1990s laser resurfacing using the fully ablative CO2 laser was very popular. This procedure yielded wonderful results,
+                             but extensive heat from this procedure caused some undesirable side effects such as scarring or pigmentation prob-
+                             lems, prompting the industry to develop the cooler and more conservative resurfacing tool using the erbium laser.
+                             Less than a decade later, a novel fractionated laser resurfacing device was developed that removed only a fraction
+                             of the skin in a pattern reminiscent of pixels in newspaper print. Certainly, the risks and side effects were reduced
+                             compared to the older technology, though this more conservative approach rendered a more modest improvement
+                             of skin concerns. Further research led to the development of nonablative technologies such as radiofrequency/
+                             ultrasound/nonlaser light-based devices, most of which resulted in better side effect profiles and positive outcomes.
+                             Although the holy grail of devices would render a no-down-time, painless procedure void of negative effects, the
+                             search for such continues to elude us. Meanwhile, physicians who perform these procedures should encourage
+                             patients to opt for office-based anesthesia and thus make the experience a more pleasant one for all involved.
+                             Because some devices deliver a tremendous amount of heat to the skin surface, ablating both the epidermis and a portion
+                             of the dermis, nerve blocks and local anesthetic infiltration are often inadequate, thus requiring either iv sedation or
+                             GA. Facial nerve blocks may be performed to supplement iv sedation. After a Betadine prep, anesthetic eye drops
+                             are used, followed by the insertion of protective corneal shields. The treatment then begins with one or more passes
+                             performed at various energy levels.
+
+                             Usual preop diagnosis: Wrinkles, precancerous skin lesions (actinic keratoses), acne scars, and traumatic scars.
+
+                               ■■ SUMMARY OF PROCEDURE
+                               Position                 Supine, with shoulder roll. Surgeon at head of table
+
+                               Antibiotics              None during procedure. Some patients will require antivirals and/or antibiotics started 1 d before
+                                                        procedure.
+
+                               Surgical time            30–60 min
+
+                               Postop care              Supine position, occasional ice packs, antiviral medications/antibiotics. Some require facial dressings.
+
+                               Mortality                None reported
+     Office-Based
+      Anesthesia
+
+                               Morbidity                Bacterial infection
+                                                        Herpes simplex virus reactivation
+                                                        Delayed re-epithelialization
+                                                        Fat atrophy
+                                                        Hypertrophic or keloid scar formation
+                                                        Corneal abrasion
+                                                        Delayed healing with redness
+                                                        Hyperpigmentation and hypopigmentation
+
+                               Pain Score               3–6 depending on the type of medical device used
+
+===== PAGE ? =====
+Facial Rejuvenation: Lasers and Rf Tissue Tightening          1567
+
+                     ■■ PATIENT POPULATION CHARACTERISTICS
+                     Age range                     18–85 yr
+
+                     Male:Female                   1:4
+
+                     Incidence                     *Laser Skin Resurfacing: 562,7064
+                                                   *Noninvasive Skin Tightening: 247,500
+                                                   *Fractionated Laser Resurfacing: 102,016
+                                                   **Ultherapy Ultrasonic Tightening: over 100,000 performed 2006–2012
+
+                     Etiology                      Solar radiation, acne, or trauma resulting in scars
+
+                     *2011, American Society for Aesthetic Plastic Surgery.
+                     **Manufacturers’ data.
+
+                          ANESTHETIC CONSIDERATIONS
+                         PREOPERATIVE
+                   Some facial rejuvenation procedures are quite painful and can be very stressful to the patient; thus, local anesthesia
+                   is often inadequate. For these procedures, it is important to make sure that the patient with chronic HTN and/or
+                   other cardiovascular or respiratory disease is being adequately treated for these problems before undergoing either
+                   laser resurfacing or RF tissue tightening. A preop ECG (taken within the last year) is recommended for those patients
+                   > 60 yr old or those being treated for HTN.
+
+                    Premedication                   In the adult patient, an oral premed can be given, if necessary, before the patient arrives in
+                                                    the office for the procedure. Lorazepam 0.5–1.0 mg po 1 h before the appointment will help
+                                                    relax the severely anxious patient.
+
+                         INTRAOPERATIVE
+                   Anesthetic technique: MAC and/or GA
+
+                    MAC/GA                          During full-face laser resurfacing procedures, the patient will need to be under deep iv seda-
+                                                    tion, unless the surgeon is willing to use a large amount of local anesthetic (often RF tissue
+                                                    tightening will require less sedation, depending on the device used). Usually, a combination
+                                                    of intermittent doses of midazolam (1–2 mg iv), meperidine (25 mg iv), ketamine (25–30 mg
+                                                    iv q 1 h prn), and propofol (25–50 mcg/kg/min iv) will provide an adequate anesthetic state.
+                                                    If a nasal airway is inserted, nasal O2 can be used (limit FiO2 to ≤ 0.30). Otherwise, O2 should
+                                                    be administered between facial passes if a laser is used. Again, the patient is not electively
+                                                    intubated, but an LMA may be needed if it is difficult to maintain a patent airway. Usually,
+                                                    patients having this procedure will require at least 75–150 mg meperidine (or its equiva-
+                                                    lent) to relieve the painful burning caused by multiple passes of these devices. Patients will
+                                                    shiver and sustain HTN and tachycardia unless an adequate level of analgesia is achieved.
+                                                    Because of the narcotic requirement, they should have prophylactic antiemetics during
+                                                    the procedure. Dexamethasone (8 mg iv) and metoclopramide (15 mg iv) or ondansetron
+                                                    (4 mg) are a good combination. In addition, im promethazine (25 mg) is very effective.
+                                                                                                                                                               Office-Based
+
+                    Blood and fluid                 IV: 20 ga × 1
+                                                                                                                                                                Anesthesia
+
+                       requirements                 NS/LR @ 4–6 mL/kg/h
+
+                    Monitoring                      Standard monitors (see p. B-1)
+
+                    Positioning                     3 and pad pressure points
+                                                    3 eyes (eye shields in place)
+
+                    Complications                   Laser fire                                 Use intermittent, low-flow O2. Consider wrapping
+                                                                                               foil around cannula. Limit FiO2 to ≤ 0.30.
+
+===== PAGE ? =====
+1568     s e c t i o n 14.0     Office-Based Anesthesia
+
+                                   POSTOPERATIVE
+
+                              Complications             PONV
+
+                              Pain                      Oral analgesics (see p. C-2)
+                                management
+
+                              Recovery and              The patient recovering from a full-face procedure usually has received a lot of potent anes-
+                                discharge               thetic medication in a short period of time. They require at least 45–60 min to recover in the
+                                                        office. Vital signs should be stable (↑ BP and tachycardia must be treated). Pain and nausea
+                                                        also should be under control. These patients must be accompanied by a responsible adult
+                                                        who can stay with them at home for a few hours after the procedure. A follow-up phone call
+                                                        to the patient by the anesthesiologist that evening is very helpful and appreciated.
+
+                             OFFICE DENTAL REHABILITATION UNDER
+                             DEEP IV SEDATION
+                                       SURGICAL CONSIDERATIONS
+                             Vernon Adams
+                             Description: Dental rehabilitation includes the restoration of good dental health by removal of caries and decayed
+                             teeth, replacement of crowns or bridges, root canals, and periodontal treatment. A throat pack with external tie is
+                             placed and a mouth prop inserted. Dental rehabilitation is usually done in phases, one quadrant at a time. A rubber
+                             dam is placed to isolate the teeth that will be treated. All dental caries are removed, the restorations are placed, and all
+                             debris is irrigated and suctioned away from the rubber dam, which is then removed. This sequence is repeated in other
+                             quadrants as needed. After the operative phase of treatment is completed, the next treatment phases proceed (e.g.,
+                             taking impressions for various appliances or dental prosthetics, dental extractions, or a dental prophylaxis). After the
+                             treatment is completed, the dentist examines the mouth and removes any loose gauze, debris, or other material left over
+                             from the treatment before the anesthesiologist begins the process of emergence from anesthesia.
+                             Usual preop diagnosis: In-office dental rehabilitation usually focuses on treatment of the patient who is unable to
+                             be treated in a conventional setting for primarily behavioral/emotional reasons. These include dentophobia; pedi-
+                             atric patients who are excessively apprehensive and/or combative or who have a significant amount of dental caries;
+                             “special needs” pediatric patients—autistic, mentally retarded, developmentally delayed—and patients with mild-to-
+                             moderate forms of cerebral palsy.
+
+                               ■■ SUMMARY OF PROCEDURE
+                               Position                Supine, on a dental chair or bench. A pillow under the knees will improve comfort and prevent
+                                                       sliding.
+
+                               Incision                ± Gingival or intraoral mucosa
+
+                               Special                 Dental setup
+                                 instrumentation
+     Office-Based
+      Anesthesia
+
+                               Unique                  Intubation recommended; throat pack placed; airway protection of paramount importance.
+                                 considerations
+
+                               Antibiotics             None used routinely
+
+                               Surgical time           90–180 min
+
+                               EBL                     Minimal
+
+                               Postop care             Recover in lateral position.
+
+                               Mortality               Rare
+
+===== PAGE ? =====
+Office Dental Rehabilitation Under Deep iv Sedation          1569
+
+                     ■■ SUMMARY OF PROCEDURE (cont’d)
+                     Morbidity             Biting of lips or tongue 2° local anesthesia: 1%
+                                           Bleeding: 1%
+                                           Infection: < 1%
+                                           Delayed Bleeding: Rare
+
+                     Pain Score            1–3; higher for certain procedures (e.g., extraction of impacted tooth or when all quadrants of
+                                           the mouth are restored).
+
+                     ■■ PATIENT POPULATION CHARACTERISTICS
+                     Age range             13 mo+
+
+                     Male: Female          1:1
+
+                     Incidence             > 20,000/yr in the United States
+
+                     Etiology              Poor oral hygiene and/or dietary habits; lack of continuing periodic dental care
+
+                         ANESTHETIC CONSIDERATIONS
+                         PREOPERATIVE
+                   In the pediatric dental office, the patients presenting for GA are those who cannot cooperate due to age (too
+                   young), too anxious, or to a preexisting mental or physical disease. Examples include a 20-mo-old child with early
+                   childhood caries, an 8-yr-old autistic child, or a child of any age with cerebral palsy, obesity, Down syndrome, or
+                    other congenital syndrome. Obviously, the anesthetic treatment plan must be tailored to the patient’s individual
+                    needs. These patients must be screened in advance for clinical conditions that would put them at risk for prob-
+                    lems intraop or postop. Specifically, a patient with any cardiac, respiratory, endocrine, or neurologic problem
+                    must be evaluated. If the clinical condition is mild, stable, and under good control, the patient may be considered
+                    for GA in the office. Examples of such conditions include mild nonsteroid-dependent asthma, corrected congeni-
+                    tal heart disease, or a stable Sz disorder. The child with Down syndrome, obesity, snoring, or OSA may pose a very
+                    difficult problem in this setting because airway obstruction can occur easily under deep iv sedation. Also, these
+                    patients frequently have concurrent congenital heart disease. The child with a current or recent URI always poses
+                   a dilemma. Although there is controversy on this issue, these children generally should have their procedures
+                   postponed because their chances of sustaining periop respiratory problems are higher than normal.
+
+                    Premedication           There are several options available for preprocedure sedation. In the older child (> 8 yr)
+                                            who is psychologically mature, an iv can be placed without premedication. In a dental of-
+                                            fice that is equipped with N2O, the patient can breathe a high-flow N2O/O2 mix through a
+                                            nasal mask for 10 min before iv placement. If the patient accepts the mask, this technique
+                                            can help lessen the patient’s fear of the iv. The use of a 30-ga needle for infiltration of buff-
+                                            ered local anesthetic and, sometimes, the use of EMLA cream (placed 30 min in advance)
+                                            also can be very helpful.
+                                            Oral premedication is used commonly in children 4–8 yr old. Midazolam (0.5–0.7 mg/kg;
+                                            maximum = 20 mg) mixed in an appropriate dose of liquid acetaminophen, given in the
+                                            office 20 min before the procedure, can provide adequate sedation. In some, the addition of
+                                                                                                                                                        Office-Based
+
+                                            oral ketamine 2–3 mg/kg to the midazolam solution may result in a better sedating effect,
+                                                                                                                                                         Anesthesia
+
+                                            especially in older pediatric patients.
+                                            Although an oral premed is popular and usually effective in the hospital setting, it may not
+                                            be appropriate in the setting of the dental office for a variety of reasons. First, many of these
+                                            children are not cooperative with oral hygiene or with taking oral medications at home and
+                                            will not cooperate with taking them in the office. The special-needs children or adults will
+                                            often be totally unable to take an oral premed. Second, many of the p       atients are anxious
+                                            that the oral premed is not absorbed well and may not be effective. Third and maybe most
+                                            important, having any volume in the stomach adds to the risk of aspiration management,
+                                            which is extremely problematic in the dental office.
+
+===== PAGE ? =====
+1570     s e c t i o n 14.0     Office-Based Anesthesia
+
+                              Premedication            One safer and certainly more effective and predictable premedication for the young healthy
+                                (cont’d)               child (6 yr or younger) or for the special-needs child is an intramuscular injection consist-
+                                                       ing of ketamine 2mg/kg, midazolam 0.2 mg/kg and glycopyrrolate 0.1 mg/kg. The anes-
+                                                       thesiologist can administer this injection while the patient is in his or her parents’ arms in
+                                                       the waiting area. Within 5 min after the injection, the patient will be sedated adequately
+                                                       to allow a smooth separation from the parent and sufficient amnesia for induction. Most
+                                                       parents will accept this premed option when the anesthesiologist explains the rationale for
+                                                       it in advance, usually during the preop phone call.
+                                                       In the child over age 6, an inhalation induction without premed may work very well, espe-
+                                                       cially when explained properly to the child and the parent.
+                                                       After the premed, the induction of general anesthesia in the adult, pediatric, or special-needs
+                                                       patient in the dental office is similar to the anesthetic induction in the operating room.
+                                                       Monitors are placed, and in the pediatric patient this is followed by an inhalation induc-
+                                                       tion, and then the placement of the iv. Intubation (preferably a nasal ETT) follows. After
+                                                       confirmation of the proper placement of the ETT, throat packs are placed with dental floss
+                                                       tied to them and left outside the mouth as a reminder of their presence in the throat. If x-
+                                                       rays are needed, the dentist and/or the dental assistants will get these done after the patient
+                                                       is intubated and then, finally, dental treatment can begin.
+                                                       There are no special considerations for maintenance of GA and an inhalation agent, TIVA
+                                                       or a combination, can be used. Some intraop narcotic should be used in the pediatric
+                                                       patient for postop analgesia as well as to minimize emergence delirium. Local anesthetic
+                                                       is often avoided in the pediatric patient undergoing this dental procedure under GA to
+                                                       avoid the possibility of the child biting a numb lip, cheek, or tongue as they recover. In the
+                                                       healthy adult patient undergoing dental work or oral surgery with GA, local anesthesia is
+                                                       usually administered by the dentist or oral surgeon intraop. The routine use of prophylactic
+                                                       intraop antiemetics is highly recommended and may include a combination of dexametha-
+                                                       sone, metoclopramide, ondansetron, and even a small dose of promethazine.
+
+                                   INTRAOPERATIVE
+                             Anesthetic technique: Alternatively, a flexible LMA can be used for airway management, if needed. Following
+                             sedation, the p
+                                            atient is placed in the dental chair, with the head positioned to maintain an open airway. A shoulder
+                             roll may be needed to help with head extension. Monitoring—including pulse oximeter, ECG, BP cuff, and precordial
+                             stethoscope—is attached. O2 is supplied, and ETCO2 can be measured through a nasal cannula. An iv is started if not
+                             previously placed. A nasal airway is positioned with care (to avoid epistaxis) after the dental x-rays are taken. The
+                             anesthesiologist must be constantly vigilant in maintaining an open airway in these patients in the face of an oral pro-
+                             cedure. Placing a flexible LMA may make airway management easier without interfering with the dental procedure.
+                             A propofol infusion can be started at a rate of 100–150 mcg/kg/min. Administration of a small amount of meperidine
+                             (e.g., 5–15 mg iv) may be useful in alleviating emergence delirium, especially if there is not adequate local anesthesia.
+
+                              Emergence                No special considerations, except that throat packs must be removed.
+
+                              Blood and fluid          IV: 20–22 ga × 1
+                                 requirements          NS/LR @ 4–6 mL/kg/h
+
+                              Monitoring               Standard monitors (see p. B-1)
+
+                              Positioning              3 and pad pressure points
+     Office-Based
+      Anesthesia
+
+                                                       3 eyes
+
+                                   POSTOPERATIVE
+
+                              Complications            PONV                                     These patients may swallow blood, with consequent
+                                                                                                PONV.
+
+                              Pain                     Oral analgesics (see p. C-2)             Acetaminophen can be started ~ 4 h after
+                                management                                                      discharge.
+
+===== PAGE ? =====
+Dental Implants and Bone Grafting       1571
+
+                    Recovery and             In the dental office, there may not be a separate, designated recovery area. Usually, the
+                      discharge              pediatric patient is recovered by the anesthesiologist in the treatment room for at least
+                                             30–50 min, or until the patient is opening his/her eyes and maintaining a normal airway
+                                             without assistance. At this point, the iv and monitors can be removed and the patient can
+                                             continue recovering with his/her parents or family in the office until the patient can keep
+                                             his/her eyes open, follow commands, seem calm, and is free of nausea. Postop instructions
+                                             given to the parents include no outside or unsupervised activities for the rest of the day,
+                                             no drinking or eating in the car on the way home, clear liquids for the first h, gradually
+                                             advancing the diet to soft foods. The anesthesiologist should give the parents his/her pager
+                                             or cell phone number so they can call with any questions that arise after they are at home.
+                                             Regardless, a follow-up phone call from the anesthesiologist is always a good policy.
+
+                   DENTAL IMPLANTS AND BONE GRAFTING
+                         SURGICAL CONSIDERATIONS
+                   Azeem K. Lakha
+                   Description: A dental implant consists of a tooth-root-shaped titanium post that is used to support a crown, bridge,
+                   or denture. Dental implants are inserted surgically into the mandibular or maxillary alveolar bone where teeth are
+                   missing. Single implants may be done with local anesthesia, but multiple or complex procedures are best accom-
+                   plished with iv sedation. After the local anesthetic is administered, a mucoperiosteal flap is raised over the edentulous
+                   alveolus, and the bone is exposed. Precise drill holes are made in the bone, and the implants are screwed or tapped
+                   into place. Bone grafting may be necessary around the implants to fill in defects and is carried out using autologous,
+                   allogenic, xenogenic, or synthetic materials. In most cases, the gum tissue is closed over or around the implant. The
+                   bone is allowed to heal around the implant, and 2–6 mo later the implant can be used to attach crowns, bridges, or
+                   dentures. In cases where there is insufficient bone, a bone graft is necessary before implants can be placed. Typically,
+                   bone grafts are allowed to heal for 6 months before implant insertion. Most minor grafting procedures are accom-
+                   plished in the dental office under iv sedation and local anesthesia. Major grafts requiring extraoral donor sites may
+                   have to be done under GA via nasal ETT intubation.
+                   Usual preop diagnosis: Acquired or congenital absence of dentition
+
+                     ■■ SUMMARY OF PROCEDURE
+                     Position                Supine, with head tilted back, using an articulating headrest in the dental chair
+
+                     Incision                Intraoral mucoperiosteal flaps
+
+                     Special                 Precordial stethoscope
+                       instrumentation
+
+                     Unique                  Throat packs are used to prevent aspiration of teeth, crowns, blood, and irrigation fluids. Ensure
+                       considerations        that they are removed at the end of the case.
+
+                     Antibiotics             Prophylactic antibiotics, given orally before surgery
+
+                     Surgical time           1–3 h
+                                                                                                                                                          Office-Based
+                                                                                                                                                           Anesthesia
+
+                     EBL                     25–100 mL
+
+                     Mortality               Rare
+
+                     Morbidity               Infection: 1%
+                                             Bleeding: Rare
+                                             Delayed Bleeding: Rare
+                                             Aspiration: Rare
+
+                     Pain Score              1–4, depending on procedure
+
+===== PAGE ? =====
+1572     s e c t i o n 14.0    Office-Based Anesthesia
+
+                               ■■ PATIENT POPULATION CHARACTERISTICS
+                               Age range              17+ yr
+
+                               Male: Female           1:1
+
+                               Incidence              Becoming more common as technology improves
+
+                               Etiology               Tooth loss
+
+                                       ANESTHETIC CONSIDERATIONS
+                                   PREOPERATIVE
+                             Many patients having dental implant procedures are elderly and/or have multiple medical problems. The
+                             anesthesiologist should be consulted in advance about these patients so that questions about their medical
+                             conditions can be answered and a current list of medications can be obtained. Sometimes the patient’s primary
+                             care physician needs to be contacted to discuss details of medical Hx. If chronic medical conditions are stable,
+                             patients often can receive “conscious sedation” and monitoring by the anesthesiologist for this procedure in the
+                             office.
+                             Premedication: Usually not necessary
+
+                                   INTRAOPERATIVE
+                             Anesthetic technique: MAC. These patients are not intubated electively. In the adult patient having dental
+                             implants, the maintenance of a lightly sedated state is achieved using a combination of iv midazolam, fentanyl (or
+                             meperidine), and small amounts of ketamine (20–30 mg/dose). A pulse oximeter, ECG, BP cuff, precordial stetho-
+                             scope or ETCO2 monitor, and nasal O2 should be in place. Glycopyrrolate (0.1–0.2 mg) should be given to decrease
+                             secretions. Dexamethasone 8 mg and metoclopramide 15 mg are useful as an antiemetic combination. Usually, the
+                             oral surgeon needs the patient’s cooperation at some point during the procedure; therefore, propofol is not an ideal
+                             drug to use. It can be given, however, in small doses to the patient who requires more than the other drugs for seda-
+                             tion. Occasionally, the adult patient in this setting will require a nasal airway.
+
+                              Emergence               No special considerations, except that throat packs must be removed at end of procedure.
+
+                              Blood and fluid         IV: 20–22 ga × 1
+                                 requirements         NS/LR @ 4–6 mL/kg/h
+
+                              Monitoring              Standard monitors (see p. B-1)
+
+                              Positioning             3 and pad pressure points
+                                                      3 eyes
+
+                                   POSTOPERATIVE
+
+                              Complications           PONV                                   These patients may swallow blood, with consequent
+                                                                                             PONV.
+     Office-Based
+      Anesthesia
+
+                              Pain                    Oral analgesics (see p. C-2)
+                                management
+
+                              Recovery and            See Recovery and Discharge for Office Dental Rehabilitation (p. 1516).
+                                discharge
+

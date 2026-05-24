@@ -1,0 +1,1785 @@
+# 2_OPHTHALMIC_SURGERY
+# Source: 2 OPHTHALMIC SURGERY.pdf (Jaffe's Anesthesiologist's Manual of Surgical Procedures, 5th ed., Wolters Kluwer, 2014)
+# Section: 2.0 Ophthalmic Surgery
+# Pages: 144-177
+# Note: Text-extract for project knowledge. Figures live in the source PDF only.
+
+===== PROCEDURE INDEX =====
+- Cataract Extraction With Intraocular Lens Insertion (p. 144)
+- Corneal Transplant (p. 146)
+- Trabeculectomy (p. 148)
+- Ectropion Repair (p. 151)
+- Entropion Repair (p. 152)
+- Ptosis Repair (p. 153)
+- Eyelid Reconstruction (p. 155)
+- Pterygium Excision (p. 157)
+- Repair Of Ruptured Or Lacerated Globe (p. 162)
+- Dacryocystorhinostomy (Dcr) (p. 165)
+- Enucleation (p. 168)
+- Orbitotomy—Anterior And Lateral (p. 170)
+
+===== PAGE ? =====
+s e c t i o n
+
+                     2.0 Ophthalmic
+                                      Surgery
+
+                                      surgeons
+                                      Natalia F. Callaway, MD
+                                      Darius M. Moshfeghi, MD
+
+                                      anesthesiologist
+                                      Richard A. Jaffe, MD, PhD
+
+===== PAGE 144 =====
+Cataract Extraction with Intraocular Lens
+                             Insertion
+                                   SURGICAL CONSIDERATIONS
+     Ophthalmic
+      Surgery
+
+                             Description: Cataract—the leading cause of treatable blindness in the world—is defined as opacification of the
+                             crystalline lens. Cataract surgery is the most common surgical procedure, with more than 3 million performed
+                              in the United States each year. Several approaches to cataract removal have evolved as a result of advances in both
+                              instrumentation and artificial intraocular lenses (IOL). Most modern cataract surgery is performed using a varia-
+                              tion of the extracapsular technique, which involves removal of the crystalline lens through an opening made in
+                              the anterior lens capsule (known as a capsulectomy). Removal of the lens nucleus can then be accomplished intact,
+                              which requires an 8- to 10-mm corneal incision, or more commonly by phacoemulsification wherein ultrasound
+                              energy is used to fragment the lens, allowing aspiration of the lens material. The advantages of phacoemulsification
+                              are that the entire procedure can be performed through a much smaller, clear corneal incision (usually ,3 mm in
+                              length) and is associated with fewer adverse events. With both approaches, the softer, more peripheral cortical lens
+                              material is then removed by aspiration, leaving the posterior capsular bag intact to support an IOL implant (Fig. 2-1).
+                              If the lens capsule is torn or is for any reason unable to support an IOL, the lens can be fixated with sutures in the
+                              posterior chamber (behind the iris), or an anterior chamber IOL can be placed in front of the iris. Presently, the most
+                              popular materials for IOL implants are polymethylmethacrylate, silicon, and acrylic. Only silicon and acrylic are fold-
+                              able, which allows their insertion through a small corneal incision and, therefore, are the most commonly used. The
+                              wound is closed with nylon or Vicryl suture (9-0 or 10-0) to achieve a watertight seal, although when small incisions
+                              are used, the wounds are often self-sealing and do not require sutures.
+                             Variant procedure or approaches: Intracapsular cataract extraction involves removal of the crystalline lens
+                             with its surrounding capsular bag intact. To accomplish this, the zonules that normally stabilize and center the lens
+                             must be broken, and a cryoprobe often is used to remove the lens from the eye through a large incision. This proce-
+                             dure is performed infrequently, given the superior visual outcomes of extracapsular techniques. It may be indicated in
+                             situations where capsular bag support has been compromised by either trauma, malignancy, or inherited disorders.
+                             Usual preop diagnosis: Cataract
+
+                                       Figure 2-1. A: Placement of intraocular lens into remaining capsular bag. B: “In-the-
+                                       bag” insertion.
+
+                  144
+
+===== PAGE 145 =====
+Cataract Extraction with Intraocular Lens Insertion    145
+
+                     ■■ SUMMARY OF PROCEDURE
+                     Position               Supine, table rotated 90–1808
+
+                     Incision               2.8-mm peripheral cornea (phacoemulsification) or 8–10 mm (corneoscleral junction)
+
+                     Special                Surgical microscope; phacoemulsification machine
+                       instrumentation
+
+                                                                                                                                                    Ophthalmic
+                                                                                                                                                     Surgery
+                     Antibiotics            Subconjunctival cefazolin (50–100 mg) or gentamicin (20–40 mg) or a topical fluoroquinolone
+
+                     Surgical time          15–60 min
+
+                     EBL                    None
+
+                     Postop care            Possible eye patch/shield for 24 h, topical medications
+
+                     Mortality              Rare
+
+                     Morbidity              Posterior capsule opacification: ~25% (may require Nd:YAG laser treatment)
+                                            Posterior capsule rupture: 3.1%
+                                            Corneal edema: , 2%
+                                            Macular edema: 1–2%
+                                            Retinal detachment: , 1%
+                                            Choroidal hemorrhage: 0.3%
+                                            Endophthalmitis: , 0.2 %
+
+                     Pain score             1–2
+
+                     ■■ PATIENT POPULATION CHARACTERISTICS
+                     Age range              3 mo–80+ yr (depends on type of cataract)
+
+                     Male:Female            1:1
+
+                     Incidence              . 1,000,000/yr in the United States. Prevalence: 50% @ 65–74 yo; 70% @ 75+ yo
+
+                     Etiology               90% age related; congenital (1/250 newborns); metabolic; traumatic; medication-induced
+                                            (steroids)
+
+                     Associated             Systemic diseases of elderly patients–common; cardiovascular disease; diabetes; HTN.
+                       conditions           Genetic: Marfan’s disease; metabolic disorders
+                                            Patients may be on antiplatelet or anticoagulant therapy. It is generally accepted that these
+                                            drugs do not need to be discontinued before cataract surgery (especially if INR ≤ 1.5)
+
+                        ANESTHETIC CONSIDERATIONS
+                   At the present time in the United States, cataract surgery is most commonly performed using only topical anesthetic
+                   agents (e.g., preservative-free 2–4% lidocaine, levobupivacaine 0.75%, ropivacaine 1%, or oxybuprocaine 1%) to block
+                   trigeminal nerve endings in the cornea and conjunctiva. Iris and ciliary body anesthesia depend on local anesthetic
+                   penetration into the anterior chamber. Thus, in a few patients, there may be a need for supplemental anesthetic ad-
+                   ministration (e.g., intracameral, 1% lidocaine) and less commonly systemic analgesic and sedative drugs. Inadvertent
+                   eye and lid movement should be expected. Adverse reactions to topical anesthetics are extremely rare and typically
+                   allergic in nature. High concentrations or prolonged exposure to local anesthetics can be toxic to the corneal epi-
+                   thelium (delayed wound healing; corneal erosion), and to the retina. A prospective randomized double-blind series
+                   demonstrated that combining topical anesthesia with intracameral lidocaine anesthesia was safe and effective in
+                   phacoemulsification with intraocular lens implantation. This technique avoided potential sequelae of retrobulbar
+                   or peribulbar anesthesia for cataract surgery. However, in one study of patients undergoing cataract surgery using
+                   topical anesthesia reported greater intraoperative and postoperative discomfort than those given a sub-Tenon block.
+                   Use of intravenous sedation increased the incidence of adverse events as compared with topical anesthesia without
+
+===== PAGE 146 =====
+146        s e c t i o n 2.0     Ophthalmic Surgery
+
+                             sedation. All local anesthetic techniques should be avoided in patients with uncontrolled movement disorders, or an
+                             inability to cooperate.
+                             Anesthesia-trained personnel monitored most patients during cataract surgery, and the most commonly used local
+                             anesthetic was lidocaine. The anesthetic method associated with the lowest degree of pain, dissatisfaction, drowsi-
+                             ness, or nausea and vomiting was a regional block technique with administration of sedatives and diphenhydramine.
+                             See Anesthetic Considerations for Ophthalmic Surgical Procedures under MAC (adult), p. 158, or for Pediatric Oph-
+     Ophthalmic
+
+                             thalmic Surgery, p. 1199.
+      Surgery
+
+                             Suggested Readings
+                                1. Ashwin PT, Shah S, Wolffsohn JS: Advances in cataract surgery. Clin Exp Optom 2009; 92(4):333–42.
+                                2. Borazan M, Karalezli A, Akova YA, Algan C, Oto S: Comparative clinical trial of topical anaesthetic agents for cataract surgery
+                                   with phacoemulsification: lidocaine 2% drops, levobupivacaine 0.75% drops, and ropivacaine 1% drops. Eye 2008; 22(3):425–9.
+                                3. Chuang LH, Yeung L, Ku WC, et al: Safety and efficacy of topical anesthesia combined with a lower concentration of
+                                   intracameral lidocaine in phacoemulsification: paired human eye study. J Cataract Refract Surg 2007; 33(2):293–6.
+                                4. Coelho RP, Weissheimer J, Romão E, et al: Pain induced by phacoemulsification without sedation using topical or peribulbar
+                                   anesthesia. J Cataract Refract Surg 2005; 31(2):385–8.
+                                5. Eichel R, Goldberg I: Anaesthesia techniques for cataract surgery: a survey of delegates to the Congress of the International
+                                   Council of Ophthalmology, 2002. Clin Experiment Ophthalmol 2005; 33(5):469–72.
+                                6. Eke T, Thompson JR: Serious complications of local anaesthesia for cataract surgery: a 1 year national survey in the United
+                                   Kingdom. Br J Ophthalmol 2007; 91(4):470–5.
+                                7. Malik A, Fletcher EC, Chong V, Dasan J: Local anesthesia for cataract surgery. J Cataract Refract Surg 2010; 36(1):133–52.
+                                8. Rogers GM, Goins KM: Cataract surgery in the patient that cannot lie flat. Curr Opin Ophthalmol 2010; 21(1):71–4.
+                                9. Sanmugasunderam S, Khalfan A: Is fasting required before cataract surgery? A retrospective review. Can J Ophthalmol 2009;
+                                   44(6):655–6.
+                               10. Srinivasan S, Fern AI, Selvaraj S, et al: Randomized double blind clinical trial comparing topical and sub-Tenon’s anaesthesia
+                                   in routine cataract surgery. Br J Anaesth 2004; 93:683–6.
+                               11. Tan CS, Au Eong KG, Kumar CM: Visual experiences during cataract surgery: what anaesthesia providers should know. Eur
+                                   J Anaesthesiol 2005; 22(6):413–9.
+                               12. Vann MA, Ogunnaike BO, Joshi GP: Sedation and anesthesia care for ophthalmologic surgery during local/regional
+                                   anesthesia. Anesthesiology 2007; 107(3):502–8.
+
+                             Corneal Transplant
+                                   SURGICAL CONSIDERATIONS
+                             Description: Patients with corneal pathology who have failed stem-cell techniques may require corneal
+                             transplantation (penetrating keratoplasty [PKP] or lamellar keratoplasty). Corneal transplantation
+                             involves replacing a portion of the host cornea with tissue from a donor eye (allograft). The primary goals of
+                             this procedure are to both restore the integrity of the cornea and establish a clear visual axis. The ideal death-
+                             to-preservation time of the donor cornea is , 18 h, and the donor cornea can be stored for up to 2 wk before
+                             transplantation. The procedure often begins with the placement of a scleral fixation ring (Flieringa ring) just
+                             beyond the corneoscleral junction, which is secured with 7-0 Vicryl sutures. This provides additional scleral sup-
+                             port that is especially helpful in children or patients who have undergone previous cataract surgery. The donor
+                             corneal button is removed from the surrounding corneoscleral rim with a trephine and kept in storage medium
+                             until the recipient bed is prepared. The host cornea is then trephined in a previously marked central location,
+                             using either manual or vacuum-assist techniques while the anterior chamber is maintained with viscoelastics.
+                             After the eye is opened, it is critical to avoid patient movement, coughing, bucking, or any Valsalva maneuvers
+                             to prevent expulsion of the intraocular contents through the wound. The size of the donor button is generally
+                             cut ,0.25 mm larger than the host bed. The donor cornea is then sutured endothelial side down into place with
+                             10-0 nylon sutures, which can be accomplished using 16 interrupted sutures (generally preferred with corneas
+                             that are inflamed, thinned, or vascularized), running sutures, or a combination, depending on a number of fac-
+                             tors unique to each patient. Great care is taken during manipulation of the allograft to avoid trauma to the inner
+                             surface of the graft, as damage to the endothelial cells in this location can result in primary graft failure.
+
+===== PAGE 147 =====
+Corneal Transplant   147
+
+                   Variant procedure or approaches: PKP may be combined with cataract extraction or exchange of a previously
+                   placed intraocular lens (IOL). In addition, PKP may be combined with limbal stem-cell transplantation (autograft
+                   from less injured eye) in cases where the most superficial corneal epithelial layer is unable to regenerate follow-
+                   ing damage (e.g., chemical burn injuries) to the limbal stem cells. Partial-thickness transplants, called lamellar
+                   keratoplasty, also can be performed in certain clinical situations. PKP may be combined with glaucoma filtration
+                   procedure and retinal surgery.
+                   Usual preop diagnosis: Persistent corneal edema; inherited corneal dystrophy; keratoconus; corneal scar; infec-
+
+                                                                                                                                                       Ophthalmic
+                                                                                                                                                        Surgery
+                   tious keratitis; chemical injury
+
+                     ■■ SUMMARY OF PROCEDURE
+                     Position               Supine, table rotated 90–1808
+
+                     Incision               Corneal
+
+                     Special                Surgical microscope
+                       instrumentation
+
+                     Unique                 Open-globe precautions: Avoid coughing, bucking, or Valsalva maneuvers to prevent expulsion
+                       considerations       of intraocular contents.
+
+                     Antibiotics            Subconjunctival cefazolin (50–100 mg) or gentamicin (20–40 mg)
+
+                     Surgical time          60–90 min
+
+                     EBL                    Minimal
+
+                     Postop care            Patch/shield for 24 h, long-term topical immunosuppression to prevent graft rejection
+
+                     Mortality              Rare
+
+                     Morbidity              Graft rejection: ,5%
+                                            Suprachoroidal hemorrhage: , 1% (higher for MAC: ,4%)
+                                            Infection: , 1%
+
+                     Pain score             2
+
+                     ■■ PATIENT POPULATION CHARACTERISTICS
+                     Age range              Any age
+
+                     Male:Female            1:1
+
+                     Incidence              . 40,000 cases/yr in the United States and Canada
+
+                     Etiology               Corneal opacity or decompensation resulting from endothelial failure; inherited dystrophy; kera-
+                                            toconus; scarring related to trauma/chemical burn/infection
+
+                     Associated             Congenital malformations; sleep apnea; atopic disease/asthma; Down syndrome
+                       conditions
+
+                        ANESTHETIC CONSIDERATIONS
+                   Corneal transplants commonly require GA or a retrobulbar/peribulbar block to prevent movement of the eyelids or
+                   extraocular muscles that could lead to distortion of the globe during the procedure. However, in patients with sig-
+                   nificant coagulopathy, a history of perforated corneal ulcers, severe systemic disease, or other conditions that make
+                   the use of these forms of anesthesia less preferable, corneal transplant can be performed with topical anesthesia in
+                   cooperative patients.
+                   See Anesthetic Considerations for Ophthalmic Surgical Procedures under MAC (adult), p. 158, or for Pediatric Oph-
+                   thalmic Surgery, p. 1199.
+
+===== PAGE 148 =====
+148        s e c t i o n 2.0       Ophthalmic Surgery
+
+                             Suggested Readings
+                                1.    Kallio H, Rosenberg PH: Advances in ophthalmic regional anaesthesia. Best Pract Res Clin Anaesthesiol 2005; 19(2):215–27.
+                                2.    Riddle HK Jr, Price MO, Price FW Jr: Topical anesthesia for penetrating keratoplasty. Cornea 2004; 23(7):712–4.
+                                3.    Tan DT, Dart JK, Holland EJ, Kinoshita S: Corneal transplantation. Lancet 2012; 379(9827):1749–61.
+                                4.    Yeung SN, Kim P, Lichtinger A, et al: Combined topical and intracameral anesthesia for Descemet’s stripping automated
+                                      endothelial keratoplasty. Int Ophthalmol 2012; 32(3):273–6.
+     Ophthalmic
+      Surgery
+
+                             Trabeculectomy
+                                   SURGICAL CONSIDERATIONS
+                             Description: Glaucoma is a chronic disorder characterized by progressive and irreversible optic neuropathy with
+                             visual field defect. Glaucoma can develop at any intraocular pressure (IOP), but most current treatments are targeted
+                             at decreasing IOP. It is the second most common cause of blindness in the United States and accounts for more than
+                             5.1 million cases of blindness throughout the world. Trabeculectomy (glaucoma filtration procedure) is the most
+                             common surgical procedure used to reduce IOP and is often undertaken only after maximal medical therapy has
+                             failed. In trabeculectomy, a drainage fistula (ostium) is created from the anterior chamber to the subconjunctival
+                             space, allowing aqueous humor to drain from the eye. (Normal anatomy relevant for aqueous fluid production is
+                             shown in Fig. 2-2). First, a limbus-based or fornix-based incision is created in the conjunctiva and Tenon’s layer,
+                             exposing the underlying bare sclera. A partial-thickness (4–5 mm) scleral flap, hinged at the limbus, is then created.
+                             Because scarring (secondary to inflammation) is the most common cause of surgical failure, antimetabolites, such as
+                             mitomycin-C or 5-fluorouracil, are often applied to the surgical site to slow or prevent fibroblast proliferation. Next,
+                             an incision into the anterior chamber is created at the base of the scleral flap and converted to a sclerotomy by remov-
+                             ing an approximate 1 3 4 mm piece of corneoscleral tissue. To prevent the iris from entering the ostium as well as to
+                             protect against future angle closure, an iridectomy is performed, followed by closure of the overlying scleral flap with
+                             10-0 nylon sutures. Before closure, it is important to avoid coughing, bucking, or Valsalva maneuvers, which might
+                             cause suprachoroidal hemorrhage or expulsion of intraocular content. The conjunctiva is then reapposed, using run-
+                             ning 8-0 or 9-0 absorbable or nylon sutures.
+
+                                           Figure 2-2. Ocular anatomy concerned with control of IOP. (Reproduced with
+                                           permission from Barash PG, Cullen BF, Stoelting RK, et al., eds: Clinical Anesthesiology,
+                                           7th edition. Lippincott Williams & Wilkins: 2013.)
+
+===== PAGE 149 =====
+Trabeculectomy     149
+
+                                                                                                                                                           Ophthalmic
+                                                                                                                                                            Surgery
+                                                                                                        Molteno Implant
+
+                                Figure 2-3. Basic technique of inserting Molteno implant. Silicone tube is inserted into
+                                anterior chamber via needle track and is connected to a subconjunctival acrylic plate that is
+                                attached to the sclera near the equator. (Reproduced with permission from Allingham RR,
+                                ed: Shield’s Textbook of Glaucoma, 6th edition. Williams & Wilkins, Philadelphia: 2010.)
+
+                   Variant procedure or approaches: In patients for whom trabeculectomy has failed, a variety of drainage implants
+                   have been created to maintain the patency of the drainage ostium. These devices (e.g., Ahmed, Molteno, Krupin,
+                   Baerveldt) consist of plastic reservoirs that are placed in the sub-Tenon’s space and are connected to a tube that enters
+                   the anterior chamber (Fig. 2-3). These devices differ in implant size and whether or not there is an internal valve to
+                   prevent excessive drainage. Long-term IOP reduction with drainage implants is not as successful as trabeculectomy.
+                   In infants and children with congenital glaucoma (see Pediatric Ophthalmic Surgery, p. 1198), the anterior chamber
+                   angle, which normally allows outflow of aqueous, develops abnormally and often requires surgical intervention.
+                   Goniotomy (opening Schlemm’s canal) is usually the initial procedure of choice. An alternative procedure is a tra-
+                    beculotomy performed by exposing Schlemm’s canal (the drainage system) in a corneoscleral cutdown. A trabeculo-
+                    tome is then threaded into this canal and is rotated, creating a tear in the trabecular meshwork and allowing direct
+                    communication between the anterior chamber and Schlemm’s canal.
+                   Usual preop diagnosis: Glaucoma
+
+                     ■■ SUMMARY OF PROCEDURE
+                     Position                 Supine, table rotated 90–1808
+
+                     Incision                 Superior portion of eye
+
+                     Special                  Surgical microscope
+                       instrumentation
+
+                     Unique                   Prevent coughing, bucking, Valsalva maneuvers while globe is open, to prevent expulsion of
+                       considerations         intraocular contents.
+
+                     Antibiotics              Subconjunctival cefazolin (50–100 mg) or gentamicin (20–40 mg)
+
+                     Surgical time            30–60 min
+
+                     EBL                      Minimal
+
+                     Postop care              Patch/shield × 24 h; long-term topical corticosteroids to reduce scarring. Topical antibiotics for
+                                              the fistula. Scleral flap sutures can be cut with a laser postop to increase flow. Patient advised
+                                              to wear patch at night × 1–2 wk.
+
+===== PAGE 150 =====
+150        s e c t i o n 2.0    Ophthalmic Surgery
+
+                               ■■ SUMMARY OF PROCEDURE (cont’d)
+                               Mortality                Rare
+
+                               Morbidity                Overfiltration causing hypotony
+                                                        Leaking bleb
+                                                        Fistula scarring
+                                                        Infection
+     Ophthalmic
+      Surgery
+
+                                                        Anterior chamber bleeding/hyphema
+                                                        Serous choroidal detachment/effusion
+                                                        Persistent corneal edema
+                                                        Suprachoroidal hemorrhage
+
+                               Pain score               1–2
+
+                               ■■ PATIENT POPULATION CHARACTERISTICS
+                               Age range                Any age; more common in the elderly
+
+                               Male:Female              1:1
+
+                               Incidence                1.7% Caucasians; 5.6% African Americans
+
+                               Etiology                 Impaired aqueous outflow. Cause of primary open angle glaucoma unknown, but elevated IOP
+                                                        is the strongest risk factor. Many secondary causes, including angle closure, trauma, inflamma-
+                                                        tion, neovascularization, and congenital abnormalities.
+
+                               Associated               Diseases of the elderly, including cardiovascular disease, HTN, and diabetes. Children may have
+                                 conditions             multiple congenital anomalies.
+
+                                   ANESTHETIC CONSIDERATIONS
+                             Trabeculectomy is typically accomplished using sub-Tenon anesthesia, which allows monitoring of conjunctival
+                             mobility when selecting the surgical site. Alternatively, it can be done using topical anesthetics. GA is usually
+                              reserved for pediatric patients, patients unlikely or unable to cooperate during the procedure, or if low intraocular
+                              pressure from anesthesia is desirable.
+                             Subconjunctival anesthesia at the bleb site may be associated with a poorer outcome, because it may stimulate fibro-
+                             blasts to cause scarring due to hemorrhage and tissue damage. Peribulbar and retrobulbar injections in patients with
+                             advanced glaucoma may be associated with increased intraocular pressure, which can be prevented by decreasing
+                             anesthetic volumes and avoiding the use of orbital Honan balloons.
+                             Topical and intracameral anesthesia are being increasingly employed for trabeculectomy to avoid injection pain and
+                             potential complications, such as conjunctival button holes and hemorrhage. However, topical agents have the fol-
+                             lowing limitations: inferior duration and intensity of anesthetic effect and lack of ocular akinesia, which is necessary
+                             to prevent globe compression in patients with prominent eyelid squeezing. Intracameral lidocaine as a supplement
+                             to topical anesthesia has the theoretical advantage of increasing depth of anterior chamber, but it poses the risk of
+                             damaging the phakic lens and excessive iridectomy enlargement. To avoid these possible complications, intracameral
+                             acetylcholine or topical pilocarpine can be used in conjunction with intracameral lidocaine.
+                             See Anesthetic Considerations for Ophthalmic Surgical Procedures under MAC (adult), p. 158, or for Pediatric Oph-
+                             thalmic Surgery, p. 1199.
+
+                             Suggested Readings
+                                1. Edmunds B, Bunce CV, Thompson JR, et al: Factors associated with success in first-time trabeculectomy for patients at low
+                                   risk of failure with chronic open-angle glaucoma. Ophthalmology 2004; 111:97–103.
+                                2. Kumar CM, Eid H, Dodds C: Sub-Tenon’s anaesthesia: complications and their prevention. Eye (Lond) 2011; 25(6):
+                                   694–703.
+                                3. Sauder G, Jonas JB: Topical anesthesia for penetrating trabeculectomy. Graefes Arch Clin Exp Ophthalmol 2002; 240:739–42.
+                                4. Zabriskie NA, Ahmed IIK, Crandall AS, et al: A comparison of topical and retrobulbar anesthesia for trabeculectomy.
+                                   J Glaucoma 2002; 11:306–14.
+
+===== PAGE 151 =====
+Ectropion Repair      151
+
+                   Ectropion Repair
+                        SURGICAL CONSIDERATIONS
+                   Description: Ectropion is a malposition of the eyelid often due to laxity in the tarsoligamentous sling, in which the
+                   lid margin is everted away from the globe. The surgical approach depends on the underlying anatomic abnormality,
+
+                                                                                                                                                       Ophthalmic
+                   which can be congenital, involutional, cicatricial (scarring), or due to mechanical traction from masses or facial nerve
+
+                                                                                                                                                        Surgery
+                   palsy. A lateral tarsal strip procedure is often used, with the lateral canthal tendon first released by performing a
+                   lateral canthotomy and cantholysis of the crus (Fig. 2-4). A lateral portion of tarsus is then dissected free of overly-
+                   ing skin, muscle, and conjunctiva. This strip of tarsus is trimmed to the appropriate length and is secured to the peri-
+                   osteum of the lateral orbital rim with suture. Excess skin is removed and the defect is closed. If punctal malposition
+                   is present, the tarsal strip procedure may be combined with a medial conjunctival spindle procedure.
+                   Variant procedure or approaches: Cicatricial ectropion from a contracting scar can sometimes be released with
+                   a Z-plasty incision that releases vertical skin tension. Alternatively, a full-thickness skin graft may be required and
+                   can be harvested from the upper lid or the postauricular or supraclavicular regions.
+                   Usual preop diagnosis: Ectropion of the eyelid
+
+                     ■■ SUMMARY OF PROCEDURE
+                     Position                Supine, table rotated 90–1808
+
+                     Incision                Lateral canthal region or area of scarring
+
+                     Special                 Surgical loupes
+                       instrumentation
+
+                     Antibiotics             None intraop
+
+                     Surgical time           0.5–1 h
+
+                     EBL                     Minimal
+
+                     Postop care             Topical antibiotic ointment
+
+                     Mortality               Rare
+
+                     Morbidity               Lid malposition
+                                             Infection: Very rare
+                                             Corneal injury
+                                             Local postop bleeding
+
+                     Pain score              1–2
+
+                     ■■ PATIENT POPULATION CHARACTERISTICS
+                     Age range               Any age, but most common in older adults
+
+                     Male:Female             1:1
+
+                     Incidence               Common in elderly patients
+
+                     Etiology                Congenital; aging; malignancy; facial nerve palsy
+
+                     Associated              Systemic diseases of elderly patients common; cardiovascular disease; diabetes; HTN;
+                       conditions            neurological disease
+
+                        ANESTHETIC CONSIDERATIONS
+                   See Anesthetic Considerations for Ophthalmic Surgical Procedures under MAC (adult), p. 158, or for Pediatric Oph-
+                   thalmic Surgery, p. 1199.
+
+===== PAGE 152 =====
+152        s e c t i o n 2.0    Ophthalmic Surgery
+     Ophthalmic
+      Surgery
+
+                                          Figure 2-4. In the tarsal strip procedure, the lower eyelid is incised laterally. The entire
+                                          lower crus of the canthal tendon must be severed. (Redrawn with permission from
+                                          Duane’s Ophthalmology, Williams & Wilkins, Philadelphia: 2013.)
+
+                             Suggested Reading
+                                1. See Suggested Readings following Ophthalmic Surgery section, p. 176.
+
+                             ENTROPION REPAIR
+                                   SURGICAL CONSIDERATIONS
+                             Description: Entropion is a condition characterized by an inward rotation of the eyelid margin. The surgical approach
+                             depends on the underlying anatomic abnormality, which can be congenital, spastic, involutional, or cicatricial (scarring).
+                             For the more common involutional or age-related cases, the primary defect involves horizontal lid laxity, disinsertion of
+                             the lower lid retractors, and/or an overriding orbicularis muscle. Correction often involves use of the lateral tarsal strip
+                             procedure (see description under Ectropion Repair) to achieve tightening of the lower lid. Reattachment of the eyelid
+                             retractor muscles/aponeurosis may also be used in certain cases, either alone or in addition to a tarsal strip procedure.
+                             Variant procedure or approaches: Cicatricial entropion results from a contracting scar of the tarsus and/or
+                             conjunctiva pulling the lid margin inward. Correction requires release of this tension and either a lid-splitting pro-
+                             cedure with tarsal advancement, rotational grafts, or free mucosal grafts harvested from hard palate. In the latter
+                             case, nasal intubation will be required to allow access to the graft site. Quickert procedure involves the placement
+                             of 2–3 sutures under local anesthesia to evert the eyelid. Entropion frequently recurs after this procedure.
+                             Usual preop diagnosis: Entropion of eyelid
+
+                               ■■ SUMMARY OF PROCEDURE
+                               Position                 Supine, table rotated 90–1808
+
+                               Incision                 Lateral canthal region or area of conjunctival scarring. Mucosal graft may be harvested from
+                                                        hard palate.
+
+===== PAGE 153 =====
+Ptosis Repair   153
+
+                     ■■ SUMMARY OF PROCEDURE (cont’d)
+                     Special                 Surgical loupes
+                       instrumentation
+
+                     Antibiotics             None intraop
+
+                     Surgical time           0.5–1 h
+
+                                                                                                                                                     Ophthalmic
+                                                                                                                                                      Surgery
+                     EBL                     Minimal
+
+                     Postop care             Topical antibiotic ointment
+
+                     Mortality               Rare
+
+                     Morbidity               Infection: Very rare
+                                             Lid malposition
+                                             Local bleeding
+                                             Corneal injury
+
+                     Pain score              1–2
+
+                     ■■ PATIENT POPULATION CHARACTERISTICS
+                     Age range               Any age
+
+                     Male:Female             1:1
+
+                     Incidence               Common
+
+                     Etiology                Congenital; aging; inflammation
+
+                     Associated              Cicatricial entropion can be associated with pemphigoid; Stevens-Johnson syndrome (a some-
+                       conditions            times fatal form of erythema multiforme); chemical burns; trachoma.
+
+                        ANESTHETIC CONSIDERATIONS
+                   Entropion repair can usually be accomplished as an outpatient procedure using local anesthesia and MAC.
+                   See Anesthetic Considerations for Ophthalmic Surgical Procedures under MAC (adult), p. 158, or for Pediatric
+                   Ophthalmic Surgery, p. 1199.
+
+                   Suggested Reading
+                     1. See Suggested Readings following Ophthalmic Surgery section, p. 176.
+
+                   Ptosis Repair
+                        SURGICAL CONSIDERATIONS
+                   Description: Ptosis (drooping of the upper eyelid margin) can be severe enough to obstruct the visual axis. Causes
+                   include congenital maldevelopment, mechanical traction, myogenic conditions (e.g., dystrophies, myasthenia gra-
+                   vis), neurogenic conditions (e.g., Horner’s syndrome, cranial nerve III palsy), actinic skin changes and aponeurotic
+                   dehiscence. The surgical approach depends primarily on the presence or absence of adequate levator muscle function
+                   that is responsible for elevating the upper eyelid. The most common etiology is age-related dehiscence or disinser-
+                   tion of the levator aponeurosis from its normal attachment to the tarsus. Because levator muscle function is usually
+                   satisfactory in these patients, surgical correction involves reinserting the aponeurosis to the anterior tarsus alone
+                   or in combination with shortening of the aponeurosis by advancement or resection. Access is obtained by an inci-
+                   sion in the upper eyelid crease. Removal of excess skin and orbicularis muscle (blepharoplasty) may be performed
+                   simultaneously. Although several formulas have been devised to determine the amount of aponeurotic shortening,
+                   intraop measurement usually is performed to ensure that the appropriate lid position and contour are achieved. This
+
+===== PAGE 154 =====
+154        s e c t i o n 2.0    Ophthalmic Surgery
+
+                                                                          Sling sutures
+     Ophthalmic
+      Surgery
+
+                                          Figure 2-5. Frontalis sling (modified Crawford technique). Note location of brow
+                                          and lid incisions and double rhomboid fascial slings. (Redrawn with permission from
+                                          Duane’s Ophthalmology, Williams & Wilkins, Philadelphia: 2013.)
+
+                             requires that the procedure be performed under local anesthesia and that the patient be positioned and draped in a
+                             way that allows him/her to sit upright during surgery. Incisions are closed, and crease reformation can be performed
+                             if desired.
+                             Variant procedure or approaches: In patients with levator muscle function that is not adequate to achieve eyelid
+                             elevation, a frontalis sling procedure is performed to elevate the upper eyelid (Fig. 2-5). More commonly required
+                             in children with congenital ptosis, this allows the patient to open the eye by elevating the brow. A variety of materials
+                             can be used to accomplish this suspension, including silicon rods or fascia. In children , 3 yr, autologous fascia lata
+                             can be harvested from the outer thigh from hip to knee. The material is tunneled beneath the skin and muscle from
+                             the brow incisions to the anterior tarsal region of the eyelid using Wright needles. After appropriate contour and
+                             height are achieved, the sling is secured and incisions are closed. Frontalis suspension usually is performed under
+                             GA in both adults and children.
+                             Usual preop diagnosis: Ptosis
+
+                               ■■ SUMMARY OF PROCEDURE
+                               Position                Supine, table rotated 90–1808
+
+                               Incision                Upper eyelid crease; brow; and lateral thigh (frontalis sling)
+
+                               Special                 Surgical loupes
+                                 instrumentation
+
+                               Antibiotics             Cefazolin 1 g iv
+
+                               Surgical time           0.5–1 h
+
+                               EBL                     Minimal
+
+                               Postop care             Topical antibiotic ointment; cool compresses
+
+                               Mortality               Rare
+
+===== PAGE 155 =====
+Eyelid Reconstruction    155
+
+                     ■■ SUMMARY OF PROCEDURE (cont’d)
+                     Morbidity               Lid malposition (overcorrection, undercorrection, asymmetry)
+                                             Corneal exposure (lagophthalmos)
+                                             Infection: More common with silicone rods
+                                             Numbness below incision
+
+                     Pain score              1–2
+
+                                                                                                                                                          Ophthalmic
+                                                                                                                                                           Surgery
+                     ■■ PATIENT POPULATION CHARACTERISTICS
+                     Age range               Any Age
+
+                     Male:Female             1:1
+
+                     Incidence               Common
+
+                     Etiology                Congenital; aponeurotic; neurogenic; myogenic; mechanical; aging
+
+                     Associated              Neurogenic causes associated with myasthenia gravis; myogenic causes include chronic exter-
+                       conditions            nal ophthalmoplegia (can have dysrhythmias and Sz disorders); oculopharyngeal dystrophy
+
+                        ANESTHETIC CONSIDERATIONS
+                   Ptosis repair typically requires GA for infants and children and can be accomplished with local anesthesia (± subcu-
+                   taneous epinephrine) and MAC as an outpatient procedure in adults. The need for patient cooperation during the
+                   surgery should be discussed with the surgeon and patient in advance. See Anesthetic Considerations for Ophthalmic
+                   Surgical Procedures under MAC, p. 158.
+                   Suggested Reading
+                     1. See Suggested Readings following Ophthalmic Surgery section, p. 176.
+
+                   Eyelid Reconstruction
+                        SURGICAL CONSIDERATIONS
+                   Description: Given the relatively small tissue area of the eyelids and their importance in both ocular health and cos-
+                   mesis, excision of lid tumors often requires some form of reconstructive surgery. For lesions suspected of being malig-
+                   nant, frozen-sections are often performed prior to closing the defect. In addition, Mohs technique (microscopically
+                   controlled serial excision) may be performed (usually by a dermatologist) to achieve clear margins, with reconstruction
+                   undertaken during a separate operation. During closure of full-thickness defects that involve the eyelid margin, atten-
+                   tion is focused on aligning the lid in all dimensions (Fig. 2-6), while avoiding exposed sutures on the conjunctival surface
+                   that might damage the cornea. For small lid defects involving , ¼ of the lid length, direct closure often can be accom-
+                   plished with release of the lateral canthal tendon (canthotomy and cantholysis) to reduce wound tension, if necessary.
+                   Variant procedure or approaches: Larger excisions often require grafting techniques that are designed to replace
+                   both the anterior (skin/orbicularis) and posterior (tarsus/conjunctiva) lamellae of the eyelid. This can be accom-
+                   plished with rotational grafts, a tarsoconjunctival advancement flap or free grafts of cartilage, hard palate, cadaver
+                   sclera, or composite grafts as posterior lamellar replacement materials.
+                   Usual preop diagnosis: Basal-cell carcinoma; squamous-cell carcinoma; melanoma; sebaceous carcinoma; or trauma
+
+                     ■■ SUMMARY OF PROCEDURE
+                     Position                Supine, table rotated 90–1808
+
+                     Incision                Upper and/or lower eyelid. Postauricular, supraclavicular, or hard palate if graft harvesting
+                                             required
+
+===== PAGE 156 =====
+156        s e c t i o n 2.0    Ophthalmic Surgery
+
+                               ■■ SUMMARY OF PROCEDURE (cont’d)
+                               Special                 Surgical loupes
+                                 instrumentation
+
+                               Antibiotics             Cefazolin 1 g iv
+
+                               Surgical time           0.5–2 h
+     Ophthalmic
+      Surgery
+
+                               EBL                     Minimal
+
+                               Postop care             Topical antibiotic ointment; cool compresses; pressure dressing
+
+                               Mortality               Rare
+
+                               Morbidity               Graft failure
+                                                       Lid deformity
+                                                       Corneal exposure
+                                                       Infection: , 1%
+
+                               Pain score              2–3
+
+                               ■■ PATIENT POPULATION CHARACTERISTICS
+                               Age range               Usually elderly
+
+                               Male:Female             1:1
+
+                               Incidence               Common
+
+                               Etiology                Sun exposure-related malignancy
+
+                               Associated              Diseases of the elderly, including cardiovascular disease, HTN, and diabetes
+                                 conditions
+
+                                          Figure 2-6. Closure of full-thickness defect in the lower lid. The tarsal sutures and
+                                          half-thickness tarsus are placed first, with the secondary closures at points A, B, C, and
+                                          the eyelid margin. (Reproduced with permission from McCord CD, Tanenbaum M,
+                                          eds: Oculoplastic Surgery, 2nd edition. Raven Press, New York: 1987.)
+
+===== PAGE 157 =====
+Pterygium Excision   157
+
+                        ANESTHETIC CONSIDERATIONS
+                   Eyelid reconstruction can often be accomplished with local anesthesia and MAC. See Anesthetic Considerations for
+                   Ophthalmic Surgical Procedures under MAC, p. 158.
+                   Suggested Readings
+                     1. Codner MA, Weinfeld AB: Comprehensive eyelid reconstruction. ANZ J Surg 2007; 77(Suppl 1):A71.
+
+                                                                                                                                                      Ophthalmic
+                     2. See Suggested Readings following Ophthalmic Surgery section, p. 176.
+
+                                                                                                                                                       Surgery
+                   Pterygium Excision
+                        SURGICAL CONSIDERATIONS
+                   Description: Pterygia are fibrovascular growths that originate in the limbal conjunctiva within the palpebral fissure
+                   and grow into the superficial layer of the cornea. They often produce refractive changes and/or obstruct the central
+                   visual axis and, thus, require removal. Although this procedure is often performed in the clinic or minor-procedure
+                   room, larger lesions may require an OR. In both settings, local anesthesia is applied both topically (tetracaine 0.5%)
+                   and subconjunctivally (lidocaine 2%). The lesion is dissected from the cornea and from the surrounding healthy
+                   conjunctiva, leaving a bed of bare sclera that may or may not be closed primarily (Fig. 2-7).
+                   Variant procedure or approaches: For larger excisions and to decrease the rate of recurrence, conjunctival trans-
+                   position or free-graft techniques can be used to cover the area of bare sclera. Topical antimetabolites, such as mito-
+                   mycin-C, also may be applied to prevent recurrence. Recently, a method known as P.E.R.F.E.C.T. (pterygium extended
+                   removal followed by extended conjunctival transplant) has been employed to reduce the long-term recurrence rate.
+                   Preop diagnosis or indications: Pterygium
+
+                     ■■ SUMMARY OF PROCEDURE
+                     Position               Supine, table rotated 90–1808
+
+                     Incision               Interpalpebral area adjacent to involved limbus
+
+                     Special                Operating microscope
+                       instrumentation
+                     Antibiotics            Topical postop
+
+                     Surgical time          15–45 min
+
+                     EBL                    Minimal
+
+                     Postop care            Topical antibiotic ointment
+
+                     Mortality              Rare
+
+                     Morbidity              Recurrence: 37%, without adjunctive therapy or grafting, < 1% with P.E.R.F.E.C.T. method
+                                            Extraocular muscle injury (higher risk in re-op eyes)
+                                            Cyst
+                                            Local bleeding
+                                            Infection
+
+                     Pain score             1–2
+
+                     ■■ PATIENT POPULATION CHARACTERISTICS
+                     Age range              Usually young-to-middle age
+
+                     Male:Female            1:1
+
+===== PAGE 158 =====
+158        s e c t i o n 2.0    Ophthalmic Surgery
+
+                               ■■ PATIENT POPULATION CHARACTERISTICS (cont’d)
+                               Incidence               Common
+
+                               Etiology                Related to sun exposure with higher rate in latitudes near the equator
+
+                             Suggested Readings
+     Ophthalmic
+      Surgery
+
+                                1. Ang LP, Chua JL, Tan DT: Current concepts and techniques in pterygium treatment. Curr Opin Ophthalmol 2007; 18(4):
+                                   308–13.
+                                2. Hirst LW: Recurrent pterygium surgery using pterygium extended removal followed by extended conjunctival transplant:
+                                   recurrence rate and cosmesis. Ophthalmology 2009; 116(7):1278–86.
+
+                                   
+                                   ANESTHETIC CONSIDERATIONS FOR OPHTHALMIC SURGICAL
+                                   PROCEDURES UNDER MAC
+                             (Procedures covered: cataract extraction and other procedures; corneal transplant; trabeculectomy; ectropi-
+                             on-entropion repair; ptosis surgery; eyelid reconstruction; pterygium excision)
+
+                                      PREOPERATIVE
+                             Ophthalmic procedures that are of relatively short duration and those that result in minimal blood loss are being per-
+                             formed increasingly more often on an outpatient basis, usually with topical or regional anesthesia (e.g., retrobulbar or
+                             peribulbar blocks) under MAC (see p. B-5). Retrobulbar and peribulbar injections achieve excellent anesthesia and
+                             provide equal degrees of akinesia. Given the associated risk of inadvertent intrathecal injection of anesthetic, orbital
+                             hemorrhage, need for heavy sedation during injection, and delayed return of visual function postop, most cataract sur-
+                             geries are performed using topical anesthesia. An additional benefit is that the bleeding risk is lower and the procedure
+                             can be performed safely in most patients taking anticoagulants or with bleeding disorders. Although satisfactory pain
+                             relief usually is achieved with this method, the lack of akinesia requires a highly cooperative patient to prevent sud-
+                             den eye movements during surgery. Some surgeons will supplement topical anesthesia with intracameral lidocaine
+
+                                          Figure 2-7. Bare sclera excision can be started from the corneal apex or by incising
+                                          around the conjunctival body of the pterygium. (Redrawn with permission from
+                                          Duane’s Clinical Ophthalmology, Vol 6. Williams & Wilkins, Philadelphia: 2000.)
+
+===== PAGE 159 =====
+Pterygium Excision       159
+
+                   (injections into the anterior chamber), although this has not been proven better than topical anesthetics alone in
+                   terms of patient comfort and satisfaction. Sub-Tenon’s injection is another anesthetic technique used by many
+                   surgeons as a compromise between topical application and orbital injections. After preop application of topical
+                   anesthetics, a small incision is made in the bulbar conjunctiva, exposing the episcleral (sub-Tenon’s) space. A blunt
+                   cannula is inserted under direct visualization and local anesthetic injected into the episcleral space. The main benefit
+                   is that no sharp needle is used, thereby reducing the risk of intrathecal injection and orbital hemorrhage from vessel
+                   injury. The onset of akinesia, however, is often delayed, and this technique still has the disadvantage of delayed return
+
+                                                                                                                                                       Ophthalmic
+                                                                                                                                                        Surgery
+                   of postop visual function.
+                   The pain on injection is slightly less with peribulbar blocks or sub-Tenon blocks as compared with retrobulbar
+                   techniques. For many patients, placement of the intravenous cannula was the most painful event during eye sur-
+                   gery, suggesting that some eye blocks are well tolerated. Intraoperative pain is significantly less with retrobulbar or
+                   peribulbar blocks than with topical anesthesia. Rates of ocular perforation following injection blocks are low (1 in
+                   1000–10,000).
+                   Because the majority of ocular procedures are performed on elderly patients, multiple coexisting medical illnesses
+                   are often present. A thorough preop H&P along with appropriate ancillary studies are mandatory even though local
+                   anesthesia/MAC is planned. Contraindications to regional anesthesia/MAC for ocular surgery may include uncon-
+                   trolled movement disorder, bleeding diathesis, open-eye injuries, claustrophobia, chronic cough (or other Valsalva-
+                   producing conditions), symptomatic gastric reflux, inability to lie flat, inability to communicate or cooperate, or
+                   patient refusal.
+
+                    Respiratory                  Elderly patients have increased incidence of hiatal hernia and, therefore, are at increased
+                                                 risk for pulmonary aspiration. Assess the patient’s ability to lie flat for the duration of
+                                                 the procedure. Patients with chronic cough may require GA.
+                                                 Tests: As indicated from H&P
+
+                    Cardiovascular               Hx of HTN, CAD, CHF, or poor exercise tolerance should prompt a thorough investi-
+                                                 gation into the patient’s cardiac status, including efficacy of current medications and
+                                                 recent ECG (compared with previous ECGs). Consultation with a cardiologist may be
+                                                 appropriate to optimize the patient’s condition before surgery. Patients on antithrom-
+                                                 botic drugs may be at higher risk for bleeding complications. The decision to stop these
+                                                 drugs and institute heparin bridge therapy should be made in consultation with both
+                                                 the surgeon and the prescribing physician.
+                                                 Tests: ECG; others (e.g., ECHO) as indicated from H&P
+
+                    Diabetes                     Diabetic patients are at increased risk for silent myocardial ischemia. Pulmonary aspi-
+                                                 ration 28 diabetic gastroparesis is also a risk in this population. Patients usually take
+                                                 1/2 of their normal intermediate or long-acting insulin dose on the morning of sur-
+                                                 gery; fasting blood sugar is checked; and an iv infusion of D5 LR is started if glucose
+                                                 , 90 mg/dL, or treated with regular insulin if glucose . 200 mg/dL. Blood glucose is
+                                                 checked intraop and postop. Patients on insulin pumps should maintain their basal infu-
+                                                 sion rate and eliminate preprandial boluses. The anesthesiologist should ask the patient
+                                                 about their insulin sensitivity (the amount of insulin necessary to ↓ blood glucose by
+                                                 50 mg/dL). Blood glucose should be monitored hourly.
+
+                    Musculoskeletal              Arthritic changes make lying flat difficult for some patients. Careful positioning and
+                                                 padding are essential. A low-level remifentanil infusion (,0.05 mcg/kg/min) may be
+                                                 helpful in some cases.
+
+                    Neurological                 Patients with tremor, agitation, severe anxiety, cognitive impairment, or inability to
+                                                 cooperate are not appropriate candidates for regional anesthesia/MAC.
+
+                    Hematologic                  3 for antiplatelet or anticoagulant drug use, particularly in patients undergoing lid
+                                                 or orbital procedures where both the risks and consequences of hemorrhage may be
+                                                 significant.
+                                                 Tests: As indicated from H&P (e.g., PT if patient is on anticoagulant).
+
+                    Laboratory                   As indicated from H&P
+
+===== PAGE 160 =====
+160        s e c t i o n 2.0    Ophthalmic Surgery
+
+                              Premedication                    Patients will benefit from a detailed explanation of events prior to surgery (including
+                                                               iv placement, application of monitors, performance of local block, ocular compres-
+                                                               sion, prepping eye, draping of the whole face, and provision of supplemental air/O2)
+                                                               and the assurance that the anesthesiologist will always be present, monitoring them.
+                                                               Midazolam (0.5–1 mg iv) is often beneficial. For patients with increased risk of aspira-
+                                                               tion (e.g., with hiatal hernia or diabetic gastroparesis) and for obese and/or very anxious
+                                                               patients, metoclopramide 10 mg iv may enhance gastric emptying.
+     Ophthalmic
+      Surgery
+
+                                  INTRAOPERATIVE
+                             Anesthetic technique: MAC (see p. B-5). Topical anesthesia typically is accomplished by the ophthalmologist,
+                             often using long lasting LA, supplemented with 2% lidocaine with epinephrine, injected subconjunctivally. Place-
+                             ment of retrobulbar or peribulbar blocks may be painful, and very short-acting agents (e.g., remifentanil 0.25–1 mcg/
+                             kg, alfentanil 5–7 mcg/kg, or propofol 30–50 mg) should be administered to minimize patient discomfort. Dose
+                             requirements vary significantly among patients, and the anesthesiologist should be prepared to treat sudden ↓ BP
+                             and apnea. Usually, further sedation is unnecessary and may interfere with patient cooperation during the surgery.
+                             Coughing, or other Valsalva maneuvers, should be avoided during the procedure, and the anesthesiologist must al-
+                             ways be prepared to administer GA if necessary. If it is possible that cautery may be used during the surgery, then the
+                             delivered FiO2 should be < 0.3 to minimize fire hazard when using open oxygen delivery methods (e.g., nasal prongs,
+                             mask, etc.).
+                             Retrobulbar block: Using a 25- or 27-ga needle (1.5”), the retrobulbar space is approached from the infratemporal
+                             quadrant of the orbit. The eye should be in a neutral position. Once the needle is positioned and there is no return
+                             of blood or CSF on aspiration, 3–5 mL of anesthetic solution is injected slowly. A facial nerve block is necessary to
+                             prevent eyelid movement. This can be accomplished by injecting 4–8 mL of anesthetic solution above and below the
+
+                                                                                                                         Bony orbit
+
+                                                                                                                         Peribulbar block
+
+                                                                                                                         Sclera
+                                                                                                                         Tenon capsule
+                                                                                                                         (Anterior fascial sheath)
+
+                                                                                                                         Sub-Tenon block
+
+                                                                                                                         Peribulbar block
+
+                                                 Intraocular
+                                                  muscles
+                                                                 Optic nerve                                             Retrobulbar
+                                                                                                                         (intra-conal)
+                                                                                                                          block
+                                                                                  Bony orbit
+
+                                       Figure 2-8. Horizontal section of the orbit illustrating regional blocks. There is
+                                       continuum between the episcleral (sub-Tenon) space and the rectus muscle sheaths.
+
+===== PAGE 161 =====
+Pterygium Excision       161
+
+                   lateral aspect of the orbit. Typically, the anesthetic solution consists of a 50:50 mixture of 0.5–0.75% bupivacaine
+                   and 2% lidocaine ± hyaluronidase, ± epinephrine 1:400,000.
+                   Peribulbar block: Using a 25- or 27-ga needle (5/8”–1”), 6–8 mL of anesthetic solution is injected into the peribul-
+                   bar space, entering just superior to the inferior rim of the orbit at the junction of the lateral and middle thirds of the
+                   lower lid. Orbital compression is usually applied to facilitate spread of local anesthetic. Although perforation of the
+                   globe and hemorrhage are still possible, direct injury to the optic nerve and subdural injection are not likely due to
+                   the length and position of the needle. Peribulbar blocks generally have a slower onset than retrobulbar blocks and are
+
+                                                                                                                                                        Ophthalmic
+                                                                                                                                                         Surgery
+                   more likely to cause conjunctival swelling, which may interfere with surgery.
+                   Sub-Tenon’s anesthesia: Injection of LA (often 1% lidocaine ± epi) through a 22-ga cannula into the space below
+                   Tenon’s capsule (episcleral membrane) produces ocular anesthesia in many ways similar to retrobulbar block. How-
+                   ever, the onset is slower and akinesia is less reliable. The usual injection volume is 3–5 mL with more necessary if
+                   akinesia is required. Unlike retrobulbar block, significant complications with the technique are extremely rare.
+
+                    Blood and fluid              IV: 18–20 ga 3 1                         Excessive fluids → bladder distention → ↑ BP,
+                       requirements              NS/LR @ 1.5–3 mL/kg/h                    agitation
+
+                    Monitoring                   Standard monitors (see p. B-1).          It is important to remain in communication with
+                                                 Verbal response                          the patient throughout the procedure. (Take
+                                                                                          care to avoid evoking head movement.)
+
+                    Positioning                  3 and pad pressure points                Place pillows under knees to relieve back strain.
+                                                 3 nonoperated eye
+
+                    Complications                Dysrhythmias, especially ↓HR             Usually 28 traction or pressure on ocular/
+                                                                                          periocular tissues. Rx: stop surgical stimulation
+                                                 ↑ BP                                     28 anxiety, pain, phenylephrine eye drops. Rx:
+                                                                                          reassurance, local anesthetics, labetalol 5 mg or
+                                                                                          hydralazine 2.5-mg increments, as appropriate.
+                                                 Retrobulbar hemorrhage (1–3%)            Rx: pressure bandage; usually cancel surgery
+                                                 Globe perforation                        If a needle perforation, usually no repair is
+                                                                                          necessary.
+                                                 Convulsions 28 iv local anesthetic       Supportive treatment with IPPV; cancel surgery
+                                                 Respiratory/circulatory arrest           28 subarachnoid anesthetic injection. Rx: CPR,
+                                                                                          IPPV
+                                                 Oculocardiac reflex (OCR)                OCR: traction on EOM’s → ↓↓ HR, ↓↓ BP, ven-
+                                                                                          tricular ectopy, asystole. Rarely occurs during
+                                                                                          GA or following adequate retrobulbar block.
+                                                                                          Rx: stop surgical manipulation, atropine for
+                                                                                          persistent bradycardia, CPR.
+
+                         POSTOPERATIVE
+                    Complications                Myocardial ischemia                      Rx: Provide O2; 3 BP; 3 ECG; cardiology con-
+                                                                                          sultation. Rx may include sublingual NTG, aspi-
+                                                 Corneal abrasion                         rin, β-blocker, MS.
+                                                 Photophobia
+                                                 N/V                                      Rx: Ondansetron 4 mg iv
+                                                 Diplopia
+
+                    Pain management              Acetaminophen 325–1000 mg po
+
+===== PAGE 162 =====
+162        s e c t i o n 2.0       Ophthalmic Surgery
+
+                              Table 2-1. Commonly Used Ophthalmic Drugs and Their Systemic Effects
+                              Phenylephrine                  An α-adrenergic agonist that causes mydriasis (pupillary dilation) and vasoconstriction to aid
+                                                             ocular surgery; however, it also can precipitate significant HTN and dysrhythmias.
+                              Echothiophate                  An irreversible cholinesterase inhibitor used in glaucoma treatment to cause miosis and ↓ IOP.
+                                                             Its systemic absorption can reduce plasma cholinesterase activity and thereby prolong paralysis
+                                                             2º to succinylcholine (usually not more than 20–30 min).
+     Ophthalmic
+
+                              Timolol                        A nonselective β-blocker that decreases production of aqueous humor → ↓ IOP. Rarely, it may
+      Surgery
+
+                                                             be associated with atropine-resistant bradycardia, asthma, CHF, and ↓ BP.
+                              Acetazolamide                  A carbonic anhydrase inhibitor used to ↓ IOP. It also can cause diuresis and a hypokalemic
+                                                             metabolic acidosis.
+                              Betaxolol                      A relatively oculospecific β-blocker used to ↓ IOP. Effects may be additive to systemic β-blockers.
+                              Cyclopentolate                 A commonly used mydriatic with the potential for CNS toxicity, including Sz, psychotic reactions,
+                                                             and dysarthria.
+                              Atropine                       An anticholinergic that produces mydriasis to aid with ocular examination and surgery. It also can
+                                                             precipitate central anticholinergic syndrome. (Sx range from dry mouth, tachycardia, agitation,
+                                                             delirium, and hallucinations to unconsciousness.) Physostigmine 0.01–0.03 mg/kg will increase
+                                                             central acetylcholine and reverse the symptoms. (It may be repeated after 15–30 min.)
+                              Apraclonidine                  An α-2 adrenergic agonist used to treat glaucoma (↓ aqueous formation + ↑ outflow). Systemic
+                                                             absorption → sedation, drowsiness. Hypotension is possible.
+
+                             Suggested Readings
+                                1.    Ashwin PT, Shah S, Wolffsohn JS: Advances in cataract surgery. Clin Exp Optom 2009; 92(4):333–42.
+                                2.    Malik A, Fletcher EC, Chong V, Dasan J: Local anesthesia for cataract surgery. J Cataract Refract Surg 2010; 36(1):133–52.
+                                3.    Rogers GM, Goins KM: Cataract surgery in the patient that can not lie flat. Curr Opin Opthalmol 2010; 21(1):71–4.
+                                4.    Sanmugasunderam S, Khalfan A: Is fasting required before cataract surgery? A retrospective review. Can J Ophthalmol 2009;
+                                      44(6):655–6.
+
+                             Repair of Ruptured or Lacerated Globe
+                                   SURGICAL CONSIDERATIONS
+                             Description: A ruptured globe involves a tear of either the corneal or scleral layers of the eye and can occur in
+                             the setting of blunt, penetrating, or perforating trauma. The primary goal of surgical repair is to replace extruded
+                             intraocular contents, close defects, and remove any foreign body. Orbital CT scans are performed preop to aid in
+                             the identification of the latter. To reduce the risk of causing further damage, complete examination of the eye is
+                             often delayed until the patient is in the controlled setting of the OR under GA. Although anterior injuries are readily
+                             identifiable, posterior injuries may require extensive exploration that can require a 3608 opening of the conjunctiva
+                             and isolation of each extraocular muscle to allow adequate inspection of the entire scleral surface. Corneal lacera-
+                             tions usually are closed with 10-0 nylon sutures while 8-0 nylon or Vicryl may be used for scleral tissue. Until these
+                             wounds are closed, it is crucial that Valsalva maneuvers (which raise IOP), be avoided to prevent further extrusion
+                             of intraocular contents.
+                             Variant procedures or approaches: After globe integrity has been established, other associated injuries may
+                             be addressed, including repair of conjunctival lacerations, extraocular muscle injuries/detachments, retinal detach-
+                             ments, or removal of a traumatic cataract.
+                             Usual preop diagnosis: Ruptured globe
+
+                               ■■ SUMMARY OF PROCEDURE
+                               Position                    Supine, table rotated 90–1808
+
+                               Incision                    Conjunctival peritomy (3608 conjunctival incision) to allow exposure of posterior sclera
+
+===== PAGE 163 =====
+Repair of Ruptured or Lacerated Globe    163
+
+                     ■■ SUMMARY OF PROCEDURE (cont’d)
+                     Special                Operating microscope
+                       instrumentation
+
+                     Antibiotics            IV gentamicin (80 mg) and cefazolin (1 g); subconjunctival and topical antibiotics
+
+                     Closing                Avoid Valsalva-like maneuvers (coughing, bucking, etc.)
+
+                                                                                                                                                       Ophthalmic
+                                                                                                                                                        Surgery
+                       considerations
+
+                     Surgical time          1–2 h
+
+                     EBL                    Minimal
+
+                     Postop care            Hospital admission for iv antibiotics
+
+                     Mortality              Rare
+
+                     Morbidity              Wound leak
+                                            Infection: Rate depends on injury
+                                            Sympathetic ophthalmia: Rare
+                                            Retinal detachment
+                                            Suprachoroidal hemorrhage
+
+                     Pain score             4
+
+                     ■■ PATIENT POPULATION CHARACTERISTICS
+                    Age range               Usually , 40 yr
+
+                    Male:Female             8:1 (as a result of recreational and occupational preferences)
+
+                    Incidence               Common (~2 million eye injuries in US per year with ~40,000 resulting in vision loss)
+
+                    Etiology                Work- or sports-related injury; motor vehicle accidents
+
+                    Associated              Intoxication; orbital/facial trauma; head injury
+                      conditions
+
+                        ANESTHETIC CONSIDERATIONS
+                         PREOPERATIVE
+                   This is a generally healthy patient population; however, patients with penetrating eye injuries present the anesthe-
+                   siologist with two special challenges: (1) They invariably have full stomachs, resulting in risk of aspiration. (2) They
+                   are at risk of blindness 28 ↑ IOP → loss of ocular contents, which may be a result of coughing, crying, and/or strug-
+                   gling during induction. Normal IOP ranges from 10–22 mm Hg, depending on the rates of formation and drainage
+                   of aqueous humor, choroidal blood volume, scleral rigidity, extraocular muscle tone, as well as extrinsic pressure
+                   on the eye (e.g., a poorly fitting mask or retrobulbar hematoma). Patient movement, coughing, straining, vomiting,
+                   hypercarbia, HTN, and ET intubation may ↑ IOP to 40 mm Hg or more.
+
+                    Full-stomach                Consider patient to have a full stomach if the injury occurred within 8 h of the last meal.
+                      precautions               Pain and anxiety due to trauma will delay gastric emptying. Goal is to minimize risk of
+                                                aspiration pneumonitis by decreasing gastric volume and acidity. Consider premedication
+                                                with metoclopramide (10–20 mg iv), antacids such as Na citrate (15–30 mL po, imme-
+                                                diately prior to induction), and H2-histamine receptor antagonists (ranitidine [50 mg iv,
+                                                ~15 min before induction]). H2-histamine receptor antagonists, however, have no effect
+                                                on the pH of gastric secretions present in the stomach prior to administration and are,
+                                                therefore, of limited value in patients presenting for emergency surgery. If patient has Hx
+                                                of smoking or is an asthmatic, consider preop use of inhalers such as albuterol (2–4 puffs).
+
+===== PAGE 164 =====
+164        s e c t i o n 2.0   Ophthalmic Surgery
+
+                              Associated injuries        A ruptured globe may be only one of multiple injuries to the head and neck or other
+                                                         structures. Other injuries should be excluded preoperatively.
+
+                              Laboratory                 Tests as indicated from H&P
+
+                              Premedication              Patients often are very anxious and may benefit from benzodiazepines (e.g., for pediat-
+                                                         ric population, midazolam 0.5–0.75 mg/kg po in cola or apple juice, 15–30 mL). Avoid
+     Ophthalmic
+
+                                                         narcotic premedication, which may ↑ nausea and possibility of emesis.
+      Surgery
+
+                                  INTRAOPERATIVE
+                             Anesthetic technique: GETA. Regional anesthesia (e.g., retrobulbar block) is contraindicated in patients with open-
+                             eye injury because of ↑ IOP, which may accompany injection of local anesthetic behind the globe. Thus, despite
+                             the increased risk of aspiration from a full stomach, GETA is recommended. In patients where the risk of GA is
+                             unacceptably high (e.g., extensive pulmonary or unstable cardiac disease) surgical repair can be accomplished using
+                             topical anesthesia (see Auffarth GU, et al.).
+
+                              Induction                  To protect the airway and prevent ↑ IOP, a rapid-sequence induction with cricoid pressure
+                                                         and a smooth intubation are required. Although the choice of induction agent is relatively
+                                                         straightforward—propofol 1–2 mg/kg—the choice of neuromuscular blocking agents
+                                                         for facilitating intubation is controversial. Succinylcholine provides a rapid onset, short
+                                                         duration of action, and excellent intubating conditions, but it also transiently increases
+                                                         IOP (~9 mm Hg). This minor ↑ IOP is usually attenuated by pretreatment with a non-
+                                                         depolarizing agent (e.g., rocuronium) followed by propofol induction. Rocuronium
+                                                         (1.2 mg/kg) produces muscle relaxation in 1–2 min and may be a satisfactory alterna-
+                                                         tive to succinylcholine; however, a premature attempt at intubation may significantly
+                                                         ↑ IOP as a result of coughing and straining. Of interest, there are no reports in the
+                                                         literature documenting exacerbation of eye injuries with the use of succinylcholine
+                                                         following pretreatment with a NMR. Given that the anesthesiologist’s main concern
+                                                         is safe airway management, the following is a suggested induction plan:
+                                                         (1) Preoxygenation, avoiding external pressure on the eye from face mask
+                                                         (2) Pretreatment with a nondepolarizing relaxant (e.g., rocuronium 0.06–0.12 mg/kg or
+                                                         equivalent), followed by iv lidocaine (1 mg/kg) and fentanyl (2–3 mcg/kg) to blunt the
+                                                         cardiovascular response to laryngoscopy and intubation
+                                                         (3) 4 min later, with cricoid pressure, induce with propofol (1–2 mg/kg) and succinyl-
+                                                         choline (1.5 mg/kg). Intubate with oral RAE tube. Note: for pediatric patients, it might
+                                                         be appropriate to induce with sevoflurane while maintaining cricoid pressure and intu-
+                                                         bating when the patient is deeply anesthetized. Trying to start an iv prior to induction
+                                                         may precipitate struggling and crying, leading to further eye injury.
+
+                              Maintenance                Standard maintenance or TIVA (see p. B-3). Avoid hypercapnia, which → ↑ IOP. Muscle
+                                                         relaxation is mandatory until the eye is surgically closed. Humidify gases for pediatric
+                                                         patients. Avoid N2O in patients receiving intraocular gas injection.
+
+                              Emergence                  Decompress the stomach with OG tube. Goal is smooth emergence and extubation with
+                                                         patient awake with intact airway reflexes. IV lidocaine (1.5 mg/kg) 5 min before extuba-
+                                                         tion; posterior pharyngeal suctioning with patient deeply anesthetized, combined with
+                                                         a small amount of narcotic (remifentanil ,1 mcg/kg), may blunt cough reflex prior
+                                                         to extubation. The common occurrence of PONV requires administration of intraop
+                                                         antiemetics (e.g., metoclopramide 10–20 mg iv, and ondansetron 4 mg iv 30 min before
+                                                         end of surgery).
+
+                              Blood and fluid            IV: 18–20 ga 31 (adult)                 Warm fluids if large volume will be administered.
+                                 requirements            20 ga 31 (child)
+                                                         NS/LR @ 5–10 mL/kg/h
+
+===== PAGE 165 =====
+Dacryocystorhinostomy (DCR)            165
+
+                    Monitoring                    Standard monitors (see p. B-1).             Neuromuscular blockade must be monitored
+                                                                                              closely and additional relaxant given as nec-
+                                                                                              essary to prevent patient movement during
+                                                                                              surgery.
+
+                    Positioning                   3 and pad pressure points
+                                                  3 nonoperated eye
+
+                                                                                                                                                               Ophthalmic
+                                                                                                                                                                Surgery
+                    Complications                 ↑ IOP with extrusion of intraocular         IOP (normal = ,10–22 mm Hg) increased by:
+                                                  contents                                    blink = 10–15 mm Hg; forced lid closure = . 70
+                                                  Aspiration of gastric contents              mm Hg.
+
+                         POSTOPERATIVE
+
+                    Complications                 N/V                                         Rx: Metoclopramide 10–20 mg iv, droperidol
+                                                                                              0.625 mg iv (with due respect to the black-box
+                                                                                              warning), ondansetron 4 mg iv
+                                                  Aspiration pneumonitis                      Provide O2 by face mask, if not intubated. Follow
+                                                  Photophobia                                 O2 sat. 3 CXR.
+                                                  Diplopia
+                                                  Hemorrhagic retinopathy
+                                                  Corneal abrasion
+
+                    Pain management               Acetaminophen                               Occasionally, parenteral opiates (see p. C-3).
+
+                   Suggested Readings
+                     1. Auffarth GU, Vargas LG, Klett J, et al: Repair of a ruptured globe using topical anesthesia. J Cataract Refract Surg 2004;
+                        30(3):726–9.
+                     2. Boscia F, La Tegola MG, Columbo G, et al: Combined topical anesthesia and sedation for open-globe injuries in selected
+                        patients. Ophthalmology 2003; 110(8):1555–9.
+                     3. Chidiac EJ, Raiskin AO: Succinylcholine and the open eye. Ophthalmol Clin North Am 2006; 19(2):279–85.
+                     4. Kumar C, Doods C, Fanning G, eds: Ophthalmic Anaesthesia. Swets and Zeitlinger BV, Lisse: 2002.
+                     5. McGoldrick KE, Gayer S: Anesthesia for ophthalmic surgery. In: Barash PG, Cullen BF, Stoelting RK, eds. Clinical Anesthesia,
+                        6th edition. Lippincott Williams & Wilkins, Philadelphia: 2009.
+                     6. Vachon CA, Warner DO, Bacon DR: Succinylcholine and the open globe. Tracing the teaching. Anesthesiology 2003; 99:220–3.
+
+                   Dacryocystorhinostomy (DCR)
+                        SURGICAL CONSIDERATIONS
+                   Description: Dacryocystorhinostomy (DCR) is performed for patients with symptomatic obstruction of the na-
+                   solacrimal duct (NLD) and is commonly associated with chronic dacryocystitis. The procedure is designed to create
+                   a fistula from the common canaliculus to the nasopharynx, which bypasses the site of obstruction. This involves
+                   removal of bone adjacent to the nasolacrimal sac and incorporating the sac with the lateral nasal mucosa. DCR can
+                   be performed under GA or local anesthesia (subcutaneous [equal mixture of 1–2% lidocaine and 0.5% bupivacaine
+                   with 1:100k epinephrine] and nasal cavity cocaine 4%) with most patients preferring local anesthesia. Intranasal
+                   phenylephrine and/or cocaine pledgets are often placed to decrease mucosal bleeding. A skin incision is made below
+                   the medial canthal tendon that is extended to the lacrimal fossa with blunt dissection. Bleeding can be excessive if
+                   the angular vessels are injured. The now exposed periosteum is incised, and a 1.5 cm 3 1.5 cm osteotomy is created
+                   with a burr and/or Kerrison punch, exiting at the level of the middle meatus. A Crawford lacrimal probe attached to
+                   silicone tubing is inserted into the superior punctum and advanced into the lacrimal sac, which is then opened along
+
+===== PAGE 166 =====
+166        s e c t i o n 2.0    Ophthalmic Surgery
+
+                             its medial wall. Following incision of the nasal mucosa through the osteotomy, the posterior flap of the lacrimal sac is
+                             sutured to the posterior nasal mucosa flap. The probe is advanced through the osteotomy and into the middle meatus,
+                             where it is retrieved through the nare. The second end of the probe is advanced along the same path but beginning
+                             through the inferior punctum. The ends of the silicone tubing are tied together in the nare and the anterior flaps of
+                             lacrimal sac and nasal mucosa are sutured together. Thrombin and gel foam can be used to control mucosal bleeding,
+                             and the skin is reapproximated after ensuring hemostasis. Meticulous hemostasis is essential to a successful outcome.
+                             Variant procedures or approaches: If the lacrimal obstruction is more proximal to the lacrimal sac, a Jones tube
+     Ophthalmic
+      Surgery
+
+                             can be placed (Fig. 2-9), creating an artificial lumen from the conjunctiva to the nasopharynx to bypass the entire
+                             nasolacrimal drainage system. An endonasal approach using a rigid endoscopic 6 laser offers the advantage of no
+                              skin incision, good visualization of intranasal pathology and less postop discomfort. The endoscopic approach is
+                              more common in children and young adults where the absence of skin creases makes scar concealment difficult.
+                             Usual preop diagnosis: NLD obstruction
+
+                               ■■ SUMMARY OF PROCEDURE
+                               Position               Supine, table rotated 90–1808
+
+                               Incision               15 mm, just below medial canthus (Fig. 2-10)
+
+                               Special                Headlight; surgical loupes
+                                 instrumentation
+
+                               Unique                 Nasal packing with phenylephrine/4% cocaine/lidocaine. Blood may drain into upper airway
+                                 considerations       during surgery
+
+                               Antibiotics            Cefazolin 1 g iv
+
+                               Surgical time          1–1.5 h
+
+                               EBL                    100–200 mL
+
+                               Postop care            Outpatient tube removal required
+
+                               Mortality              Rare
+
+                               Morbidity              Failure to drain
+                                                      Bleeding: 5%
+                                                      Infection: , 1%
+                                                      Cerebrospinal fluid leak
+
+                               Pain score             3–4 (Pain scores are lower following local anesthesia compared to GA.)
+
+                               ■■ PATIENT POPULATION CHARACTERISTICS
+                               Age range              30–70 yr
+
+                               Male:Female            1:1
+
+                               Incidence              Common
+
+                               Etiology               Adults: Usually scarring from prior infection or trauma
+                                                      Children: Congenital or prior infection
+
+                               Associated             Deviated septum; nasal polyps; nasopharyngeal masses; congenital anomalies
+                                 conditions
+
+                                   ANESTHETIC CONSIDERATIONS
+                             DCR can be performed with local anesthetic and MAC or under GA depending on patient and surgeon preferences.
+                             See Anesthetic Considerations for Ophthalmic Surgical Procedures under MAC: p. 158 or GA: p. 170.
+
+===== PAGE 167 =====
+Dacryocystorhinostomy (DCR)   167
+
+                                                                                          Jone’s tube
+
+                                                                                                                                     Ophthalmic
+                                                                                                                                      Surgery
+                                            Nasopharynx
+
+                               Figure 2-9. Insertion of a Pyrex Jones tube. (Reproduced with permission from
+                               McCord CD, Tanenbaum M, Nunery WR: Oculoplastic Surgery. Raven Press: 1995.)
+
+                               Figure 2-10. Linear skin incision for a standard DCR. (Reproduced with permission
+                               from Wright KW: Textbook of Ophthalmology. Williams & Wilkins, Philadelphia: 1997.)
+
+===== PAGE 168 =====
+168        s e c t i o n 2.0    Ophthalmic Surgery
+
+                             Suggested Readings
+                                1. Madge SN, Selva D: Intubation in routine dacryocystorhinostomy: why we do what we do. Clin Experiment Ophthalmol 2009;
+                                   37(6):620–3.
+                                2. Watkins LM, Janfaza P, Rubin PA: The evolution of endonasal dacryocystorhinostomy. Surg Ophthalmol 2003; 48(1):73–84.
+                                3. See Suggested Readings following Ophthalmic Surgery section, p. 176.
+     Ophthalmic
+      Surgery
+
+                             Enucleation
+                                   SURGICAL CONSIDERATIONS
+                             Description: Enucleation involves removal of the entire globe and a portion of the optic nerve. It usually is per-
+                             formed for painful blind eyes or intraocular tumors (e.g., retinoblastoma, melanoma). If possible, the surrounding
+                             ocular adnexa, including the conjunctiva, Tenon’s connective tissue, and extraocular muscles, are left in place to
+                             secure an orbital implant. The procedure begins with a 3608 conjunctival incision (peritomy) at the limbus, allowing
+                             exposure of the underlying extraocular muscles and sclera. Each of the recti muscles is isolated with a muscle hook
+                             and secured with fixation sutures before disinsertion from the globe. The oblique muscles are cut and allowed to
+                             retract into the orbit (Fig. 2-11). A curved clamp is closed across the optic nerve ,3–10 mm posterior to the globe,
+                             and the nerve is cut and the globe removed. After hemostasis has been ensured, an orbital implant (polymethylmeth-
+                             acrylate or hydroxyapatite) is placed into the socket. The overlying muscles, connective tissue, and conjunctiva are
+                             closed to improve motility and prevent extrusion.
+
+                                        Figure 2-11. Each of the four recti is isolated with 6-0 Dexon suture. The superior
+                                        oblique tendon is detached. The inferior oblique is sutured to the inferior border of the
+                                        lateral rectus. 4-0 silk traction sutures are in place over the medial and lateral rectus
+                                        stump. The globe is rotated laterally, while a curved clamp is introduced from the medial
+                                        direction. Either a curved scissors or an enucleation snare may be used to transect
+                                        the optic nerve. (Reproduced with permission from McCord CD Jr, Tanenbaum M,
+                                        Nunery WR: Oculoplastic Surgery. Raven Press, Philadelphia: 1995.)
+
+===== PAGE 169 =====
+Enucleation   169
+
+                   Variant procedure or approaches: Evisceration involves removing all intraocular contents through a corneo-
+                   scleral incision, leaving the scleral shell with the attached adnexa in place. This usually is performed in cases of endo-
+                   phthalmitis, but never if malignancy is suspected. Exenteration is a more extensive procedure for the management
+                   of aggressive malignant tumors or infections where all orbital tissue, often including surrounding orbital bone and
+                   adjacent sinuses, is removed. If the extent of orbital tumors is unknown, frozen sections from the surgical margins
+                   will be used to determine if exenteration is needed.
+                   Usual preop diagnosis: Painful blind eye; intraocular tumors; sympathetic ophthalmia; trauma
+
+                                                                                                                                                        Ophthalmic
+                                                                                                                                                         Surgery
+                     ■■ SUMMARY OF PROCEDURE
+                     Position                Supine, table rotated 90–1808
+
+                     Incision                3608 conjunctival (peritomy)
+
+                     Special                 Surgical loupes
+                       instrumentation
+
+                     Antibiotics             Irrigate socket with gentamicin postop
+
+                     Surgical time           1h
+
+                     EBL                     , 100 mL
+
+                     Postop care             Outpatient
+
+                     Mortality               Rare
+
+                     Morbidity               Extrusion of implant
+                                             Infection: , 1%
+
+                     Pain score              3–4
+
+                     ■■ PATIENT POPULATION CHARACTERISTICS
+                     Age range               Any age
+
+                     Male:Female             1:1
+
+                     Incidence               Relatively common (typically related to eye trauma)
+
+                     Etiology                Trauma; infection; glaucoma; tumors (e.g., retinoblastoma, melanoma); inflammation
+
+                     Associated              Diabetes mellitus
+                       conditions
+
+                        ANESTHETIC CONSIDERATIONS
+                   See Anesthetic Considerations for Ophthalmic Surgical Procedures under GA, p. 170.
+                   Suggested Reading
+                     1. See Suggested Readings following Ophthalmic Surgery section, p. 176.
+
+===== PAGE 170 =====
+170        s e c t i o n 2.0   Ophthalmic Surgery
+
+                             Orbitotomy—Anterior and Lateral
+                                   SURGICAL CONSIDERATIONS
+                             Description: Surgical access to the orbit is required for biopsy/excision of masses, drainage of orbital abscesses,
+     Ophthalmic
+
+                             removal of a foreign body, or repair of orbital fractures, among other procedures. The orbit may be divided into sev-
+      Surgery
+
+                             eral compartments, and the surgical approach will vary by the location and size of the lesion. In general, an anterior
+                             orbitotomy is used for small tumors in the anterior orbit and can be approached from a transconjunctival, transsep-
+                             tal, or transperiosteal incision. By contrast, a lateral orbitotomy allows for removal of larger masses located further
+                             posteriorly in the orbit, as well as those lesions involving the lacrimal gland. In this procedure, the skin incision can
+                             be placed just under the brow (Stallard-Wright), in the lid crease with lateral extension, or higher in the eyebrow
+                             (coronal). The dissection is carried down to the periosteum, which is then incised and reflected. The lateral orbital
+                             wall is exposed, and an osteotomy is performed using an oscillating saw, after preplacing suture holes with a power
+                             drill. The section of bone is removed with a clamp, and the periorbita is opened, allowing intraorbital dissection.
+                             After biopsy or removal of the mass, the periorbita is closed and the bone fragment replaced.
+
+                             Variant procedures or approaches: A medial orbitotomy is often required to access lesions that are located
+                             medial to the optic nerve.
+
+                             Usual preop diagnosis: Orbital mass; fractures; foreign body; abscess
+
+                               ■■ SUMMARY OF PROCEDURE
+                               Position                Supine, table rotated 90–1808
+
+                               Incision                Variable (see above)
+
+                               Special                 Surgical loupes
+                                 instrumentation
+
+                               Antibiotics             Cefazolin 1 g iv
+
+                               Surgical time           1–3 h
+
+                               EBL                     Usually minimal, unless vascular tumor
+
+                               Mortality               Rare
+
+                               Morbidity               Orbital hemorrhage (retrobulbar → proptosis, retinal ischemia)
+                                                       Impaired ocular motility, strabismus
+                                                       Perforation of the globe: < 1:1000 needle blocks
+                                                       Loss of vision; optic nerve injury
+                                                       Infection: , 1%
+
+                               Pain score              3–6
+
+                               ■■ PATIENT POPULATION CHARACTERISTICS
+                               Age range               Any age
+
+                               Male:Female             1:1
+
+                               Incidence               Fairly common
+
+                               Etiology                Tumor, such as hemangioma, lymphangioma, lymphoma; lacrimal gland tumors; infection; frac-
+                                                       ture; foreign body
+
+                                   ANESTHETIC CONSIDERATIONS
+                             (Procedures covered: dacryocystorhinostomy (DCR); enucleation; anterior and lateral orbitotomy)
+
+===== PAGE 171 =====
+Retinal Surgery     171
+
+                         PREOPERATIVE
+                   Patients presenting for DCR, enucleation, and orbitotomy represent a diverse population. These patients are generally
+                   healthy, aside from the infection, tumor, or trauma underlying their ocular or periocular pathology. Preop evaluation
+                   should focus on possible coexisting disease and the systemic manifestations of previous therapeutic interventions (e.g.,
+                   chemotherapy and drugs used to treat glaucoma). NB: Always verify that surgery is performed on the correct side.
+
+                                                                                                                                                      Ophthalmic
+                                                 Tests as indicated from H&P
+
+                                                                                                                                                       Surgery
+                    Laboratory
+
+                    Premedication                Standard premedication (see p. B-1).
+
+                        INTRAOPERATIVE
+                    Anesthetic technique        GETA
+
+                    Induction                   Standard induction (see p. B-2). An oral RAE ETT may be preferred.
+
+                    Maintenance                 Standard maintenance (see, p. B-3). Muscle relaxation is not required.
+
+                    Emergence                   No special considerations. The common occurrence of PONV requires the administra-
+                                                tion of intraop antiemetics (e.g., metoclopramide 10 mg iv, and ondansetron 4 mg iv).
+
+                    Blood and fluid             Blood loss variable
+                      requirements
+                                                IV: 18-20 ga 31
+                                                NS/LR @ 4–6 mL/kg/h
+
+                    Monitoring                  Standard monitors (see p. B-1).
+
+                    Positioning                 Table rotated 908
+                                                3 and pad pressure points
+                                                3 nonoperated eye
+
+                    Complications               Oculocardiac reflex (OCR)                 OCR: tractions on EOM’s → ↓↓ HR, ↓↓ BP,
+                                                                                          ventricular ectopy, asystole. Rarely occurs
+                                                                                          during GA or following adequate retrobulbar
+                                                                                          block. Rx: stop surgical manipulation, atro-
+                                                                                          pine for persistent bradycardia, OPR.
+                                                Brainstem anesthesia                      Onset < 20 min → ↓ HR, ↓ BP, apnea, agitation,
+                                                                                          asystole. Rx may require CPR, intubation and
+                                                                                          prolonged ventilation.
+
+                         POSTOPERATIVE
+                    Complications               PONV                                    Rx: Metoclopramide 10 mg iv, and/or ondanse-
+                                                                                        tron 4 mg iv
+
+                    Pain management             Acetaminophen                           Occasionally parenteral opiates (see p. C-2).
+
+                   Retinal Surgery
+                        SURGICAL CONSIDERATIONS
+                   Description: Retinal surgery is performed for a wide variety of conditions (see Usual preop diagnoses, below). Most
+                   retinal detachments are due to one or more small tears in the retina. Retinal detachments are classified as traction,
+                   exudative (not usually treated with surgery), or rhegmatogenous (rupture, tear). Children, especially those with ROP
+
+===== PAGE 172 =====
+172        s e c t i o n 2.0   Ophthalmic Surgery
+     Ophthalmic
+      Surgery
+
+                                       Figure 2-12. Eye anatomy. (Reproduced with permission from Langston D, ed:
+                                       Manual of Ocular Diagnosis and Therapy, 2nd edition. Little, Brown, Boston: 1985.)
+
+                             or trauma, may develop retinal detachments. In adults, retinal detachments are most frequently associated with
+                             diabetes, myopia, trauma, and previous cataract surgery. Rhegmatogenous retinal detachments (more common in
+                             adults) start off with a small retinal tear, which allows the vitreous to seep in between the retina and pigment epithe-
+                             lium, forcing retinal separation. Sx range from floaters and flashing lights to showers of black specks and, ultimately,
+                             to a dark shadow that impinges on the field of vision. Retinal detachments may be complicated by proliferative
+                             vitreoretinopathy (PVR), in which scar tissue grows along the surface of the retina, rendering it stiff and difficult
+                             to reattach. Less commonly, retinal detachments are induced by other forms of vitreoretinal traction, or by trauma
+                             involving an open globe. Care must be taken to avoid any increase in intraocular pressure (IOP) in an eye that may
+                             be ruptured. On rare occasion, retinal detachments are due to the formation of a giant retinal tear. Just as rarely,
+                             retinal surgery may be done on premature infants in an effort to prevent or repair retinal detachments. The ultimate
+                             aim of retinal surgery is the preservation or recovery of vision through the restoration of normal posterior segment
+                             anatomy. (Anatomy of the eye is shown in Fig. 2-12.)
+                             Retinal surgery may involve various procedures alone or in combination, including scleral buckling, vitrectomy,
+                             gas–fluid exchange, and injection of vitreous substitutes. Scleral buckles are silicone rubber appliances sutured to
+                             the sclera to indent the eye wall, thereby relieving vitreous traction and functionally closing retinal tears. This is an
+                             external procedure in which the eye may either not be entered at all or entered with a small needle puncture through
+                             the sclera for drainage of subretinal fluid, or injection of gas.
+                             Cryotherapy or lasers are used frequently to establish chorioretinal adhesions around retinal tears. Cryotherapy is
+                             applied to the sclera; a laser is applied with a fiberoptic cable introduced into the vitreous cavity during vitrectomy
+                             surgery, often in combination with a wide-field viewing system. It also can be administered with an indirect ophthal-
+                             moscope delivery system for those eyes not undergoing vitrectomy.
+
+===== PAGE 173 =====
+Retinal Surgery     173
+
+                   Simple detachments frequently can be repaired by a pneumatic retinopexy, in which retinal tears are treated with
+                   cryotherapy and/or laser, and an expanding gas is injected into the vitreous cavity. This technique usually is done in
+                   phakic eyes (eyes with intact lens) with tears between the 9 o’clock and 4 o’clock positions. Pneumatic retinopexy
+                   usually is done as an outpatient office procedure, with local anesthesia, or, less commonly, MAC. The other proce-
+                   dures discussed usually are done with MAC, although GA may be used, according to surgeon’s preference and the
+                   patient’s systemic condition. Some surgeons inject retrobulbar or subconjunctival bupivacaine at the end of a proce-
+                   dure done under GA to decrease postop pain.
+
+                                                                                                                                                       Ophthalmic
+                                                                                                                                                        Surgery
+                   Vitrectomy (removal of vitreous) is commonly performed to reduce traction on the retina (↓ retinal detachment),
+                   clear blood and debris, and remove scar tissue. It is an intraocular procedure in which three 20–25-ga openings are
+                   made into the vitreous cavity with a myringotomy blade 3–4 mm posterior to the limbus (junction of the cornea
+                   and sclera.) One of these openings in the inferotemporal quadrant is used for infusion of balanced salt solution
+                   via a sutured or transconjunctival trochar-based cannula. The remaining openings are at the 9:30 and 2:30 o’clock
+                   positions. One is used for a handheld fiberoptic light, the other for insertion of a variety of manual and automated
+                   instruments, including suction cutters, scissors, and forceps, used to remove and section abnormal tissue within the
+                   vitreous cavity.
+                   Visualization of the retina during vitrectomy is made possible by a contact lens, which is either sutured to the eye or
+                   held in position by an assistant. Some of these lenses provide a wide-field, inverted view of the retina, necessitating
+                   an image inverter on the microscope. Alternatively, a noncontact, wide-field lens may be positioned just above the
+                   cornea, suspended from the microscope. Balanced salt solution gas, silicone oil, or liquid perflurocarbon replaces the
+                   vitreous and other tissues removed during the operation. A bubble of gas (e.g., sulfur hexafluoride or perfluoropro-
+                   pane mixed with air) is sometimes introduced into the vitreous cavity during a scleral buckle or a vitrectomy when
+                   the surgeon wants an internal tamponade of retinal tears that cannot be closed adequately by a scleral buckle alone.
+                   N2O must be discontinued before a gas–fluid exchange to avoid an intraop or postop change in gas bubble size, pos-
+                   sibly accompanied by abnormal IOP.
+                   In the case of a giant retinal tear, a gas–fluid exchange formerly was performed with the patient in the prone posi-
+                   tion toward the end of the operation. This required that the patient be on a Stryker frame, so that he or she could be
+                   moved from the supine to the prone position for the gas-fluid exchange. Perfluorocarbon liquids now obviate the
+                   need for a Stryker frame.
+                   Liquid vitreous substitutes, such as perfluorocarbon liquids or silicone oil, are sometimes introduced into the vitre-
+                   ous cavity during a vitrectomy. Perfluorocarbon liquids are heavier than water and are used as an intraoperative tool
+                   to unfold the detached retina; they are removed at the end of the procedure. Perfluorocarbon liquids make possible
+                   repair of giant retinal tears in the supine position, thus eliminating the need for a Stryker frame. They also facilitate
+                   reattaching the retina when PVR is present, by allowing a relaxing retinotomy for those situations where the retina is
+                   too stiff and foreshortened to be reattached by less-invasive measures. Silicone oil is used for complex detachments
+                   in which a long-term, internal tamponade of retinal tears is deemed necessary to prevent redetachment. It usually is
+                   removed a few months postoperatively with a second operation.
+                   Usual preop diagnosis: Simple and complex retinal detachment; diabetic retinopathy; vitreous hemorrhage or
+                   opacification; macular epiretinal membranes; other surgically correctable macular conditions, such as macular holes
+                   or macular degeneration with subfoveal choroidal neovascularization or hemorrhage; dislocated intraocular lenses;
+                   endophthalmitis; macular degeneration with posterior segment trauma, including repair of ruptured globes and
+                   removal of intraocular foreign bodies; retinopathy of prematurity (ROP); high myopia; trauma.
+
+                     ■■ SUMMARY OF PROCEDURE
+                     Position                Supine
+
+                     Incision                Transconjunctival
+
+                     Special                 Vitrectomy machine; cryoprobe; laser; indirect ophthalmoscope; microscope
+                       instrumentation
+
+                     Unique                  Ruptured globe—avoid ↑ IOP. Stop N2O 5–10 min before a gas-fluid exchange. Retinal detach-
+                       considerations        ments often require urgent surgery (< 24 h).
+
+===== PAGE 174 =====
+174        s e c t i o n 2.0    Ophthalmic Surgery
+
+                               ■■ SUMMARY OF PROCEDURE (cont’d)
+                               Antibiotics             May use iv antibiotics at the start of surgery, in addition to subconjunctival antibiotics at conclu-
+                                                       sion of surgery.
+
+                               Surgical time           Pneumatic retinopexy: 20 min
+                                                       Scleral buckle: 30 min to 2 h
+                                                       Vitrectomy: 1–41 h
+     Ophthalmic
+      Surgery
+
+                               Closing                 Try to avoid postop coughing, bucking, vomiting or other Valsalva-like events.
+                                 considerations        Specific head positioning may be required following intraocular gas injection.
+
+                               EBL                     None
+
+                               Postop care             Prone positioning may be necessary if gas was injected
+
+                               Mortality               Extremely rare
+
+                               Morbidity               Hemorrhage: , 5%
+                                                       Retinal detachment: , 5%
+                                                       Infection: , 1%
+                                                       Proliferative retinopathy
+
+                               Pain score              4–6
+
+                               ■■ PATIENT POPULATION CHARACTERISTICS
+                               Age range               Usually adults; occasionally premature infants (ROP) and children (retinal detachment or
+                                                       trauma)
+
+                               Male:Female             3:2
+
+                               Incidence               1/10,000/yr phakic; 1–3% of patients postcataract extraction with placement of intraocular
+                                                       lens
+
+                               Etiology                Majority idiopathic possibly related to anatomic predisposition; some related to systemic disease
+                                                       or induced by trauma or cataract surgery
+
+                               Associated              Idiopathic: retinal detachment, epiretinal membrane, macular hole
+                                 conditions            Diabetic retinopathy: vitreous hemorrhage or traction retinal detachment
+                                                       Macular degeneration: subfoveal choroidal neovascularization or hemorrhage
+                                                       Trauma: vitreous hemorrhage, retinal detachment, ruptured globe
+                                                       Intraocular foreign body (IOFB)
+                                                       HTN: vitreous hemorrhage
+                                                       Extreme prematurity: ROP
+                                                       Proliferative sickle-cell retinopathy
+
+                                   ANESTHETIC CONSIDERATIONS
+                                      PREOPERATIVE
+                             In MAC cases, the need for anxiolytics can often be reduced or eliminated by discussing in detail what will hap-
+                             pen to the patient during the procedure and by addressing patient concerns (e.g., claustrophobia, positional pain,
+                             supine dyspnea). Most vitreous and retinal procedures can be accomplished using regional anesthetic techniques
+                              (retrobulbar, peribulbar, or sub-Tenon’s block with MAC. Procedures requiring more than 2 h and patients (or sur-
+                               geons) with special needs (e.g., claustrophobia, uncooperative, immature) may benefit from GA. With MAC, the
+                               anesthesiologist’s goal should be a comfortable, cooperative patient who can lie completely still without falling asleep
+                               (thereby avoiding uncontrolled movement when suddenly awakened) for 1–2 h, while avoiding Valsalva-like events
+                               (e.g., coughing).
+
+===== PAGE 175 =====
+Retinal Surgery      175
+
+                    Cardiovascular          Mannitol decreases IOP by increasing plasma oncotic pressure relative to aqueous humor
+                                            pressure. It may be given just before or during surgery. Total dosage should not exceed
+                                            1.5–2 g/kg iv over a 30–60 min period. Rapid infusion of large doses of mannitol may
+                                            precipitate ↓ BP, CHF, pulmonary edema, electrolyte abnormalities, and, possibly, myo-
+                                            cardial ischemia; hence, the importance of a thorough evaluation of the patient’s renal and
+                                            cardiovascular status prior to administering mannitol. Patients on antithrombotic drugs
+                                            may be at higher risk for bleeding complications. The decision to stop these drugs and
+
+                                                                                                                                                       Ophthalmic
+                                                                                                                                                        Surgery
+                                            institute heparin bridge therapy should be made in consultation with both the surgeon and
+                                            the prescribing physician.
+                                            Tests: As indicated from H&P
+
+                    Diabetes                Diabetic patients are at increased risk for silent myocardial ischemia. Pulmonary aspiration
+                                            28 diabetic gastroparesis is also a risk in this population. Patients usually take 1/2 or 1/3 of
+                                            their normal long-acting insulin dose (on the morning of surgery); fasting blood sugar is
+                                            checked; and an iv infusion of D5 LR is started if glucose , 90 mg/dL or treated with regu-
+                                            lar insulin if glucose . 200 mg/dL. Blood sugar is checked intraop and postop.
+
+                    Renal                   Acetazolamide, a carbonic anhydrase inhibitor, decreases secretion of aqueous humor. It
+                                            also inhibits renal carbonic anhydrase, thereby causing loss of HCO3, Na1, K1, and water.
+                                            Thus, patients on chronic therapy may be acidotic, hypokalemic, and hyponatremic.
+                                            Tests: Electrolytes; others as indicated from H&P
+
+                    Hematologic             Sickle-cell disease → retinopathy. Sickle-cell trait is not commonly associated with periop
+                                            complications. Patients with sickle-cell anemia should be well hydrated and transfused
+                                            preop, as necessary to increase HbA concentration . 40%.
+
+                    Laboratory              Tests as indicated from H&P
+
+                    Premedication           Midazolam 0.5 mg/kg po for pediatric patients (,30 min to peak effect; ,30 min duration
+                                            of effect) and midazolam 1–2 mg iv incrementally for adults, will help alleviate anxiety.
+                                            Avoid excessive sedation (respiratory depression) in sickle-cell patients. Surgeons prefer
+                                            a normal IOP during retinal reattachment surgery, and therefore, patients may be given
+                                            acetazolamide or mannitol to decrease IOP.
+
+                        INTRAOPERATIVE
+                   Anesthetic technique: Retinal detachment surgery may be performed under regional anesthesia (e.g., retrobulbar
+                   or peribulbar block); however, if the surgery is expected to be . 2 h, GETA may be preferable. If it is possible that
+                   cautery may be used during the surgery, then the delivered FiO2 should be < 0.3 to minimize fire hazard when using
+                   open oxygen delivery methods (e.g., nasal prongs, mask, etc.)
+
+                    Induction               Standard induction (see p. B-2) is appropriate for these patients with care being taken not
+                                            to put pressure on the affected eye with the face mask.
+
+                    Maintenance             Standard maintenance (see p. B-3). Ophthalmologists, however, may use expanding gases,
+                                            such as sulfur hexafluoride (SF6) or perfluoropropane (C3F8), for internal tamponade of the
+                                            retinal tears and, if N2O is used, the injected bubble may expand rapidly, causing a dramatic
+                                            rise in IOP. This can impair retinal blood flow. N2O, if used at all, should be D/C’d at least
+                                            15 min before gas injection. For any subsequent surgery, N2O should be avoided for at
+                                            least 14 d after an air injection, 30 d after a SF6 injection, and 90 d after C3F8. Given the
+                                            importance of patient immobility, nondepolarizing muscle relaxants may be advantageous,
+                                            especially if N2O is D/C’d.
+
+                    Emergence               Use narcotics for pain control and consider iv lidocaine 1.0–1.5 mg/kg 5 min prior to extu-
+                                            bation to provide smooth emergence. The common occurrence of PONV requires the
+                                            administration of intraop antiemetics (e.g., metoclopramide 10–20 mg iv and ondansetron
+                                            4–8 mg iv 30 min before the end of surgery).
+
+===== PAGE 176 =====
+176        s e c t i o n 2.0     Ophthalmic Surgery
+
+                              Blood and fluid             IV: 18–20 ga 31 (adult)
+                                 requirements             20 ga 31 (child)
+                                                          NS/LR @ 4–6 mL/kg/h
+
+                              Monitoring                  Standard monitors (see p. B-1)             Processed EEG may be useful in monitoring level
+                                                                                                     of sedation
+                                                                                                     Care should be taken to avoid CO2 accumulation
+     Ophthalmic
+      Surgery
+
+                                                                                                     under the drapes in MAC cases. A suction line can
+                                                                                                     be used to improve air circulation under the drape
+
+                              Positioning                 3 and pad pressure points                  For long MAC cases, short “time-outs” should be
+                                                                                                     taken to allow patients to reposition themselves
+                                                          3 and pad nonsurgical eye
+
+                              Complications               Oculocardiac reflex (OCR)                  OCR: traction on EOM’s → ↓↓ HR, ↓↓ BP, ven-
+                                                                                                     tricular ectopy, asystole. Rarely occurs during GA
+                                                                                                     or following adequate retrobulbar block. Rx: stop
+                                                                                                     surgical manipulation, atropine for persistent
+                                                                                                     bradycardia, CPR.
+
+                                      POSTOPERATIVE
+
+                              Complications                PONV                                       Rx: ondansetron 4–8 mg iv 6 metoclopramide
+                                                           Corneal abrasion                           10–20 mg iv; however, eye pain (e.g., 28 to corneal
+                                                           Vitreous hemorrhage                        abrasion) may also cause N/V. If this is the case,
+                                                           Glaucoma                                   treat eye pain (ophthalmology consult).
+                                                           Ptosis
+                                                           Diplopia
+                                                           Loss of vision                             Persistently low BP → retinal ischemia and central
+                                                           Infection                                  retinal artery occlusion
+
+                              Pain                         Retrobulbar anesthesia
+                                management
+
+                              Tests                        None routinely required
+
+                             Suggested Readings
+                                1. Bryant JS, Busbee BG, Reichel E: Overview of ocular anesthesia: past and present. Curr Opin Ophthalmol 2011; 22(3):180–4.
+                                2. Charles S, Fanning GL: Anesthesia considerations for vitreoretinal surgery. Ophthalmol Clin North Am 2006; 19(2):239–43.
+                                3. Kumar CM, Eld H, Dodds C: Sub-Tenon’s anaesthesia: complications and their prevention. Eye (Lond.) 2011; 25(6):694–703.
+                                4. McGoldrick KE, Gayer SI: Anesthesia for Opthalmic Surgery. In: Barash PG, Cullen BF, Stoelting RK, eds. Clinical Anesthesia,
+                                   6th edition. Lippincott Williams & Wilkins, Philadelphia: 2009:1375–92.
+                                5. Nouvellon E, Cuvillon P, Ripart J: Regional anesthesia and eye surgery. Anesthesiology 2010; 113(5):1236–42.
+                                6. Ryan SJ, Hinton DR, et al, eds: Retina, 5th edition. CV Mosby Co, St. Louis: 2012.
+
+                             General Ophthalmic Surgery Suggested Readings
+                                1. Ahmad S, Ahmad A: Complications of ophthalmologic nerve blocks: a review. J Clin Anesth 2003; 15(7):564–9.
+                                2. Albert DM, Jakobiec FA, eds: Principles and Practice of Ophthalmology. WB Saunders, Philadelphia: 2000;1463–76.
+                                3. Kumar C, Dodds C, Gayer S: Ophthalmic Anaesthsia (Oxford Specialist Handbooks in Anesthesia). Oxford University Press,
+                                   2012.
+                                4. Levine MR, ed: Manual of Oculoplastic Surgery, 2nd edition. Butterworth-Heinmann, New York: 1996.
+                                5. Nesi FA, Smith BC, eds: Ophthalmic Plastic and Reconstructive Surgery, 2nd edition. Mosby-Year Book, St. Louis: 1997.
+                                6. Pokhrel PK, Loftus SA: Ocular emergencies. Am Fam Physician 2007; 76(6):829–36.
+
+                             Suggested Viewing
+                             Links are available online to the following videos:
+                             Scleral Buckle and Vitrectomy for Retinal Detachment: http://www.youtube.com/watch?v=CJy8qjNojAc
+                             Vitrectomy for Vitreous Opacities (Floaters): http://www.youtube.com/watch?v=4FJYeEGl98g
+                             Advanced Cataract Surgery – “In Simple English”: http://www.youtube.com/watch?v=aohAHNYpAOs
+
+===== PAGE 177 =====
+s e c t i o n
+
+                     3.0 Otolaryngology—
+                                      Head and Neck
+                                      Surgery
+
+                                      surgeons
+                                      Michael J. Kaplan, MD (Head & Neck Surgery)
+                                      Edward J. Damrose, MD (Laryngology)
+                                      Nikolas H. Blevins, MD (Otology & Neurotology)
+                                      Robert K. Jackler, MD (Otology & Neurotology)
+                                      Peter H. Hwang, MD (Endoscopic Sinus Surgery)
+                                      Sarmela T. Sunder, MD (Endoscopic Sinus Surgery)
+                                      Sam P. Most, MD (Nasal Surgery)
+                                      Willard E. Fee, Jr. MD (Head & Neck Surgery)
+                                      Robert W. Riley, DDS, MD (Sleep-disordered breathing)
+                                      Nelson B. Powell, MD (Sleep-disordered breathing)
+                                      Donald M. Sesso, DO (Sleep-disordered breathing)
+
+                                      anesthesiologists
+                                      Vladimir Nekhendzy, MD (All topics)
+                                      Brett L. Miller (Sleep-disordered breathing)
+                                      Michael W. Champeau, MD (Sleep-disordered breathing)
+

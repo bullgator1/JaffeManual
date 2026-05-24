@@ -1,0 +1,555 @@
+# 15_EMERGENCY
+# Source: 15 EMERGENCY.pdf (Jaffe's Anesthesiologist's Manual of Surgical Procedures, 5th ed., Wolters Kluwer, 2014)
+# Section: 15.0 Emergency Procedures
+# Pages: ?-?
+# Note: Text-extract for project knowledge. Figures live in the source PDF only.
+
+===== PROCEDURE INDEX =====
+- (none auto-detected; add by hand after review)
+
+===== PAGE ? =====
+s e c t i o n
+
+           15.0 EMERGENCY
+                                       PROCEDURES
+                                       FOR THE
+                                       ANESTHESIOLOGIST
+
+                                       anesthesiologists
+                                       Carlos Brun, MD
+                                       Frederick G. Mihm, MD
+
+===== PAGE ? =====
+EMERGENCY CRICOTHYROTOMY
+                                       Clinical situation: Typically, this procedure is performed in a hypoxic patient with an obstructed airway who can-
+                                       not be ventilated with a mask or LMA, and cannot be intubated.
+                                       Emergency “Stab” Cricothyrotomy5
+
+                                       Equipment                  • Scalpel, preferably with #11 blade
+                                                                  • ETT #6
+                                                                  • Syringe for inflating cuff
+                                                                  • Prep solution such as alcohol, chlorhexidine, or povidone-iodine
+
+                                       Procedure                  1. Prep skin if time permits.
+                                                                  2. Identify cricothyroid membrane between cricoid and thyroid cartilages (Fig. 15-1).
+                                                                  3. Make 2–3 cm transverse or vertical incision through skin.
+                                                                  4. Make 2.5-cm incision through cricothyroid membrane with single stab (Fig. 15-2).
+                                                                  5. Reverse scalpel, place handle into wound, and turn 90° to expand incision.
+                                                                  6. Pass tracheostomy tube (or standard ETT) into trachea.
+                                                                  7. Inflate cuff on tracheosomy/ETT.
+                                                                  8. Ventilate patient with capnography if possible.
+                                                                  9. Secure tube.
+
+                                       Emergency “Four-Step” Cricothyrotomy1,2
+
+                                       Equipment                  • Scalpel with #11 blade
+                                                                  • Tracheal hook (may be improvised by bending a 16-g needle into a hook with a
+                                                                     hemostat)
+                                                                  • ETT #6
+                                                                  • Syringe for inflating cuff
+                                                                  • Prep solution such as alcohol, chlorhexidine, or povidone-iodine
+     for the Anesthesiologist
+     Emergency Procedures
+
+                                                                         Figure 15-1. Identify cricoid membrane.
+
+                                1574
+
+===== PAGE ? =====
+Emergency Cricothyrotomy         1575
+
+                                                                      Figure 15-2. If possible extend head
+                                                                      and place bolster between scapula. Palpate
+                                                                      thryoid and cricoid cartilages, then identify
+                                                                      cricothryoidmembrane (CTM). Skin incision
+                                                                      may be vertical if unsure of CTM location, as
+                                                                      a finger inserted through a vertical incision
+                                                                      may have more ability to palpate the CTM
+                                                                      by blunt pressure in a vertical or horizontal
+                                                                      search.
+
+                    Procedure            1. Right hand dominant operator stands on patient’s left side. Position with head and
+                                             neck extended.
+                                         2. Prep skin if time permits.
+                                         3. Nondominant hand identifies cricothyroid membrane while stabilizing thyroid carti-
+                                             lage. Dominant hand makes 2.5-cm transverse incision through skin and cricothyroid
+                                             membrane with single stab, keeping blade in place.
+                                         4. Nondominant hand places tracheal hook into incision, lifting cricoid cartilage ven-
+                                            trally, then scalpel is removed.
+                                         5. Dominant hand inserts ETT, then removes tracheal hook.
+                                         6. Inflate cuff.
+                                         7. Ventilate patient with capnography if possible.
+                                         8. Secure tube.
+
+                   Emergency “Bougie-Guided” Cricothyrotomy3
+
+                    Equipment            • Scalpel and hemostat (central line kit)
+                                         • ETT #6
+                                         • Syringe for inflating cuff
+                                         • Bougie (pediatric 10 Fr for ETT 4.0–5.5 or adult 15 Fr for ETT 6.0)
+                                         • Prep solution such as alcohol, chlorhexidine, or povidone-iodine
+
+                    Procedure             1.	Operator may stand at head or either side of patient. Position with head and neck
+                                              extended.
+                                          2. Prep skin if time permits.
+                                          3.	Nondominant hand identifies cricothyroid membrane while stabilizing thyroid
+                                              cartilage.
+                                          4. Dominant hand makes a 3-cm incision through skin.
+                                          5.	Nondominant hand index finger placed into incision, palpates cricothyroid mem-
+                                              brane with a side-to-side motion, then finger is removed from incision.
+                                          6. Dominant hand makes a 2.5 cm horizontal incision in the cricothyroid membrane.
+                                                                                                                                             for the Anesthesiologist
+                                                                                                                                             Emergency Procedures
+
+                                          7.	Dominant hand inserts coude tip end of bougie via incision seeking tracheal clicks
+                                              and hang-up sign.
+                                          8.	Pass ETT over bougie into trachea. If difficult, use hemostat to dilate cricothyroid
+                                              membrane with bougie in place, and then pass ETT (Fig. 15-3).
+                                          9. Remove bougie.
+                                         10. Inflate cuff.
+                                         11. Ventilate patient and monitor capnogram if possible.
+                                         12. Secure tube.
+
+===== PAGE ? =====
+1576   SECTION 15.0       Emergency Procedures for the Anesthesiologist
+
+                                              Figure 15-3. Adult bougie 15 Fr passed via incision with coude tip directed caudally
+                                              attempting to feel for tracheal clicks and/or carinal hang-up sign. Average depth from
+                                              skin to carina is 12–15 cm. A 6.0 or greater ETT will pass over an Adult 15 Fr bougie.
+
+                                       Emergency “Guidewire” Cricothyrotomy
+
+                                       Equipment              • Melker Emergency Cricothyrotomy Set (Cook Critical Care), or equivalent
+                                                              • Scalpel
+                                                              • 6-mL syringe (half-filled with crystalloid or local anesthetic if time allows)
+                                                              • 18-ga introducer needle or iv catheter/needle
+                                                              • Amplatz extra-stiff guidewire 0.038”
+                                                              • Curved dilator
+     for the Anesthesiologist
+
+                                                              • Airway catheter
+     Emergency Procedures
+
+                                                              • Umbilical or twill tape
+
+                                       Procedure              1. Attach syringe to iv catheter and needle, and assemble emergency airway device
+                                                                  (Fig. 15-4) by inserting the dilator through the airway catheter until the handle stops
+                                                                  against the connector of the airway catheter.
+                                                              2. Identify cricothyroid membrane between cricoid and thyroid cartilages (Fig. 15-1).
+                                                              3. Nondominant hand stabilizes cricothyroid membrane.
+                                                              4. Dominant hand makes a vertical midline incision (Fig. 15-5).
+
+===== PAGE ? =====
+Emergency Cricothyrotomy   1577
+
+                               Figure 15-4. Melker cricothryoidotomy kit with dilator passed firmly into airway
+                               catheter prior to accessing the CTM.
+
+                                                                                            IV catheter/needle
+                                                          Blade making                         advancing at
+                                                          vertical midline                      45° angle
+                                                          incision
+
+                                                    Dilator/airway
+                                                    catheter advanced
+                                                    into trachea
+                                                                                                                                  for the Anesthesiologist
+                                                                                                                                  Emergency Procedures
+
+                                            Figure 15-5. Emergency guidewire cricothyroidotomy.
+
+===== PAGE ? =====
+1578   SECTION 15.0             Emergency Procedures for the Anesthesiologist
+
+                                       Procedure                     5.	Dominant hand advances syringe with catheter/needle at a 45° caudad angle through
+                                         (cont’d)                        incision until air bubbles can be aspirated (tracheal lumen) (Fig. 15-5).
+                                                                     6. Remove syringe and needle, leaving catheter in place.
+                                                                     7. Advance soft end of guidewire into catheter several cm past end of catheter.
+                                                                     8. Remove catheter.
+                                                                     9.	Advance the dilator/airway catheter assembly over the guidewire into the trachea,
+                                                                         keeping proximal end of guidewire visible at all times. If difficult to pass dilator/airway,
+                                                                         withdraw from incision, use hemostat to dilate cricothyroid membrane with guide-
+                                                                         wire in place, and reattempt to advance assembly. (Consider replacing angiocatheter
+                                                                         over guidewire, removing guidewire, and verifying position with capnography.)
+                                                                         Remove guidewire and dilator, leaving airway catheter in place.
+                                                                    10. Ventilate patient and monitor capnogram if possible.
+                                                                    11. Secure airway with umbilical or twill tape around neck.
+
+                                       EMERGENCY PERICARDIOCENTESIS
+                                       Clinical situation: The patient typically has severe ↓ BP unexplained by any other causes (e.g., anesthetic drugs,
+                                       autoPEEP, tension pneumothorax) and consistent with acute cardiac tamponade (dyspnea, tachypnea, ↓ BP, ↑ HR,
+                                       electrical alternans, ↓ voltage EKG, ↓ pulse pressure or pulsus paradoxus, ↑ CVP/JVD, distant heart sounds) ± equal-
+                                       ization of pressures (RAP∼RVEDP∼PAD∼PAOP) ± confirmation by TEE/TTE. Because of the high intrapericardial
+                                       pressures, all “filling pressures” of both right and left heart appear high when preload is actually very low. In severe
+                                       cases, patients will experience cardiac arrest with pulseless electrical activity (PEA).
+
+                                       Equipment                    • 10-mL syringe
+                                                                    • 18-ga spinal needle
+
+                                       Procedure                    1. Identify xiphoid process and point 1” below and 1” left of midline (Fig. 15-6).
+                                                                    2. Prep skin below xiphoid.
+                                                                    3. A
+                                                                        n 18 g spinal needle is directed towards the left shoulder and inserted at a ≤ 45°
+                                                                        angle to the skin.
+                                                                    4. Attach needle to syringe, and direct needle at ≤ 45° to the skin under rib toward left
+                                                                        shoulder (Fig. 15-6).
+                                                                    5. If pericardial fluid is withdrawn, BP will ↑ immediately.
+
+                                       EMERGENCY ULTRASOUND-GUIDED
+                                       PERICARDIOCENTESIS4,5
+                                       In the above-described setting of respiratory and hemodynamic stability, ultrasonography may be used to aid in diag-
+                                       nosis and treatment of cardiac tamponade. If you are unfamiliar with basic cardiac ultrasonography, a stat consult
+                                       with a skilled ultrasonographer is necessary for performance of an ultrasound-guided pericardiocentesis. Precepted
+     for the Anesthesiologist
+     Emergency Procedures
+
+                                       hands-on training must be sought prior to using ultrasound for diagnosis or treatment of cardiac tamponade.
+                                       Cardiac tamponade is a clinical diagnosis. Ultrasound findings include pericardial fluid with a “swinging heart”
+                                       (ultrasound visualization of electrical alternans); increasing pericardial pressure causes right atrial systolic collapse,
+                                       right ventricle diastolic collapse, septal shift toward left ventricle in systole; respiratory variation across tricuspid
+                                       and mitral valves; in addition, IVC plethora with no respiratory variation may be seen. Patients with normal, stable
+                                       hemodynamics and pericardial effusion do not require emergent pericardiocentesis.
+
+===== PAGE ? =====
+Emergency Ultrasound-Guided Pericardiocentesis        1579
+
+                               Figure 15-6. Emergency blind pericardiocentesis. Once diagnosis of cardiac tamponade
+                               is made, elevate head of bed to 30–45° to allow gravity to assist in fluid access. If
+                               hemodynamics do not allow this, place the patient into a supine position. The access site
+                               is 2.5 cm below the xiphoid process and 2.5 cm to the patient’s left. An 18 g spinal needle
+                               is directed towards the left shoulder and inserted at a ≤ 45° angle to the skin. The stylet is
+                               removed, a syringe with stopcock attached, and the apparatus advanced with aspiration.
+                               If time allows, anesthetize the route with lidocaine 1–2% 5–10 mL.
+
+                    Equipment                   Minimum
+                                                • Skilled ultrasonographer
+                                                • Ultrasound machine with phase array, curvilinear, or vascular access probe
+                                                • Ultrasound gel or lubricant
+                                                • Syringe
+                                                • 18-g 5-inch spinal needle or 18-g Tuohy needle or longest 18-g angiocatheter/needle
+                                                   available
+                                                Preferred
+                                                • Alcohol, chlorhexidine, or povidone iodine skin prep
+                                                • Sterile gloves
+                                                • Skilled ultrasonographer
+                                                                                                                                                 for the Anesthesiologist
+                                                                                                                                                 Emergency Procedures
+
+                                                • Ultrasound machine with phase array, curvilinear, or vascular access probe
+                                                • Sterile ultrasound probe sheath with gel
+                                                • 10-, 20-, or 60-mL syringe
+                                                • 18-g spinal needle
+                                                • 3-way stopcock
+                                                • Lidocaine 1–2% 5–10 mL with 5-mL syringe and 3-inch 25-g needle
+
+===== PAGE ? =====
+1580   SECTION 15.0       Emergency Procedures for the Anesthesiologist
+
+                                       Procedure              1. Subxiphoid
+                                                              2. Identify xiphoid process and point 1” below and 1” left of midline (Fig. 15-6).
+                                                              3. Prep skin, then attach needle to 3-way stopcock on a syringe.
+                                                              4. Use ultrasound probe with sterile sheath to find largest accessible collection of peri-
+                                                                  cardial fluid in the subxiphoid space. A subxiphoid four-chamber view or short-axis
+                                                                  midpapillary view should be attempted. Note that you may need to pass the needle
+                                                                  through the liver to get to the pericardial space. If no chest compressions are being
+                                                                  performed, consider positioning the patient in slight head-up or left lateral decubitus
+                                                                  position to optimize fluid accessibility. If the patient is conscious, consider local anes-
+                                                                 thetic injection along anticipated needle path under ultrasound visualization.
+                                                              5. Place needle next to probe in same alignment to the skin and pericardial fluid
+                                                                  (Fig. 15-7).
+                                                              6. Advance needle tip under direct ultrasound visualization (Fig. 15-7).
+                                                              7. When needle tip enters fluid collection, withdraw fluid. If flowing freely, continue to
+                                                                  withdraw fluid until syringe is full, or you may turn the 3-way stopcock open to atmo-
+                                                                  sphere to allow pericardial pressure to decompress. (If unsure of needle tip position,
+                                                                  abort attempt or consider injection of 1–3 mL agitated saline via needle to identify
+                                                                  location of tip relative to pericardial fluid.)
+                                                              8. Remove needle once hemodynamics have improved with fluid removal.
+                                                              9. Monitor patient for reaccumulation of pericardial fluid and consult for formal evalu-
+                                                                  ation and possible pericardial drain placement.
+
+                                             Figure 15-7. Emergency ultrasound-guided pericardiocentesis. Subxiphoid approach.
+                                             Once ultrasonographic diagnosis of cardiac tamponade is made, elevate head of bed to
+                                             30–45° to allow gravity to assist in fluid access. If hemodynamics do not allow this,
+                                             place the patient into a supine position. The subxiphoid access site is 2.5 cm below the
+                                             xiphoid process and 2.5 cm to the patient’s left. With the ultrasound probe in place,
+                                             visualizing the effusion and the heart, an 18 g spinal needle is directed towards the
+     for the Anesthesiologist
+     Emergency Procedures
+
+                                             left shoulder and inserted at a ≤ 45° angle to the skin. The stylet is removed, a syringe
+                                             with stopcock attached, and the apparatus advanced with aspiration under direct
+                                             visualization. If unsure of needle tip location, stop advancement and wait for expert
+                                             help or consider injection of 1–3 mL of agitated saline to visualize tip location. If time
+                                             allows, anesthetize the route with lidocaine 1–2% 5–10 mL. Both in plane and out of
+                                             plane techniques are acceptable.
+
+===== PAGE ? =====
+Emergency Ultrasound-Guided Pericardiocentesis             1581
+
+                               Figure 15-8. Emergency ultrasound guided pericardiocentesis. Parasternal approach.
+                               Place the patient supine or in Trendelenburg to maximize fluid collection size in
+                               intended needle path. Identify the heart and fluid collection in the 4th or 5th intercostal
+                               space between the sternum and the midclavicular line. Be sure that the lung is not
+                               entering into ultrasonographic view. An 18 g spinal needle is directed towards the
+                               patient’s back and inserted at a 90° angle to the skin. The stylet is removed, a syringe
+                               with stopcock attached, and the apparatus advanced with aspiration under direct
+                               visualization. If unsure of needle tip location, stop advancement and wait for expert
+                               help or consider injection of 1–3 mL of agitated saline to visualize tip location. If time
+                               allows, anesthetize the route with lidocaine 1–2% 5–10 mL.
+
+                    Parasternal                 Prep skin, then attach needle to 3-way stopcock onto syringe.
+                      (Fig. 15-8)               Use ultrasound probe with sterile sheath to find largest accessible collection of pericar-
+                                                dial fluid in the parasternal area; 4th or 5th rib interspace along left sternal border. Note
+                                                that you should not pass the needle through the pleural space/lung/vessels to enter the
+                                                pericardial space. If patient is conscious, consider local anesthetic injection along antici-
+                                                pated needle path under ultrasound visualization.
+                                                Place needle next to probe in same alignment to the skin and pericardial fluid. You may
+                                                use color-flow Doppler to visualize vessels in intended needle path.
+                                                Advance needle tip under direct ultrasound visualization.
+                                                When needle tip enters fluid collection, withdraw fluid. If flowing freely, continue to
+                                                withdraw fluid until syringe is full, or you may turn the 3-way stopcock open to atmo-
+                                                sphere to allow pericardial pressure/fluid to decompress. (If unsure of needle tip posi-
+                                                                                                                                                        for the Anesthesiologist
+                                                                                                                                                        Emergency Procedures
+
+                                                tion, abort attempt or consider injection of 1–3 mL agitated saline via needle to identify
+                                                location of tip relative to pericardial fluid.)
+                                                Remove needle once hemodynamics have improved with fluid removal.
+                                                Monitor patient for reaccumulation of pericardial fluid and consult for formal evalua-
+                                                tion and possible pericardial drain placement.
+
+===== PAGE ? =====
+1582   SECTION 15.0              Emergency Procedures for the Anesthesiologist
+
+                                       Suggested Reading
+                                         1. Fitch, MT et al: Videos in clinical medicine. Emergency pericardiocentesis. N Engl J Med 2012; 366(12):e17.
+
+                                       Suggested Viewing
+                                       Links are available online to the following videos:
+                                       Chest Tube Insertion: https://www.youtube.com/watch?v=hQlt57AyQmg
+                                       Emergency surgical airway: https://www.youtube.com/watch?v=BwWIvJNecSg
+                                       Cricothyrotomy: https://www.youtube.com/watch?v=_VFJGkJy1G8
+                                       Ultrasound Guided Pericardiocentesis Procedure - SonoSite Ultrasound:
+                                       https://www.youtube.com/watch?v=T6Z9DvPPmXg
+                                       Needle Thoracostomy - www.proceduresconsult.com: https://www.youtube.com/watch?v=4cuotNQPRNc
+                                       (subscription required to view complete video)
+                                       Needle Decompression (thoracostomy):
+                                       https://www.youtube.com/watch?v=TZpq8EPJ13Q&list=PLAB3A880AAEFB4992&index=2
+                                       Needle decompression hazards: https://www.youtube.com/watch?v=fQqPktj_gFc
+                                       Venous Cutdown.mp4: https://www.youtube.com/watch?v=AHuJZHvTNGE
+
+                                       EMERGENT NEEDLE/CATHETER THORACOSTOMY
+                                       Clinical situation: A patient is experiencing severe hypotension and hypoxemia unexplained by any other cause
+                                       (e.g., autoPEEP, cardiac tamponade) and consistent with acute tension pneumothorax (dyspnea, tachypnea, tachy-
+                                       cardia, syncope, ↑ Paw, ↓ movement of involved chest, ↓ breath sounds, ↑ resonance to percussion, and ↑ rib inter-
+                                       space distance compared to uninvolved side) and cardiovascular Sx related to ↑ thoracic pressures and ↓ preload
+                                       (↓ BP, ↑ HR, ↑ pulse pressure, ↑ CVP). The CVP is artificially elevated, reflecting the high intrathoracic pressures.
+                                       Actual (transmural) CVP is very low. In severe cases, patients may experience cardiac arrest with pulseless electrical
+                                       activity (PEA) because high intrathoracic pressures effectively stop venous return to the heart.
+                                       Note: AutoPEEP MUST be ruled out first, particularly when the diagnosis is bilateral tension PTX. Auto PEEP is
+                                       effectively ruled out (except with a ball valve airway lesion) by disconnecting the ETT from ventilator/Ambu bag
+                                       and allowing patient to exhale. If the patient’s condition immediately improves, you have made the diagnosis of
+                                       autoPEEP.
+                                       Note: With a pneumothorax, release of the pressure that has built up in the chest is a lifesaving maneuver. A large-
+                                       bore chest tube does not need to be placed emergently. The much simpler needle/catheter thoracostomy is effective
+                                       and less demanding for the nonsurgeon.
+
+                                       Equipment                     One of the following:
+                                                                     • 16-g needle or iv catheter/needle (preferred) with a length of 5 cm
+                                                                     • 16-g single-lumen CVP kit
+                                                                     • Alcohol, chlorhexidine, or povidone-iodine skin prep
+
+                                       Procedure                     1. Identify the space. Identify the 2nd intercostals space by palpitating the angle of Louis
+                                                                        (union of manubrium and sternum); then move laterally to find the insertion of the
+                                                                        2nd rib. The interspace directly below this rib is the 2nd intercostal space (Fig. 15-9).
+                                                                        Access should occur in the midclavicular line in this space. Alternatively, the anterior
+     for the Anesthesiologist
+     Emergency Procedures
+
+                                                                        or mid-axillary line in the 4th–5th intercostal space may be used. Identify the anterior
+                                                                        axillary line by drawing an imaginary line caudally from the anterior axillary fold to
+                                                                        rib space at or above the nipple line.
+
+===== PAGE ? =====
+Emergent Ultrasound-guided Needle/Catheter Thoracostomy               1583
+
+                               Figure 15-9. Midclavicular 2nd intercostal space. Lateral needle decompression in
+                               the 4th or 5th midaxillary line. To avoid injury to neurovascular bundle, insert needle
+                               along upper border of the inferior rib at the selected space.
+
+                    Procedure                  2. Prep skin.
+                      (cont’d)                 3.	Enter the selected intercostals space anteriorly over the upper border of the inferior
+                                                   rib to avoid neurovascular bundle running along the underside of the superior rib.
+                                               4.	With entry into the pleural space, there may be an audible rush of air and with im-
+                                                   mediate hemodynamic improvement.
+                                               5. Remove needle.
+                                               6. The angiocatheter may be held in place until a chest tube is inserted.
+                                               7.	Note: A more permanent chest tube will still need to be placed (i.e., the patient no
+                                                   longer has a tension pneumothorax, but still has a pneumothorax.) This can be done
+                                                   in a more controlled situation by someone skilled in that procedure.
+
+                   Emergent Ultrasound-guided Needle/Catheter
+                   Thoracostomy
+                   Tension pneumothorax diagnosis and management have been described earlier. If progressive pneumothorax with
+                   worsening cardiopulmonary function is suspected, a skilled ultrasonographer is needed to rule out pneumothorax
+                   prior to tension pneumothorax development. Lung ultrasound has > 90% sensitivity and > 90% specificity for pneu-
+                   mothorax.6 A vascular access, curvilinear, or phase array probe with a depth field of 6 cm using 2D imaging may be
+                   utilized to detect pneumothorax. 2D and M mode may be used to identify signs to rule in or out a pneumothorax.
+                   Precepted hands-on training must be sought prior to using ultrasound to diagnose or treat pneumothorax.
+
+                    Equipment                  • Skilled ultrasonographer
+                                               • Ultrasound machine with phase array, curvilinear, or vascular access probe
+                                                                                                                                                    for the Anesthesiologist
+                                                                                                                                                    Emergency Procedures
+
+                                               • Ultrasound gel or lubricant
+                                               • 16-g needle or angiocatheter/needle
+
+===== PAGE ? =====
+1584   SECTION 15.0       Emergency Procedures for the Anesthesiologist
+
+                                       Procedure              1. Identify pneumothorax with ultrasound.7
+                                                              2. Scan least dependent area of chest with ultrasound probe (in supine patients—
+                                                                 3rd–5th rib interspace midclavicular line) at 6 cm in 2D with indicator toward the
+                                                                  patient’s head and held perpendicular to chest wall (Fig. 15-10).
+                                                              3. Identify the pleural line and seek lung sliding. Lung sliding confirms that the
+                                                                 lung is touching the chest wall. Presence of lung sliding rules out large tension
+                                                                  pneumothorax.
+                                                              4. Seek B lines in 2D. Presence of B line rules out large tension pneumothorax in the
+                                                                  scanned space.
+                                                              5. Check for Seashore sign in M mode at site of lung sliding (Fig. 15-11). Presence of
+                                                                  Seashore sign rules out large tension pneumothorax in the scanned space.
+                                                              6. Alternatively, absence of Seashore sign and presence of bar code (Fig. 15-12) sign
+                                                                  indicate pneumothorax. The lung point sign is a moving dark point seen at the
+                                                                  interface of normal lung sliding to the air of the pneumothorax. If lung point sign is
+                                                                   present, this indicates pneumothorax.
+                                                              7. If all the above signs are absent and A lines are present, this does not rule out or in
+                                                                   pneumothorax. Other modalities such as CXR or CT for diagnosis or continuing
+                                                                   with diagnostic/therapeutic needle thoracostomy will be required.
+                                                              8. Prep skin. Place angiocath/needle to side of probe.
+                                                              9. Enter the selected intercostal space anteriorly over the upper border of the inferior
+                                                                   rib to avoid neurovascular bundle; attempt to visualize needle tip.
+                                                             10. With entry into the pleural space, there may be an audible rush of air, and there
+                                                                   should be immediate hemodynamic improvement.
+                                                             11. Remove needle once hemodynamics or ventilation improves to avoid lung lacera-
+                                                                   tion. The angio catheter may be held in place until a chest tube is inserted.
+     for the Anesthesiologist
+     Emergency Procedures
+
+                                             Figure 15-10. Place probe with indicator toward patient’s head, perpendicular to
+                                             chest wall, at the 3rd–5th intercostal space midclavicular line. In a supine patient, gas
+                                             typically rises to this least dependent area of the chest cavity. You may move the probe
+                                             caudally to scan multiple rib spaces in the midclavicular and axillary lines.8
+
+===== PAGE ? =====
+Emergent Ultrasound-guided Needle/Catheter Thoracostomy   1585
+
+                               Figure 15-11. Seashore sign. M mode between the rib interspace with normal lung
+                               motion. The less mobile subcutaneous tissues and pleural tissues are seen as horizontal
+                               lines implying “waves” landing on a “sandy beach,” the moving lung tissue represented
+                               by granular pattern below the pleural line.
+
+                                                                                                                                       for the Anesthesiologist
+                                                                                                                                       Emergency Procedures
+
+                               Figure 15-12. Bar code sign. During respiratory cycle, the “sand” (normal granular
+                               pattern) under the pleural line is replaced by “bar code” horizontal lines, indicating no
+                               lung sliding.9
+
+===== PAGE ? =====
+1586   SECTION 15.0            Emergency Procedures for the Anesthesiologist
+
+                                       EMERGENCY INTRAOSSEOUS ACCESS
+                                       Emergency intraosseous (IO) access is indicated when immediate vascular access is needed, and peripheral/central
+                                       access is not possible, and endotracheal medication administration will not suffice. We discuss the use of the EZ-IO
+                                       system of IO access. Contraindications include burn, infection, or fracture of bone selected for access, joint replace-
+                                       ment at selected site, or inability to identify landmarks.
+
+                                       Procedure                  1. Prior to attaching the EZ-Connect: Ensure clamp is open. Prime set and purge air.
+                                                                      Identify and clean insertion site (Fig. 15-13).
+                                                                  2. Snap EZ-IO needle set with plastic hub onto EZ-IO power driver (Fig. 15-14); (Red 15 ga,
+                                                                      15 mm for < 40 kg. Blue 15 ga, 25 mm for > 40 kg. Yellow hub 15 ga, 45 mm, > 40 kg
+                                                                      and excessive tissue or humerus site).
+                                                                  3. Remove needle safety cap.
+                                                                  4. Gently press Needle Set through skin until tip touches bone.
+                                                                  5. At least 5 mm of the catheter must be visible (Fig. 15-15).
+                                                                  6. Squeeze Driver trigger and apply gentle, steady pressure. Release trigger when sudden
+                                                                      “give” or “pop” is felt, indicating entry into medullary space. If Driver stalls or will not
+                                                                     penetrate the bone, you may be applying too much downward force. Humerus site: to
+                                                                     improve stability, needle should be advanced 2 cm after contact with bone. In adults,
+                                                                     advance needle until catheter hub is against the skin. Change sites for access rather
+                                                                      than have repeated attempts at the same site.
+                                                                  7. Remove Power Driver and stylet; confirm catheter stability with at least three of the
+                                                                     following four methods:
+                                                                      • Stability of catheter
+                                                                      • Ability to aspirate
+                                                                      • Physiologic or pharmacologic changes with medication administration
+                                                                      • Adequate flow rate
+     for the Anesthesiologist
+     Emergency Procedures
+
+                                                         Proximal Tibia                         Distal Tibia                     Proximal Humerus
+
+                                                 Figure 15-13. Identify and clean insertion site (proximal or distal tibia or humeral
+                                                 head).
+
+===== PAGE ? =====
+Emergency Intraosseous Access   1587
+
+                                                                                                     EZ-I0 45 mm
+                                                                                                 (> 40 kg, excessive
+                                                                                                  tissue, humerus)
+
+                                                                                   EZ-I0 25 mm
+                                                                                    (> 40 kg)
+                                                                  EZ-I0 15 mm
+                                                                   (3 –39 kg)
+
+                                           Figure 15-14. EZ-IO power driver and needle set sizes.
+
+                                                                                   5 mm
+                                                                                                                                   for the Anesthesiologist
+                                                                                                                                   Emergency Procedures
+
+                               Figure 15-15. At least 5 mm of the catheter must be visible after pressing needle
+                               through skin to contact bone and prior to squeezing trigger.
+
+===== PAGE ? =====
+1588   SECTION 15.0             Emergency Procedures for the Anesthesiologist
+
+                                                Figure 15-16. To remove EZ-IO catheter, attach Luer-lock syringe. Rotate syringe
+                                                and catheter clockwise while using traction to withdraw catheter
+
+                                       Procedure                   8. Secure with EZ-Stabilizer or have an assistant manually stabilize hub until secured,
+                                         (cont’d)                      roll 2 sets of 4 × 4s into tight cylinders, apply cylinders in a parallel orientation around
+                                                                      catheter, “sandwiching” the hub, then secure with tape or transparent adhesive film
+                                                                      with hole cut out for hub access.
+                                                                   9. Attach EZ-Connect extension set. DO NOT ATTACH A SYRINGE DIRECTLY TO
+                                                                       THE EZ-IO CATHETER HUB EXCEPT WHEN DRAWING BLOOD FOR LABORA-
+                                                                       TORY ANALYSIS (STABILIZE NEEDLE SET).
+                                                                 10. Flush the EZ-IO catheter with normal saline (10 mL for adults; use appropriate weight-
+                                                                     based dose for smaller patients). For patients responsive to pain, consider lidocaine up
+                                                                     to 0.2–1 mg/kg io slowly prior to saline flush.
+
+                                       EZ-IO Removal             Attach Luer-lock syringe. Rotate syringe and catheter clockwise while using traction to
+                                                                 withdraw catheter—DO NOT ROCK OR BEND THE CATHETER DURING REMOVAL
+                                                                 (Fig. 15-16).
+
+                                       References
+                                        1. Brofeldt BT, Panacek EA, Richards JR: An easy cricothyrotomy approach: the rapid four-step technique. Acad Emerg Med 1996;
+                                           3(11):1060–3.
+                                        2. Hamaikers AE, Henderson JJ: Equipment and strategies for emergency tracheal access in the adult patent. Anaesthesia 2011;
+                                           66(Suppl 2):65–80.
+                                        3. MacIntyre A, et al: Three-step emergency cricothyroidotomy. Mil Med 2007; 172(12):1228–30.
+                                        4. Fitch MT, et al: Videos in clinical medicine. Emergency pericardiocentesis. N Engl J Med 2012; 366(12):e17.
+                                        5. Pepi M, Muratori M: Echocardiography in the diagnosis and management of pericardial disease. J Cardiovasc Med 2006; 7(7):
+                                           533–44.
+                                        6. Alrajhi K, Woo MY, Vaillancourt C: Test characteristics of ultrasonography for the detection of pneumothorax: a systematic
+                                           review and meta-analysis. Chest 2012; 141(3):703–8.
+                                        7. Lichtenstein D: Whole Body Ultrasonography in the Critically Ill. Springer, New York: 2010.
+                                        8. Ueda K, Ahmen W, Ross AF: Intraoperative pneumothorax identified with transthoracic ultrasound. Anesthesiology 2011;
+                                           115(3):653–5.
+                                        9. Ioos V, et al: An integrated approach for prescribing fewer chest x-rays in the ICU. Ann Intensive Care 2011; 1(1):4.
+     for the Anesthesiologist
+     Emergency Procedures
+

@@ -1,0 +1,2309 @@
+# 9_UROLOGY
+# Source: 9 UROLOGY.pdf (Jaffe's Anesthesiologist's Manual of Surgical Procedures, 5th ed., Wolters Kluwer, 2014)
+# Section: 9.0 Urology
+# Pages: 878-923
+# Note: Text-extract for project knowledge. Figures live in the source PDF only.
+
+===== PROCEDURE INDEX =====
+- Diagnostic Transurethral (Endoscopic) Procedures (p. 878)
+- Therapeutic Transurethral Procedures (Except Turp) (p. 3)
+- Transurethral Resection Of The Prostate (Turp) (p. 883)
+- Open Prostate Operations (p. 887)
+- Nephrectomy (p. 891)
+- Operations On The Renal Pelvis And Upper Ureter (p. 895)
+- Cystectomy (p. 899)
+- Open Bladder Operations (Other Than Cystectomy) (p. 903)
+- Inguinal Operations (p. 906)
+- Penile Operations (p. 910)
+- Scrotal Operations (p. 913)
+- Perineal Operations (p. 916)
+- Vaginal Operations (p. 918)
+
+===== PAGE ? =====
+s e c t i o n
+
+                      9.0 Urology
+
+                                      surgeons
+                                      Harcharan S. Gill, MD
+                                      Benjamin I. Chung, MD
+
+                                      anesthesiologist
+                                      Ronald G. Pearl, MD, PhD
+
+===== PAGE 878 =====
+DIAGNOSTIC TRANSURETHRAL (ENDOSCOPIC)
+                             PROCEDURES
+                                      SURGICAL CONSIDERATIONS
+                             Description: Many urologic diseases are diagnosed and evaluated endoscopically through the urethra with the use of
+                             specialized instruments, such as cystoscopes and resectoscopes. With the patient in a lithotomy position, the cysto-
+                             scope is introduced into the urethra and advanced under direct vision all the way into the bladder (Figs. 9-1 and 9-2),
+                             allowing inspection of the urethra (urethroscopy) and bladder (cystoscopy). If pathology is noted, a biopsy can be
+                             obtained easily through the cystoscope. It is also possible to introduce a small catheter into the ureteral orifice and
+                             advance it up to the kidney for radiologic evaluation (retrograde pyelography) to collect a urine specimen or to
+                             bypass areas of obstruction. If the upper urinary tract needs to be visualized, a ureteroscope is introduced through
+                             the urethra into the bladder and through the ureteral orifice into the ureter and advanced up to the kidney, allowing
+                             inspection of the ureter (ureteroscopy) and intrarenal collecting system (nephroscopy). These procedures often
+                             precede a major surgical operation.
+                             Usual preop diagnosis: Hematuria; hydronephrosis; benign prostatic hypertrophy; cancer of the urethra, prostate,
+                             bladder, ureter, and renal pelvis; urinary tract stones; strictures; ureteropelvic junction obstruction; hemorrhagic or
+                             interstitial cystitis
+        Urology
+
+                                          Figure 9-1. Cystoscope introduced into bladder via urethra (male anatomy).
+                                          (Reproduced with permission from Hardy JD: Textbook of Surgery. JB Lippincott: 1988.)
+
+                               ■■ SUMMARY OF PROCEDURES
+                                                       Urethroscopy/Cystoscopy                        Ureteroscopy/Nephroscopy
+
+                               Position                Lithotomy                                      ⇐
+
+                               Incision                None                                           ⇐
+
+                               Special                 Cystoscope                                     Ureteroscope
+                                 instrumentation
+
+                               Unique                  Use of x-ray and fluoroscopy                   ⇐
+                                 considerations
+
+                               Antibiotics             Gentamicin 80 mg iv                            ⇐
+
+                               Surgical time           15 min                                         45 min
+
+                               EBL                     None                                           ⇐
+
+                  878
+
+===== PAGE 879 =====
+Diagnostic Transurethral (Endoscopic) Procedures   879
+
+                     ■■ SUMMARY OF PROCEDURES (cont’d)
+                                           Urethroscopy/Cystoscopy                     Ureteroscopy/Nephroscopy
+
+                     Postop care           PACU → home                                 ⇐
+
+                     Mortality             Minimal                                     ⇐
+
+                     Morbidity             Infection: 5%                               ⇐
+                                                                                       Ureteral perforation:
+                                                                                       < 5%
+
+                     Pain score            1                                           1
+
+                     ■■ PATIENT POPULATION CHARACTERISTICS
+                     Age range             All ages                                    ⇐
+
+                     Male:Female           1:1                                         ⇐
+
+                     Incidence             30% of all urologic procedures              ⇐
+
+                     Etiology              Hematuria                                   ⇐
+                                           Urethral and bladder tumors                 ⇐
+                                           Stones                                      ⇐
+                                           Urethral strictures                         ⇐
+                                                                                       Ureteropelvic junction obstruction
+
+                     Associated            Prostatic hypertrophy                       Hydronephrosis
+                       conditions          Cystitis                                    ⇐
+
+                                                           Symphysis        Bladder
+
+                                                                                                                                         Urology
+                                                      Urethra
+
+                                                         Anus
+
+                                                         Vagina                            Ureters
+
+                                Figure 9-2. Cystoscope introduced into bladder (female anatomy). (Reproduced
+                                with permission from Govan DE: Roche Manual of Urologic Procedures. Hoffmann-
+                                LaRoche: 1976.)
+
+                         ANESTHETIC CONSIDERATIONS
+                   See Anesthetic Considerations following Therapeutic Transurethral Procedures (Except TURP), p. 881.
+
+===== PAGE 3 =====
+880        s e c t i o n 9.0   Urology
+
+                             THERAPEUTIC TRANSURETHRAL PROCEDURES
+                             (EXCEPT TURP)
+                                      SURGICAL CONSIDERATIONS
+                             Description: Therapeutic transurethral procedures, the most common urologic operations, require the use of spe-
+                             cialized instruments, such as cystoscopes and resectoscopes. Because of continuously improving instrumentation
+                             and fiberoptics, the range and complexity of these operations are widening, and more operations are being done
+                             transurethrally now than ever before. These operations are transurethral resection (TUR) of any urethral, prostatic,
+                             or bladder pathology; fulguration of bleeding vessels; instillation of chemicals, such as oxychlorosene (Chlorpac-
+                             tin) and formalin, into the bladder; extraction of stones; and incision and dilation of strictures.
+                             With the patient in the lithotomy position, the cystoscope or resectoscope is introduced into the urethra and advanced
+                             under direct vision into the bladder, allowing inspection of the urethra and bladder (Figs. 9-1 and 9-2). The pathology is
+                             identified. If it is a tumor, it is resected piecemeal with the electrode of the resectoscope, using the cutting current and
+                             cauterizing the base of the tumor with the coagulating current. If the pathology is a stone, it is extracted with special
+                             forceps or a stone basket. Large stones have to be fragmented, prior to extraction, with a mechanical lithotrite, electrohy-
+                             draulic probe, ultrasound lithotrite, or laser (holmium or pulsed dye). Chemicals can be instilled through the cystoscope
+                             to control interstitial and hemorrhagic cystitis. Bleeding vessels can be coagulated with the electrode. Strictures of the
+                             urethra can be dilated or incised with an endoscopic knife. Strictures of the ureter also can be treated endoscopically by
+                             dilatation with a balloon catheter or by incision with electrocautery. Balloon catheters with attached cutting electro-wires
+                             (Acucise) often are used. A temporary ureteral stent is placed at the end of most endoscopic ureteral surgeries.
+                             Variant procedure or approaches: Occasionally, access to the intrarenal collecting system (renal pelvis and
+                             calyces) and upper ureter is easier and more appropriately done by a percutaneous nephrostomy than by a trans-
+                              urethral procedure. The patient is placed in a prone or flank position, a percutaneous stab wound is made at the
+                              costovertebral angle, and a tube is introduced into the kidney under fluoroscopic control.
+                             Usual preop diagnosis: Tumors of the urinary tract; stones; interstitial or hemorrhagic cystitis; strictures
+        Urology
+
+                               ■■ SUMMARY OF PROCEDURES
+                                                       Transurethral                                      Percutaneous
+
+                               Position                Lithotomy                                          Flank or prone
+
+                               Incision                None                                               Stab wound
+
+                               Special                 Cystoscope; resectoscope; catheters; stents        Percutaneous nephrostomy kit; nephroscope;
+                                 instrumentation                                                          urethroscope; catheters; stents
+
+                               Unique                  Use of x-rays, fluoroscopy, and electrocautery     ⇐
+                                 considerations
+
+                               Antibiotics             Gentamicin 80 mg iv, slowly                        ⇐
+
+                               Surgical time           1h                                                 2–3 h
+
+                               EBL                     100 mL                                             500 mL
+
+                               Postop care             Irrigation of tubes and catheters to clear clots   ⇐
+                                                       and prevent obstruction
+
+                               Mortality               < 1%                                               ⇐
+
+                               Morbidity               Bleeding: 10%                                      ⇐
+                                                       Infection: 5%                                      ⇐
+                                                       Perforation: 2%                                    ⇐
+                                                       Retained stones: 2%                                ⇐
+
+                               Pain score              1                                                  3
+
+===== PAGE 881 =====
+Therapeutic Transurethral Procedures (Except TURP)           881
+
+                     ■■ PATIENT POPULATION CHARACTERISTICS
+                     Age range              All ages                                           ⇐
+
+                     Male:Female            1:1                                                ⇐
+
+                     Incidence              10% of urologic diseases involve these             ⇐
+                                            procedures
+
+                     Etiology               Urethral and bladder tumors; bladder and ure-      Kidney stones; upper ureteral stones; uretero-
+                                            teral stones; interstitial cystitis; hemorrhagic   pelvic junction obstruction
+                                            cystitis; urethral stricture
+
+                         ANESTHETIC CONSIDERATIONS FOR TRANSURETHRAL
+                         PROCEDURES (EXCEPT TURP)
+                         PREOPERATIVE
+                   Patients of all ages may present for ureteral stone extraction. Paraplegics and quadriplegics have a predilection for
+                   nephrolithiasis and may present for repeated cystoscopies. Bladder tumors usually are seen in older patients, who
+                   may present for cystoscopy or TUR. These patients may have preexisting medical problems, including CAD, CHF,
+                   PVD, cerebrovascular diseases, COPD, and/or renal impairment. Preop evaluation should be directed toward the
+                   detection and treatment of these conditions prior to anesthesia.
+
+                    Neurological             Paraplegics and quadriplegics may present for repeated cystoscopies and stone extractions.
+                                             Note Hx of autonomic hyperreflexia; Sx may include flushing, headache, and nasal stuffi-
+                                             ness, associated with voiding or noxious stimuli below the level of spinal cord injury (see
+                                             below).
+
+                    Musculoskeletal          Contractures and pressure sores may make positioning difficult in paraplegics or
+                                             quadriplegics.
+
+                                                                                                                                                       Urology
+                    Laboratory               Tests as indicated from H&P
+
+                    Premedication            Sedation prn anxiety (e.g., lorazepam 1–2 mg po 1–2 h before surgery; midazolam 1–2 mg
+                                             iv in preop area).
+
+                         INTRAOPERATIVE
+                   Anesthetic technique: Spinal, continuous lumbar epidural, and GA are acceptable, with the choice dependent on
+                   type and length of procedure, age, coexisting disease, and patient preference. Simpler transurethral procedures (e.g.,
+                   cystoscopy) are amenable to topical anesthesia, whereas longer and more complex procedures (e.g., ureteral stone
+                   extraction) will require regional or GA (see discussion below regarding autonomic hyperreflexia). Note that many
+                   of these procedures are done on an outpatient basis, and the anesthetic should be planned accordingly. For regional
+                   anesthesia, a sacral block is required for urethral procedures (T9–T10 level for procedures involving the bladder and
+                   as high as T8 for procedures involving the ureters).
+
+                   Regional anesthesia:
+
+                    Topical                  2% lidocaine jelly
+
+                    Spinal                   0.75% bupivacaine 10–12 mg. For shorter procedures (< 1 h), consider low-dose bupiva-
+                                             caine (0.75%, 7.5 mg); mepivacaine (1.5%, 45 mg); or procaine (10%, 100–150 mg). Lido-
+                                             caine may be used, but the incidence of transient neurologic symptoms may be as high as
+                                             30% for procedures performed in the lithotomy position.
+
+                    Lumbar epidural          1.5–2.0% lidocaine with epinephrine 5 mcg/mL, 15–25 mL; supplement with 5–10 mL
+                                             boluses as needed. Supplemental iv sedation.
+
+===== PAGE 882 =====
+882        s e c t i o n 9.0   Urology
+
+                             General anesthesia:
+
+                              Induction                 Standard induction (see p. B-2). ET intubation may not be necessary for shorter proce-
+                                                        dures; consider LMA. Succinylcholine should be avoided in paralyzed (e.g., paraplegic,
+                                                        quadriplegic) patients 2° ↑ K+ → VF or asystole.
+
+                              Maintenance               Pure inhalation anesthetic (e.g., N2O, sevoflurane/desflurane) for short cases. IV technique
+                                                        (e.g., propofol 100–200 mcg/kg/min; supplement with N2O ± volatile anesthetic ± remifent-
+                                                        anil. Muscle relaxation is not essential. Long-acting narcotics unnecessary because postop
+                                                        pain is usually minimal.
+
+                              Emergence                 No specific considerations
+
+                              Blood and fluid           Usually minimal blood loss
+                                 requirements           IV: 18 ga × 1
+                                                        NS/LR @ 2–4 mL/kg/h
+
+                              Monitoring                Standard monitors (see p. B-1).
+
+                              Positioning               3 and pad pressure points               * NB: In lithotomy position, peroneal nerve com-
+                                                        3 eyes                                  pression at lateral fibular head → foot drop.
+
+                              Complications             Anticipate ↓ BP upon returning          Rx: volume (200–500 mL NS/LR) or ephedrine (5
+                                                        from lithotomy position.                mg iv) may be necessary.
+                                                        Autonomic hyperreflexia (AH):           Patients with spinal cord injury level above T10 are
+                                                        • Severe HTN                            at risk for autonomic hyperreflexia (AH) associ-
+                                                        • Bradycardia                           ated with stimulation below the level of transection.
+                                                        • Dysrhythmias                          Transection levels below T5 may be associated with
+                                                        • Cardiac arrest                        less severe manifestations. AH can be prevented
+                                                                                                by GA, spinal, or epidural anesthesia. If AH occurs
+                                                                                                intraop, it should be treated by deepening the level
+                                                                                                of anesthesia, and iv antihypertensive agents (e.g.,
+                                                                                                SNP 0.5–5 mcg/kg/min; labetalol 5–10 mg iv; phen-
+                                                                                                tolamine 2–5 mg iv), if necessary.
+        Urology
+
+                                      POSTOPERATIVE
+
+                              Complications             Peroneal nerve injury 2° lithotomy      Peroneal nerve injury manifested as foot drop with
+                                                        position                                loss of sensation over dorsum of foot. Seek neurol-
+                                                        Fever/bacteremia                        ogy consultation.
+                                                        Bladder perforation                     Bladder perforation may present as shoulder pain
+                                                                                                in the awake patient but may go unnoticed in a
+                                                                                                patient under GA. Sx include unexplained HTN,
+                                                                                                tachycardia, ↓ BP (rare).
+
+                              Pain                      Pain usually mild                       Rx: morphine 2–4 mg iv q 10–15 min prn, fentanyl
+                                management                                                      25–50 mcg iv, ketorolac 15–30 mg im or iv
+
+                             Suggested Readings
+                                1. Gunduz H, Binak DF: Autonomic dysreflexia: an important cardiovascular complication in spinal cord injury patients.
+                                   Cardiol J 2012; 19(2):215–9.
+                                2. Hambly PR, Martin B: Anesthesia for chronic spinal cord lesions. Anesthesia 1998; 53:273–89.
+
+===== PAGE 883 =====
+Transurethral Resection of the Prostate (TURP)       883
+
+                   TRANSURETHRAL RESECTION OF THE PROSTATE (TURP)
+                         SURGICAL CONSIDERATIONS
+                   Description: TURP is one of the most common urologic operations, performed to relieve bladder outlet obstruc-
+                   tion by an enlarging prostate gland. It is often preceded by cystoscopy, which is used to evaluate the size of the
+                   prostate gland and to rule out any other pathology, such as bladder tumor or stone. The operation is performed with
+                   the resectoscope, a specialized instrument having an electrode capable of transmitting both cutting and coagulat-
+                   ing currents. Resectoscopes are either single inflow only or continuous flow with an inflow and outflow system. The
+                   latter allows the surgeon to maintain low pressure in the bladder and prostatic fossa and thus limit fluid absorption.
+                   Two different electrical options are available. The traditional resectoscope is a monopolar system, and this requires a
+                   grounding pad and possible interference with electric devices, such as pacemakers. Bipolar resectoscopes have both
+                   the active and return electrode fitted in the resectoscope and do not cause any electrical interference with cardiac
+                   electrical devices. In addition, the use of bipolar cautery allows saline to be used as an irrigant during surgery.
+                   The resectoscope is introduced into the bladder (Fig. 9-3), and the tissue protruding into the prostatic urethra is
+                   resected in small pieces called “chips.” Bleeding vessels are coagulated with the coagulating current. The resection is
+                   performed with continuous irrigation using an isotonic solution, such as sorbitol 2.7% with mannitol 0.54% in mono-
+                   polar resectoscopes and normal saline in bipolar resectoscopes. After the obstructing prostatic tissues are completely
+                   resected and bleeding vessels coagulated, the chips are irrigated from the bladder and the resectoscope is removed.
+                   An indwelling Foley catheter is introduced into the bladder. The time of transurethral resection should not exceed
+                   2 h because excessive absorption of the irrigating fluid may → dilutional hyponatremia, confusion, seizures, and
+                   heart failure. However, this is less of an issue with a continuous flow bipolar resectoscope where saline is used as
+                   an irrigant. Although fluid absorption can occur, hyponatremia does not occur with the use of saline. The size of
+                   the enlarged prostate or adenoma, therefore, needs to be carefully assessed preop to determine if it is possible to
+                   complete the resection within 2 h. If not, an open prostatectomy is performed. This variant approach is discussed
+                    under Open Prostate Operations, p. 887.
+                   Variant procedure or approaches: A number of techniques have been developed to avoid the morbidity of TURP.
+                   These are either vaporization (electrocautery or laser) or thermocoagulation of the prostate (laser, microwave,
+                   radiofrequency). The following techniques are available and approved:
+
+                                                                                                                                                    Urology
+                   TUVP: Transurethral vaporization of the prostate with a
+                   standard resectoscope using a roller ball electrode at 275–
+                   300 watts setting.                                                                                   Bladder
+                   Laser Ablation: Laser coagulation of the prostate is done                             Resectoscope
+                   with Nd:YAG or Ho:YAG laser through a standard cysto-
+                   scope. This procedure has been largely replaced by laser abla-
+                   tion with the KTP laser (PVP, green light laser) or diode laser.
+                   This wavelength allows vaporization of the prostate tissue
+                   with minimal blood loss. This is currently the most popular
+                   minimally invasive technique used for treatment of BPH. It
+                   can also be done on patients while on anticoagulation or with
+                   bleeding disorders. All personnel in the OR, including the pa-
+                   tient, must wear protective glasses to protect the eyes from
+                   inadvertent exposure from a break in the laser fiber.                  Prostate
+
+                   TUNA: Transurethral needle ablation of the prostate is
+                   done with a special disposable device connected to a radio-                Seminal
+                   frequency generator.                                                       vesicles
+
+                   TUMT: Transurethral microwave thermotherapy is done
+                   with a catheter that has a microwave antenna attached to
+                   it. A microwave generator is needed for this procedure.
+                                                                                      Figure 9-3. Transurethral resection of prostate
+                   All of the above have several advantages over TURP, includ-        using a resectoscope. (Reproduced with
+                   ing shorter surgical time, no blood loss, and reduced risk of      permission from Govan DE: Roche Manual of
+                   fluid absorption and all can be done as outpatient procedures.     Urologic Procedures. Hoffmann-LaRoche: 1976.)
+
+===== PAGE 884 =====
+884        s e c t i o n 9.0   Urology
+
+                             Usual preop diagnosis: Benign prostatic hypertrophy; prostate cancer
+
+                               ■■ SUMMARY OF PROCEDURES
+                                                       TURP                                                Thermotherapy
+
+                               Position                Lithotomy                                           ⇐
+
+                               Incision                None                                                ⇐
+
+                               Special                 Cystoscope; resectoscope; catheters;                Cystoscope; resectoscope; catheters; electro-
+                                 instrumentation       electrocautery                                      cautery (standby); laser equipment
+
+                               Unique                  During resection, the patient should be abso-       During laser resection, the patient and all per-
+                                 considerations        lutely still because any movement may lead to       sonnel should wear protective eyeglasses.
+                                                       perforation or injury to the external sphincter,
+                                                       → postop incontinence.
+
+                               Antibiotics             Gentamicin 80 mg iv, slowly                         ⇐
+
+                               Surgical time           1–2 h (not to exceed 2 h)                           1h
+
+                               EBL                     500 mL                                              None
+
+                               Postop care             Irrigation of the Foley catheter to clear it of     ⇐
+                                                       clots and keep it from being blocked. Determi-
+                                                       nation of serum Na+
+
+                               Mortality               < 1%                                                ⇐
+
+                               Morbidity               Significant intraop bleeding: 10%                   Prolonged catheterization: 10%
+                                                       intraop perforation and fluid extravasation,        Postop bleeding: 1%
+                                                       which may require placement of retropubic
+                                                       drain: < 0.5%
+                                                       Postop bleeding, which may necessitate a
+                                                       return to OR for fulguration of bleeding ves-
+        Urology
+
+                                                       sels: < 5%
+                                                       Absorption of irrigating fluid, which may →
+                                                       dilutional hyponatremia, mental confusion, and
+                                                       heart failure: 2–5%
+
+                               Pain score              1                                                   1
+
+                               ■■ PATIENT POPULATION CHARACTERISTICS
+                               Age range               49–90 yr; typically, 70s and 80s
+
+                               Incidence               Very common; 90% of men will develop benign hypertrophy; 20% may need surgical intervention.
+
+                               Etiology                Aging; benign prostatic hypertrophy; prostate cancer
+
+                               Associated              COPD (10%); heart disease (10%); HTN (10%); diabetes mellitus (DM) (5%); DIC (1–2% of patients with
+                                 conditions            prostate cancer may also have a low-grade, subclinical DIC, which becomes clinically manifest postop).
+
+                                      ANESTHETIC CONSIDERATIONS
+                                      PREOPERATIVE
+                             Patients presenting for prostate surgery are generally elderly and may have preexisting medical problems, including
+                             CAD, CHF, PVD, cerebrovascular disease, COPD, and renal impairment. Preop evaluation should be directed toward
+                             the detection and treatment of these conditions before anesthesia.
+
+===== PAGE 885 =====
+Transurethral Resection of the Prostate (TURP)           885
+
+                    Respiratory             COPD common in this age group. Patients with > 50 pack-year smoking Hx, or with any
+                                            respiratory Sx, may need PFTs. For dyspnea with moderate exercise, 3 VC, FEV1, MMEF.
+                                            If VC < 80%, FEV1 < 60%, or MMEF < 40% predicted, 3 ABG. If ABG and PFT mark-
+                                            edly abnormal, consider postponing surgery until patient’s respiratory condition has been
+                                            optimized.
+                                            Tests: PFT; CXR; ABG, as indicated from H&P
+
+                    Cardiovascular          HTN, CAD common in this age group. Assess exercise tolerance by H&P (e.g., should be
+                                            able to climb a flight of stairs without difficulty or SOB).
+                                            Tests: ECG; others as indicated from H&P
+
+                    Neurological            Cerebrovascular disease, Alzheimer’s, and other neurologic problems may be present in
+                                            this age group. Assess mental status to guide evaluation of any intraop or postop changes.
+
+                    Renal                   Anticipate renal impairment 2° chronic obstruction.
+                                            Tests: BUN; Cr; electrolytes. If ↑ BUN and ↑ Cr, 3 creatinine clearance (nl = 95–140 mL/
+                                            min).
+
+                    Musculoskeletal         Various arthritides in this age group may cause problems with positioning for regional
+                                            anesthesia and surgery.
+
+                    Endocrine               Increased incidence of DM
+
+                    Hematologic             Moderate blood loss expected with larger glands. If gland < 80 g, no T&C necessary.
+                                            Test: Hct
+
+                    Laboratory              Other tests as indicated from H&P
+
+                    Premedication           Continue commonly used drugs (e.g., digitalis, β-blockers, NTG) to prevent cardiovascular
+                                            problems. Sedation prn anxiety (e.g., midazolam 1–2 mg iv before surgery).
+
+                         INTRAOPERATIVE
+
+                                                                                                                                                     Urology
+                   Anesthetic technique: Regional or GA. Choice of technique depends on the coexisting disease and the patient’s
+                   preference. Regional anesthesia may hold some advantage over GA for TURP in that it allows evaluation of mental
+                   status and, thus, earlier detection of TURP syndrome. The incidence of postdural puncture headache is very low in
+                   this age group (< 1%). A T9 level is optimal. Continuous lumbar epidural anesthesia has no advantage over spinal
+                   anesthesia for TURP, because a sacral block may be less reliable, the procedure is relatively short and supplemental
+                   doses are usually not necessary.
+
+                   Regional anesthesia:
+
+                    Spinal                  0.75% bupivacaine, 12 mg in 7.5% dextrose solution (1.6 mL)
+
+                   General anesthesia:
+
+                    Induction               Standard induction (see p. B-2).
+
+                    Maintenance             Standard maintenance (see p. B-3). Muscle relaxation is not mandatory, although patient
+                                            movement during the procedure must be avoided.
+
+                    Emergence               Postop pain is usually not significant. Anticipate ↓ BP when legs are repositioned from
+                                            lithotomy. Avoid stress on lumbar spine by slowly and simultaneously bringing legs
+                                            together and returning to supine position.
+
+                    Blood and fluid         Moderate blood loss (TURP)             Blood loss can be large (TURP) if venous sinuses are
+                       requirements         Minimal blood loss                     entered; it also can be difficult to quantify because of
+                                            (thermotherapy)                        irrigant. To flush away blood and tissue and to promote
+
+===== PAGE 886 =====
+886        s e c t i o n 9.0    Urology
+
+                              Blood and fluid              IV: 16–18 ga × 1                              visibility during TURP (or thermotherapy), continu-
+                                 requirements              NS/LR @ 2–4 mL/kg/h                           ous irrigation is used. For monopolar procedures, irri-
+                                 (cont’d)                                                                gating fluid must be nonelectrolytic to prevent disper-
+                                                                                                         sion of current but near iso-osmotic to prevent hemo-
+                                                                                                         lysis. For these reasons, sorbitol (2.7%) with mannitol
+                                                                                                         (0.54%) or glycine (1.5%) is added to distilled water to
+                                                                                                         produce solutions that are nearly isotonic.
+
+                              Monitoring                   Standard monitors (see p. B-1).               Regional anesthesia allows monitoring of mental
+                                                                                                         status. Invasive monitoring, if indicated from H&P.
+
+                              TURP syndrome                Intravascular volume overload                 Factors that influence the absorption of irrigant
+                                                           Hyponatremia                                  include surgical technique (TURP or thermother-
+                                                           Hypotonicity 2° absorption              of    apy); hydrostatic pressure of irrigant (height of bag);
+                                                           irrigant                                      number of venous sinuses opened; peripheral venous
+                                                           Symptoms include                              pressure; duration of surgery; and experience of the
+                                                           • N/V                                         surgeon. Resections should optimally be limited to
+                                                           • Visual disturbances                         1 h or less. Some CNS manifestations (e.g., visual
+                                                           • Mental status changes                       disturbances, nausea, confusion) are 2° glycine and
+                                                           • Coma                                        its metabolites. Rx may include observation, diure-
+                                                           • Sz                                          sis (e.g., furosemide 5–20 mg iv), and administra-
+                                                           • HTN                                         tion of hypertonic saline (e.g., 100 mL of 3% saline
+                                                           • Angina                                      over 1–2 h). Serum sodium < 120 is associated with
+                                                           • Cardiovascular collapse                     more severe symptoms, and the goal of therapy is to
+                                                                                                         restore sodium to > 120. In milder cases, observa-
+                                                                                                         tion and water restriction may be sufficient.
+
+                              Positioning                  3 and pad pressure points                     *NB: In lithotomy position, peroneal nerve com-
+                                                           3 eyes                                        pression at lateral fibular head → foot drop.
+
+                              Complications                Bladder perforation                           Bladder perforation may produce shoulder pain in
+                                                           TURP syndrome                                 the awake patient. Bladder perforation (and TURP
+                                                                                                         syndrome) may go unnoticed under GA; Sx: ↑ BP, ↑
+        Urology
+
+                                                                                                         HR (occasionally ↓ BP).
+
+                                      POSTOPERATIVE
+
+                              Complications                TURP syndrome                                 See discussion of TURP syndrome, above.
+                                                           Bladder perforation
+                                                           Fever/bacteremia/sepsis
+                                                           Hypothermia
+
+                              Pain                         Minimal postop pain                           Rx: Morphine 1–4 mg iv prn until comfortable.
+                                management
+
+                              Tests                        Hct; electrolytes                             Consider serum osmolarity, CXR, ECG in
+                                                           Blood cultures if febrile                     TURP syndrome
+
+                             Suggested Readings
+                                1. Hawary A, Mukhtar K, Sinclair A, Pearce I: Transurethral resection of the prostate syndrome: almost gone but not forgotten.
+                                   J Endourol 2009; 23(12):2013–20.
+                                2. Kavanagh LE, Jack GS, Lawrentschuk N: Medscape: prevention and management of TURP-related hemorrhage. Nat Rev Urol
+                                   2011; 8(9):504–14.
+                                3. Smith RD, Patel A: Transurethral resection of the prostate revisited and updated. Curr Opin Urol 2011; 21(1):36–41.
+                                4. Teng J, Zhang D, Li Y, et al: Photoselective vaporization with the green light laser vs transurethral resection of the prostate for
+                                   treating benign prostate hyperplasia: a systematic review and meta-analysis. BJU Int 2013; 111(2):312–23.
+                                5. van Rij S, Gilling PJ: In 2013, holmium laser enucleation of the prostate (HoLEP) may be the new ‘gold standard’. Curr Urol
+                                   Rep 2012; 13(6):427–32.
+                                6. Wang J, Zhang C, Tan G, Chen Q, Yang B, Tan D: Risk of bleeding complications after preoperative antiplatelet withdrawal
+                                   versus continuing antiplatelet drugs during transurethral resection of the prostate and prostate puncture biopsy: a systematic
+                                   review and meta-analysis. Urol Int 2012; 89(4):433–8.
+
+===== PAGE 887 =====
+Open Prostate Operations        887
+
+                   OPEN PROSTATE OPERATIONS
+                         SURGICAL CONSIDERATIONS
+                   Description: Open (in contrast to transurethral or endoscopic) operations on the prostate gland are common.
+                   They include simple prostatectomy and radical prostatectomy and are done through either a midline extra-
+                   peritoneal incision, which extends from the umbilicus to the symphysis pubis, or through a Pfannenstiel’s incision
+                   (Fig. 9-4, inset).
+                   Simple prostatectomy: When the benign prostatic hypertrophy or adenoma is too large to be resected trans-
+                   urethrally, it is removed by a simple prostatectomy. The prostate gland is exposed through a retropubic approach
+                   (Fig. 9-4A), and the anterior capsule is incised, exposing the adenoma—the central part of the prostate, which is
+                   excised, “shelled” out by blunt dissection (Fig. 9-4B), leaving behind the peripheral prostate and all the associated
+                   structures. A Foley catheter is left indwelling in the urethra, and the incision in the prostate capsule is closed. In a
+                   suprapubic prostatectomy, the incision is made in the bladder and the adenoma shelled from within the bladder.
+                   Radical prostatectomy: The term radical prostatectomy is used because the entire prostate, both seminal v esicles
+                   and pelvic nodes, are removed. It is used to differentiate this cancer operation from a simple prostatectomy (used
+                   for benign prostatic hypertrophy). Radical prostatectomy can be achieved through a retropubic approach. In radi-
+                   cal prostatectomy, all of the prostate gland is removed, together with the bladder neck, the seminal vesicles, and the
+                   ampullae of the vas deferens. A limited pelvic lymphadenectomy (Fig. 9-5) also is performed. After the prostate
+                   gland and its associated structures are removed, the bladder neck is reduced to 1 cm diameter and anastomosed
+                   to the membranous urethra over an indwelling Foley catheter. Most of the blood loss occurs during control of the
+                   dorsal vein complex. In early-stage cancers, which nowadays comprise 90% of patients, a nerve sparing procedure
+                   is done. This involves preserving potency by preserving the nerves to the corpora cavernosa. More recently, radical
+
+                    A                                                        B
+
+                                                                                                                                                     Urology
+
+                               Figure 9.4. Retropubic prostatectomy: A: A transverse capsulotomy is made between
+                               heavy hemostatic stay sutures. B: The cleavage plane between the adenoma and the
+                               surgical capsule is developed with scissors. (Reproduced with permission from Fowler
+                               JE: Urologic Surgery. Little & Brown: 1990.)
+
+===== PAGE 888 =====
+888        s e c t i o n 9.0   Urology
+
+                                          Figure 9-5. Right lateral pelvic wall. Anatomy of pelvic blood vessels and nerves
+                                          encountered in a pelvic lymph node dissection. (Reproduced with permission from
+                                          Graham SD Jr: Glenn’s Urologic Surgery. Lippincott Williams & Wilkins: 1998.)
+
+                             prostatectomy is being done by laparoscopy. This procedure has been popularized with the use of robots. Please see
+                             section of robotic urologic surgery.
+                             Variant approach: Minimally invasive prostate cancer surgery has expanded with the use of the Da Vinci robotic
+                             system. Most laparoscopic radical prostatectomies are done with the assistance of the robot. With the robotic system,
+                             the surgeon sits at a console away from the patient and has a three-dimensional view with 10× magnification. A bed-
+        Urology
+
+                             side assistant is necessary for instrument change and retraction. See page 922 for special Anesthetic Considerations
+                             for Robotic-Assisted Laparoscopic Surgery.
+                             Usual preop diagnosis: Benign prostatic hypertrophy; prostate cancer
+
+                               ■■ SUMMARY OF PROCEDURES
+                                                       Simple Prostatectomy                           Radical-Retropubic
+
+                               Position                Supine                                         ⇐; lithotomy → steep Trendelenburg (robotic)
+
+                               Incision                Extraperitoneal, low midline, or Pfannen-      ⇐; multiple port sites (robotic)
+                                                       stiel’s (Fig. 9-4A, inset)
+
+                               Unique                  None                                           ⇐; Da Vinci robotic system is used increasingly
+                                 considerations                                                       (> 80%); abdominal insufflation
+
+                               Antibiotics             Gentamicin 80 mg                               cefazolin 1 g iv
+
+                               Surgical time           1h                                             2–3 h (experienced surgeon)
+
+                               EBL                     500 mL                                         1500 mL (open)
+
+                               Postop care             Irrigate catheter to clear blood clots and     ⇐
+                                                       prevent obstruction; frequently, if urine is
+                                                       bloody.
+
+                               Mortality               < 1%                                           ⇐
+
+===== PAGE 889 =====
+Open Prostate Operations     889
+
+                     ■■ SUMMARY OF PROCEDURES (cont’d)
+                                           Simple Prostatectomy                          Radical–Retropubic
+
+                     Morbidity             Bleeding: 2%                                  ⇐
+                                           DVT: 2%                                       ⇐
+                                           Infection: 2%                                 ⇐
+                                           PE: 1%                                        ⇐
+                                                                                         Impotence:
+                                                                                         Non-nerve-sparing:
+                                                                                         100%
+                                                                                         Nerve-sparing: 20–50%
+                                                                                         Lymphocele: 4%
+
+                     Pain score            8                                             8
+
+                     ■■ PATIENT POPULATION CHARACTERISTICS
+                     Age range             40–80 yr
+
+                     Incidence             20% of men will develop symptomatic benign prostatic hypertrophy; 9% will develop clinically
+                                           evident prostate cancer.
+
+                     Etiology              Aging
+
+                     Associated            COPD (10%); CAD (10%); HTN (10%); diabetes mellitus (5%); renal failure (1%)
+                       conditions
+
+                                                                                                                                                   Urology
+                                                           Figure 9-6. Perineal incisions.
+
+                         ANESTHETIC CONSIDERATIONS
+                         PREOPERATIVE
+                   Patients presenting for prostate surgery are generally elderly and may have preexisting medical problems, including
+                   CAD, CHF, PVD, cerebrovascular disease, COPD, and renal impairment. Preop evaluation should be directed toward
+                   the detection and treatment of these conditions prior to anesthesia. A bowel prep may have been completed before
+                   surgery.
+
+                    Respiratory             COPD common in this age group. Patients with Hx of > 50 pack-year smoking, or with respi-
+                                            ratory Sx, may require PFTs. For dyspnea with moderate exercise, check VC, FEV1, MMEF.
+                                            If VC < 80%, FEV1 < 60%, or MMEF < 40% predicted, 3 ABG. If ABG and PFT are markedly
+                                            abnormal, consider postponing surgery until patient’s respiratory condition has been opti-
+                                            mized. In robotic surgery, steep Trendelenburg position will compromise pulmonary function.
+                                            Tests: PFT; CXR; ABG, as indicated from H&P
+
+                    Cardiovascular          HTN, CAD common in this age group. Assess exercise tolerance by H&P (e.g., should
+                                            be able to climb a flight of stairs without difficulty or SOB). Transition plans for patients
+                                            on anticoagulants for coronary stents should be discussed with both the cardiologist and
+                                            surgeon before surgery.
+                                            Tests: ECG; others as indicated from H&P
+
+===== PAGE 890 =====
+890        s e c t i o n 9.0   Urology
+
+                              Neurological              Cerebrovascular disease, Alzheimer’s, and other neurologic problems may be present in
+                                                        this age group. Assess mental status to guide evaluation of any intraop or postop changes.
+                                                        In robotic cases, steep Trendelenburg position and CO2 insufflation → ↑ ICP and ↑ intra-
+                                                        ocular pressure. A preop neurosurgical consult is recommended for patients with intracra-
+                                                        nial lesions or VP shunts. Blindness has been reported following robotic prostatectomy.
+
+                              Renal                     Anticipate renal impairment 2° chronic obstruction. Pneumoperitoneum during robotic
+                                                        surgery may ↓ renal blood flow and oliguria postop.
+                                                        Tests: Cr
+
+                              Musculoskeletal           Various arthritides may cause problems with positioning for regional anesthesia and
+                                                        surgery.
+
+                              Endocrine                 Increased incidence of diabetes mellitus.
+
+                              Hematologic               Moderate blood loss expected with larger glands. For glands < 30 g, no T&C necessary; for
+                                                        glands 30–80 g, T&C 2 U PRBCs; for glands > 80 g, T&C 4 U PRBCs.
+                                                        Tests: Hct
+
+                              Laboratory                Other tests as indicated from H&P
+
+                              Premedication             Continue commonly used drugs (e.g., digitalis, β-blockers, diuretics, NTG) to prevent car-
+                                                        diovascular complications. Sedation prn anxiety (e.g., midazolam 1–2 mg iv on call to OR).
+
+                                      INTRAOPERATIVE
+                             Anesthetic technique: Regional (spinal, continuous spinal, continuous lumbar epidural), GA, or combined tech-
+                             niques are acceptable for open procedures. Robotic procedure typically require GA. If regional anesthesia used,
+                             optimal block level is T8–T10 (depending on incision site). Advantages of regional anesthesia include potential for
+                             lower intraop blood loss, possible lower incidence of DVT postop, and faster return of bowel function. Disadvantages
+                             include positioning considerations (see below).
+        Urology
+
+                             Regional anesthesia:
+
+                              Spinal                    Bupivacaine (0.75%) 12 mg in 7.5% dextrose solution (1.6 mL)
+
+                              Epidural                  1.5–2% lidocaine with epinephrine 5 mcg/mL, 15–25 mL, supplemental iv sedation as nec-
+                                                        essary. Additional epidural lidocaine (5–10 mL boluses) may be needed, depending on
+                                                        length of procedure. Alternatively, smaller volumes of bupivacaine (0.25–0.5%) or ropi-
+                                                        vacaine (0.5–1%) may be used. The addition of opiates has been associated with ↑ urinary
+                                                        retention in noncatheterized patients.
+
+                             General anesthesia:
+
+                              Induction                 Standard induction (see p. B-2).
+
+                              Maintenance               Standard maintenance (see p. B-3). In robotic cases, recheck ETT position after the patient
+                                                        has been positioned and the abdomen insufflated to avoid mainstem intubation. Patient
+                                                        movement is not well tolerated by the robot → visceral/vascular injury.
+
+                              Emergence                 No special considerations. Airway edema may occur after prolonged steep Trendelenburg
+                                                        position.
+
+                              Blood and fluid           Moderate-to-large blood loss           Additional requirements dependent on type of
+                                 requirements           IV: 14–16 ga × 1–2                     anesthesia. Regional techniques are associated with
+                                                        NS/LR @ 4–6 mL/kg/h                    higher fluid requirement because of sympathec-
+                                                                                               tomy and systemic vasodilation; they also may be
+                                                                                               associated with lower blood loss than GA.
+
+===== PAGE 891 =====
+Nephrectomy        891
+
+                    Monitoring                 Standard monitors (see p. B-1).           Some patients require CVP to aid in assessment of
+                                               Depending on underlying disease:          volume status. Arterial line is often useful for continu-
+                                               ± CVP                                     ous BP monitoring and frequent blood draws. Patients
+                                               ± Arterial line                           at particularly high risk (e.g., Hx of preexisting cardio-
+                                                                                         pulmonary disease) should probably have both.
+
+                    Positioning                Anticipate ↓ BP on return from            Rx: volume (200–500 mL NS/LR) or ephedrine (5 mg
+                                               lithotomy position.                       iv) may be necessary. Elderly patients with arthritis or
+                                               3 and pad pressure points                 respiratory impairment may not tolerate the extreme
+                                               3 eyes                                    positioning associated with robotic prostatectomy.
+                                                                                         *(A combined technique with GA maybe consid-
+                                                                                         ered.) * NB: In lithotomy position, peroneal nerve
+                                                                                         compression at lateral fibular head → foot drop.
+
+                    Complications              Indigo carmine reaction                   Indigo carmine → false ↓ O2 sat ± ↑ BP; rare allergic
+                                               Hemorrhage                                reaction → rash + bronchoconstriction + ↓ BP.
+                                               Hypothermia
+                                               VAE                                       Insufflation pressure may exceed venous pressure
+                                               Robot malfunction                         → VAE
+
+                         POSTOPERATIVE
+
+                    Complications              Peroneal nerve injury 2° lithotomy        Manifested by foot drop with loss of sensation on
+                                               position                                  dorsum of foot. Seek neurology consultation.
+                                               DVT                                       Incidence of DVT less with regional than GA. Sx:
+                                               Airway edema → obstruction                variable, with pain and tenderness over involved area.
+
+                    Pain                       Significant postop pain. Rx: hydro-       Consider epidural infusion of dilute local anesthet-
+                      management               morphone 0.01–0.02 mg/kg iv in            ics/opiates or PCA (see p. C-3). Robotic procedure
+                                               incremental doses (e.g., 10–15 min        patients have lower postop pain.
+                                               prn).
+
+                                                                                                                                                             Urology
+                    Tests                      Hct
+
+                   Suggested Readings
+                     1. Awad H, Walker CM, Chaikh M, et al: Anesthetic considerations for robotic prostatectomy: a review of the literature. J Clin
+                        Anesth 2012; 24(6):494–504.
+                     2. Kalmar AF, Dewaele F, Foubert L, et al: Cerebral haemodynamic physiology during steep Trendelenburg position and CO2
+                        pneumoperitoneum. Br J Anaesth 2012; 108(3):478–84.
+                     3. Whalley DG, Berrigan MJ: Anesthesia for radical prostatectomy, cystectomy, nephrectomy, pheochromocytoma, and
+                        laparoscopic procedures. Anesthesiol Clin North Am 2000; 18(4):899–917.
+                     4. Wilson T, Torrey R: Open vs robotic-assisted radical prostatectomy: which is better? Curr Opin Urol 2011; 21(3):200–5.
+
+                   NEPHRECTOMY
+                         SURGICAL CONSIDERATIONS
+                   Description: Nephrectomies fall into three basic groups: simple, partial, and radical. (Surgical anatomy is shown in
+                   Fig. 9-7.)
+                   Simple nephrectomy, performed for benign conditions, is the surgical excision of the kidney and a small segment of
+                   proximal ureter. The dorsal approach is well suited for this operation and begins with an incision extending from the
+                   12th rib to the iliac crest along the lateral edge of the sacrospinalis muscle and quadratus lumborum muscle. The dor-
+                   solumbar fascia is opened, exposing Gerota’s fascia and the perinephric fat (Fig. 9-8). The kidney is mobilized until
+
+===== PAGE 892 =====
+892        s e c t i o n 9.0   Urology
+
+                                        Figure 9-7. Surgical anatomy of the urinary tract. (Reproduced with permission from
+                                        Hardy JD: Textbook of Surgery. JB Lippincott: 1988.)
+
+                             the hilum is exposed. The artery and vein are tied, suture-ligated, and transected. The ureter is followed distally as far
+                             as possible, tied, and transected. The kidney is delivered out of the incision, which is then closed by approximating
+        Urology
+
+                             the dorsolumbar fascia and the fascia of the sacrospinalis muscle.
+                             Usual preop diagnosis: Chronic hydronephrosis; hypoplastic kidney; renovascular HTN; double collecting system
+                             Partial nephrectomy is the surgical excision of the segment of the kidney harboring the pathology. It is performed for
+                             small renal cell carcinomas and benign tumors of the kidney, such as angiomyolipomas, and for duplicated collecting
+
+                                        Figure 9-8. Transverse section showing the relation of the renal fascias to the right
+                                        kidney. (Reproduced with permission from Baker RJ, Fischer JE: Mastery of Surgery,
+                                        4th edition. Lippincott Williams & Wilkins: 2001.)
+
+===== PAGE 893 =====
+Nephrectomy       893
+
+                                                                                          A
+
+                                                                                                    B
+
+                               Figure 9-9. A: Flank incisions. B: Subcostal transabdominal incision.
+
+                   systems with a diseased moiety. If the partial nephrectomy is being done for renal cell carcinoma, it may be accompa-
+                   nied with a regional lymphadenectomy. The flank approach (Fig. 9-9A) is well suited for this operation and begins
+                   with an incision over the 12th or 11th rib, or in between, and extends anteriorly over the external and internal oblique
+                   muscles, which are transected. The transversalis muscle and fascia are opened, exposing Gerota’s fascia. The renal
+                   capsule is exposed at the planned site of resection. Control of the renal vessels and local hypothermia with ice slush
+                   is advised for control of bleeding, if excessive. Incision in the renal parenchyma is made by sharp and blunt dissec-
+
+                                                                                                                                                       Urology
+                   tion, suture-ligating all bleeders. If the collecting system is opened, it should be closed with absorbable sutures. After
+                   complete hemostasis, Gelfoam, thrombin, Floseal, or perinephric fat is used to cover the raw surface of the kidney.
+                   Usual preop diagnosis: Renal cell carcinoma; double collecting system.
+                   Radical nephrectomy is the surgical excision of the kidney with its surrounding perinephric fat and Gerota’s fascia
+                   and the proximal 2/3 of the ureter, accompanied by paracaval or para-aortic lymphadenectomy. It is performed for
+                   renal cell carcinoma. Early control of renal vessels is advised before excessive manipulation of the tumor to mini-
+                   mize blood loss and hematogenous spread. Transabdominal or flank approaches (Fig. 9-9A, B) are best suited for
+                   this operation. Surgery in patients with renal vein or inferior vena cava involvement is more complex and prone to
+                   more intraoperative complications, including blood loss. When the tumor thrombus involves a large segment of the
+                   vena cava or is in the right atrium, a team approach with cardiac surgeons is used. Often patients have to be put on
+                   cardiopulmonary bypass under hypothermia.
+                    Laparoscopic simple or radical nephrectomy: A pneumoperitoneum is created by insufflating CO2 to a pres-
+                   sure of 14–16 mm Hg. Three to four trocars are inserted as necessary (Fig. 9-10). Typically, the patient is placed
+                   in a flank position as in an open radical nephrectomy. This procedure can be either transperitoneal or retroperi-
+                   toneal, depending on the surgeon’s preference or experience. The transperitoneal approach may be modified by
+                   using a hand-assistance device through one of the ports (hand-assisted laparoscopic nephrectomy). Most radical
+                   nephrectomies can be done by an experienced laparoscopic surgeon.
+                   Usual preop diagnosis: Renal cell carcinoma, nonfunctioning kidney 2° infection or obstruction; kidney donation
+                   for transplant.
+                   Nephroureterectomy is a radical nephrectomy with ureter resection, including the ureteral orifice and a cuff of
+                   bladder wall around it. It is accompanied by a regional lymphadenectomy because it is performed for a cancerous
+                   condition. The approach is either transabdominal or extraperitoneal through an extended flank incision, starting at
+                   the tip of the 11th rib and curving caudally along the lateral edge of the rectus abdominis muscle down to the pubic
+
+===== PAGE 894 =====
+894        s e c t i o n 9.0   Urology
+
+                                          Figure 9-10. Incision and placement of trocars in laparoscopic nephrectomy.
+                                          (Reproduced with permission from Scott-Conner CEH, Dawson DL: Operative
+                                          Anatomy. 2nd edition. Lippincott Williams & Wilkins: 2003.)
+                             bone (Fig. 9-9B). Some surgeons prefer two separate incisions: a flank incision for the radical nephrectomy part and
+                             a lower abdominal incision for the ureterectomy. This procedure can be done by laparoscopy with a lower midline
+                             incision made to remove the specimen. It is often done as a combined laparoscopic and open procedure. The kidney
+                             is removed laparoscopically while the distal ureter is excised by open surgery. The specimen is removed through the
+                             infraumbilical incision. This technique involves positioning, prepping, and draping the patient twice during the case.
+        Urology
+
+                             Usual preop diagnosis: Transitional cell carcinoma of the renal collecting system or ureter
+
+                               ■■ SUMMARY OF PROCEDURES
+                                                                                                                             Laparoscopic
+                                                       Simple                  Partial               Radical                 Nephrectomy or
+                                                       Nephrectomy             Nephrectomy           Nephrectomy             Nephroureterectomy
+
+                               Position                Flank or prone          Flank                 Supine or flank         Flank
+
+                               Incision                Flank (Fig. 9-9A) or    Flank (Fig. 9-9A)     Midline or subcos-      3–4 ports (Fig. 9-10)
+                                                       dorsal along paraspi-                         tal transabdominal
+                                                       nous muscles                                  (Fig. 9-9B) or flank;
+                                                                                                     subcostal or inter-
+                                                                                                     costal or through
+                                                                                                     bed of 11th or
+                                                                                                     12th rib (Fig. 9-9A)
+
+                               Unique                  None                    ⇐                     If tumor involves       Risk of emergent con-
+                                 considerations                                                      renal vein and/or       version to open case
+                                                                                                     IVC, clamp IVC.
+
+                               Antibiotics             Cefazolin 1 g iv        ⇐                     ⇐                       ⇐
+
+                               Surgical time           2–3 h                   3–4 h                 ⇐                       ⇐
+
+                               Closing                 Chest tube may be       ⇐                     ⇐                       A small incision is
+                                 considerations        required if pleura                                                    made at the end of the
+                                                       opened with flank                                                     case to remove the
+                                                       incision.                                                             specimen.
+
+===== PAGE 895 =====
+Operations on the Renal Pelvis and Upper Ureter             895
+
+                     ■■ SUMMARY OF PROCEDURES (cont’d)
+                                                                                                                           Laparoscopic
+                                             Simple                    Partial                  Radical                    Nephrectomy or
+                                             Nephrectomy               Nephrectomy              Nephrectomy                Nephroureterectomy
+
+                     EBL                     500 mL                    1200 mL                  500 mL                     300 mL
+
+                     Mortality               < 1%                      ⇐                        1%                         ⇐
+
+                     Morbidity               Prolonged ileus: 5%       ⇐                        ⇐                          Vascular injury requir-
+                                             Pneumothorax 2°                                                               ing conversion to open
+                                             unrecognized pleural                                                          case
+                                             perforation: 2%
+
+                     Pain score              10                        10                       10                         4
+
+                     ■■ PATIENT POPULATION CHARACTERISTICS
+                     Age range               All ages                  ⇐                        ⇐                              ⇐
+
+                     Male:Female             1:1                       ⇐                        ⇐                              ⇐
+
+                     Incidence               < 1%                      ⇐                        ⇐                              ⇐
+
+                     Etiology                Double collecting         Localized renal cell     Wilms’ tumor (8% of
+                                             system; chronic           carcinoma                all childhood malignan-
+                                             hydronephrosis;                                    cies); transitional cell
+                                             hypoplastic kidney;                                carcinoma (7% of all
+                                             renovascular HTN                                   kidney tumors); renal
+                                                                                                cell carcinoma (3% of
+                                                                                                adult malignancies)
+
+                     Associated              HTN (if nephrectomy
+                       conditions            was used to treat
+
+                                                                                                                                                            Urology
+                                             renovascular HTN).
+
+                         ANESTHETIC CONSIDERATIONS
+                   See Anesthetic Considerations following Operations on the Renal Pelvis and Upper Ureter, p. 897.
+
+                   Suggested Readings
+                     1. Aboumarzouk OM, Stein RJ, Eyraud R, et al: Robotic versus laparoscopic partial nephrectomy: a systematic review and meta-
+                        analysis. Eur Urol 2012; 62(6):123–33.
+                     2. Conacher ID, Soomro NA, Rix D: Anaesthesia for laparoscopic urological surgery. Br J Anaesth 2004; 93(6):859–64.
+                     3. Piros L, Langer RM: Laparoscopic donor nephrectomy techniques. Curr Opin Organ Transplant 2012; 17(4):401–5.
+
+                   OPERATIONS ON THE RENAL PELVIS AND UPPER URETER
+                         SURGICAL CONSIDERATIONS
+                   Description: Operations on the renal pelvis and upper ureter are becoming less common because of the increasing
+                   use of endoscopic and percutaneous procedures. The basic surgical approach is the same as that for nephrectomy
+                   (see p. 891). Specific procedures include the following:
+                   Pyeloplasty is the surgical correction of congenital ureteropelvic junction stenosis to relieve obstruction. The
+                   most commonly used is the dismembered pyeloplasty, or Anderson-Heinz pyeloplasty, wherein the diseased
+
+===== PAGE 896 =====
+896        s e c t i o n 9.0   Urology
+
+                                                                 Figure 9-11. Dismembered pyeloplasty.
+
+                             ureteropelvic junction is excised, the redundant renal pelvis is reduced, and an anastomosis is established between
+                             the renal pelvis and ureter (Fig. 9-11).
+                             Usual preop diagnosis: Ureteropelvic junction obstruction
+                             Pyelolithotomy and ureterolithotomy are used to remove calculi from the renal pelvis or ureter. The upper ureter
+                             and renal pelvis are exposed, usually through a flank approach, the calculus is palpated, and an incision is made in the
+                             ureter or renal pelvis over the calculus, which is then delivered. The incision is closed with fine, absorbable sutures.
+                             Usual preop diagnosis: Renal pelvic or ureteral stone
+                             Transureteroureterostomy is the transposition of one ureter across the midline and anastomosing it to the other
+                             ureter (Fig. 9-12). This operation is performed whenever the distal ureter is traumatized or diseased, and the proxi-
+                             mal ureter is not long enough to reimplant into the bladder. The recipient ureter should be normal.
+        Urology
+
+                                                                 Figure 9-12. Transureteroureterostomy.
+
+===== PAGE 897 =====
+Operations on the Renal Pelvis and Upper Ureter      897
+
+                   Usual preop diagnosis: Traumatic loss of distal ureter; distal ureteral tumor requiring distal ureterectomy
+
+                     ■■ SUMMARY OF PROCEDURES
+                                                                          Pyelolithotomy/
+                                           Pyeloplasty                    Ureterolithotomy              Transureteroureterostomy
+
+                     Position              Flank or prone                 ⇐                             Supine
+
+                     Incision              Flank (Fig. 9-9A) or dorsal    ⇐                             Midline abdominal (Fig. 9-9A,
+                                                                                                        inset)
+
+                     Antibiotics           Cefazolin 1g iv                ⇐                             ⇐
+
+                     Surgical time         3h                             1–2 h                         3h
+
+                     EBL                   Minimal                        ⇐                             ⇐
+
+                     Mortality             < 1%                           ⇐                             ⇐
+
+                     Morbidity             Urinary leakage: 5%            ⇐                             ⇐
+                                           Infection: 2%                  ⇐                             ⇐
+
+                     Pain score            10                             10                            10
+
+                     ■■ PATIENT POPULATION CHARACTERISTICS
+                     Age range             All ages                       ⇐                             ⇐
+
+                     Male:Female           1:1                            ⇐                             ⇐
+
+                     Incidence             Rare                           Extremely rare                ⇐
+
+                     Etiology              Ureteropelvic junction ob-     Renal pelvic and upper ure-   Traumatic loss of lower ure-
+                                           struction: 80% of causes of    teral stone                   ter; lower ureteral tumor
+
+                                                                                                                                               Urology
+                                           dilated collecting system in
+                                           the newborn
+
+                     Associated            Renal failure: 1%
+                       conditions
+
+                         ANESTHETIC CONSIDERATIONS
+                   (Procedures covered: nephrectomy and operations on the renal pelvis and upper ureter)
+
+                         PREOPERATIVE
+                   Patients presenting for nephrectomy and operations on the renal pelvis and upper ureter may be of any age, depend-
+                   ing on the etiology of the abnormality. Many patients may have renal insufficiency 2° the underlying problem or
+                   from renovascular HTN. Elderly patients frequently have preexisting medical problems, including CAD, CHF, PVD,
+                   cerebrovascular disease, COPD, and renal impairment. Preop evaluation should be directed toward the detection
+                   and treatment of these conditions prior to anesthesia.
+
+                    Respiratory             Increased postop pulmonary complications because of location of incision (nonlaparo-
+                                            scopic). If Hx of pulmonary disease (e.g., asthma, COPD), consider postop respiratory
+                                            therapy.
+                                            Tests: As indicated from H&P
+
+                    Cardiovascular          Consider possibility of renal HTN.
+
+===== PAGE 898 =====
+898        s e c t i o n 9.0   Urology
+
+                              Hematologic               Polycythemia may be seen in association with polycystic kidney disease, renal cell carci-
+                                                        noma. Consider preop blood donation for autologous transfusion.
+                                                        Tests: Hct
+
+                              Laboratory                Electrolytes; BUN; Cr; other tests as indicated from H&P
+
+                              Premedication             Standard premedication (see p. B-1).
+
+                                      INTRAOPERATIVE
+                             Anesthetic technique: GA is recommended for these procedures; technique depends on underlying disease.
+                             Regional techniques (spinal or epidural) may be alternatives for some open procedures but are less than optimal
+                              because of awkward positioning that may → patient discomfort and pain resulting from diaphragmatic stimulation.
+                              Consider combined technique with regional opiates.
+
+                              Induction                 Standard induction (see p. B-2).
+
+                              Maintenance               Standard maintenance (see p. B-3). If intraperitoneal or laparoscopic approach is used,
+                                                        consider limiting N2O to avoid distention of bowel and interference with operative field.
+
+                              Emergence                 No specific considerations
+
+                              Blood and fluid           Mild-to-moderate blood loss            Intraperitoneal approach associated with higher
+                                 requirements           IV: 14–16 ga × 1                       fluid requirements (8–10 mL/kg/h). When renal
+                                                        NS/LR @ 6–8 mL/kg/h                    vessels are to be cross-clamped, mannitol (0.5
+                                                        Warm all fluids.                       g/kg) is often given prior to occlusion (20 min
+                                                                                               maximum).
+
+                              Monitoring                Standard monitors (see p. B-1).
+                                                        Urinary catheter
+                                                        Arterial line (partial nephrectomy)    Invasive monitoring if indicated from H&P. CVP
+                                                        ± CVP line                             line useful for partial nephrectomy in patients with
+        Urology
+
+                                                                                               solitary kidneys (↑ ↑ blood loss).
+
+                              Positioning               Use axillary roll if lateral.          The lateral position with kidney rest and table flex-
+                                                        Avoid stretching brachial plexus—      ion may → ↓ BP, possibly 2° vena cava obstruction.
+                                                        limit abduction to 90°.                Moderate iv volume administration and gradual
+                                                        If prone, repeatedly 3 eyes and        assumption of the position are recommended to
+                                                        pressure points.                       avoid this complication.
+                                                        Assure free excursion of abdomen.
+
+                              Complications             Pneumothorax                           Sx of pneumothorax include: ↑ RR, ↑ PIP, hypox-
+                                                        ↓ BP with positioning (see above).     emia, hypercarbia. If in doubt, 3 CXR.
+                                                        Indigo carmine → ↑ BP, ↑ SVR
+                                                        Methylene blue → ↓ BP
+
+                                      POSTOPERATIVE
+
+                              Complications             Postnephrectomy syndrome               Postnephrectomy syndrome 2° retractor injury. L1
+                                                        Eye injury (if prone)                  nerve root damage with resulting pain, dysesthesia,
+                                                        Brachial plexus injury (if lateral)    and sensory loss in L1 dermatome distribution.
+                                                        Pneumothorax
+                                                        Atelectasis
+                                                        Pneumonia
+
+===== PAGE 899 =====
+Cystectomy       899
+
+                    Pain                     Morphine 0.1–0.3 mg/kg iv in             Postop analgesia critical to minimize pulmonary
+                      management             incremental doses                        complications.
+                                             Consider epidural narcotic               PCA. See p. C-3.
+
+                    Tests                    Hct                                      Others dependent on operative course, coexisting
+                                             CXR                                      disease.
+
+                   CYSTECTOMY
+                         SURGICAL CONSIDERATIONS
+                   Description: Open (in contrast to transurethral or endoscopic) bladder operations (cystectomies) account for 15–20%
+                   of all urological procedures. They are grouped as simple, partial, and radical procedures.
+                   Simple cystectomy is performed for benign conditions of the bladder, such as severe hemorrhagic cystitis, radiation
+                   cystitis, and contracted bladder. It involves the removal of the bladder only. The operation is performed through a
+                   lower abdominal incision. The peritoneal reflections are incised down to the pouch of Douglas; the vasa deferentia
+                   and superior vesical arteries are identified, cross-clamped, transected, and tied. The ureters are identified, separated
+                   from the surrounding tissues, cross-clamped near the bladder, transected, and tied. The bladder is bluntly separated
+                   from the anterior rectal wall all the way to the apex of the prostate. The lateral pedicles of the bladder are cross-
+                   clamped, cut, and tied. The endopelvic fascia is incised, separating the prostate from the lateral pelvic wall. The
+                   puboprostatic ligaments are transected, and the dorsal vein of the penis is suture-ligated. The tied dorsal vein and
+                   urethra are incised just distal to the apex of the prostate. The specimen is delivered out of the incision and hemostasis
+                   secured with electrocautery. An ileal conduit is then performed (see below).
+                   Partial cystectomy is the excision of only the part of the bladder containing the pathology. This is not a commonly
+                   performed operation and is reserved for tumors located in the dome of the bladder of older patients who are poor
+                   surgical risks for major operations, such as radical cystectomy. The operation is preceded by a cystoscopy to identify
+
+                                                                                                                                                      Urology
+                   the site of pathology. Beginning with a lower abdominal incision, the dome and lateral walls of the bladder are sepa-
+                   rated from the surrounding tissues, which are covered by wet packs to minimize contamination. An incision is made
+                   in the dome of the bladder at least 2 cm away from the pathology. The inside of the bladder is inspected and the pa-
+                   thology identified. The incision in the bladder is continued around, and at least 2 cm away from, the pathology, until
+                   the latter is completely excised. Bleeders in the wall of the bladder are electrocoagulated. The bladder wall is then
+                   closed in two layers—a through-and-through layer and an inverting layer—using absorbable material. Wet packs are
+                   removed, a drain is left in the region, and the abdominal incision is closed.
+                   Radical cystectomy (or radical cystoprostatectomy) is performed for treatment of invasive bladder cancer.
+                   It encompasses the removal of the bladder and the lower ureters, the prostate gland, and seminal vesicles in men
+                   (Fig. 9-13A), and the uterus, ovaries, and anterior vaginal wall in women (Fig. 9-13B). Accompanied by a pelvic
+                   lymphadenectomy, it is performed in the supine position, except when a concomitant urethrectomy is required,
+                   wherein a lithotomy position is used.
+                   Following cystectomy, whether radical or simple, some form of urinary diversion is required. This can be
+                   accomplished with either a standard ileal conduit or a bladder substitution. The ileal conduit is constructed from
+                    6–8 inches of terminal ileum isolated, with its blood supply, from the small intestine. The continuity of the small
+                    intestine is accomplished by a simple anastomosis. The ureters are implanted into the proximal end of the con-
+                    duit, and the distal end is brought through the abdominal wall as a stoma (Fig. 9-14). Bladder substitution is a
+                    more complex operation wherein a longer segment of bowel is isolated, with its blood supply, and fashioned into
+                    a pouch. The ureters are implanted in the pouch, and the most dependent part of the pouch is connected to the
+                    membranous urethra, avoiding a stoma (Fig. 9-15). Not all patients undergoing cystectomies are candidates for
+                    bladder substitution. For example, patients who require a urethrectomy are not candidates because of the need to
+                    remove the urethra.
+
+===== PAGE 900 =====
+900        s e c t i o n 9.0   Urology
+
+                                      A                                                          B
+
+                                          Figure 9-13. Anatomy of the pelvis with tissue to be excised outlined by dashed line:
+                                          A: male; B: female.
+        Urology
+
+                                          Figure 9-14. Ileal conduit: A segment of ileum is isolated from terminal ileum, and
+                                          continuity of the bowel is reestablished with an end-to-end anastomosis. Ureters are
+                                          joined to the proximal end of the ileal segment, and the distal end is brought out to the
+                                          skin as a stoma.
+
+===== PAGE 901 =====
+Cystectomy   901
+
+                                                                                                                                         Urology
+                                Figure 9-15. Bladder substitution: A segment of ileum is fashioned into a pouch and
+                                anastomosed to the urethra. The ureters are joined to the proximal, nondetubularized
+                                segment.
+
+                   Usual preop diagnosis: Bladder cancer; contracted bladder; hemorrhagic cystitis; radiation cystitis; bladder
+                   diverticulum
+
+                     ■■ SUMMARY OF PROCEDURES
+                                             Simple Cystectomy              Partial Cystectomy      Radical Cystectomy
+
+                     Position                Supine                         ⇐                       Supine or lithotomy
+
+                     Incision                Transperitoneal, midline       ⇐                       ⇐
+
+                     Antibiotics             Cefotetan or ceftriaxone 1 g   ⇐                       ⇐
+
+                     Surgical time           4h                             2h                      6h
+
+                     EBL                     1000 mL                        Minimal                 1500 mL
+
+                     Postop care             Care of the stoma              Catheter care           Care of the stoma
+
+                     Mortality               1%                             < 1%                    2%
+
+                     Morbidity               Prolonged ileus: 5%            —                       5%
+                                             Infection: 2%                  —                       2%
+                                                                            Hematuria: 5%
+
+                     Pain score              10                             10                      10
+
+===== PAGE 902 =====
+902        s e c t i o n 9.0   Urology
+
+                               ■■ PATIENT POPULATION CHARACTERISTICS
+                                                       Simple Cystectomy                          Partial Cystectomy        Radical Cystectomy
+
+                               Age range               40–80 yr                                   ⇐                         ⇐
+
+                               Male:Female             3:1                                        ⇐                         ⇐
+
+                               Incidence               60,000 new cases of bladder cancer diag-   ⇐                         ⇐
+                                                       nosed/yr; 20% treated with cystectomy.
+
+                               Etiology                Contracted bladder; hemorrhagic and ra-    Bladder cancer; bladder   ⇐
+                                                       diation cystitis                           diverticulum
+
+                               Associated              Heart disease (10%); HTN (10%); COPD       Heart disease (10%)       ⇐
+                                 conditions            (5%); diabetes mellitus (5%)
+
+                                      ANESTHETIC CONSIDERATIONS
+                                      PREOPERATIVE
+                             Patients presenting for cystectomy are frequently elderly and may have preexisting medical problems, including
+                             CAD, CHF, PVD, cerebrovascular disease, COPD, and renal impairment. Preop evaluation should be directed toward
+                             the detection and treatment of these conditions prior to anesthesia.
+
+                              Respiratory               3 for pulmonary disease in older patients.
+                                                        Tests: As indicated from H&P
+
+                              Cardiovascular            3 for cardiac disease, HTN in older patients.
+                                                        Tests: Consider ECG; others as indicated from H&P.
+
+                              Gastrointestinal          Bowel prep likely and may cause dehydration and electrolyte disturbances.
+        Urology
+
+                                                        Tests: Electrolytes, if indicated
+
+                              Hematologic               T&C for 2–4 U PRBC.
+                                                        Tests: Hct
+
+                              Laboratory                Other tests as indicated from H&P
+
+                              Premedication             Sedation prn anxiety in adults (e.g., lorazepam 1–2 mg po 1–2 h preop; midazolam 1–2 mg
+                                                        iv in preop area).
+
+                                      INTRAOPERATIVE
+                             Anesthetic technique: Spinal, continuous lumbar epidural, or GA are acceptable, with choice dependent on
+                             length of procedure, coexisting disease, and patient preference. A combined technique using GA and regional
+                             anesthesia may be preferable. A T4 sensory level is recommended, because peritoneal stimulation is likely during
+                             this procedure.
+
+                             Regional anesthesia:
+
+                              Spinal                    0.75% bupivacaine 12–15 mg in 7.5% dextrose; hyperbaric tetracaine 10–15 mg with 200
+                                                        mcg epinephrine for procedures > 3 h.
+
+                              Epidural                  1.5–2% lidocaine with epinephrine 5 mcg/mL, 15–25 mL; supplement with 5–10 mL as
+                                                        needed. Supplemental iv sedation (e.g., midazolam 1 mg iv prn; fentanyl 50 mcg iv prn).
+                                                        Bupivacaine (0.25–0.5%), levobupivacaine (0.25–0.5%), or ropivacaine (0.5–0.75%), with or
+                                                        without sufentanil or fentanyl, may also be used. The addition of opiates has been associ-
+                                                        ated with ↑ urinary retention in noncatheterized patients.
+
+===== PAGE 903 =====
+Open Bladder Operations (Other Than Cystectomy)                 903
+
+                   General anesthesia:
+
+                    Induction                  Standard induction (see p. B-2). These patients may be significantly dehydrated and
+                                               require volume replacement before induction.
+
+                    Maintenance                Standard maintenance (see p. B-3).
+
+                    Emergence                  No specific considerations
+
+                    Blood and fluid            Significant blood loss possible            Blood loss may be less with regional than GA.
+                       requirements            IV: 16 ga × 1
+                                               NS/LR @ 6–10 mL/kg/h
+                                               Warm fluids.
+                                               Humidify gases.
+
+                    Monitoring                 Standard monitors (see p. B-1).            Consider PA catheter or TEE in patients with car-
+                                               Arterial line                              diopulmonary disease. UO as measure of volume
+                                               CVP line                                   status may be unavailable during procedure.
+
+                    Complications              Major blood loss
+                                               3rd-space losses
+                                               Hypothermia
+
+                         POSTOPERATIVE
+
+                    Complications              Hypothermia
+
+                    Pain                       Morphine 0.1–0.3 mg/kg iv in
+                      management               incremental doses
+                                               Consider epidural narcotics or PCA.        See p. C-3.
+
+                    Tests                      Hct                                        Others as indicated by intraop course.
+
+                                                                                                                                                              Urology
+                   Suggested Readings
+                     1. Azzouni F: Current status of robot-assisted radical cystectomy for bladder cancer. Net Rev Urol 2012; 9(10):573–82.
+                     2. Cheung G, Dasgupta P, Guru KA, Billia M, Khan MS: Minimally invasive cystectomy approaches in the treatment of bladder
+                        cancer. Expert Rev Anticancer Ther 2012; 12(6):733–41.
+                     3. Poch MA, Raza J, Nyquist J, Guru KA: Tips and tricks to robot-assisted radical cystectomy and intracorporeal diversion. Curr
+                        Opin Urol 2013; 23(1):65–71.
+
+                   OPEN BLADDER OPERATIONS (OTHER THAN
+                   CYSTECTOMY)
+                         SURGICAL CONSIDERATIONS
+                   Description: Open bladder operations include
+                   Augmentation cystoplasty (or enterocystoplasty): Small, contracted bladders can be enlarged and their size and
+                   capacity augmented with a segment of intestine. The bladder is opened widely, anteroposteriorly, or from side-
+                   to-side, or with a cruciate incision. A segment of intestine—small bowel, cecum, or colon—is isolated from the
+                   intestinal tract, detubularized, and added onto the bladder.
+                   Variant procedure: The antrum of the stomach can also be used (gastrocystoplasty).
+                   Usual preop diagnosis: Contracted bladder from chronic cystitis or neurogenic bladder.
+                   Repair of vesicovaginal or enterovesical fistulas: The communication between the vagina and bladder or blad-
+                   der and bowel is identified and excised, and the edges freshened until normal, noninflamed tissues are exposed. The
+
+===== PAGE 904 =====
+904        s e c t i o n 9.0   Urology
+
+                             openings in the bladder and in the vagina or bowel are closed, and omentum is interposed in between to promote
+                             healing and prevent recurrence. With enterovesical fistulas, often the diseased segment of the intestine is excised,
+                             and an end-to-end anastomosis of the intestine is performed.
+                             Variant procedure: Transvaginal repair of vesicovaginal fistula (see Vaginal Operations, p. 918).
+                             Usual preop diagnosis: Vesicovaginal or enterovesical fistula
+                             Ureteral reimplantation, performed to correct vesicoureteral reflux, is more commonly used in the pediatric group
+                             than in adults. In adults, it is performed mainly for lower ureteral injuries, iatrogenic or traumatic. The lower ureter
+                             is identified and dissected proximally until adequate length is obtained. The bladder is opened and a 2- to 3- cm
+                             submucosal tunnel is created in or near the trigone, and the ureter is brought into the tunnel and fixed with sutures.
+                             If there is a large gap between the ureter and the bladder, a psoas hitch procedure is necessary. The bladder is mobi-
+                             lized and stitched to the psoas muscle to reach the ureter. In children, if the ureter is dilated, its diameter is reduced
+                             by imbrication before reimplantation. In adults, a nonrefluxing implantation is usually not necessary if the operation
+                             is being performed for ureteral injury.
+                             Usual preop diagnosis: Vesicoureteral reflux; lower ureteral injuries
+
+                               ■■ SUMMARY OF PROCEDURES
+                                                       Augmentation Cystoplasty          Repair of Fistulas              Ureteral Reimplantation
+
+                               Position                Supine                            Supine or lithotomy             Supine
+
+                               Incision                Low abdominal                     ⇐                               ⇐
+
+                               Antibiotics             Gentamicin 80 mg iv, slowly       ⇐                               ⇐
+
+                               Surgical time           4h                                3h                              ⇐
+
+                               EBL                     Minimal                           ⇐                               ⇐
+
+                               Postop care             Care of catheters and stents      ⇐                               ⇐
+
+                               Mortality               < 1%                              ⇐                               ⇐
+        Urology
+
+                               Morbidity               Infections: 5%                    ⇐                               ⇐
+                                                       Urinary leakage: 1%               ⇐                               ⇐
+
+                               Pain score              10                                10                              10
+
+                               ■■ PATIENT POPULATION CHARACTERISTICS
+                               Age range               All ages                        ⇐                                 ⇐
+
+                               Male:Female             1:4                             ⇐                                 ⇐
+
+                               Incidence               Rare                            ⇐                                 ⇐
+
+                               Etiology                Contracted bladders from        Traumatic fistulas; vesicovagi-   Vesicoureteral reflux; injury to
+                                                       chronic cystitis                nal; regional enteritis; diver-   lower ureters
+                                                                                       ticulitis; colon cancer
+
+                                      ANESTHETIC CONSIDERATIONS
+                                      PREOPERATIVE
+                             Patients presenting for open bladder operations may be of any age, depending on the etiology of the abnormality.
+                             Elderly patients frequently have preexisting medical problems, including CAD, CHF, PVD, cerebrovascular disease,
+                             COPD, and renal impairment. Preop evaluation should be directed toward the detection and treatment of these
+                             conditions prior to anesthesia.
+
+===== PAGE 905 =====
+Open Bladder Operations (Other Than Cystectomy)            905
+
+                    Respiratory              3 for pulmonary disease in elderly patients.
+                                             Tests: As indicated from H&P
+
+                    Cardiovascular           3 for cardiac disease in elderly patients.
+                                             Tests: Consider ECG; others, if indicated from H&P.
+
+                    Neurological             Paraplegics and quadriplegics may present for operations on the bladder and urinary tract.
+                                             Obtain Hx of autonomic hyperreflexia (AH). Sx are: flushing, HA, nasal stuffiness, and
+                                             HTN associated with voiding or noxious stimuli below level of transection.
+
+                    Laboratory               Other tests as indicated from H&P
+
+                    Premedication            Sedation prn anxiety (e.g., lorazepam 1–2 mg po 1–2 h before surgery; midazolam 1–2 mg
+                                             iv in preop area).
+
+                         INTRAOPERATIVE
+                   Anesthetic technique: Spinal, continuous lumbar epidural, or GA are acceptable, with choice dependent on length
+                   of procedure, coexisting disease, and patient preference. A combined technique using light GA with regional anes-
+                   thesia is also acceptable. A T10 sensory level is sufficient to provide anesthesia for procedures on the bladder, but a
+                   T4 level is recommended if the peritoneum is opened. (See Anesthetic Considerations for Transurethral Procedures
+                   [except TURP)] p. 881, for patients with AH.)
+
+                   Regional anesthesia:
+
+                    Spinal                   0.75% bupivacaine 10–12 mg. For shorter procedures (< 1 h), consider low-dose bupiva-
+                                             caine (0.75%, 7.5 mg); mepivacaine (1.5%, 45 mg); or procaine (10%, 100–150 mg). Lidocaine
+                                             may be used, but the incidence of transient neurologic symptoms is significant (30%).
+
+                    Epidural                 1.5–2% lidocaine with epinephrine 5 mcg/mL, 15–25 mL; supplement with 5–10 mL as
+                                             needed. Supplemental iv sedation. Bupivacaine (0.25%), levobupivacaine (0.25–0.5%), or
+                                             ropivacaine (0.5–0.75%), with or without sufentanil or fentanyl, may also be used. The addi-
+                                             tion of opiates has been associated with ↑ urinary retention in noncatheterized patients.
+
+                                                                                                                                                    Urology
+                   General anesthesia:
+
+                    Induction                Standard induction (see p. B-2).
+
+                    Maintenance              Standard maintenance (see p. B-3). Consider limiting N2O for long intraperitoneal proce-
+                                             dures to minimize bowel distention.
+
+                    Emergence                No specific considerations
+
+                    Blood and fluid          Minimal-to-moderate blood loss
+                       requirements          IV: 16–18 ga × 1
+                                             NS/LR @ 2–4 mL/kg/h                     Intraperitoneal procedures have considerably
+                                             Warm fluids.                            higher requirements (e.g., NS/LR @ 6–10 mL/kg/h).
+                                             Humidify gases for lengthy
+                                             procedures.
+
+                    Monitoring               Standard monitors (see p. B-1) for      UO as a measure of volume status may be unavail-
+                                             simpler procedures.                     able during the procedure.
+                                             ± Arterial/CVP lines                    Consider arterial line, CVP for longer, more com-
+                                                                                     plex procedures.
+
+                    Positioning              3 and pad pressure points               * NB: In lithotomy position, peroneal nerve com-
+                                             3 eyes                                  pression at lateral fibular head → foot drop.
+
+                    Complications            AH in spinal cord injured patients      See discussion in Anesthetic Considerations for
+                                                                                     Transurethral Procedures, p. 881.
+
+===== PAGE 906 =====
+906        s e c t i o n 9.0   Urology
+
+                                      POSTOPERATIVE
+
+                              Complications             Hypothermia
+                                                        Fever, bacteremia
+
+                              Pain                      Morphine 0.1–0.3 mg/kg in incre-
+                                management              mental doses.
+                                                        Consider epidural narcotics or PCA.    See p. C-3.
+
+                              Tests                     Hct                                    Others as indicated by intraop course.
+                                                        Blood cultures if febrile
+
+                             INGUINAL OPERATIONS
+                                      SURGICAL CONSIDERATIONS
+                             Description: Inguinal operations are very common and are usually performed on an outpatient basis. Groin dissec-
+                             tion, however, may necessitate inpatient care.
+                             Inguinal herniorrhaphy: A 3˝ inguinal incision is made, starting 1˝ medial to the anterior-superior iliac spine,
+                             and ending at the pubic tubercle. The external oblique aponeurosis is excised, opening the external inguinal ring.
+                             The spermatic cord and the hernial sac are freed off the inguinal canal; then, the hernial sac is dissected off the
+                             spermatic cord and followed proximally into the internal inguinal ring, where it is suture-ligated and excised.
+                             The floor of the inguinal canal is strengthened by approximating the conjoined tendon to the reflected part of the
+                             inguinal ligament. Modifications include laparoscopic repair and use of surgical mesh. Please see Section 7.9 for
+                             details.
+                             Usual preop diagnosis: Inguinal hernia (See Figs. 9-16 and 9-17 for details of anatomic relationships.)
+        Urology
+
+                             Orchiopexy is performed through the same incision as used in herniorrhaphy. After the inguinal canal is exposed,
+                             a search for the undescended testis begins. The testis and cord are dissected free from all surrounding tissue until
+                             adequate length is obtained to bring the testis down to the scrotum. Next, a pouch is created in the wall of the
+                             scrotum by incising the scrotal skin and dissecting it off dartos fascia. The testis is brought down into the pouch
+                             and fixed to the dartos fascia with sutures, and the incisions are closed. Often a herniorrhaphy is performed at
+                             the same time.
+                             Unusual preop diagnosis: Undescended testis.
+                             Radical orchiectomy is performed through a herniorrhaphy incision (described above). The spermatic cord
+                             is freed and cross-clamped at the internal inguinal ring, transected, and suture-ligated. The testis, with its
+                             tunica vaginalis, is then delivered through the incision by blunt and sharp dissection, and the inguinal incision
+                             is closed. Sometimes, a testicular prosthesis is inserted and fixed in the scrotum before the inguinal incision
+                             is closed.
+                             Usual preop diagnosis: Testicular cancer
+                             Ligation of spermatic vein is performed through a small, transverse incision 1–2˝ above the internal inguinal ring.
+                             Muscles are split and peritoneum reflected medially to expose the spermatic vessels; the vein is identified and ligated.
+                             This operation can also be done through a scrotal incision.
+                             Usual preop diagnosis: Varicocele causing infertility
+                             Groin dissection, or inguinofemoral lymphadenectomy (lymph node dissection), is the most critical of the ingui-
+                             nal operations. It is performed through either an inguinal incision (Fig. 9-17, inset) curved distally over the femoral
+                             vessels or through two incisions, inguinal and upper-thigh (Fig. 9-17, inset), over the femoral triangle. A complete
+                             inguinal and femoral lymphadenectomy is performed.
+
+===== PAGE 907 =====
+Inguinal Operations   907
+
+                                                            Indirect inguinal hernia & interstitial hernia
+                                                       Peritoneum
+                                               Transversalis fascia                             Direct inguinal hernia
+                                         Transversus abdominis m.                                         External supravesical
+                                                Internal oblique m.                           1         2
+                                                                                                                  hernia
+                                      External oblique aponeurosis
+                                                                                                                       Median
+                                                                                                                       umb. lig.
+                                                                                                                       Rectus m.
+
+                                                                                  A
+
+                                                 Peritoneum
+                                          Properitoneal fat
+                                       Transversalis fascia
+                                 Transversus abdominis m.                   1                                  Internal inguinal ring
+                                         Internal oblique m.                              2
+
+                                                                                                                                                        Urology
+                                         External oblique m.                                                   Rectus abdominis m.
+                                                                                              3
+                                             Scarpa’s fascia
+                                            Camper’s fascia
+                                                                                                  4            External inguinal ring
+                                                          Skin
+
+                                                                                                                Indirect hernia sac
+                                                                                                                with bowel
+
+                                                                                      B
+
+                               Figure 9-16. A: Relationships of four groin hernias in one patient. Indirect inguinal
+                               hernia with intraparietal diverticulum, direct hernia, and external supravesical hernia.
+                               1 = lateral umbilical ligament; 2 = medial umbilical ligament. Arrows indicate different
+                               sites of origin of each hernia. (Reproduced with permission from Skandalakis JE, Gray
+                               SW, Burns WB, et al: Internal and external supravesical hernia. Am Surg 1976; 42:142.)
+                               B: Diagram of intraparietal hernia. The sac, entering at the internal ring, may pass into
+                               any one or more spaces between layers of the abdominal wall. 1, properitoneal; 2 and
+                               3, interstitial; 4, superficial. An indirect hernia also may be present. (Reproduced with
+                               permission form Skandalakis JE, Gray SW, Akin JT Jr: The surgical anatomy of hernial
+                               rings. Surg Clin North Am 1974; 54:1227.)
+
+===== PAGE 7 =====
+908        s e c t i o n 9.0   Urology
+
+                                          Figure 9-17. Incisions and exposure of the spermatic cord for inguinal hernia repair.
+                                          (Reproduced with permission from Scott-Conner CEH, Dawson DL: Operative
+                                          Anatomy. 2nd edition. Lippincott Williams & Wilkins: 2003.)
+        Urology
+
+                             Usual preop diagnosis: Penile cancer
+
+                               ■■ SUMMARY OF PROCEDURES
+                                                       Herniorrhaphy, Orchiopexy,     Ligation of
+                                                       Orchiectomy                    Spermatic Vein           Groin Dissection
+
+                               Position                Supine                         ⇐                        ⇐
+
+                               Incision                Inguinal (Fig. 9-17, inset)    Transverse groin (Fig.   Inguinal and upper thigh (Fig.
+                                                                                      9-17, inset)             9-17, inset)
+
+                               Antibiotics             None                           ⇐                        ⇐
+
+                               Surgical time           1h                             ⇐                        3h
+
+                               EBL                     Minimal                        ⇐                        200 mL
+
+                               Postop care             PACU → home                    ⇐                        PACU → ward; leg elevation
+
+                               Mortality               < 1%                           ⇐                        ⇐
+
+                               Morbidity               Wound infection: 2%            ⇐                        ⇐
+
+                               Pain score              7                              5                        7
+
+===== PAGE 909 =====
+Inguinal Operations     909
+
+                     ■■ PATIENT POPULATION CHARACTERISTICS
+                     Age range              All ages                                       Young adults         Middle age
+
+                     Incidence              Hernia: 5% of population                       1% of young men      Extremely rare, < 1% of
+                                            Undescended testis: 0.8% of male children                           all males
+                                            Testis cancer: 6/100,000
+
+                     Etiology               Unknown; congenital                            Varicocele           Penile cancer (very rare)
+
+                         ANESTHETIC CONSIDERATIONS
+                         PREOPERATIVE
+                   Typically, patients presenting for inguinal operations are healthy, with most returning home on the day of surgery.
+                   The most common inguinal operation is herniorrhaphy. In these patients, consider causes of increased intraab-
+                   dominal pressure during H&P. (Pediatric inguinal operations are discussed in Pediatric General Surgery, p. 1337.)
+                   A hernia may strangulate → acute abdomen.
+
+                    Respiratory              Chronic cough is a common precipitating factor.
+
+                    Gastrointestinal         Constipation may be a precipitating factor.
+
+                    Laboratory               Tests as indicated from H&P
+
+                    Premedication            Sedation for adults prn anxiety (e.g., lorazepam 1–2 mg po 1–2 h before surgery; mid-
+                                             azolam 1–2 mg iv in preop area).
+
+                         INTRAOPERATIVE
+                   Anesthetic technique: Local anesthesia (with sedation), spinal, epidural, or GA are acceptable techniques with the
+
+                                                                                                                                                   Urology
+                   choice dependent on patient age and coexisting disease, type and length of procedure, and patient preference. Local
+                   anesthesia is acceptable for simple herniorrhaphy, although discomfort may be elicited if the peritoneum is manipu-
+                   lated. If a spinal or epidural anesthetic is chosen, a T6 level should be sought. Most inguinal procedures are done on
+                   an outpatient basis, and the anesthetic should be planned appropriately.
+
+                   Regional anesthesia:
+
+                    Spinal                   0.75% bupivacaine 10–12 mg. For shorter procedures (< 1 h), consider low-dose
+                                             bupivacaine (0.75%, 7.5 mg); mepivacaine (1.5%, 45 mg); or procaine (10%, 100–150
+                                             mg). Lidocaine may be used, but the incidence of transient neurologic symptoms is
+                                             significant.
+
+                    Epidural                 1.5–2.0% lidocaine with epinephrine 5 mcg/mL, 15–25 mL; supplement with 5–10 mL
+                                             as needed. Supplemental iv sedation with local or regional technique in adults; e.g., mid-
+                                             azolam (1–2 mg iv), fentanyl (25–50 mcg iv prn anxiety or discomfort), or propofol infu-
+                                             sion (25–50 mcg/kg/min).
+
+                   General anesthesia:
+
+                    Induction                Standard induction (see p. B-2). ET intubation and/or controlled ventilation may not be
+                                             needed for shorter cases; consider LMA.
+
+                    Maintenance              Standard maintenance (see p. B-3); consider propofol infusion (100–200 mcg/kg/min).
+                                             Muscle relaxation usually not required.
+
+                    Emergence                No specific considerations
+
+===== PAGE 910 =====
+910        s e c t i o n 9.0   Urology
+
+                              Blood and fluid             Usually minimal blood loss                Minimize NS/LR to avoid postop urinary retention
+                                 requirements             IV: 18 ga × 1                             after herniorrhaphy.
+                                                          NS/LR @ 1–2 mL/kg/h
+
+                              Monitoring                  Standard monitors (see p. B-1).
+
+                                      POSTOPERATIVE
+
+                              Complications               PONV                             May delay discharge from PACU → home.
+                                                          Failure to void
+
+                              Pain                        Local anesthesia                 Instillation (2 min) or infiltration of wound with 0.25%
+                                management                Ketorolac 30 mg im or iv         bupivacaine or ilioinguinal nerve block provides prolonged
+                                                          in adults                        postop analgesia and decreases need for narcotics in outpa-
+                                                          ± morphine 2–4 mg iv or          tients. This can be used in both adult and pediatric patients.
+                                                          fentanyl 25–50 mcg iv
+
+                             Suggested Readings
+                                1. Castorina S, Luca T, Privitera G, El-Bernawi H: An evidence-based approach for laparoscopic inguinal hernia repair: lessons
+                                   learned from over 1,000 repairs. Clin Anat 2012; 25(6):687–96.
+                                2. Joshi GP, Rawal N, Kehlet H, et al: Evidence-based management of postoperative pain in adults undergoing open inguinal
+                                   hernia surgery. Br J Surg 2012; 99(2):168–85.
+
+                             PENILE OPERATIONS
+                                      SURGICAL CONSIDERATIONS
+                             Penectomy is the total or partial resection of the penis for squamous cell carcinoma of the penile skin. If the tumor
+        Urology
+
+                             can be resected with a safe margin of at least 2 cm, partial penectomy is usually enough. A tourniquet is placed at the
+                             base of the penis, which is amputated at least 2 cm proximal to the tumor. The corpora cavernosa are sutured, and the
+                             tourniquet is released, followed by inspection for bleeding. The edges of the urethra are sutured to the ventral skin,
+                             and the lateral and dorsal skin edges are approximated over the ends of the corpora cavernosa. Often, an inguinal
+                             lymph node biopsy follows the penectomy.
+                             Usual preop diagnosis: Squamous cell carcinoma of the penile skin
+                             Insertion of penile prosthesis is performed for impotence. The prosthesis is inserted into the corpora cavernosa
+                             (Fig. 9-18) through a penile or suprapubic incision. Penile prostheses are either malleable or inflatable. The latter have
+                             a reservoir in the retropubic space and a pump in the scrotum.
+                             Usual preop diagnosis: Impotence
+                             Hypospadias repair is performed primarily on children < 5 yr. (See Pediatric Urology, p. 1369.)
+
+                               ■■ SUMMARY OF PROCEDURES
+                                                         Penectomy                                          Insertion of Penile Prosthesis
+
+                               Position                  Supine                                             ⇐
+
+                               Incision                  Circumferential penile                             Bilateral incisions at base of penis
+
+                               Special                   None                                               ⇐
+                                 instrumentation
+
+===== PAGE 911 =====
+Penile Operations   911
+
+                     ■■ SUMMARY OF PROCEDURES (cont’d)
+                                           Penectomy                             Insertion of Penile Prosthesis
+
+                     Unique                None                                  ⇐
+                       considerations
+
+                     Antibiotics           Cefazolin 1 g iv                      Gentamicin 80 mg iv, slowly; ampicillin
+                                                                                 2 g iv
+
+                     Surgical time         2h                                    ⇐
+
+                     Closing               None                                  ⇐
+                       considerations
+
+                     EBL                   200 mL                                ⇐
+
+                     Postop care           PACU → home                           ⇐
+
+                     Mortality             < 1%                                  ⇐
+
+                     Morbidity             Penile hematoma: 5%                   Malfunction: 10%
+                                                                                 Edema: 5%
+                                                                                 Infection: 2%
+                                                                                 Extrusion of the prosthesis: 1%
+
+                     Pain score            5                                     5
+
+                     ■■ PATIENT POPULATION CHARACTERISTICS
+                     Age range             Adults                                ⇐
+
+                     Incidence             < 1% of all males                     1–2% of all males
+
+                     Etiology              Poor hygiene                          Organic impotence
+
+                                                                                                                                        Urology
+
+                                Figure 9-18. Anatomy of the penis. (Reproduced with permission from Hardy JD:
+                                Textbook of Surgery. JB Lippincott: 1988.)
+
+===== PAGE 912 =====
+912        s e c t i o n 9.0   Urology
+
+                                      ANESTHETIC CONSIDERATIONS
+                                      PREOPERATIVE
+                             Patients presenting for insertion of a penile prosthesis are frequently elderly and often have preexisting medical prob-
+                             lems, including CAD, CHF, PVD, cerebrovascular disease, COPD, and renal impairment. Preop evaluation should be
+                             directed toward the detection and treatment of these conditions prior to anesthesia.
+
+                              Neurological              Patients presenting for insertion of a penile prosthesis often have Hx of diabetes or spi-
+                                                        nal cord injury. Note presence of neuropathy or Hx of autonomic hyperreflexia (AH) (see
+                                                        Anesthetic Considerations for Transurethral Procedures [except TURP], p. 881). Sx sug-
+                                                        gestive of AH include HA, flushing, nasal stuffiness, and HTN associated with voiding or
+                                                        noxious stimuli below the level of transection. It is important to document neurological
+                                                        deficits prior to regional anesthesia.
+
+                              Hematologic               Coagulation defects may be present in patients with priapism. There is a high incidence of
+                                                        priapism in patients with sickle cell anemia.
+                                                        Tests: Hct, if indicated from H&P
+
+                              Laboratory                Other tests as indicated from H&P
+
+                              Premedication             Sedation prn anxiety in adults (e.g., lorazepam 1–2 mg po 1–2 h prior to surgery; mid-
+                                                        azolam 1–2 mg iv in preop area).
+
+                                      INTRAOPERATIVE
+                             Anesthetic technique: Spinal, caudal, or lumbar epidural and GA are acceptable, with choice dependent on length
+                             of procedure, patient age, coexisting disease, and patient preference. Sacral anesthesia (saddle block) is sufficient;
+                             lumbar epidural anesthesia may be less reliable than spinal or caudal at blocking sacral fibers.
+                             Regional anesthesia:
+        Urology
+
+                              Spinal                    5% lidocaine 50 mg (controversial); 0.75% bupivacaine 10 mg in 7.5% dextrose; hyperbaric
+                                                        tetracaine 10 mg with epinephrine for longer procedures
+
+                              Caudal                    0.5% bupivacaine with epinephrine 5 mcg/mL 15–20 mL
+
+                              Epidural                  1.5% lidocaine with epinephrine 5 mcg/mL 15–25 mL; supplement with 5–10 mL as
+                                                        needed. Supplemental iv sedation
+
+                             General anesthesia:
+
+                              Induction                 Standard induction (see p. B-2). ET intubation may not be necessary for shorter proce-
+                                                        dures; consider LMA.
+
+                              Maintenance               Standard maintenance (see p. B-3). Deeper levels of anesthesia usually are required to
+                                                        obtund autonomic reflexes (e.g., HTN, laryngospasm) resulting from intense surgical stim-
+                                                        ulation that may occur during these procedures.
+
+                              Emergence                 No specific considerations
+
+                              Blood and fluid           Minimal blood loss
+                                 requirements           IV: 18 ga × 1
+                                                        NS/LR at 2 mL/kg/h
+
+                              Monitoring                Standard monitors (see p. B-1).
+
+                              Complications             AH                                     See Anesthetic Considerations for Transurethral
+                                                                                               Procedures, p. 882.
+
+===== PAGE 913 =====
+Scrotal Operations      913
+
+                         POSTOPERATIVE
+
+                    Complications            Urinary retention
+
+                    Pain                     Morphine 0.05–0.1 mg/kg iv or fentanyl 25–50 mcg iv prn; ketorolac 30 mg im or iv
+                      management
+
+                   SCROTAL OPERATIONS
+                         SURGICAL CONSIDERATIONS
+                   Description: Scrotal operations are minor, common urologic procedures, performed on an outpatient basis.
+                   Simple orchiectomy is performed as an alternative to medical castration (which uses either estrogens or LH-RH
+                   agonists on men with metastatic prostate cancer for androgen ablation). Orchiectomy is always bilateral. A small
+                   scrotal incision is made, and the testis delivered. The spermatic cord is cross-clamped, transected, and suture-ligated.
+                   Usual preop diagnosis: Metastatic prostate cancer
+                   Vasovasostomy is the reestablishment of the continuity of the vas deferens and restoration of fertility following a
+                   previously performed vasectomy. Through a small scrotal incision, the testis and spermatic cord are delivered. The
+                   site of previous vasectomy is identified and excised and the two ends of the vas deferens anastomosed. It is bilateral
+                   and requires the use of either the operating microscope or magnifying loupes.
+                   Usual preop diagnosis: Infertility 2° vasectomy
+                   Hydrocelectomy: The testis, with the surrounding hydrocele (Fig. 9-19), is delivered through a scrotal incision. The
+                   wall of the hydrocele is excised and the edges sutured around the epididymis to prevent recurrence.
+
+                                                                                                                                                     Urology
+                   Variant procedure or approach: Aspiration used as a temporizing approach because recurrence is almost 100%.
+                   Usual preop diagnosis: Hydrocele
+                   Spermatocelectomy: A spermatocele is a cyst of the epididymis, usually excised with the part of the epididymis from
+                   which it arises.
+                   Variant procedure: Aspiration as a temporizing maneuver until the operation can be performed.
+                   Usual preop diagnosis: Spermatocele or epididymal cyst
+                   Insertion of testicular prosthesis: A small incision is made in the scrotal skin, and a pouch is created by blunt dis-
+                   section in dartos fascia. The prosthesis is placed in the pouch and fixed to the dartos fascia to prevent prosthesis
+                   migration.
+                   Usual preop diagnosis: Absent testis, either congenital or following orchiectomy
+                   Reduction of testicular torsion is an emergency operation that must be performed within 6 h of occurrence to
+                   prevent irreversible ischemic damage to the testis. Through a small scrotal incision, the testis is reduced and fixed to
+                   the dartos fascia to prevent retorsion.
+                   Usual preop diagnosis: Acute testicular torsion
+
+===== PAGE 914 =====
+914        s e c t i o n 9.0   Urology
+
+                                                               Superior
+                                                               pubic ramus
+
+                                                           Cord
+
+                                                                                                              Proposed
+                                                                                                              incisions
+                                                             Epididymis
+                                                                                               Skin
+                                                                          Testis
+                                                                                   Hydrocele
+
+                                                                Figure 9-19. Scrotal hydrocele: scrotal incision.
+
+                               ■■ SUMMARY OF PROCEDURES
+                               Position                Supine
+
+                               Incision                Scrotal (Fig. 9-19, inset)
+
+                               Special                 Operating microscope: magnifying loupe for vasovasostomy
+                                 instrumentation
+        Urology
+
+                               Antibiotics             Cefazolin 1 g iv
+
+                               Surgical time           1h
+
+                               EBL                     Negligible
+
+                               Postop care             PACU → home
+
+                               Mortality               < 1%
+
+                               Morbidity               Scrotal hematoma: 2%
+                                                       Wound infection: 2%
+
+                               Pain score              4
+
+                               ■■ PATIENT POPULATION CHARACTERISTICS
+                               Age range               All ages
+
+                               Incidence               Common
+
+                               Etiology                See preop diagnosis for each procedure, above.
+
+                                      ANESTHETIC CONSIDERATIONS
+                                      PREOPERATIVE
+                             Patients presenting for scrotal operations typically fall into two groups: young, otherwise healthy patients, and an
+                             older population who may present with metastatic prostate cancer accompanied by other medical conditions. The
+                             latter group is the focus of this preop evaluation.
+
+===== PAGE 915 =====
+Scrotal Operations     915
+
+                    Respiratory             Pulmonary disease may be present in elderly patients requiring orchiectomy.
+                                            Tests: As indicated from H&P
+
+                    Cardiovascular          Cardiac disease may be present in elderly patients requiring orchiectomy.
+                                            Tests: Consider ECG; others, if indicated from H&P.
+
+                    Neurological            Document neurologic exam before regional anesthesia in patients with metastatic prostate
+                                            carcinoma (spinal-cord or nerve-root compression may be present preop).
+
+                    Musculoskeletal         3 for presence of spinal metastases if orchiectomy is done for palliation of prostate carci-
+                                            noma. Extensive lumbar metastases may preclude the use of spinal or epidural anesthesia
+                                            (relative contraindication).
+                                            Tests: L-spine films if Hx suggestive of spinal metastases.
+
+                    Laboratory              Other tests as indicated from H&P
+
+                    Premedication           Sedation prn anxiety (e.g., lorazepam 1–2 mg po 1–2 h prior to surgery; midazolam
+                                            1–2 mg iv in preop area).
+
+                         INTRAOPERATIVE
+                   Anesthetic technique: Local anesthesia (with sedation) is acceptable for simpler operations (vasectomy, orchiec-
+                   tomy). Procedures that are longer or more complex may require spinal, epidural, or GA. A sensory level of T10 is
+                   required to block pain 2° testicular manipulation. Many of these procedures are done on an outpatient basis, and the
+                   anesthetic should be appropriately planned to facilitate early discharge.
+                   Regional anesthesia:
+
+                    Spinal                  0.75% bupivacaine 10–12 mg. For shorter procedures(< 1 h), consider low-dose bupiva-
+                                            caine (0.75%, 7.5 mg) or mepivacaine (1.5%, 45 mg). Lidocaine may be used, but the inci-
+                                            dence of transient neurologic symptoms is significant.
+
+                    Epidural                1.5–2% lidocaine with epinephrine 5 mcg/mL, 15–20 mL; supplement with 5–10 mL as
+
+                                                                                                                                                  Urology
+                                            needed. Supplemental iv sedation with local or regional techniques (e.g., midazolam 1–2
+                                            mg, fentanyl 25–50 mcg iv prn anxiety or discomfort).
+
+                   General anesthesia:
+
+                    Induction               Standard induction (see p. B-2). Consider use of LMA.
+
+                    Maintenance             Standard maintenance (see p. B-3). Muscle relaxation usually not imperative. Deeper levels
+                                            of anesthesia are usually required to obtund autonomic reflexes (e.g., HTN, laryngospasm)
+                                            resulting from intense surgical stimulation that may occur during these procedures.
+
+                    Emergence               No specific considerations
+
+                    Blood and fluid         Minimal blood loss
+                       requirements         IV:18 ga × 1
+                                            NS/LR @ 2 mL/kg/h
+
+                    Monitoring              Standard monitors (see p. B-1).
+
+                    Positioning             3 and pad pressure points               *NB: peroneal nerve compression at lateral fibular
+                                            3 eyes                                  head → foot drop.
+
+                         POSTOPERATIVE
+
+                    Complications           Peroneal nerve injury 2° lithotomy      Peroneal nerve injury manifested by foot drop and
+                                            position                                loss of sensation on dorsum of foot. Seek neurology
+                                                                                    consultation.
+
+===== PAGE 916 =====
+916        s e c t i o n 9.0   Urology
+
+                              Pain                      Ketorolac 30 mg im or iv in adults    Following orchiopexy, high incidence of postop
+                                management              ± morphine 2–4 mg iv or fentanyl      pain, which may be reduced by ilioinguinal/iliohypo-
+                                                        25–50 mcg iv prn                      gastric nerve blocks.
+
+                             PERINEAL OPERATIONS
+                                      SURGICAL CONSIDERATIONS
+                             Urethroplasty: Urethral strictures that do not respond to transurethral dilation and incision are corrected with ure-
+                             throplasty. A transverse or longitudinal perineal incision is made and carried down to the urethra, which is dissected
+                             free from surrounding tissues. The strictured area is excised and end-to-end anastomosis is performed over a catheter.
+                             Repair of a long urethral stricture may require placement of a patch from the scrotum, foreskin, or buccal mucosa.
+                             Variant procedure: Transurethral incision and dilation, which is associated with a 30–50% recurrence rate.
+                             Usual preop diagnosis: Urethral stricture, usually posttraumatic
+                             Urethrectomy: Partial or total urethrectomy is done through a longitudinal perineal incision. The urethra is dissected
+                             free of surrounding tissues and followed proximally and distally from the membranous urethra to the external urethral
+                             meatus. In total urethrectomy, a tubularized skin graft is interposed between membranous urethra and perineal skin.
+                             Usual preop diagnosis: Urethral carcinoma
+                             Insertion of artificial urinary sphincter, performed for incontinence, consists of a perineal incision, through which
+                             a cuff is inserted around the bulbar urethra. A suprapubic incision is made to place the reservoir and pump, which
+                             inflates and deflates the cuff.
+                             Usual preop diagnosis: Urinary incontinence
+                             Transperineal prostate seed implantation (brachytherapy): High doses of radiation can be delivered to
+                             the prostate by implanting radioactive seeds directly into the prostate gland. Using a transrectal ultrasound probe,
+        Urology
+
+                                                              Needle with seeds
+
+                                                                                                                      Prostate
+
+                                                                        Ultrasound                          Rectum
+
+                                                      Figure 9-20. Transperineal brachytherapy of prostate gland.
+
+===== PAGE 917 =====
+Perineal Operations    917
+
+                   radioactive seeds (iodine 125 or palladium 103) are implanted into the prostate (Fig. 9-20). The patient is placed in
+                   lithotomy position, and a rectal ultrasound probe, with a perineal grid attached, is introduced to image the prostate.
+                   Radioactive seeds are then placed transperineally using preloaded needles. Preop dosing calculations determine the
+                   number and location of the seeds. This procedure is done by a combined team of radiation oncologists and urolo-
+                   gists. No special radiation precautions are necessary for the OR team.
+                   Usual preop diagnosis: Prostate cancer
+
+                     ■■ SUMMARY OF PROCEDURES
+                                            Urethroplasty           Urethrectomy       Insertion of Sphincter        Brachytherapy
+
+                     Position               Lithotomy               ⇐                  ⇐                             ⇐
+
+                     Incision               Perineal (Fig. 9-6)     ⇐                  ⇐ and scrotal (Fig. 9-19,     None
+                                                                                       inset)
+
+                     Antibiotics            Gentamicin 80 mg        ⇐                  ⇐                             ⇐
+                                            im/iv
+
+                     Surgical time          3h                      2h                 3h                            2h
+
+                     EBL                    100 mL                  300 mL             Minimal                       ⇐
+
+                     Postop care            PACU → home             ⇐                  ⇐                             PACU, outpatient
+
+                     Mortality              < 1%                    ⇐                  ⇐                             ⇐
+
+                     Morbidity              Wound infection: 2%     ⇐                  ⇐                             Urinary retention
+                                                                                       Erosion of the urethra: 10%
+                                                                                       Extrusion of sphincter: 2%
+
+                     Pain score             3                       3                  4                             3
+
+                     ■■ PATIENT POPULATION CHARACTERISTICS
+                     Age range              All ages               Adults                   Older adults             50–80 yr
+
+                                                                                                                                                   Urology
+                     Incidence              < 1% of urologic       ⇐                        2% of radical            10% of prostate
+                                            procedures                                      prostatectomy            cancer
+
+                     Etiology               Traumatic strictures   Unknown                  Radical prostatecto-     Aging
+                                                                                            my (2%); incontinence
+
+                         ANESTHETIC CONSIDERATIONS
+                         PREOPERATIVE
+                   This is a generally healthy patient population; preop considerations should be based on H&P.
+
+                    Laboratory               Tests as indicated from H&P
+
+                    Premedication            Sedation prn anxiety in adults (e.g., lorazepam 1–2 mg po 1–2 h prior to surgery; mid-
+                                             azolam 1–2 mg iv in preop area).
+
+                         INTRAOPERATIVE
+                   Anesthetic technique: Spinal or GA are acceptable, with choice dependent on length of procedure, position,
+                   patient age, coexisting disease, and patient preference. A sacral sensory level (saddle block) is usually sufficient.
+                    Lumbar epidural anesthesia may be less reliable at providing sacral anesthesia and offers no advantages over the
+                     above techniques for shorter procedures, although caudal anesthesia may be an acceptable alternative.
+
+===== PAGE 918 =====
+918        s e c t i o n 9.0   Urology
+
+                             Regional anesthesia:
+
+                              Spinal                    0.75% bupivacaine 10 mg in 7.5% dextrose: hyperbaric tetracaine 10 mg (with epinephrine
+                                                        [200 mcg] for longer procedures)
+
+                              Caudal                    0.5% bupivacaine with epinephrine 5 mcg/mL 15–20 mL. Supplemental iv sedation.
+
+                             General anesthesia:
+
+                              Induction                 Standard induction (see p. B-2). Consider use of LMA.
+
+                              Maintenance               Standard maintenance (see p. B-3); muscle relaxation usually not required. Deeper
+                                                        levels of anesthesia are usually required to obtund autonomic reflexes (e.g., HTN,
+                                                         laryngospasm) resulting from intense surgical stimulation that may occur during these
+                                                         procedures.
+
+                              Emergence                 No specific considerations
+
+                              Blood and fluid           Minimal blood loss
+                                 requirements           IV:18 ga × 1
+                                                        NS/LR @ 2 mL/kg/h
+
+                              Monitoring                Standard monitors (see p. B-1)
+
+                              Positioning               3 and pad pressure points             Patients with arthritis or other musculoskeletal
+                                                        3 eyes                                disorders may not tolerate the exaggerated lithot-
+                                                                                              omy position, thus precluding the use of a regional
+                                                                                              technique.
+                                                                                              *NB: In lithotomy position, peroneal nerve com-
+                                                                                              pression at lateral fibular head → foot drop.
+
+                              Complications             Anticipate ↓ BP on return from        Rx: volume (200–500 mL NS/LR) or ephedrine (5
+                                                        lithotomy position.                   mg iv) may be necessary.
+        Urology
+
+                                      POSTOPERATIVE
+
+                              Complications             Peroneal nerve injury 2° lithotomy    Peroneal nerve injury manifested as foot drop with
+                                                        position                              loss of sensation over dorsum of foot. Seek neurology
+                                                                                              consultation.
+
+                              Pain                      Mild-to-moderate pain                 Rx: morphine 0.05–0.1 mg/kg iv prn
+                                management
+
+                             VAGINAL OPERATIONS
+                                      SURGICAL CONSIDERATIONS
+                             Description: Vaginal operations are performed by both urologists and gynecologists. They include the following:
+                             Repair of vesicovaginal fistulas: The vaginal approach is usually recommended for small and distally located vesico-
+                             vaginal fistulas; otherwise, a transabdominal repair is performed (see Open Bladder Operations, p. 903). An incision
+
+===== PAGE 919 =====
+Vaginal Operations      919
+
+                   is made in the anterior vaginal wall around the fistula, which is excised. Bladder and vaginal walls are separated and
+                   closed with interposition of tissues or flaps to separate the incisions and prevent recurrence. A Foley catheter is left
+                   indwelling.
+                   Variant approach: Transabdominal repair of vesicovaginal fistula (see Open Bladder Operations, p. 903).
+                   Usual preop diagnosis: Vesicovaginal fistula
+                   Operations to correct stress urinary incontinence: Many procedures have been designed to correct female urinary
+                   incontinence. They fall into two basic groups: (a) operations to correct hypermobility of the urethra and (b) operations
+                   to correct nonfunctioning urethra. The operation most commonly used by urologists to correct hypermobility is the
+                   Stamey procedure (Fig. 9-21) or vesical neck suspension. The operation is performed through two small suprapubic
+                   incisions, one on each side of the midline, and an anterior vaginal incision. A nylon suture is placed in a loop from
+                   either side of the bladder neck and not around it. Cystoscopy is used to ensure proper placement and to prevent the
+                   suture from transversing the bladder. When the sutures are pulled up and tied over the anterior rectus sheath, they pull
+                   the bladder neck up to its original position behind the symphysis pubis and restore the acute posterior ureterovesical
+                   angle. A variant of this procedure is the Raz bladder neck suspension, where bolsters are not used.
+                   Operations to correct a nonfunctioning urethra include submucosal collagen injection at the bladder neck or
+                   construction of a sling. Rectus fascia, fascia lata of the thigh, or the vaginal wall can be used to construct a sling
+                   around the urethra. All these techniques involve a combined suprapubic and vaginal approach.
+                   Sling operations are the most common procedures done for correction of stress incontinence. These procedures can
+                   be done vaginally or open via a suprapubic incision. A variety of materials, both natural and synthetic, have been used.
+                   Many modifications have been made with reference to the placement of anchorage of the sling; therefore, there are
+                   a large number of procedures with different names utilizing the same principle. Most slings are placed midurethra.
+                   Variant approach: The Marshall-Marchetti-Krantz operation, which is performed retropubically, sutures the
+                   anterior portion of the urethra, bladder neck, and bladder to the pubic bone. Other modifications include laparo-
+                    scopic suspensions and ligament surgery. Some patients have cystoceles and rectoceles, which can be repaired at the
+                    same time as the vaginal sling surgery.
+
+                                                                                                                                                     Urology
+
+                               Figure 9-21. Stamey and sling procedures, sectional view; inset shows lateral view.
+
+===== PAGE 920 =====
+920        s e c t i o n 9.0   Urology
+
+                             Usual preop diagnosis: Stress urinary incontinence
+                             Excision of urethral diverticulum: Urethral diverticula are extremely rare and need excision only if they are the
+                             cause of recurrent UTIs. An incision is made in the anterior vaginal wall over the urethral diverticulum, which is
+                             dissected all around until it is attached only by its neck. It is excised and the neck closed. A Foley catheter is left
+                             indwelling, and the vaginal incision is closed.
+                             Usual preop diagnosis: Recurrent UTI 2° infected urethral diverticulum
+                             Repair of cystocele and rectocele: Some patients with urinary incontinence also present with prolapse of the blad-
+                             der or rectum into the vagina. These can be repaired at the same time as incontinence surgery. A vaginal incision
+                             (anterior for cystocele, posterior for rectocele) is made and dissected laterally to free the bladder or rectum from the
+                             vagina. The defect is repaired and the redundant vaginal wall excised.
+                             Usual preop diagnosis: Incontinence with pelvic prolapse, cystocele, or rectocele
+
+                               ■■ SUMMARY OF PROCEDURES
+                                                       Repair of Vesicovaginal              Correction of Stress                 Excision of Urethral
+                                                       Fistula                              Incontinence                         Diverticulum
+
+                               Position                Lithotomy                            ⇐                                    ⇐
+
+                               Incision                Anterior vaginal                     Anterior vaginal; suprapubic         Anterior vaginal
+
+                               Special                 None                                 Cystoscope                           None
+                                 instrumentation
+
+                               Antibiotics             Gentamicin 80 mg iv, slowly          ⇐                                    ⇐
+
+                               Surgical time           2h                                   1h                                   ⇐
+
+                               EBL                     200 mL                               500 mL                               200 mL
+
+                               Postop care             PACU → room                          ⇐                                    ⇐
+
+                               Mortality               < 1%                                 ⇐                                    ⇐
+        Urology
+
+                               Morbidity               Infection: 2%                        ⇐                                    ⇐
+                                                       Recurrence: 2%                       10%                                  ⇐
+                                                                                            Urinary retention: 20%
+
+                               Pain score              3                                    5                                    3
+
+                               ■■ PATIENT POPULATION CHARACTERISTICS
+                               Age range               20–80 yr                         ⇐                                  ⇐
+
+                               Incidence               < 1% of urologic procedures      5% of urologic procedures          < 1% of urologic procedures
+
+                               Etiology                Traumatic delivery; iatrogenic   Childbirth                         Congenital (extremely rare)
+                                                       following hysterectomy
+                                                       (< 1%)
+
+                                      ANESTHETIC CONSIDERATIONS
+                                      PREOPERATIVE
+                             This is a generally healthy patient population. Preop considerations should be based on H&P.
+
+                              Laboratory                Tests as indicated from H&P
+
+                              Premedication             Standard premedication (see p. B-1).
+
+===== PAGE 921 =====
+Vaginal Operations   921
+
+                         INTRAOPERATIVE
+                   Anesthetic technique: Spinal, continuous lumbar epidural, or GA are acceptable, with choice dependent on age,
+                   coexisting disease, and patient preference. A block level of T9–T10 is recommended for operations involving the
+                   bladder, whereas somewhat higher levels of anesthesia may be necessary if a suprapubic incision is made. Epidural
+                   anesthesia may be less reliable than spinal in providing sacral anesthesia.
+                   Regional anesthesia:
+
+                    Spinal                     0.75% bupivacaine 10–12 mg (1.6 mL)
+
+                    Epidural                   2% lidocaine with epinephrine 5 mcg/mL, 15–20 mL. Supplemental iv sedation.
+
+                   General anesthesia:
+
+                    Induction                  Standard induction (see p. B-2).
+
+                    Maintenance                Standard maintenance (see p. B-3). Muscle relaxation not imperative.
+
+                    Emergence                  No specific considerations
+
+                    Blood and fluid            Minimal blood loss
+                       requirements            IV: 18 ga × 1
+                                               NS/LR @ 2–4 mL/kg/h
+
+                    Monitoring                 Standard monitors (see p. B-1).
+
+                    Positioning                3 and pad pressure points                   *NB: In lithotomy position, peroneal nerve com-
+                                               3 eyes                                      pression at lateral fibular head → foot drop.
+
+                    Complications              Anticipate ↓ BP when returning              Rx: volume (200–500 mL NS/LR) or ephedrine (5
+                                               from lithotomy.                             mg iv) may be necessary.
+                                               Bladder perforation                         Bladder perforation may present as shoulder pain
+                                                                                           in the awake patient but may go unnoticed in the
+
+                                                                                                                                                             Urology
+                                                                                           patient under GA. Sx include unexplained HTN,
+                                                                                           tachycardia, ↓ BP (rare).
+
+                         POSTOPERATIVE
+
+                    Complications              Peroneal nerve injury 2° lithotomy          Peroneal nerve injury is manifested as foot drop
+                                               position                                    with loss of sensation on dorsum of foot. Seek neu-
+                                               Bladder perforation (see above).            rology consultation.
+
+                    Pain                       Consider ketorolac 30 mg iv/im in
+                      management               adults; supplement with morphine
+                                               0.05–0.1 mg/kg iv prn.
+
+                   Suggested Reading
+                     1. Ashok K, Petri E: Failures and complications in pelvic floor surgery. World J Urol 2012; 30(4):487–94.
+
+===== PAGE 922 =====
+922        s e c t i o n 9.0    Urology
+
+                             SPECIAL CONSIDERATIONS FOR ROBOTIC-ASSISTED
+                             LAPAROSCOPIC PROCEDURES
+                                      ANESTHETIC CONSIDERATIONS
+                             The anesthetic considerations for the majority of laparoscopic and robotic procedures on the urologic system
+                             are similar and are thus summarized in this section rather than repeated for each individual procedure.
+
+                                      INTRAOPERATIVE
+                             Anesthetic technique: In general, because laparoscopic surgery involves insufflation of the abdomen with CO2,
+                             and may also require steep Trendelenburg position, GA with tracheal intubation and controlled ventilation is the
+                             technique of choice.
+                             General anesthesia:
+
+                              Induction                    Standard induction (see p. B-1)
+
+                              Maintenance                  Standard maintenance (see p. B-3). Muscle relaxation advised.
+
+                              Emergence                    Ensure airway patency (subcutaneous emphysema → airway compromise)
+
+                              Blood and fluid              IV: 16–18 ga x 1                            Blood loss may be difficult to estimate. In general,
+                                 requirements              LR/NS @ 2–6 mL/kg/h                         less than for open procedures.
+                                                           warm fluid,
+                                                           humidify gasses
+
+                              Monitoring                   Standard monitors (see p. B-1)               Consider invasive monitors for nephrectomy,
+                                                           ± arterial line                              prostatectomy
+                                                           ± CVP
+
+                              Positioning                  3 and pad pressure points                    Prolonged duration of robotic procedures in lithotomy
+                                                                                                        position of special concern (peroneal nerve injury).
+        Urology
+
+                              Complications                CO2 insufflation                             → ↑ intraabdominal pressure → ↓ venous return, ↓
+                                                                                                        BP; also ↑ airway pressure, ↑ PCO2/ETCO2.
+                                                                                                        * NB: right mainstem intubation can occur because
+                                                                                                        of shift of diaphragm cephalad.
+                                                           Retroperitoneal gas insufflation             → subcutaneous emphysema (can track to head and
+                                                                                                        neck → airway compromise), pneumothorax.
+                                                           VAE                                          Gas embolism via prostatic venous sinuses reported
+
+                                      POSTOPERATIVE
+
+                              Complications                Peroneal nerve injury (foot drop)            Other pressure point injuries may occur
+                                                           Upper airway obstruction                     2° subcutaneous emphysema tracking up to the
+                                                                                                        head and neck
+
+                              Pain                         Consider ketorolac 30 mg iv/im in            Pain less than for open procedures. Supplement with
+                                management                 adults                                       morphine 0.05–0.1 mg/kg iv prn, followed by PCA.
+
+                              Tests                        Hct                                          If excessive blood loss
+
+                             Suggested Readings
+                                1. Conacher ID, Soomro NA Rix D: Anaesthesia for laparoscopic urological surgery. Br J Anaesth 2004; 93(6):859–64.
+                                2. Nelson JB: Debate: open radical prostatectomy vs. laparoscopic vs. robotic. Urol Oncol 2007; 25(6):490–3.
+                                3. Zorn KC, Gofrit ON, Orvieto MA, et al: Da Vinci robot error and failure rates: single institution experience on a single three-arm
+                                   robot unit of more than 700 consecutive robot-assisted laparoscopic radical prostatectomies. J Endourol 2007; 21(11):1341–4.
+
+===== PAGE 923 =====
+Special Considerations for Robotic-Assisted Laparoscopic Procedures   923
+
+                   Suggested Viewing
+                   Links are available online to the following videos:
+                   TURP: https://www.youtube.com/watch?v=WNCsunVC4Rs
+                   KTP Laser TURP (green light laser prostatectomy): https://www.youtube.com/watch?v=TKtMMao5vpY
+                   Weill Cornell Robotic Prostatectomy: 3-D Animation (2/6): https://www.youtube.com/watch?v=5Exd86dbT68
+                   Nephrectomy (laparoscopic, hand-assisted): https://www.youtube.com/watch?v=JJK5n6RGC_s
+                   Robotic / DaVinci™ Partial Nephrectomy; Kurt Strom MD, Joshua Holyoak MD:
+                   https://www.youtube.com/watch?v=w5zfOsyz1wQ
+                   Minimally Invasive, Open Robotic Cystectomy for Bladder Cancer Removal:
+                   https://www.youtube.com/watch?v=fJ7JjDqrr-g
+
+                                                                                                                                        Urology
+
